@@ -55,7 +55,7 @@ We implement SFA-based jKali and jMutRepair based on the source code of RFA-base
 When you want to run SFA-based jKali, you can run ```kaliRun``` shell script in the terminal. Similarly, when you want to run SFA-based jMutRepair, you can run ```mutRepairRun``` shell script in the terminal.
 
 If you want to run RFA-based jKali or jMutRepair, you should do following steps:
-1) Modify ```ExhaustiveSearchEngine.java```: comment the line ```ModificationPoint modifPoint=randomChosen(modifPoints1); //SFA```` and umcomment the line ```ModificationPoint modifPoint=modifPoint0; //RFA```;
+1) Modify ```ExhaustiveSearchEngine.java```: comment the line ```ModificationPoint modifPoint=randomChosen(modifPoints1); //SFA``` and umcomment the line ```ModificationPoint modifPoint=modifPoint0; //RFA```;
 2) Run ```kaliRun``` or ```mutRepairRun```.
 
 ## The Result Data of NCP and Patch Diversity
