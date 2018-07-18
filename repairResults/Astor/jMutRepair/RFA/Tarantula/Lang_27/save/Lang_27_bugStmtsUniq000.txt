@@ -1,0 +1,1 @@
+org.apache.commons.lang3.math.NumberUtils 488 0.9988801791713325 42.944746252330923 31 204 8508

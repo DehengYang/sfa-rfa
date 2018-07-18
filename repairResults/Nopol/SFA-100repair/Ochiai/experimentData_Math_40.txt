@@ -1,0 +1,100 @@
+116   45  258274   115553    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+27   45  177836   49442    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+58   45  243789   104897    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+58   45  188411   60115    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+109   45  247770   118788    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+11   45  179516   40754    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+53   45  194938   55809    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+67   45  250001   110919    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+     434649   295788    the size of suspicious statements: 24086 
+     346912   218959    the size of suspicious statements: 24086 
+     303927   176632    the size of suspicious statements: 24086 
+24   45  189313   51222    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+83   45  233345   105231    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+83   45  265356   127077    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+84   45  249444   110483    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+33   45  196106   57786    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+21   45  194682   66973    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+17   45  199208   71310    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+10   45  194288   65773    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+93   45  251879   112451    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+27   45  174073   45034    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+16   45  180297   42238    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+5   45  174984   34868    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+81   45  291160   152445    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+     344582   206301    the size of suspicious statements: 24087 
+the susList size is: 24197the select time is: 1 the selected satemenet is :69       suspiciousValue:  0.07312724241271307    the run statemment time is: 148934 
+86   45  235368   108288    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+     980401   853773    the size of suspicious statements: 24085 
+120   45  271167   132662    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+     331469   204314    the size of suspicious statements: 24087 
+26   45  217326   78001    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+39   45  183709   44561    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+     401502   262152    the size of suspicious statements: 24086 
+58   45  231406   93483    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+104   45  246918   107298    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+4   45  161740   34567    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+15   45  164864   37098    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+39   45  190646   51777    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+75   45  239850   101380    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+35   45  230485   92006    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+6   45  169004   40069    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+11   45  179346   40648    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+44   45  223554   85442    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+94   45  271327   144262    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+     378020   251552    the size of suspicious statements: 24085 
+52   45  200697   61939    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+48   45  201380   62026    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+80   45  231355   102797    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+40   45  201274   62300    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+76   45  245616   106175    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+5   45  161142   34857    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+83   45  242990   104835    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+90   45  222297   83770    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+93   45  223326   84489    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+     476248   349920    the size of suspicious statements: 24086 
+17   45  182482   43223    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+117   45  265068   125924    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+the susList size is: 24090the select time is: 0 the selected satemenet is :3       suspiciousValue:  0.04299335803923478    the run statemment time is: 51815 
+63   45  223614   96837    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+25   45  164667   37186    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+140   53  301527   162561    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+46   45  214702   88492    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+116   45  253425   115413    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+77   45  236851   96986    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+84   45  235960   108352    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+49   45  200872   73486    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+67   45  192892   65841    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+36   45  208799   82067    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+61   45  197980   70706    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+127   45  248924   120679    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+116   45  246872   119560    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+2   45  171753   34112    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+73   45  228865   101121    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+53   45  189080   49513    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+60   45  226661   97117    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+117   45  245908   116740    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+30   45  177598   51219    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+13   45  164423   36718    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+19   45  169555   42670    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+44   45  229322   90362    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+81   45  232227   104630    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+42   45  191948   53743    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+43   45  216273   86811    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+81   45  204998   66127    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+3   45  161683   34628    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+72   45  202867   65519    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+4   45  172499   34764    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+111   45  262021   123192    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+53   45  220504   93196    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+6   45  172428   42993    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+30   45  220290   82509    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+52   45  214271   75752    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+22   45  188103   48914    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+52   45  210437   83036    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+93   45  252520   113494    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+116   45  241099   101533    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+92   45  245844   106819    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+18   45  167770   38649    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+106   45  240951   113723    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 
+74   45  185989   58763    org.apache.commons.math.analysis.solvers.BracketingNthOrderBrentSolver : 260 

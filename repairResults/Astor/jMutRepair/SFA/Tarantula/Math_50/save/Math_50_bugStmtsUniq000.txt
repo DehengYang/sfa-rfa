@@ -1,0 +1,1 @@
+org.apache.commons.math.analysis.solvers.BaseSecantSolver 187 0.9979709164693946 14.293652243011222 1 109 23540

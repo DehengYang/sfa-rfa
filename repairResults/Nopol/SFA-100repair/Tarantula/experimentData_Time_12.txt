@@ -1,0 +1,100 @@
+215     143402   125350      org.joda.time.LocalDateTime : 663 
+     526457   509459      the size of suspicious statements: 10002 
+120     51757   34700      org.joda.time.LocalDateTime : 663 
+186     88859   71767      org.joda.time.LocalDate : 622 
+26     41510   23067      org.joda.time.LocalDateTime : 663 
+131     78417   61370      org.joda.time.LocalDate : 622 
+55     52057   34507      org.joda.time.LocalDateTime : 663 
+84     43142   25763      org.joda.time.LocalDate : 622 
+122     63461   45978      org.joda.time.LocalDateTime : 663 
+56     36021   18798      org.joda.time.LocalDate : 622 
+117     68848   51888      org.joda.time.LocalDate : 622 
+3     21138   3928      org.joda.time.LocalDateTime : 663 
+the susList size is: 10089the select time is: 0 the selected satemenet is :39       suspiciousValue:  0.7732751693261394      the run statemment time is: 12562 
+88     42749   25473      org.joda.time.LocalDate : 622 
+49     33395   15735      org.joda.time.LocalDate : 622 
+2     21421   4130      org.joda.time.LocalDateTime : 663 
+209     208480   191242      org.joda.time.LocalDate : 622 
+the susList size is: 10027the select time is: 1 the selected satemenet is :0       suspiciousValue:  0.9989407228507267      the run statemment time is: 3891 
+113     199824   182885      org.joda.time.LocalDate : 622 
+99     46137   29010      org.joda.time.LocalDate : 622 
+26     28231   11193      org.joda.time.LocalDate : 622 
+250     104291   87444      org.joda.time.LocalDate : 622 
+99     58788   41385      org.joda.time.LocalDate : 622 
+126     59104   42061      org.joda.time.LocalDateTime : 663 
+35     41686   24659      org.joda.time.LocalDate : 622 
+139     212814   195978      org.joda.time.LocalDateTime : 663 
+     573318   556029      the size of suspicious statements: 10003 
+84     63959   46751      org.joda.time.LocalDateTime : 663 
+173     79172   62238      org.joda.time.LocalDateTime : 663 
+24     27413   10447      org.joda.time.LocalDateTime : 663 
+75     62761   45361      org.joda.time.LocalDateTime : 663 
+141     56326   38767      org.joda.time.LocalDate : 622 
+251     299894   281909      org.joda.time.LocalDate : 622 
+43     33509   15943      org.joda.time.LocalDate : 622 
+the susList size is: 10122the select time is: 0 the selected satemenet is :83       suspiciousValue:  0.6888330508969789      the run statemment time is: 99242 
+103     52026   34931      org.joda.time.LocalDateTime : 663 
+157     61637   44539      org.joda.time.LocalDate : 622 
+27     35234   18105      org.joda.time.LocalDate : 622 
+202     95550   78628      org.joda.time.LocalDateTime : 663 
+18     24971   8261      org.joda.time.LocalDateTime : 663 
+57     36376   18966      org.joda.time.LocalDateTime : 663 
+106     64429   47327      org.joda.time.LocalDateTime : 663 
+85     43167   25566      org.joda.time.LocalDate : 622 
+67     52555   35571      org.joda.time.LocalDateTime : 663 
+38     49254   32025      org.joda.time.LocalDateTime : 663 
+149     76094   59317      org.joda.time.LocalDateTime : 663 
+74     49286   31674      org.joda.time.LocalDateTime : 663 
+3     20333   3271      org.joda.time.LocalDate : 622 
+38     31372   14074      org.joda.time.LocalDate : 622 
+109     63376   45809      org.joda.time.LocalDateTime : 663 
+200     92743   75722      org.joda.time.LocalDate : 622 
+103     54508   37533      org.joda.time.LocalDateTime : 663 
+155     70877   53090      org.joda.time.LocalDateTime : 663 
+7     21469   4251      org.joda.time.LocalDate : 622 
+32     33637   16352      org.joda.time.LocalDateTime : 663 
+     1163645   1146106      the size of suspicious statements: 10002 
+166     172017   154924      org.joda.time.LocalDate : 622 
+153     65053   47863      org.joda.time.LocalDate : 622 
+89     60337   42640      org.joda.time.LocalDate : 622 
+112     49345   31363      org.joda.time.LocalDateTime : 663 
+57     41474   24365      org.joda.time.LocalDateTime : 663 
+10     22135   5025      org.joda.time.LocalDate : 622 
+40     49849   32421      org.joda.time.LocalDateTime : 663 
+the susList size is: 10134the select time is: 1 the selected satemenet is :71       suspiciousValue:  0.7410690430163296      the run statemment time is: 171253 
+14     26376   9262      org.joda.time.LocalDate : 622 
+     425736   408374      the size of suspicious statements: 10002 
+35     28437   11418      org.joda.time.LocalDateTime : 663 
+139     74328   55625      org.joda.time.LocalDateTime : 663 
+81     39863   22846      org.joda.time.LocalDateTime : 663 
+58     51342   34318      org.joda.time.LocalDateTime : 663 
+122     52210   35164      org.joda.time.LocalDateTime : 663 
+26     27474   9817      org.joda.time.LocalDateTime : 663 
+74     40719   23425      org.joda.time.LocalDateTime : 663 
+79     37907   21043      org.joda.time.LocalDate : 622 
+9     22816   5621      org.joda.time.LocalDateTime : 663 
+202     91897   74720      org.joda.time.LocalDate : 622 
+111     52808   34992      org.joda.time.LocalDateTime : 663 
+111     60175   42864      org.joda.time.LocalDate : 622 
+75     58741   41711      org.joda.time.LocalDateTime : 663 
+32     29124   11831      org.joda.time.LocalDate : 622 
+5     21402   4504      org.joda.time.LocalDateTime : 663 
+113     49626   32616      org.joda.time.LocalDate : 622 
+23     34785   17792      org.joda.time.LocalDateTime : 663 
+114     51984   34788      org.joda.time.LocalDateTime : 663 
+1     20404   3110      org.joda.time.LocalDate : 622 
+7     22318   5303      org.joda.time.LocalDateTime : 663 
+21     26177   8330      org.joda.time.LocalDateTime : 663 
+81     39830   22873      org.joda.time.LocalDateTime : 663 
+4     21420   4045      org.joda.time.LocalDate : 622 
+125     56362   39540      org.joda.time.LocalDateTime : 663 
+44     39496   22280      org.joda.time.LocalDateTime : 663 
+     561202   543893      the size of suspicious statements: 10003 
+118     62281   45339      org.joda.time.LocalDateTime : 663 
+151     68511   51635      org.joda.time.LocalDateTime : 663 
+75     61160   43355      org.joda.time.LocalDateTime : 663 
+145     67106   49474      org.joda.time.LocalDate : 622 
+     1404627   1387487      the size of suspicious statements: 10003 
+115     65645   48670      org.joda.time.LocalDate : 622 
+44     41442   24364      org.joda.time.LocalDate : 622 
+38     47750   30667      org.joda.time.LocalDate : 622 

@@ -1,0 +1,100 @@
+88     125564   106216      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+53     39933   23685      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+14     20705   4163      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+17     21782   4480      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+102     90326   73998      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+64     82666   65456      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+58     44774   27043      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+the susList size is: 16533the select time is: 1 the selected satemenet is :120       suspiciousValue:  1.9524027459954234      the run statemment time is: 5558 
+46     35730   14975      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+47     77586   60777      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+33     65662   47983      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+14     24493   8228      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+the susList size is: 16471the select time is: 1 the selected satemenet is :53       suspiciousValue:  1.9707093821510298      the run statemment time is: 153590 
+18     30974   14775      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+18     22698   5457      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+58     42915   26469      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+the susList size is: 16543the select time is: 0 the selected satemenet is :150       suspiciousValue:  1.9555860805860805      the run statemment time is: 558375 
+69     73953   56908      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+46     40094   23707      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+59     96450   80355      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+36     30380   13183      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+88     106487   89574      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+45     63758   45753      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+67     45328   29146      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+15     20902   4573      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+3     17917   1332      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+64     40344   23633      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+1     18164   1016      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+35     68166   51260      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+54     55326   39268      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+81     73747   56708      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+the susList size is: 16381the select time is: 0 the selected satemenet is :102       suspiciousValue:  0.9977106227106227      the run statemment time is: 41082 
+123     134216   114885      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+6     24026   7869      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+71     102571   86204      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+12     20945   4615      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+37     67099   50632      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+1     17240   1084      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+102     123817   106754      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+90     82388   65207      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+17     22220   4522      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+86     166902   148684      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+114     115135   98349      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+the susList size is: 16455the select time is: 4249 the selected satemenet is :45       suspiciousValue:  1.9707093821510298      the run statemment time is: 47889 
+81     52864   32108      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+6     19725   2783      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+78     49968   33210      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+29     23660   7311      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+the susList size is: 16537the select time is: 0 the selected satemenet is :317       suspiciousValue:  0.983058608058608      the run statemment time is: 156417 
+19     32166   15703      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+10     49672   33378      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+41     69828   53345      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+12     20334   3934      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+39     42877   26474      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+50     89842   72809      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+16     26755   9926      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+6     26563   9910      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+115     94720   77453      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+76     62005   45501      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+86     101369   83681      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+8     27060   10381      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+83     117619   100731      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+153     108484   90724      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+63     66891   50665      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+111     102786   86468      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+35     77921   61042      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+81     42210   25494      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+67     75571   59096      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+36     34089   17383      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+141     296262   279296      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+31     58581   42521      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+21     23655   6399      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+46     67290   50294      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+28     73613   57661      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+6     18234   2153      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+75     91284   74883      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+18     32023   15594      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+the susList size is: 16504the select time is: 1 the selected satemenet is :281       suspiciousValue:  1.9706825469537335      the run statemment time is: 292333 
+6     19681   2982      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+70     60542   44007      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+5     18276   2500      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+22     22335   5555      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+the susList size is: 16456the select time is: 0 the selected satemenet is :3       suspiciousValue:  1.997711670480549      the run statemment time is: 17491 
+52     58920   36746      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+65     61126   44485      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+44     41390   25116      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 
+31     34043   17154      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+69     97389   80462      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+20     32497   15917      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+15     20505   4094      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+50     72498   55546      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+50     86649   70128      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+64     80580   62592      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+80     52400   36138      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+the susList size is: 16468the select time is: 0 the selected satemenet is :58       suspiciousValue:  1.9556064073226544      the run statemment time is: 9123 
+12     28845   9527      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+117     153262   136542      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 193 
+22     29119   12635      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+4     17573   1535      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 190 
+35     23972   7618      org.apache.commons.math.stat.correlation.PearsonsCorrelation : 189 

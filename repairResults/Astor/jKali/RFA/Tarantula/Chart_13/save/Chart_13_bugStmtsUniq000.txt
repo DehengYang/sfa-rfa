@@ -1,0 +1,1 @@
+org.jfree.chart.block.BorderArrangement 453 1.0 174.352212139293385 21 911 

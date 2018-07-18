@@ -1,0 +1,1 @@
+org.apache.commons.math3.optimization.linear.SimplexSolver 144 0.999246798895305 51.367989531942598 1 149 27103

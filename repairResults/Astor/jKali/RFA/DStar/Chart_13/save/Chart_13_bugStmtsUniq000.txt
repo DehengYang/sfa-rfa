@@ -1,0 +1,1 @@
+org.jfree.chart.block.BorderArrangement 453 Infinity inf 21 911 

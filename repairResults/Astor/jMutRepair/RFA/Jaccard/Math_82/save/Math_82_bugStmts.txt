@@ -1,0 +1,10 @@
+org.apache.commons.math.optimization.linear.SimplexSolver 84
+org.apache.commons.math.optimization.linear.SimplexSolver 84
+org.apache.commons.math.optimization.linear.SimplexSolver 84
+org.apache.commons.math.optimization.linear.SimplexSolver 84
+org.apache.commons.math.optimization.linear.SimplexSolver 84
+org.apache.commons.math.optimization.linear.SimplexSolver 84
+org.apache.commons.math.optimization.linear.SimplexSolver 84
+org.apache.commons.math.optimization.linear.SimplexSolver 84
+org.apache.commons.math.optimization.linear.SimplexSolver 84
+org.apache.commons.math.optimization.linear.SimplexSolver 84

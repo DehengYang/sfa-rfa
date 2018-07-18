@@ -1,0 +1,100 @@
+13   27  362104   8016    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+29   4  359132   18506    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+122   27  908957   568965    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+18   38  377718   44304    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+154   38  723999   382479    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+24   27  392688   27239    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+98   38  504934   152003    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+71   433  414244   61770    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+60   38  386892   31548    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+12   38  369457   44725    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+14   38  373904   21539    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+30   4  380557   26315    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+8   433  361914   20685    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+129   27  478541   127162    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+111   14  492756   138214    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+89   27  371717   45097    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+the susList size is: 33582the select time is: 1 the selected satemenet is :245       suspiciousValue:  0.9878370160145956    the run statemment time is: 34116 
+26   14  366449   14390    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+85   4  387335   45604    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+the susList size is: 33476the select time is: 1 the selected satemenet is :451       suspiciousValue:  0.84390837218731    the run statemment time is: 13278 
+the susList size is: 33697the select time is: 1 the selected satemenet is :273       suspiciousValue:  0.9880397324143523    the run statemment time is: 37477 
+the susList size is: 33672the select time is: 1 the selected satemenet is :135       suspiciousValue:  0.9949320900060815    the run statemment time is: 49872 
+42   27  386300   37502    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+32   14  390167   36377    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+84   4  504177   162110    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+the susList size is: 33614the select time is: 0 the selected satemenet is :465       suspiciousValue:  0.9302655584836813    the run statemment time is: 7051 
+32   27  398908   42114    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+178   14  635149   287700    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+291   38  1247106   889589    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+22   433  396315   41007    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+25   91  365160   13227    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+70   433  624081   264161    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+211   14  575267   230066    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+the susList size is: 33544the select time is: 0 the selected satemenet is :162       suspiciousValue:  0.9941212244070545    the run statemment time is: 5827 
+337   14  1072150   716736    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+132   4  437024   79678    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+83   27  545444   199719    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+81   14  393955   55017    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+2   4  345521   3535    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+the susList size is: 33655the select time is: 1 the selected satemenet is :269       suspiciousValue:  0.9878370160145956    the run statemment time is: 70298 
+the susList size is: 33589the select time is: 1 the selected satemenet is :457       suspiciousValue:  0.9170889924994932    the run statemment time is: 17510 
+38   27  375754   18304    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+18   27  364921   11737    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+74   38  403907   62613    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+172   433  561189   222980    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+110   4  693502   367495    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+102   14  522095   183313    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+71   433  457568   115097    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+44   4  422124   79543    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+193   38  797688   441113    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+121   14  742540   386953    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+the susList size is: 33711the select time is: 1 the selected satemenet is :324       suspiciousValue:  0.9793229272248125    the run statemment time is: 43649 
+181   14  588220   237631    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+31   433  376493   32900    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+137   38  517077   164905    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+70   27  441535   104011    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+194   505  775067   446740    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+121   433  434130   82577    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+79   4  463395   110259    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+80   433  422553   84887    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+13   4  356689   15139    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+76   14  453842   100023    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+the susList size is: 33563the select time is: 1 the selected satemenet is :419       suspiciousValue:  0.9549969592540036    the run statemment time is: 10299 
+23   433  369404   27763    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+68   4  434793   81030    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+the susList size is: 33481the select time is: 0 the selected satemenet is :113       suspiciousValue:  0.9947293736063247    the run statemment time is: 13723 
+the susList size is: 33606the select time is: 1 the selected satemenet is :116       suspiciousValue:  0.9949320900060815    the run statemment time is: 77706 
+11   4  450016   37998    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+12   433  347770   11936    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+49   27  372403   31310    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+47   27  378913   36332    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+54   38  410573   58802    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+the susList size is: 33500the select time is: 1 the selected satemenet is :198       suspiciousValue:  0.9896614636124063    the run statemment time is: 7121 
+61   433  492150   90741    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+134   14  747700   394245    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+37   38  494008   89045    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+78   27  411588   68083    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+the susList size is: 33579the select time is: 3693 the selected satemenet is :135       suspiciousValue:  0.9947293736063247    the run statemment time is: 67868 
+18   433  413402   22400    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+the susList size is: 33453the select time is: 1 the selected satemenet is :465       suspiciousValue:  0.7952564362456923    the run statemment time is: 8152 
+the susList size is: 33500the select time is: 0 the selected satemenet is :413       suspiciousValue:  0.9144536793026556    the run statemment time is: 8161 
+64   433  393336   48167    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+73   38  402826   60679    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+the susList size is: 33504the select time is: 1 the selected satemenet is :35       suspiciousValue:  0.9963511048043787    the run statemment time is: 3883 
+146   38  437731   81680    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+131   4  490998   139610    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+7   38  350655   8864    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+15   433  367977   13048    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+30   14  364066   22403    org.apache.commons.math3.ode.AbstractIntegrator : 364 
+the susList size is: 33626the select time is: 1 the selected satemenet is :607       suspiciousValue:  0.8252584634096898    the run statemment time is: 614978 
+126   38  609426   251860    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+80   38  444556   90247    org.apache.commons.math3.ode.AbstractIntegrator : 325 
+185   4  518341   159616    org.apache.commons.math3.ode.AbstractIntegrator : 373 
+16   433  361626   20766    org.apache.commons.math3.ode.AbstractIntegrator : 308 
+the susList size is: 33557the select time is: 3588 the selected satemenet is :222       suspiciousValue:  0.9880397324143523    the run statemment time is: 84095 
+the susList size is: 33467the select time is: 1 the selected satemenet is :60       suspiciousValue:  0.9957429556051085    the run statemment time is: 31455 
+176   27  802230   461529    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+33   27  360834   19711    org.apache.commons.math3.ode.AbstractIntegrator : 350 
+the susList size is: 33608the select time is: 0 the selected satemenet is :506       suspiciousValue:  0.9099939185080073    the run statemment time is: 44101 
+111   38  1522801   1183041    org.apache.commons.math3.ode.AbstractIntegrator : 325 

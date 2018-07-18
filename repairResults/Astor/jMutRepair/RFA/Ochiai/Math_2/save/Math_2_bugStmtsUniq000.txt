@@ -1,0 +1,1 @@
+org.apache.commons.math3.distribution.AbstractIntegerDistribution 137 0.1259881576697424 1.105882348268906 2 82 

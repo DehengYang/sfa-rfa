@@ -1,0 +1,10 @@
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset 110
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset 110
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset 110
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset 110
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset 110
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset 110
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset 110
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset 110
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset 110
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset 110

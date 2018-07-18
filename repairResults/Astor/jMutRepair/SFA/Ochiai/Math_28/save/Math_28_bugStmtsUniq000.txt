@@ -1,0 +1,5 @@
+org.apache.commons.math3.optimization.linear.SimplexSolver 115 0.20412414523193154 9.204251234300289 13 149 
+org.apache.commons.math3.optimization.linear.SimplexSolver 123 0.3333333333333333 9.204251234300289 4 149 
+org.apache.commons.math3.optimization.linear.SimplexSolver 143 0.5 9.204251234300289 2 149 
+org.apache.commons.math3.optimization.linear.SimplexSolver 144 0.5 9.204251234300289 1 149 
+org.apache.commons.math3.optimization.linear.SimplexTableau 265 0.18257418583505536 9.204251234300289 29 149 

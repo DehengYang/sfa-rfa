@@ -1,0 +1,10 @@
+org.jfree.chart.block.BorderArrangement 453
+org.jfree.chart.block.BorderArrangement 453
+org.jfree.chart.block.BorderArrangement 453
+org.jfree.chart.block.BorderArrangement 453
+org.jfree.chart.block.BorderArrangement 453
+org.jfree.chart.block.BorderArrangement 453
+org.jfree.chart.block.BorderArrangement 453
+org.jfree.chart.block.BorderArrangement 453
+org.jfree.chart.block.BorderArrangement 453
+org.jfree.chart.block.BorderArrangement 453

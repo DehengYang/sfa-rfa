@@ -1,0 +1,3 @@
+org.jfree.data.time.TimePeriodValues 285
+org.jfree.data.time.TimePeriodValues 285
+org.jfree.data.time.TimePeriodValues 285

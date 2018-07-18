@@ -1,0 +1,1 @@
+org.jfree.chart.JFreeChart 1219 0.031746031746031744 inf 311 891 

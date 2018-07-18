@@ -1,0 +1,100 @@
+402     1095505   1032289      com.google.javascript.rhino.Node : 1385 
+133     322466   262409      com.google.javascript.rhino.Node : 1385 
+461     1122739   1064952      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38826the select time is: 0 the selected satemenet is :727       suspiciousValue:  0.4532425145451965      the run statemment time is: 720 
+the susList size is: 38676the select time is: 0 the selected satemenet is :1275       suspiciousValue:  0.17369093231162192      the run statemment time is: 1 
+297     809193   749969      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38628the select time is: 1 the selected satemenet is :19       suspiciousValue:  0.9937562083155953      the run statemment time is: 1413 
+the susList size is: 38822the select time is: 1 the selected satemenet is :36       suspiciousValue:  0.9921952603944941      the run statemment time is: 6650 
+the susList size is: 38852the select time is: 1 the selected satemenet is :16       suspiciousValue:  0.9940400170285227      the run statemment time is: 7448 
+the susList size is: 38971the select time is: 1 the selected satemenet is :37       suspiciousValue:  0.9930466865332765      the run statemment time is: 7145 
+the susList size is: 38689the select time is: 9 the selected satemenet is :22       suspiciousValue:  0.9930466865332765      the run statemment time is: 0 
+491     1212440   1153790      com.google.javascript.rhino.Node : 1385 
+752     1476957   1418269      com.google.javascript.rhino.Node : 1385 
+469     1550691   1492954      com.google.javascript.rhino.Node : 1385 
+58     109443   52693      com.google.javascript.rhino.Node : 1384 
+the susList size is: 38729the select time is: 0 the selected satemenet is :485       suspiciousValue:  0.5460479636724848      the run statemment time is: 1 
+the susList size is: 38808the select time is: 1 the selected satemenet is :52       suspiciousValue:  0.9916276429686391      the run statemment time is: 10334 
+the susList size is: 38967the select time is: 1 the selected satemenet is :934       suspiciousValue:  0.3571732652192422      the run statemment time is: 13091 
+the susList size is: 38780the select time is: 1 the selected satemenet is :2174       suspiciousValue:  0.12132822477650063      the run statemment time is: 0 
+21     72727   14156      com.google.javascript.rhino.Node : 1385 
+140     186035   127311      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38947the select time is: 1 the selected satemenet is :2401       suspiciousValue:  0.12132822477650063      the run statemment time is: 7154 
+the susList size is: 38919the select time is: 1 the selected satemenet is :2465       suspiciousValue:  0.12132822477650063      the run statemment time is: 13890 
+the susList size is: 38769the select time is: 1 the selected satemenet is :180       suspiciousValue:  0.8590889740315028      the run statemment time is: 0 
+654     1753645   1695423      com.google.javascript.rhino.Node : 1385 
+48     110567   52779      com.google.javascript.rhino.Node : 1384 
+the susList size is: 38758the select time is: 1 the selected satemenet is :2203       suspiciousValue:  0.12132822477650063      the run statemment time is: 3885 
+650     1536320   1475778      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38839the select time is: 1 the selected satemenet is :586       suspiciousValue:  0.5338441890166028      the run statemment time is: 4101 
+the susList size is: 38907the select time is: 0 the selected satemenet is :15       suspiciousValue:  0.9941819213849865      the run statemment time is: 1 
+the susList size is: 38876the select time is: 1 the selected satemenet is :634       suspiciousValue:  0.5329927628778204      the run statemment time is: 0 
+the susList size is: 38798the select time is: 1 the selected satemenet is :283       suspiciousValue:  0.7183198524194693      the run statemment time is: 4938 
+the susList size is: 38874the select time is: 9 the selected satemenet is :178       suspiciousValue:  0.9202497516673762      the run statemment time is: 864 
+the susList size is: 38986the select time is: 1 the selected satemenet is :207       suspiciousValue:  0.9113097772101604      the run statemment time is: 470 
+72     152125   93413      com.google.javascript.rhino.Node : 1384 
+the susList size is: 38631the select time is: 1 the selected satemenet is :604       suspiciousValue:  0.5037604654462893      the run statemment time is: 914 
+the susList size is: 38701the select time is: 1 the selected satemenet is :14       suspiciousValue:  0.9937562083155953      the run statemment time is: 6306 
+the susList size is: 38807the select time is: 1 the selected satemenet is :105       suspiciousValue:  0.9639562934582092      the run statemment time is: 632 
+the susList size is: 38765the select time is: 0 the selected satemenet is :8       suspiciousValue:  0.9970200085142614      the run statemment time is: 701 
+282     458541   400093      com.google.javascript.rhino.Node : 1385 
+416     1384902   1320156      com.google.javascript.rhino.Node : 1385 
+287     759358   702193      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38729the select time is: 0 the selected satemenet is :37       suspiciousValue:  0.9923371647509579      the run statemment time is: 1 
+484     1237416   1179855      com.google.javascript.rhino.Node : 1385 
+256     757279   699706      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38929the select time is: 0 the selected satemenet is :711       suspiciousValue:  0.5247623102029233      the run statemment time is: 1 
+the susList size is: 38784the select time is: 0 the selected satemenet is :505       suspiciousValue:  0.5514403292181069      the run statemment time is: 12711 
+209     645014   587158      com.google.javascript.rhino.Node : 1385 
+34     102051   43444      com.google.javascript.rhino.Node : 1384 
+the susList size is: 38745the select time is: 1 the selected satemenet is :55       suspiciousValue:  0.9914857386121754      the run statemment time is: 0 
+the susList size is: 38815the select time is: 1 the selected satemenet is :2352       suspiciousValue:  0.12132822477650063      the run statemment time is: 0 
+the susList size is: 38675the select time is: 0 the selected satemenet is :21       suspiciousValue:  0.9930466865332765      the run statemment time is: 1451 
+282     420487   362742      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38924the select time is: 1 the selected satemenet is :49       suspiciousValue:  0.9916276429686391      the run statemment time is: 663 
+the susList size is: 38865the select time is: 0 the selected satemenet is :21       suspiciousValue:  0.9937562083155953      the run statemment time is: 5164 
+24     95590   36734      com.google.javascript.rhino.Node : 1384 
+560     1379155   1321088      com.google.javascript.rhino.Node : 1385 
+493     727642   667155      com.google.javascript.rhino.Node : 1385 
+467     1269226   1211037      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38758the select time is: 0 the selected satemenet is :273       suspiciousValue:  0.7231446005392366      the run statemment time is: 661 
+478     1005543   948802      com.google.javascript.rhino.Node : 1385 
+592     1666256   1609434      com.google.javascript.rhino.Node : 1385 
+127     350788   293017      com.google.javascript.rhino.Node : 1385 
+6     86863   28961      com.google.javascript.rhino.Node : 1384 
+568     1258935   1199584      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38855the select time is: 1 the selected satemenet is :659       suspiciousValue:  0.5266070668369519      the run statemment time is: 0 
+the susList size is: 38812the select time is: 0 the selected satemenet is :2083       suspiciousValue:  0.12132822477650063      the run statemment time is: 8628 
+392     1330477   1271849      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38728the select time is: 1 the selected satemenet is :2072       suspiciousValue:  0.12132822477650063      the run statemment time is: 0 
+551     1537524   1479195      com.google.javascript.rhino.Node : 1385 
+60     128212   64751      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38802the select time is: 0 the selected satemenet is :558       suspiciousValue:  0.5398041719880801      the run statemment time is: 1 
+407     839894   780522      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38716the select time is: 1 the selected satemenet is :640       suspiciousValue:  0.5037604654462893      the run statemment time is: 3896 
+498     951325   893509      com.google.javascript.rhino.Node : 1385 
+226     660891   602783      com.google.javascript.rhino.Node : 1385 
+590     1429159   1372361      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38752the select time is: 1 the selected satemenet is :9       suspiciousValue:  0.9967361998013339      the run statemment time is: 0 
+the susList size is: 38686the select time is: 1 the selected satemenet is :47       suspiciousValue:  0.9916276429686391      the run statemment time is: 0 
+the susList size is: 38921the select time is: 1 the selected satemenet is :161       suspiciousValue:  0.9201078473109124      the run statemment time is: 936 
+the susList size is: 38764the select time is: 1 the selected satemenet is :1239       suspiciousValue:  0.200227046970342      the run statemment time is: 1661 
+the susList size is: 38730the select time is: 1 the selected satemenet is :982       suspiciousValue:  0.2711792252022137      the run statemment time is: 3770 
+737     1667163   1606035      com.google.javascript.rhino.Node : 1385 
+147     236469   179231      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38887the select time is: 1 the selected satemenet is :2528       suspiciousValue:  0.10543493685256133      the run statemment time is: 5882 
+the susList size is: 38750the select time is: 1 the selected satemenet is :663       suspiciousValue:  0.5037604654462893      the run statemment time is: 588 
+the susList size is: 38784the select time is: 1 the selected satemenet is :864       suspiciousValue:  0.33290762026394205      the run statemment time is: 20190 
+the susList size is: 38716the select time is: 1 the selected satemenet is :809       suspiciousValue:  0.33290762026394205      the run statemment time is: 0 
+the susList size is: 38780the select time is: 1 the selected satemenet is :226       suspiciousValue:  0.752234993614304      the run statemment time is: 549 
+175     230673   173996      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38789the select time is: 1 the selected satemenet is :72       suspiciousValue:  0.9910600255427842      the run statemment time is: 1648 
+178     229399   170819      com.google.javascript.rhino.Node : 1385 
+215     494345   435523      com.google.javascript.rhino.Node : 1385 
+33     100191   42065      com.google.javascript.rhino.Node : 1425 
+523     1586926   1528568      com.google.javascript.rhino.Node : 1385 
+the susList size is: 38811the select time is: 1 the selected satemenet is :1398       suspiciousValue:  0.17127855825173832      the run statemment time is: 6192 
+the susList size is: 38881the select time is: 1 the selected satemenet is :735       suspiciousValue:  0.5043280828721441      the run statemment time is: 0 
+the susList size is: 38913the select time is: 1 the selected satemenet is :1139       suspiciousValue:  0.26990208599404      the run statemment time is: 23635 
+the susList size is: 38839the select time is: 1 the selected satemenet is :89       suspiciousValue:  0.9856676599971619      the run statemment time is: 6270 
+102     179837   114096      com.google.javascript.rhino.Node : 1385 

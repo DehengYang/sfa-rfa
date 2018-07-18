@@ -1,0 +1,1 @@
+org.jfree.data.time.TimePeriodValues 285 0.16666666666666666 2.174329501915709 8 185 

@@ -1,0 +1,1 @@
+org.jfree.chart.renderer.category.AbstractCategoryItemRenderer 1797 1.9831856396273575 77.461486025903199 7 191 25815

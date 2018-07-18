@@ -1,0 +1,10 @@
+org.jfree.data.xy.XYSeries 563
+org.jfree.data.xy.XYSeries 563
+org.jfree.data.xy.XYSeries 563
+org.jfree.data.xy.XYSeries 563
+org.jfree.data.xy.XYSeries 563
+org.jfree.data.xy.XYSeries 563
+org.jfree.data.xy.XYSeries 563
+org.jfree.data.xy.XYSeries 563
+org.jfree.data.xy.XYSeries 563
+org.jfree.data.xy.XYSeries 563

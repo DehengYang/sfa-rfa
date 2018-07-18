@@ -1,0 +1,2 @@
+org.apache.commons.math.optimization.linear.SimplexSolver 82 0.07692307692307693 1.616430969291391 9 119 
+org.apache.commons.math.optimization.linear.SimplexSolver 84 0.07692307692307693 1.616430969291391 8 119 

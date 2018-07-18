@@ -1,0 +1,100 @@
+787     161349   154256      org.mockito.internal.matchers.Equals : 20 
+     647381   641423      the size of suspicious statements: 2270 
+339     20802   12468      org.mockito.internal.matchers.Equals : 20 
+     713137   707176      the size of suspicious statements: 2270 
+     657169   650913      the size of suspicious statements: 2270 
+918     184573   178132      org.mockito.internal.matchers.Equals : 20 
+     717020   711110      the size of suspicious statements: 2270 
+1219     214470   208449      org.mockito.internal.matchers.Equals : 20 
+1101     115227   109216      org.mockito.internal.matchers.Equals : 20 
+955     170771   164733      org.mockito.internal.matchers.Equals : 20 
+680     110113   104138      org.mockito.internal.matchers.Equals : 20 
+168     14584   8579      org.mockito.internal.matchers.Equals : 20 
+     698324   692344      the size of suspicious statements: 2270 
+1537     223526   216255      org.mockito.internal.matchers.Equals : 20 
+412     83488   77401      org.mockito.internal.matchers.Equals : 20 
+1385     178640   172516      org.mockito.internal.matchers.Equals : 20 
+871     199030   193130      org.mockito.internal.matchers.Equals : 20 
+479     77318   71326      org.mockito.internal.matchers.Equals : 20 
+     716770   710735      the size of suspicious statements: 2270 
+110     12011   5946      org.mockito.internal.matchers.Equals : 20 
+856     99934   93934      org.mockito.internal.matchers.Equals : 20 
+     624942   619042      the size of suspicious statements: 2270 
+1349     237954   231966      org.mockito.internal.matchers.Equals : 20 
+     746711   740714      the size of suspicious statements: 2270 
+1095     112722   106594      org.mockito.internal.matchers.Equals : 20 
+     687840   681934      the size of suspicious statements: 2270 
+858     97964   89558      org.mockito.internal.matchers.Equals : 20 
+1251     322979   316941      org.mockito.internal.matchers.Equals : 20 
+1116     205131   199112      org.mockito.internal.matchers.Equals : 20 
+     660403   654338      the size of suspicious statements: 2270 
+501     31553   25346      org.mockito.internal.matchers.Equals : 20 
+     734068   728090      the size of suspicious statements: 2270 
+1758     404716   398748      org.mockito.internal.matchers.Equals : 20 
+982     295132   288983      org.mockito.internal.matchers.Equals : 20 
+     906088   900183      the size of suspicious statements: 2270 
+1035     128018   121995      org.mockito.internal.matchers.Equals : 20 
+1070     201279   195305      org.mockito.internal.matchers.Equals : 20 
+1254     148992   143085      org.mockito.internal.matchers.Equals : 20 
+224     15546   9401      org.mockito.internal.matchers.Equals : 20 
+2     10292   4318      org.mockito.internal.matchers.Equals : 20 
+1750     349378   343421      org.mockito.internal.matchers.Equals : 20 
+806     71702   65646      org.mockito.internal.matchers.Equals : 20 
+1897     308106   302082      org.mockito.internal.matchers.Equals : 20 
+338     19043   13045      org.mockito.internal.matchers.Equals : 20 
+1189     109392   103340      org.mockito.internal.matchers.Equals : 20 
+213     14907   9036      org.mockito.internal.matchers.Equals : 20 
+     547191   541176      the size of suspicious statements: 2270 
+346     137898   131921      org.mockito.internal.matchers.Equals : 20 
+246     15292   9422      org.mockito.internal.matchers.Equals : 20 
+     731477   725488      the size of suspicious statements: 2270 
+     659128   652820      the size of suspicious statements: 2270 
+527     94680   88681      org.mockito.internal.matchers.Equals : 20 
+1688     318192   312103      org.mockito.internal.matchers.Equals : 20 
+852     147110   141171      org.mockito.internal.matchers.Equals : 20 
+32     10809   4828      org.mockito.internal.matchers.Equals : 20 
+1319     128561   122471      org.mockito.internal.matchers.Equals : 20 
+19     11136   5237      org.mockito.internal.matchers.Equals : 20 
+     618551   612643      the size of suspicious statements: 2270 
+487     20118   14069      org.mockito.internal.matchers.Equals : 20 
+     658779   652771      the size of suspicious statements: 2263 
+     729440   723563      the size of suspicious statements: 2270 
+1378     183097   177089      org.mockito.internal.matchers.Equals : 20 
+1209     192996   187092      org.mockito.internal.matchers.Equals : 20 
+490     28602   22693      org.mockito.internal.matchers.Equals : 20 
+1083     156459   150011      org.mockito.internal.matchers.Equals : 20 
+932     67407   61368      org.mockito.internal.matchers.Equals : 20 
+     769531   763493      the size of suspicious statements: 2270 
+467     86416   78705      org.mockito.internal.matchers.Equals : 20 
+169     12534   6554      org.mockito.internal.matchers.Equals : 20 
+812     58387   52283      org.mockito.internal.matchers.Equals : 20 
+     669912   663998      the size of suspicious statements: 2270 
+437     54376   48512      org.mockito.internal.matchers.Equals : 20 
+715     24490   18405      org.mockito.internal.matchers.Equals : 20 
+880     162987   156949      org.mockito.internal.matchers.Equals : 20 
+1024     144727   138779      org.mockito.internal.matchers.Equals : 20 
+     826344   820219      the size of suspicious statements: 2270 
+173     17195   8081      org.mockito.internal.matchers.Equals : 20 
+407     167473   161532      org.mockito.internal.matchers.Equals : 20 
+438     85894   79915      org.mockito.internal.matchers.Equals : 20 
+936     69338   63325      org.mockito.internal.matchers.Equals : 20 
+1327     201960   195759      org.mockito.internal.matchers.Equals : 20 
+313     48220   42180      org.mockito.internal.matchers.Equals : 20 
+125     60613   54509      org.mockito.internal.matchers.Equals : 20 
+385     18717   12642      org.mockito.internal.matchers.Equals : 20 
+473     50023   44009      org.mockito.internal.matchers.Equals : 20 
+     705778   699860      the size of suspicious statements: 2270 
+136     17150   8625      org.mockito.internal.matchers.Equals : 20 
+1486     221580   215434      org.mockito.internal.matchers.Equals : 20 
+1014     253933   247976      org.mockito.internal.matchers.Equals : 20 
+     818457   812540      the size of suspicious statements: 2270 
+645     123233   117180      org.mockito.internal.matchers.Equals : 20 
+1705     218266   212355      org.mockito.internal.matchers.Equals : 20 
+575     138073   131975      org.mockito.internal.matchers.Equals : 20 
+33     12293   6318      org.mockito.internal.matchers.Equals : 20 
+281     21418   15370      org.mockito.internal.matchers.Equals : 20 
+503     46828   40809      org.mockito.internal.matchers.Equals : 20 
+758     39837   33739      org.mockito.internal.matchers.Equals : 20 
+1672     231086   225102      org.mockito.internal.matchers.Equals : 20 
+739     153180   147208      org.mockito.internal.matchers.Equals : 20 
+1233     275278   269062      org.mockito.internal.matchers.Equals : 20 

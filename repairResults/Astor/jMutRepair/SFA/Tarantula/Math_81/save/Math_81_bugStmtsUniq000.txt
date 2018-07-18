@@ -1,0 +1,6 @@
+org.apache.commons.math.linear.EigenDecompositionImpl 1448 0.9929078014184397 56.211726920630966 19 114 
+org.apache.commons.math.linear.EigenDecompositionImpl 1520 0.9957325746799431 56.211726920630966 13 114 
+org.apache.commons.math.linear.EigenDecompositionImpl 1526 0.9929078014184397 56.211726920630966 16 114 
+org.apache.commons.math.linear.EigenDecompositionImpl 1537 0.9990485252140817 56.211726920630966 3 114 
+org.apache.commons.math.linear.EigenDecompositionImpl 1543 0.9990485252140817 56.211726920630966 2 114 
+org.apache.commons.math.linear.EigenDecompositionImpl 1586 0.9985734664764623 56.211726920630966 4 114 

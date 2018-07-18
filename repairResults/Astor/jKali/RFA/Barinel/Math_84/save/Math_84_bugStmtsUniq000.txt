@@ -1,0 +1,1 @@
+org.apache.commons.math.optimization.direct.MultiDirectional 90 0.5 19.246560689052941 13 911 

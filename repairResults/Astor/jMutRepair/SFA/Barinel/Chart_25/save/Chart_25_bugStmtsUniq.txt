@@ -1,0 +1,7 @@
+org.jfree.data.KeyedObjects2D 110
+org.jfree.data.statistics.DefaultStatisticalCategoryDataset 110
+org.jfree.data.KeyedObjects2D 112
+org.jfree.data.KeyedObjects2D 238
+org.jfree.data.general.DatasetUtilities 570
+org.jfree.chart.plot.CategoryPlot 2560
+org.jfree.chart.plot.CategoryPlot 2855

@@ -1,0 +1,2 @@
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils 198 0.05882352941176472 14.258722220974230 35 909 15814
+org.apache.commons.math.analysis.solvers.UnivariateRealSolverUtils 199 1.0 14.258722220974230 1 909 15814
