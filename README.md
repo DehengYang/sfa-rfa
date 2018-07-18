@@ -1,5 +1,5 @@
-# The Repair Tools
-## For SFA-based and RFA-based Nopol
+# 1.The Repair Tools
+## 1.1 For SFA-based and RFA-based Nopol
 ### Introduction
 The Nopol is originally a RFA-based repair tool that repairs statements starting from the most suspicious statement to the least suspicious statement in the rank list.
 
@@ -28,7 +28,7 @@ When you want to run SFA-based Nopol, open the folder ```SFANopol```, and run ``
 
 Also, open the folder ```SFANopol-with-NewOch```, and run ```runNopol.sh```.
 
-## For SFA-based and RFA-based jkali and jMutRepair
+## 1.2 For SFA-based and RFA-based jkali and jMutRepair
 ### Introduction
 The jKali and jMutRepair are initially RFA-based repair tools that repair statements starting from the most suspicious statement to the least suspicious statement in the rank list.
 
@@ -58,7 +58,7 @@ If you want to run RFA-based jKali or jMutRepair, you should do following steps:
 1) Modify ```ExhaustiveSearchEngine.java```: comment the line ```ModificationPoint modifPoint=randomChosen(modifPoints1); //SFA``` and umcomment the line ```ModificationPoint modifPoint=modifPoint0; //RFA```;
 2) Run ```kaliRun``` or ```mutRepairRun```.
 
-## The Result Data of NCP and Patch Diversity
+# 2.The Result Data of NCP and Patch Diversity
 ### Introduction
 In our experiment, we obtained 36 versions of repair tools (6 SFl * 2 statement selecting strategies * 3 repair tools = 36 versions of repair tools). And then run 100 independent repeated repair trials on each benchmark program. The total time cost is up to one and a half month.
 
