@@ -1,0 +1,209 @@
+#!/bin/bash
+#mvn clean compile
+#mvn package -DskipTests
+
+# plausible : Chart 1 7
+#Note that Math ids0=(2 57 58). The checkmissingmathTest in FastMathTest has been changed into assertFalse.   - org.apache.commons.math.util.FastMathTest::checkMissingFastMathClasses
+
+project=(Math)
+ids0=(80)
+
+:<<!
+This is for kali
+project=(Chart Math)
+ids0=(1 5 13 15)
+ids1=(80 81 82 84 85) 
+!
+
+start=0
+cnt=1
+maxtime=30
+
+## clean outputdir
+if [ ! -d "./output_astor/" ]; then
+	mkdir ./output_astor/
+fi
+
+
+## Notice: each parameter, I think, in the Astor is quite important. If you set them wrong, you will fail to get the expected result/output. Here I list some parameters that should not be ignored: -maxgen 100000 -population 2 -javacompliancelevel 4/5/7/ and -dependencies
+
+
+## some settings
+maxgen=1000000
+population=10
+myPath=/home/dehengyang/Astor/Astor
+bugDir=/home/dehengyang/Astor/Astor-new/bugs/
+cBugDir=/home/dehengyang/Astor/Astor/bugs/
+d4jDir=/home/dehengyang/environment/test/defects4j-dale/defects4j/framework/projects/
+
+
+if [ ! -d "$myPath/output_astor/" ]; then
+	mkdir $myPath/output_astor/
+fi
+
+for((i=0;i<${#project[*]};i++))
+do
+	eval idName=\${ids${i}[@]} 
+	for id in $idName
+	do
+		# copy dir
+		cp -r $bugDir/${project[i]}_$id/ $cBugDir
+		cd $cBugDir/${project[i]}_$id
+		defects4j compile
+		cp $myPath/target/astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar .
+		cp -r $d4jDir/lib/ .
+
+		
+		for((k=$start;k<$cnt;k++))
+		do
+		startTime=$(date +%s)
+		seed=$((k+1))
+		outputFile=$myPath/output_astor/${project[i]}_${id}_$k.txt
+
+		echo "current time：`date '+%Y%m%d %H%M%S'`"  
+		#echo "current time：`date '+%Y%m%d %H%M%S'`"  > $outputFile
+		echo -e "\n=================================  we are running ${project[i]}_$id =================================seed is $seed \n"
+		## make dir for info collection
+		if [ ! -d "$myPath/output_astor/${project[i]}_${id}/" ]; then
+			mkdir $myPath/output_astor/${project[i]}_${id}/
+		fi
+
+		failingTest=`grep "org." testInfo.txt | cut -f 2 -d '-' | cut -f 1 -d ':' | cut -c 2-`
+		if [[ "${project[i]}_$id" == Chart* ]]; then
+		#Chart for all
+			dePath=$d4jDir/${project[i]}_$id/lib
+			dep=$dePath/iText-2.1.4.jar:$dePath/servlet.jar:$dePath/junit.jar
+			srcjavafolder=/source/
+			srctestfolder=/tests/
+			binjavafolder=/build/
+			bintestfolder=/build-tests/
+			package=org.jfree
+			find source/ -type f -name "package-info.java" -delete
+			
+			failingTest=`grep -m 1 'org.*Test' testInfo.txt | cut -f 2 -d '-' | cut -f 1 -d ':'`
+			echo "failingTest : $failingTest"
+			
+			time java -cp astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/ -package $package -maxgen $maxgen -population $population -srcjavafolder $srcjavafolder -srctestfolder $srctestfolder -binjavafolder $binjavafolder -bintestfolder $bintestfolder -maxtime $maxtime -stopfirst true  -flthreshold 0 -id ${project[i]}_$id -out $myPath/output_astor -seed $seed -failing $failingTest > $outputFile
+
+		elif [[ "${project[i]}_$id" == Math* ]];then
+		#Math less than 85
+			if [[ $id -lt 85 ]]; then
+				srcjavafolder=/src/main/java/
+				srctestfolder=/src/test/java/
+			else
+				srcjavafolder=/src/java/
+				srctestfolder=/src/test/
+			fi
+			find src/ -type f -name "package-info.java" -delete
+			dePath=$d4jDir/Math/lib
+			dep=$dePath/commons-discovery-0.5.jar:$bugDir/Mathlib/junit-4.4.jar
+			
+			binjavafolder=/target/classes
+			bintestfolder=/target/test-classes
+			package=org.apache.commons
+			
+			cp $dePath/commons-discovery-0.5.jar lib/
+
+			failingTest=`grep -m 1 'org.*Test' testInfo.txt | cut -f 2 -d '-' | cut -f 1 -d ':'`
+			echo "failingTest : $failingTest"
+
+			time java -cp astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/  -package $package -maxgen $maxgen -population $population -srcjavafolder $srcjavafolder -srctestfolder $srctestfolder -binjavafolder $binjavafolder -bintestfolder $bintestfolder -maxtime $maxtime -stopfirst true -flthreshold 0 -id ${project[i]}_$id -out $myPath/output_astor -seed $seed -failing $failingTest > $outputFile
+
+		elif [[ "${project[i]}_$id" == Lang* ]]; then
+		#Lang 27
+			find src/ -type f -name "package-info.java" -delete
+			dePath=$d4jDir/Lang/lib
+			dep=$dePath/asm.jar:$dePath/cglib.jar:$dePath/commons-io.jar:$dePath/easymock.jar
+			srcjavafolder=/src/main/java/
+			srctestfolder=/src/test/
+			binjavafolder=/target/classes
+			bintestfolder=/target/test-classes
+			package=org.apache
+			cp $dePath/asm.jar lib/
+			cp $dePath/cglib.jar lib/
+			cp $dePath/commons-io.jar lib/
+			cp $dePath/easymock.jar lib/
+
+			failingTest=`grep -m 1 'org.*Test' testInfo.txt | cut -f 2 -d '-' | cut -f 1 -d ':'`
+			echo "failingTest : $failingTest"
+
+			time java -cp astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/  -package $package -maxgen $maxgen -population $population -srcjavafolder $srcjavafolder -srctestfolder $srctestfolder -binjavafolder $binjavafolder -bintestfolder $bintestfolder -maxtime $maxtime -stopfirst true -flthreshold 0 -id ${project[i]}_$id -out $myPath/output_astor -seed $seed -failing $failingTest > $outputFile
+		elif [[ "${project[i]}_$id" == Time* ]]; then
+		#Time
+			if [[ $id -lt 12 ]]; then
+				echo "Time $id less than 12"
+				binjavafolder=/target/classes
+				bintestfolder=/target/test-classes
+			else
+				binjavafolder=/target/classes
+				bintestfolder=/target/test-classes
+			fi	
+			dePath=$d4jDir/Time/lib
+			dep=$dePath/joda-convert-1.2.jar:$dePath/junit-3.8.2.jar:$dePath/junit-4.11.jar
+			cp $dePath/joda-convert-1.2.jar lib/
+			srcjavafolder=/src/main/java/
+			srctestfolder=/src/test/java/
+			package=org.joda
+			find src/ -type f -name "package-info.java" -delete
+			time java -cp astor-0.0.2-SNAPSHOT-jar-with-dependencies.jar fr.inria.main.evolution.MainjGenProg -mode statement-remove -location . -dependencies lib/  -package $package -maxgen $maxgen -population $population -srcjavafolder $srcjavafolder -srctestfolder $srctestfolder -binjavafolder $binjavafolder -bintestfolder $bintestfolder -maxtime $maxtime -stopfirst true -flthreshold 0 -id ${project[i]}_$id -out $myPath/output_astor -seed $seed -failing $failingTest -jvm4testexecution /home/tanglei/environment/jdk1.7.0_80/bin > $outputFile 
+		elif [[ "${project[i]}_$id" == Mockito* ]]; then
+			dePath=$d4jDir/Mockito/lib
+			dep=$dePath/* ##I am not sure here. Not sure if I could write the $dep in this way
+			srcjavafolder=/src/
+			srctestfolder=/test/
+			binjavafolder=/target/classes
+			bintestfolder=/target/test-classes  
+			package=org.mockito
+			java -cp $(cat $myPath/astor-classpath.txt):target/classes fr.inria.main.evolution.AstorMain -dependencies $dep -mode statement -location $bugDir/${project[i]}_$id -srcjavafolder $srcjavafolder -srctestfolder $srctestfolder -binjavafolder $binjavafolder -bintestfolder $bintestfolder -flthreshold 0 -out $myPath/output_astor -stopfirst true --maxtime $maxtime -package $package -maxgen $maxgen -seed $seed -population $population > $outputFile
+		
+		#elif [[ "${project[i]}_$id" == Closure* ]]; then
+		#Closure 1 2 3 5
+			#if [[ $id -lt 67 ]]; then
+			#	jarClosure=$wd/build/lib/rhino.jar:$wd/lib/jarjar.jar
+			#else
+			#	jarClosure=$wd/lib/libtrunk_rhino_parser_jarjared.jar
+			#fi
+			#dePath=$d4jDir/Lang/lib
+			#dep=$dePath/asm.jar:$dePath/cglib.jar:$dePath/commons-io.jar:$dePath/easymock.jar
+		else
+			dep=$bugDir/${project[i]}_$id/build/lib/rhino.jar:$bugDir/${project[i]}_$id/lib/jarjar.jar
+			srcjavafolder=/src
+			srctestfolder=/test/
+			binjavafolder=/build/classes/
+			bintestfolder=/build/test/
+			package=com.google
+			java -cp $(cat $myPath/astor-classpath.txt):target/classes fr.inria.main.evolution.AstorMain -dependencies $dep -mode statement -location $bugDir/${project[i]}_$id -srcjavafolder $srcjavafolder -srctestfolder $srctestfolder -binjavafolder $binjavafolder -bintestfolder $bintestfolder -flthreshold 0 -out $myPath/output_astor -stopfirst true --maxtime $maxtime -package $package -maxgen $maxgen -seed $seed -population $population > $outputFile
+				
+		fi
+		# display repair time cost
+		endTime=$(date +%s)
+		repairTime=$(($endTime-$startTime))
+		echo -e "\n============================ The repair time cost of $k th repair for ${project[i]}_$id is: $repairTime s ============================\n"	
+		echo "current time：`date '+%Y%m%d %H%M%S'`"  >> $outputFile
+		echo -e "\n============================ The repair time cost of $k th repair for ${project[i]}_$id is: $repairTime s ============================\n" >> $outputFile
+
+
+		outDir=$myPath/output_astor/AstorMain-${project[i]}_${id}/
+		if [ -d "$myPath/output_astor/${project[i]}_${id}/$k/" ]; then
+			echo "the dir $myPath/output_astor/${project[i]}_${id}/$k/ exist, now remove it."
+			rm -rf $myPath/output_astor/${project[i]}_${id}/$k/
+		fi
+		if [ -d "$outDir" ]; then
+			mv $outDir $myPath/output_astor/${project[i]}_${id}/$k/
+		fi
+		if [ -f "$myPath/output_astor/${project[i]}_${id}_$k.txt" ];then
+			mv $myPath/output_astor/${project[i]}_${id}_$k.txt $myPath/output_astor/${project[i]}_${id}/$k/
+		fi
+
+		echo "before kill: the z3_for_linux pid"
+		pgrep java
+		pkill -9 java
+		echo
+		echo "after kill: the z3_for_linux pid"
+		pgrep java
+		done
+	done
+done
+
+
+#java -cp $(cat ./astor-classpath.txt):target/classes fr.inria.main.evolution.AstorMain -dependencies $myPath/bugs/chart_3/lib/iText-2.1.4.jar:$myPath/bugs/chart_3/lib/servlet.jar:$myPath/bugs/chart_3/lib/junit.jar: -mode statement -location $myPath/bugs/chart_3 -srcjavafolder /source/ -srctestfolder /tests/ -binjavafolder /build/ -bintestfolder /build-tests/ -javacompliancelevel 4 -flthreshold 0 -out $myPath/output_astor -stopfirst false -maxtime 10 -package org.jfree -maxgen 100  -seed 11 -scope  fr.inria.astor.core.loop.spaces.ingredients.scopes.ctscopes.CtPackageIngredientScope > chart_3_record.txt

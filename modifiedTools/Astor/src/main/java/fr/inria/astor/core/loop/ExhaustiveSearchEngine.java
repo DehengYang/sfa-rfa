@@ -1,0 +1,163 @@
+package fr.inria.astor.core.loop;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Date;
+import java.util.List;
+
+import com.martiansoftware.jsap.JSAPException;
+
+import fr.inria.astor.approaches.jgenprog.JGenProg;
+import fr.inria.astor.core.entities.OperatorInstance;
+import fr.inria.astor.core.entities.ModificationPoint;
+import fr.inria.astor.core.entities.ProgramVariant;
+import fr.inria.astor.core.entities.SuspiciousModificationPoint;
+import fr.inria.astor.core.loop.spaces.operators.AstorOperator;
+import fr.inria.astor.core.manipulation.MutationSupporter;
+import fr.inria.astor.core.setup.ConfigurationProperties;
+import fr.inria.astor.core.setup.ProjectRepairFacade;
+
+//deheng
+
+import java.util.*;
+
+/**
+ * Exhaustive Search Engine
+ * 
+ * @author Matias Martinez, matias.martinez@inria.fr
+ * 
+ */
+public class ExhaustiveSearchEngine extends JGenProg {
+
+	public ExhaustiveSearchEngine(MutationSupporter mutatorExecutor, ProjectRepairFacade projFacade)
+			throws JSAPException {
+		super(mutatorExecutor, projFacade);
+	}
+
+	@Override
+	public void startEvolution() throws Exception {
+
+		dateInitEvolution = new Date();
+		// We don't evolve variants, so the generation is always one.
+		generationsExecuted = 1;
+		// For each variant (one is enough)
+		int maxMinutes = ConfigurationProperties.getPropertyInt("maxtime");
+		System.out.println("variants size:"+variants.size());
+		//int cnt=1;
+		
+		for (ProgramVariant parentVariant : variants) {
+			System.out.println("parentVariant.getModificationPoints():"+parentVariant.getModificationPoints().size());
+			// We analyze each modifpoint of the variant i.e. suspicious statement
+			List<ModificationPoint> modifPoints = parentVariant.getModificationPoints();
+			
+
+			List<ModificationPoint> modifPoints1 = new ArrayList<ModificationPoint>();
+			int c1=0;
+			for (ModificationPoint modifPoint : modifPoints) {
+				System.out.println("List all " + c1 + "th modifPoint is: " + modifPoint + " SuspiciousValue: "  + modifPoint.getSuspicious().getSuspiciousValue());
+				c1++;
+				modifPoints1.add(modifPoint);
+			}
+			for (ModificationPoint modifPoint0 : modifPoints) {
+				// We create all operators to apply in the modifpoint
+
+				//deheng change here
+				ModificationPoint modifPoint=randomChosen(modifPoints1); //SFA
+				
+				//ModificationPoint modifPoint=modifPoint0; //RFA
+				System.out.println(" modifPoints is " + modifPoints1.size());
+				if (modifPoint == null){
+					System.out.println(" modifPoint is null! Error!");
+				}
+				List<OperatorInstance> operatorInstances = createInstancesOfOperators((SuspiciousModificationPoint) modifPoint);
+
+				if (operatorInstances == null || operatorInstances.isEmpty())
+					continue;
+
+				for (OperatorInstance pointOperation : operatorInstances) {
+
+					try {
+						log.info("mod_point " + modifPoint);
+						log.info("-->op: " + pointOperation);
+					} catch (Exception e) {
+					}
+
+					// We validate the variant after applying the operator
+					ProgramVariant solutionVariant = variantFactory.createProgramVariantFromAnother(parentVariant,
+							generationsExecuted);
+					solutionVariant.getOperations().put(generationsExecuted, Arrays.asList(pointOperation));
+
+					applyNewMutationOperationToSpoonElement(pointOperation);
+
+					boolean solution = processCreatedVariant(solutionVariant, generationsExecuted);
+
+					if (solution) {
+						this.solutions.add(solutionVariant);
+						if (ConfigurationProperties.getPropertyBool("stopfirst"))
+							return;
+					}
+
+					// We undo the operator (for try the next one)
+					undoOperationToSpoonElement(pointOperation);
+
+					if (!belowMaxTime(dateInitEvolution, maxMinutes)) {
+						log.debug("Max time reached");
+						return;
+					}
+				}
+			}
+		}
+
+	}
+
+	private ModificationPoint randomChosen(List<ModificationPoint> modifPoints){
+		double sum = 0;
+		int i;
+		int size = modifPoints.size();
+		double[] suspicious = new double[size];
+		
+		for( i=0;i<size;i++){
+			sum += modifPoints.get(i).getSuspicious().getSuspiciousValue();
+			suspicious[i]=modifPoints.get(i).getSuspicious().getSuspiciousValue();
+		}
+		
+		Random random = new Random(); //
+		double selection = random.nextDouble();
+		double tmpSum=0;	
+		for(i=0;i<size;i++){
+			tmpSum += (suspicious[i]/sum);
+			if(selection < tmpSum){   // 
+				ModificationPoint targetSourceLocation = modifPoints.get(i);
+				System.out.println(" selected statement rank is " + i + "/" + modifPoints.size());
+				modifPoints.remove(i);//remove the selected statement.
+				return targetSourceLocation;
+			}
+		}
+
+		System.out.println(" Error occured in Roulette Wheel Selection. (logged by dehengyang) ");
+		return null;
+	}
+
+	/**
+	 * @param modificationPoint
+	 * @return
+	 */
+	protected List<OperatorInstance> createInstancesOfOperators(SuspiciousModificationPoint modificationPoint) {
+		List<OperatorInstance> ops = new ArrayList<>();
+		AstorOperator[] operators = getOperatorSpace().values();
+		for (AstorOperator astorOperator : operators) {
+			if (astorOperator.canBeAppliedToPoint(modificationPoint)) {
+				List<OperatorInstance> instances = astorOperator.createOperatorInstance(modificationPoint);
+				if (instances != null && instances.size() > 0) {
+					ops.addAll(instances);
+				}
+			}
+		}
+
+		return ops;
+
+	}
+	
+	
+
+}

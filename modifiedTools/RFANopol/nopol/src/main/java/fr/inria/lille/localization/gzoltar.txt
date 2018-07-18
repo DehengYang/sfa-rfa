@@ -1,0 +1,368 @@
+1,11c1,16
+< package fr.inria.astor.core.faultlocalization;
+< 
+< import java.io.File;
+< import java.text.DecimalFormat;
+< import java.util.ArrayList;
+< import java.util.Collections;
+< import java.util.Comparator;
+< import java.util.List;
+< import java.util.Set;
+< 
+< import org.apache.log4j.Logger;
+---
+> /*
+>  * Copyright (C) 2013 INRIA
+>  *
+>  * This software is governed by the CeCILL-C License under French law and
+>  * abiding by the rules of distribution of free software. You can use, modify
+>  * and/or redistribute the software under the terms of the CeCILL-C license as
+>  * circulated by CEA, CNRS and INRIA at http://www.cecill.info.
+>  *
+>  * This program is distributed in the hope that it will be useful, but WITHOUT
+>  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+>  * FITNESS FOR A PARTICULAR PURPOSE. See the CeCILL-C License for more details.
+>  *
+>  * The fact that you are presently reading this means that you have had
+>  * knowledge of the CeCILL-C license and that you accept its terms.
+>  */
+> package fr.inria.lille.localization;
+14a20
+> import com.gzoltar.core.components.count.ComponentCount;
+15a22,30
+> import fr.inria.lille.localization.metric.Metric;
+> import fr.inria.lille.localization.metric.Ochiai;
+> import fr.inria.lille.repair.common.config.NopolContext;
+> import fr.inria.lille.repair.nopol.SourceLocation;
+> import xxl.java.junit.TestCase;
+> 
+> import java.io.IOException;
+> import java.net.URL;
+> import java.util.*;
+17,18c32,39
+< import fr.inria.astor.core.faultlocalization.entity.SuspiciousCode;
+< import fr.inria.astor.core.setup.ConfigurationProperties;
+---
+> import static com.google.common.base.Preconditions.checkNotNull;
+> 
+> // added by dehengyang
+> import java.io.File;
+> import java.io.FileWriter;
+> import java.io.IOException;
+> import java.io.PrintWriter;
+> import fr.inria.lille.repair.nopol.NoPol;
+21,24c42
+<  * Facade of Fault Localization techniques like GZoltar or own implementations
+<  * (package {@link org.inria.sacha.faultlocalization}.).
+<  * 
+<  * @author Matias Martinez, matias.martinez@inria.fr
+---
+>  * A list of potential bug root-cause.
+25a44
+>  * @author Favio D. DeMarco
+27,29c46
+< public class GZoltarFaultLocalization implements FaultLocalizationStrategy {
+< 
+< 	Logger logger = Logger.getLogger(GZoltarFaultLocalization.class.getName());
+---
+> public final class GZoltarFaultLocalizer extends GZoltar implements FaultLocalizer {
+31,32c48
+< 	public FaultLocalizationResult searchSuspicious(String location, List<String> testsToExecute,
+< 			List<String> toInstrument, Set<String> cp, String srcFolder) throws Exception {
+---
+> 	private Metric metric;
+34c50
+< 		List<String> failingTestCases = new ArrayList<String>();
+---
+> 	private List<StatementExt> statements;
+36,48c52,54
+< 		Double thr = ConfigurationProperties.getPropertyDouble("flthreshold");
+< 		logger.info("Gzoltar fault localization: min susp value parameter: " + thr);
+< 		// 1. Instantiate GZoltar
+< 		// here you need to specify the working directory where the tests will
+< 		// be run. Can be the full or relative path.
+< 		// Example: GZoltar gz = new
+< 		// GZoltar("C:\\Personal\\develop\\workspaceEvolution\\testProject\\target\\classes");
+< 
+< 		File projLocationFile = new File(ConfigurationProperties.getProperty("location"));
+< 		String projLocation = projLocationFile.getAbsolutePath();
+< 		logger.debug("Gzoltar run over: " + projLocation + " , does it exist? " + projLocationFile.exists());
+< 
+< 		GZoltar gz = new GZoltar(projLocation);
+---
+> 	public GZoltarFaultLocalizer(NopolContext nopolContext) throws IOException {
+> 		this(nopolContext.getProjectClasspath(), checkNotNull(Arrays.asList("")), nopolContext.getProjectTests(), new Ochiai());
+> 	}
+50,77c56,64
+< 		// 2. Add Package/Class names to instrument
+< 		// 3. Add Package/Test Case/Test Suite names to execute
+< 		// Example: gz.addPackageToInstrument("org.test1.Person");
+< 		for (String to : toInstrument) {
+< 			gz.addPackageToInstrument(to);
+< 		}
+< 		if (cp != null || !cp.isEmpty()) {
+< 			logger.info("-gz-Adding classpath: " + cp);
+< 			gz.getClasspaths().addAll(cp);
+< 		}
+< 		for (String test : testsToExecute) {
+< 			gz.addTestToExecute(test);
+< 			gz.addClassNotToInstrument(test);
+< 		}
+< 		gz.addTestPackageNotToExecute("junit.framework");
+< 		gz.addPackageNotToInstrument("junit.framework");
+< 		gz.run();
+< 		int[] sum = new int[2];
+< 		for (TestResult tr : gz.getTestResults()) {
+< 			String testName = tr.getName().split("#")[0];
+< 			if (testName.startsWith("junit")) {
+< 				continue;
+< 			}
+< 			sum[0]++;
+< 			sum[1] += tr.wasSuccessful() ? 0 : 1;
+< 			if (!tr.wasSuccessful()) {
+< 				logger.info("Test failt: " + tr.getName());
+< 				failingTestCases.add(testName.split("\\#")[0]);
+---
+> 	public GZoltarFaultLocalizer(final URL[] classpath, Collection<String> packageNames, String[] test, Metric metric) throws IOException {
+> 		super(System.getProperty("user.dir"));
+> 		this.metric = metric;
+> 		ArrayList<String> classpaths = new ArrayList<>();
+> 		for (URL url : classpath) {
+> 			if ("file".equals(url.getProtocol())) {
+> 				classpaths.add(url.getPath());
+> 			} else {
+> 				classpaths.add(url.toExternalForm());
+81,82c68,77
+< 		logger.info("Gzoltar Test Result Total:" + sum[0] + ", fails: " + sum[1] + ", GZoltar suspicious "
+< 				+ gz.getSuspiciousStatements().size());
+---
+> 		this.setClassPaths(classpaths);
+> 		/*dehengyang test here	*/	
+> 		this.addPackageNotToInstrument("org.junit");
+> 		this.addPackageNotToInstrument("junit.framework");
+> 		this.addTestPackageNotToExecute("junit.framework");
+> 		this.addTestPackageNotToExecute("org.junit");
+> 		
+> 		for (String packageName : packageNames) {
+> 			this.addPackageToInstrument(packageName);
+> 		}
+84,85c79,80
+< 		DecimalFormat df = new DecimalFormat("#.###");
+< 		int maxSuspCandidates = ConfigurationProperties.getPropertyInt("maxsuspcandidates");
+---
+> 		this.statements = run(test);
+> 	}
+87c82,88
+< 		List<Statement> gzCandidates = new ArrayList();
+---
+> 	public List<AbstractStatement> getStatements() {
+> 		List<AbstractStatement> abstractStatements = new ArrayList<>();
+> 		for (StatementExt statement : this.statements) {
+> 			abstractStatements.add(statement);
+> 		}
+> 		return abstractStatements;
+> 	}
+89,92c90,92
+< 		for (Statement gzoltarStatement : gz.getSuspiciousStatements()) {
+< 			String compName = gzoltarStatement.getMethod().getParent().getLabel();
+< 			if (gzoltarStatement.getSuspiciousness() >= thr && isSource(compName, srcFolder)) {
+< 				gzCandidates.add(gzoltarStatement);
+---
+> 	public List<com.gzoltar.core.instr.testing.TestResult> getTestResults() {
+> 		return super.getTestResults();
+> 	}
+93a94,122
+> 	@Override
+> 	public Map<SourceLocation, List<fr.inria.lille.localization.TestResult>> getTestListPerStatement() {
+> 		Map<SourceLocation, List<fr.inria.lille.localization.TestResult>> results = new HashMap<>();
+> 		List<TestResult> testResults = this.getTestResults();
+> 		long startT = System.currentTimeMillis();//dehengyang	
+> 		long endT;
+> 		
+> 
+> 		for (int j = 0; j < testResults.size(); j++) {
+> 			TestResult testResult = testResults.get(j);
+> 			TestResultImpl test = new TestResultImpl(TestCase.from(testResult.getName()), testResult.wasSuccessful());
+> 			try{
+> 				FileWriter infoWriter = new FileWriter(NoPol.infoTXTPath,true);
+> 				infoWriter.write(j + "th testCase:\n" + testResult.getName() + "  "+ testResult.wasSuccessful() + "\n" );
+> 				infoWriter.close(); 
+> 			}catch (IOException e) {
+> 			    e.printStackTrace();
+> 			}
+> 			List<ComponentCount> components = testResult.getCoveredComponents();
+> 			for (int i = 0; i < components.size(); i++) {
+> 				ComponentCount component1 = components.get(i);
+> 				Statement component = (Statement) component1.getComponent();
+> 				String containingClass = component.getMethod().getParent().getLabel();
+> 
+> 				SourceLocation sourceLocation = new SourceLocation(containingClass, component.getLineNumber());
+> 				if (!results.containsKey(sourceLocation)) {
+> 					results.put(sourceLocation, new ArrayList<fr.inria.lille.localization.TestResult>());
+> 				}
+> 				results.get(sourceLocation).add(test);
+95,101d123
+< 
+< 		}
+< 		// If we do not have candidate due the threshold is to high, we add all
+< 		// as suspicious
+< 		if (gzCandidates.isEmpty()) {
+< 			gzCandidates.addAll(gz.getSuspiciousStatements());
+< 
+103,120c125,139
+< 		// we order the suspicious DESC
+< 		Collections.sort(gzCandidates, (o1, o2) -> Double.compare(o2.getSuspiciousness(), o1.getSuspiciousness()));
+< 
+< 		// We select the best X candidates.
+< 		int max = (gzCandidates.size() < maxSuspCandidates) ? gzCandidates.size() : maxSuspCandidates;
+< 	
+< 		List<SuspiciousCode> candidates = new ArrayList<SuspiciousCode>();
+< 
+< 		for (int i = 0; i < max; i++) {
+< 			Statement gzoltarStatement = gzCandidates.get(i);
+< 			String compName = gzoltarStatement.getMethod().getParent().getLabel();
+< 
+< 			logger.debug("Suspicious: line " + compName + " l: " + gzoltarStatement.getLineNumber() + ", susp "
+< 					+ df.format(gzoltarStatement.getSuspiciousness()));
+< 			SuspiciousCode suspcode = new SuspiciousCode(compName, gzoltarStatement.getMethod().toString(),
+< 					gzoltarStatement.getLineNumber(), gzoltarStatement.getSuspiciousness(),
+< 					gzoltarStatement.getCountMap());
+< 			candidates.add(suspcode);
+---
+> 		
+> 		endT = System.currentTimeMillis();
+> 		try{
+> 			FileWriter infoWriter1 = new FileWriter(NoPol.infoTXTPath,true);
+> 			infoWriter1.write("\n\n\n\n\nThe time of saving all test cases is: "+ (endT-startT) + "\n\n\n\n\n" );
+> 			infoWriter1.close(); 
+> 		}catch (IOException e) {
+> 		    e.printStackTrace();
+> 		}
+> 
+> 		LinkedHashMap<SourceLocation, List<fr.inria.lille.localization.TestResult>> map = new LinkedHashMap<>();
+> 		for (StatementSourceLocation source : this.statements) {
+> 			//杨德亨在此添加可疑值。
+> 			source.getLocation().setSuspiciousValue(source.getSuspiciousness());
+> 			map.put(source.getLocation(), results.get(source.getLocation()));
+123,125c142,143
+< 		logger.info("Gzoltar found: " + candidates.size() + " with susp > " + thr + ", we consider: " + max);
+< 
+< 		return new FaultLocalizationResult(candidates, failingTestCases);
+---
+> 		results = map;
+> 		return results;
+128,140c146,157
+< 	protected boolean isSource(String compName, String srcFolder) {
+< 		String clRoot = compName.split("\\$")[0];
+< 		String[] segmentationName = clRoot.split("\\.");
+< 		String simpleClassName = segmentationName[segmentationName.length - 1];
+< 
+< 		// File root = new File(srcFolder+"/"+clRoot.replace(".", "/")+".java");
+< 
+< 		return // root.exists()
+< 				// &&
+< 		!compName.toLowerCase().endsWith("test") && !compName.toLowerCase().endsWith("tests")
+< 				&& !simpleClassName.toLowerCase().startsWith("test")
+< 				&& !simpleClassName.toLowerCase().startsWith("validate");
+< 
+---
+> 	/**
+> 	 * @param testClasses
+> 	 * @return a ranked list of potential bug root-cause.
+> 	 */
+> 	private List<StatementExt> run(final String... testClasses) {
+> 		for (String className : checkNotNull(testClasses)) {
+> 			this.addTestToExecute(className); // we want to execute the test
+> 			this.addClassNotToInstrument(className); // we don't want to include the test as root-cause
+> 			// candidate
+> 		}
+> 		this.run();
+> 		return this.getSuspiciousStatements(this.metric);
+143c160,161
+< 	public class ComparatorCandidates implements Comparator<SuspiciousCode> {
+---
+> 	private List<StatementExt> getSuspiciousStatements(final Metric metric) {
+> 		List<Statement> suspiciousStatements = super.getSuspiciousStatements();
+145,148c163,170
+< 		@Override
+< 		public int compare(SuspiciousCode o1, SuspiciousCode o2) {
+< 			if (o1 == null || o2 == null) {
+< 				return 0;
+---
+> 		List<StatementExt> result = new ArrayList<>(suspiciousStatements.size());
+> 		int successfulTests;
+> 		int nbFailingTest = 0;
+> 		List<TestResult> testResults = super.getTestResults();
+> 		for (int i = testResults.size() - 1; i >= 0; i--) {
+> 			TestResult testResult = testResults.get(i);
+> 			if (!testResult.wasSuccessful()) {
+> 				nbFailingTest++;
+150d171
+< 			return Double.compare(o2.getSuspiciousValue(), o1.getSuspiciousValue());
+151a173
+> 		successfulTests = testResults.size() - nbFailingTest;
+152a175,225
+> 		try{
+> 			File fileDir = new File("./testResults");
+> 			if(!fileDir.exists()){
+> 				fileDir.mkdir();
+> 			}
+> 			FileWriter infoWriter = new FileWriter(NoPol.infoTXTPath,true);
+> 			infoWriter.write("\n nbFailingTest\n" + nbFailingTest + "\n nbSucceedTest\n" + successfulTests + "\n");
+> 			infoWriter.close(); 
+> 		}catch (IOException e) {
+> 	            e.printStackTrace();
+> 	        }
+> 
+> 		for (int i = suspiciousStatements.size() - 1; i >= 0; i--) {
+> 			Statement statement = suspiciousStatements.get(i);
+> 			BitSet coverage = statement.getCoverage();
+> 			int executedAndPassedCount = 0;
+> 			int executedAndFailedCount = 0;
+> 			int nextTest = coverage.nextSetBit(0);
+> 			while (nextTest != -1) {
+> 				TestResult testResult = testResults.get(nextTest);
+> 				if (testResult.wasSuccessful()) {
+> 					executedAndPassedCount++;
+> 				} else {
+> 					executedAndFailedCount++;
+> 				}
+> 				nextTest = coverage.nextSetBit(nextTest + 1);
+> 			}
+> 			StatementExt s = new StatementExt(metric, statement);
+> 			s.setEf(executedAndFailedCount);
+> 			s.setEp(executedAndPassedCount);
+> 			s.setNp(successfulTests - executedAndPassedCount);
+> 			s.setNf(nbFailingTest - executedAndFailedCount);
+> 
+> 			//add sourcelocation info about ep and ef
+> 			s.getLocation().setEp(executedAndPassedCount);
+> 			s.getLocation().setEf(executedAndFailedCount);
+> 			s.getLocation().setNp(successfulTests - executedAndPassedCount);
+> 			s.getLocation().setNf(nbFailingTest - executedAndFailedCount);
+> 			//System.out.println("statementGzoltar suspicious:" + s.getSuspiciousness());
+> 			//s.getLocation().setSuspiciousValue(s.getSuspiciousness());
+> 
+> 			result.add(s);
+> 		}
+> 		Collections.sort(result, new Comparator<StatementExt>() {
+> 			@Override
+> 			public int compare(final StatementExt o1, final StatementExt o2) {
+> 				// reversed parameters because we want a descending order list
+> 				return Double.compare(o2.getSuspiciousness(), o1.getSuspiciousness());
+> 			}
+> 		});
+> 		return result;
+154a228,239
+> 	@Deprecated
+> 	private List<SuspiciousStatement> sortByDescendingOrder(List<SuspiciousStatement> statements) {
+> 		List<SuspiciousStatement> tmp = new ArrayList<>(statements);
+> 		Collections.sort(tmp, new Comparator<SuspiciousStatement>() {
+> 			@Override
+> 			public int compare(final SuspiciousStatement o1, final SuspiciousStatement o2) {
+> 				// reversed parameters because we want a descending order list
+> 				return Double.compare(o2.getSuspiciousness(), o1.getSuspiciousness());
+> 			}
+> 		});
+> 		return tmp;
+> 	}

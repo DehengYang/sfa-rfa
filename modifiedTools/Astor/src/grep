@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#grep -rn "gzoltar" * > grepAll.txt
+
+grep -rn "processCreatedVariant" * > grepAll.txt

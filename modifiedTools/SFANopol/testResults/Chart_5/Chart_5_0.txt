@@ -1,0 +1,416 @@
+03:26:23.324 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Source files: [/home/dehengyang/environment/test/defects4j-dale/buggyPrograms/NopolRepairPrograms/Chart/Chart_5/source]
+03:26:23.326 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Classpath: [file:/home/dehengyang/environment/test/defects4j-dale/buggyPrograms/NopolRepairPrograms/Chart/Chart_5/build/, file:/home/dehengyang/environment/test/defects4j-dale/buggyPrograms/NopolRepairPrograms/Chart/Chart_5/build-tests/, file:/home/dehengyang/environment/test/defects4j-dale/buggyPrograms/NopolRepairPrograms/Chart/Chart_5/lib/servlet.jar, file:/home/dehengyang/Nopol/SFANopol/nopol/target/nopol-0.2-SNAPSHOT-jar-with-dependencies.jar]
+03:26:23.327 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Statement type: PRE_THEN_COND
+03:26:23.327 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Args: [org.jfree.chart.annotations.junit.AnnotationsPackageTests, org.jfree.chart.annotations.junit.CategoryLineAnnotationTests, org.jfree.chart.annotations.junit.CategoryPointerAnnotationTests, org.jfree.chart.annotations.junit.CategoryTextAnnotationTests, org.jfree.chart.annotations.junit.TextAnnotationTests, org.jfree.chart.annotations.junit.XYBoxAnnotationTests, org.jfree.chart.annotations.junit.XYDrawableAnnotationTests, org.jfree.chart.annotations.junit.XYImageAnnotationTests, org.jfree.chart.annotations.junit.XYLineAnnotationTests, org.jfree.chart.annotations.junit.XYPointerAnnotationTests, org.jfree.chart.annotations.junit.XYPolygonAnnotationTests, org.jfree.chart.annotations.junit.XYShapeAnnotationTests, org.jfree.chart.annotations.junit.XYTextAnnotationTests, org.jfree.chart.axis.junit.AxisLocationTests, org.jfree.chart.axis.junit.AxisPackageTests, org.jfree.chart.axis.junit.AxisSpaceTests, org.jfree.chart.axis.junit.AxisTests, org.jfree.chart.axis.junit.CategoryAnchorTests, org.jfree.chart.axis.junit.CategoryAxis3DTests, org.jfree.chart.axis.junit.CategoryAxisTests, org.jfree.chart.axis.junit.CategoryLabelPositionTests, org.jfree.chart.axis.junit.CategoryLabelPositionsTests, org.jfree.chart.axis.junit.CategoryLabelWidthTypeTests, org.jfree.chart.axis.junit.CategoryTickTests, org.jfree.chart.axis.junit.CyclicNumberAxisTests, org.jfree.chart.axis.junit.DateAxisTests, org.jfree.chart.axis.junit.DateTickMarkPositionTests, org.jfree.chart.axis.junit.DateTickTests, org.jfree.chart.axis.junit.DateTickUnitTests, org.jfree.chart.axis.junit.ExtendedCategoryAxisTests, org.jfree.chart.axis.junit.LogAxisTests, org.jfree.chart.axis.junit.LogarithmicAxisTests, org.jfree.chart.axis.junit.MarkerAxisBandTests, org.jfree.chart.axis.junit.ModuloAxisTests, org.jfree.chart.axis.junit.MonthDateFormatTests, org.jfree.chart.axis.junit.NumberAxis3DTests, org.jfree.chart.axis.junit.NumberAxisTests, org.jfree.chart.axis.junit.NumberTickUnitTests, org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests, org.jfree.chart.axis.junit.PeriodAxisTests, org.jfree.chart.axis.junit.QuarterDateFormatTests, org.jfree.chart.axis.junit.SegmentedTimelineTests, org.jfree.chart.axis.junit.SegmentedTimelineTests2, org.jfree.chart.axis.junit.StandardTickUnitSourceTests, org.jfree.chart.axis.junit.SubCategoryAxisTests, org.jfree.chart.axis.junit.SymbolAxisTests, org.jfree.chart.axis.junit.TickUnitsTests, org.jfree.chart.axis.junit.ValueAxisTests, org.jfree.chart.block.junit.AbstractBlockTests, org.jfree.chart.block.junit.BlockBorderTests, org.jfree.chart.block.junit.BlockContainerTests, org.jfree.chart.block.junit.BlockPackageTests, org.jfree.chart.block.junit.BorderArrangementTests, org.jfree.chart.block.junit.ColorBlockTests, org.jfree.chart.block.junit.ColumnArrangementTests, org.jfree.chart.block.junit.EmptyBlockTests, org.jfree.chart.block.junit.FlowArrangementTests, org.jfree.chart.block.junit.GridArrangementTests, org.jfree.chart.block.junit.LabelBlockTests, org.jfree.chart.block.junit.LineBorderTests, org.jfree.chart.block.junit.RectangleConstraintTests, org.jfree.chart.entity.junit.CategoryItemEntityTests, org.jfree.chart.entity.junit.CategoryLabelEntityTests, org.jfree.chart.entity.junit.EntityPackageTests, org.jfree.chart.entity.junit.LegendItemEntityTests, org.jfree.chart.entity.junit.PieSectionEntityTests, org.jfree.chart.entity.junit.StandardEntityCollectionTests, org.jfree.chart.entity.junit.TickLabelEntityTests, org.jfree.chart.entity.junit.XYItemEntityTests, org.jfree.chart.imagemap.junit.ImageMapPackageTests, org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests, org.jfree.chart.imagemap.junit.StandardURLTagFragmentGeneratorTests, org.jfree.chart.junit.AreaChartTests, org.jfree.chart.junit.BarChart3DTests, org.jfree.chart.junit.BarChartTests, org.jfree.chart.junit.ChartPackageTests, org.jfree.chart.junit.ChartPanelTests, org.jfree.chart.junit.ChartRenderingInfoTests, org.jfree.chart.junit.GanttChartTests, org.jfree.chart.junit.JFreeChartTests, org.jfree.chart.junit.LegendItemCollectionTests, org.jfree.chart.junit.LegendItemTests, org.jfree.chart.junit.LineChart3DTests, org.jfree.chart.junit.LineChartTests, org.jfree.chart.junit.MeterChartTests, org.jfree.chart.junit.PaintMapTests, org.jfree.chart.junit.PieChart3DTests, org.jfree.chart.junit.PieChartTests, org.jfree.chart.junit.ScatterPlotTests, org.jfree.chart.junit.StackedAreaChartTests, org.jfree.chart.junit.StackedBarChart3DTests, org.jfree.chart.junit.StackedBarChartTests, org.jfree.chart.junit.StandardChartThemeTests, org.jfree.chart.junit.StrokeMapTests, org.jfree.chart.junit.TimeSeriesChartTests, org.jfree.chart.junit.WaterfallChartTests, org.jfree.chart.junit.XYAreaChartTests, org.jfree.chart.junit.XYBarChartTests, org.jfree.chart.junit.XYLineChartTests, org.jfree.chart.junit.XYStepAreaChartTests, org.jfree.chart.junit.XYStepChartTests, org.jfree.chart.labels.junit.BoxAndWhiskerToolTipGeneratorTests, org.jfree.chart.labels.junit.BoxAndWhiskerXYToolTipGeneratorTests, org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests, org.jfree.chart.labels.junit.CustomXYItemLabelGeneratorTests, org.jfree.chart.labels.junit.HighLowItemLabelGeneratorTests, org.jfree.chart.labels.junit.IntervalCategoryItemLabelGeneratorTests, org.jfree.chart.labels.junit.IntervalCategoryToolTipGeneratorTests, org.jfree.chart.labels.junit.ItemLabelAnchorTests, org.jfree.chart.labels.junit.ItemLabelPositionTests, org.jfree.chart.labels.junit.LabelsPackageTests, org.jfree.chart.labels.junit.MultipleXYSeriesLabelGeneratorTests, org.jfree.chart.labels.junit.StandardCategoryItemLabelGeneratorTests, org.jfree.chart.labels.junit.StandardCategorySeriesLabelGeneratorTests, org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests, org.jfree.chart.labels.junit.StandardPieSectionLabelGeneratorTests, org.jfree.chart.labels.junit.StandardPieToolTipGeneratorTests, org.jfree.chart.labels.junit.StandardXYItemLabelGeneratorTests, org.jfree.chart.labels.junit.StandardXYSeriesLabelGeneratorTests, org.jfree.chart.labels.junit.StandardXYToolTipGeneratorTests, org.jfree.chart.labels.junit.StandardXYZToolTipGeneratorTests, org.jfree.chart.labels.junit.SymbolicXYItemLabelGeneratorTests, org.jfree.chart.needle.junit.ArrowNeedleTests, org.jfree.chart.needle.junit.LineNeedleTests, org.jfree.chart.needle.junit.LongNeedleTests, org.jfree.chart.needle.junit.MeterNeedleTests, org.jfree.chart.needle.junit.MiddlePinNeedleTests, org.jfree.chart.needle.junit.NeedlePackageTests, org.jfree.chart.needle.junit.PinNeedleTests, org.jfree.chart.needle.junit.PlumNeedleTests, org.jfree.chart.needle.junit.PointerNeedleTests, org.jfree.chart.needle.junit.ShipNeedleTests, org.jfree.chart.needle.junit.WindNeedleTests, org.jfree.chart.plot.dial.junit.AbstractDialLayerTests, org.jfree.chart.plot.dial.junit.ArcDialFrameTests, org.jfree.chart.plot.dial.junit.DialBackgroundTests, org.jfree.chart.plot.dial.junit.DialCapTests, org.jfree.chart.plot.dial.junit.DialPackageTests, org.jfree.chart.plot.dial.junit.DialPlotTests, org.jfree.chart.plot.dial.junit.DialPointerTests, org.jfree.chart.plot.dial.junit.DialTextAnnotationTests, org.jfree.chart.plot.dial.junit.DialValueIndicatorTests, org.jfree.chart.plot.dial.junit.StandardDialFrameTests, org.jfree.chart.plot.dial.junit.StandardDialRangeTests, org.jfree.chart.plot.dial.junit.StandardDialScaleTests, org.jfree.chart.plot.junit.CategoryMarkerTests, org.jfree.chart.plot.junit.CategoryPlotTests, org.jfree.chart.plot.junit.CombinedDomainCategoryPlotTests, org.jfree.chart.plot.junit.CombinedDomainXYPlotTests, org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests, org.jfree.chart.plot.junit.CombinedRangeXYPlotTests, org.jfree.chart.plot.junit.CompassPlotTests, org.jfree.chart.plot.junit.DefaultDrawingSupplierTests, org.jfree.chart.plot.junit.FastScatterPlotTests, org.jfree.chart.plot.junit.IntervalMarkerTests, org.jfree.chart.plot.junit.MarkerTests, org.jfree.chart.plot.junit.MeterIntervalTests, org.jfree.chart.plot.junit.MeterPlotTests, org.jfree.chart.plot.junit.MultiplePiePlotTests, org.jfree.chart.plot.junit.PieLabelRecordTests, org.jfree.chart.plot.junit.PiePlot3DTests, org.jfree.chart.plot.junit.PiePlotTests, org.jfree.chart.plot.junit.PlotOrientationTests, org.jfree.chart.plot.junit.PlotPackageTests, org.jfree.chart.plot.junit.PlotRenderingInfoTests, org.jfree.chart.plot.junit.PlotTests, org.jfree.chart.plot.junit.PolarPlotTests, org.jfree.chart.plot.junit.RingPlotTests, org.jfree.chart.plot.junit.SpiderWebPlotTests, org.jfree.chart.plot.junit.ThermometerPlotTests, org.jfree.chart.plot.junit.ValueMarkerTests, org.jfree.chart.plot.junit.XYPlotTests, org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests, org.jfree.chart.renderer.category.junit.AreaRendererTests, org.jfree.chart.renderer.category.junit.BarRenderer3DTests, org.jfree.chart.renderer.category.junit.BarRendererTests, org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests, org.jfree.chart.renderer.category.junit.CategoryStepRendererTests, org.jfree.chart.renderer.category.junit.DefaultCategoryItemRendererTests, org.jfree.chart.renderer.category.junit.GanttRendererTests, org.jfree.chart.renderer.category.junit.GradientBarPainterTests, org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests, org.jfree.chart.renderer.category.junit.IntervalBarRendererTests, org.jfree.chart.renderer.category.junit.LayeredBarRendererTests, org.jfree.chart.renderer.category.junit.LevelRendererTests, org.jfree.chart.renderer.category.junit.LineAndShapeRendererTests, org.jfree.chart.renderer.category.junit.LineRenderer3DTests, org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests, org.jfree.chart.renderer.category.junit.RendererCategoryPackageTests, org.jfree.chart.renderer.category.junit.ScatterRendererTests, org.jfree.chart.renderer.category.junit.StackedAreaRendererTests, org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests, org.jfree.chart.renderer.category.junit.StackedBarRendererTests, org.jfree.chart.renderer.category.junit.StandardBarPainterTests, org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests, org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests, org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests, org.jfree.chart.renderer.junit.AbstractRendererTests, org.jfree.chart.renderer.junit.AreaRendererEndTypeTests, org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests, org.jfree.chart.renderer.junit.GrayPaintScaleTests, org.jfree.chart.renderer.junit.LookupPaintScaleTests, org.jfree.chart.renderer.junit.OutlierTests, org.jfree.chart.renderer.junit.RendererPackageTests, org.jfree.chart.renderer.junit.RendererUtilitiesTests, org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests, org.jfree.chart.renderer.xy.junit.CandlestickRendererTests, org.jfree.chart.renderer.xy.junit.ClusteredXYBarRendererTests, org.jfree.chart.renderer.xy.junit.DeviationRendererTests, org.jfree.chart.renderer.xy.junit.GradientXYBarPainterTests, org.jfree.chart.renderer.xy.junit.HighLowRendererTests, org.jfree.chart.renderer.xy.junit.RendererXYPackageTests, org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests, org.jfree.chart.renderer.xy.junit.StackedXYAreaRendererTests, org.jfree.chart.renderer.xy.junit.StackedXYBarRendererTests, org.jfree.chart.renderer.xy.junit.StandardXYBarPainterTests, org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests, org.jfree.chart.renderer.xy.junit.VectorRendererTests, org.jfree.chart.renderer.xy.junit.WindItemRendererTests, org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests, org.jfree.chart.renderer.xy.junit.XYAreaRendererTests, org.jfree.chart.renderer.xy.junit.XYBarRendererTests, org.jfree.chart.renderer.xy.junit.XYBlockRendererTests, org.jfree.chart.renderer.xy.junit.XYBoxAndWhiskerRendererTests, org.jfree.chart.renderer.xy.junit.XYBubbleRendererTests, org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests, org.jfree.chart.renderer.xy.junit.XYDotRendererTests, org.jfree.chart.renderer.xy.junit.XYErrorRendererTests, org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests, org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests, org.jfree.chart.renderer.xy.junit.XYShapeRendererTests, org.jfree.chart.renderer.xy.junit.XYSplineRendererTests, org.jfree.chart.renderer.xy.junit.XYStepAreaRendererTests, org.jfree.chart.renderer.xy.junit.XYStepRendererTests, org.jfree.chart.renderer.xy.junit.YIntervalRendererTests, org.jfree.chart.title.junit.CompositeTitleTests, org.jfree.chart.title.junit.DateTitleTests, org.jfree.chart.title.junit.ImageTitleTests, org.jfree.chart.title.junit.LegendGraphicTests, org.jfree.chart.title.junit.LegendTitleTests, org.jfree.chart.title.junit.PaintScaleLegendTests, org.jfree.chart.title.junit.ShortTextTitleTests, org.jfree.chart.title.junit.TextTitleTests, org.jfree.chart.title.junit.TitlePackageTests, org.jfree.chart.title.junit.TitleTests, org.jfree.chart.urls.junit.CustomPieURLGeneratorTests, org.jfree.chart.urls.junit.CustomXYURLGeneratorTests, org.jfree.chart.urls.junit.StandardCategoryURLGeneratorTests, org.jfree.chart.urls.junit.StandardPieURLGeneratorTests, org.jfree.chart.urls.junit.StandardXYURLGeneratorTests, org.jfree.chart.urls.junit.TimeSeriesURLGeneratorTests, org.jfree.chart.urls.junit.UrlsPackageTests, org.jfree.chart.util.junit.BooleanListTests, org.jfree.chart.util.junit.HashUtilitiesTests, org.jfree.chart.util.junit.LogFormatTests, org.jfree.chart.util.junit.PaintListTests, org.jfree.chart.util.junit.RelativeDateFormatTests, org.jfree.chart.util.junit.SerialUtilitiesTests, org.jfree.chart.util.junit.ShapeListTests, org.jfree.chart.util.junit.ShapeUtilitiesTests, org.jfree.chart.util.junit.StrokeListTests, org.jfree.chart.util.junit.UtilPackageTests, org.jfree.data.category.junit.CategoryToPieDatasetTests, org.jfree.data.category.junit.DataCategoryPackageTests, org.jfree.data.category.junit.DefaultCategoryDatasetTests, org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests, org.jfree.data.gantt.junit.DataGanttPackageTests, org.jfree.data.gantt.junit.SlidingGanttCategoryDatasetTests, org.jfree.data.gantt.junit.TaskSeriesCollectionTests, org.jfree.data.gantt.junit.TaskSeriesTests, org.jfree.data.gantt.junit.TaskTests, org.jfree.data.gantt.junit.XYTaskDatasetTests, org.jfree.data.general.junit.DataGeneralPackageTests, org.jfree.data.general.junit.DatasetGroupTests, org.jfree.data.general.junit.DatasetUtilitiesTests, org.jfree.data.general.junit.DefaultKeyedValueDatasetTests, org.jfree.data.general.junit.DefaultKeyedValues2DDatasetTests, org.jfree.data.general.junit.DefaultKeyedValuesDatasetTests, org.jfree.data.general.junit.DefaultPieDatasetTests, org.jfree.data.junit.ComparableObjectItemTests, org.jfree.data.junit.ComparableObjectSeriesTests, org.jfree.data.junit.DataPackageTests, org.jfree.data.junit.DataUtilitiesTests, org.jfree.data.junit.DefaultKeyedValueTests, org.jfree.data.junit.DefaultKeyedValues2DTests, org.jfree.data.junit.DefaultKeyedValuesTests, org.jfree.data.junit.DomainOrderTests, org.jfree.data.junit.KeyToGroupMapTests, org.jfree.data.junit.KeyedObjectTests, org.jfree.data.junit.KeyedObjects2DTests, org.jfree.data.junit.KeyedObjectsTests, org.jfree.data.junit.RangeTests, org.jfree.data.junit.RangeTypeTests, org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests, org.jfree.data.statistics.junit.BoxAndWhiskerItemTests, org.jfree.data.statistics.junit.DataStatisticsPackageTests, org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests, org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests, org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests, org.jfree.data.statistics.junit.HistogramBinTests, org.jfree.data.statistics.junit.HistogramDatasetTests, org.jfree.data.statistics.junit.MeanAndStandardDeviationTests, org.jfree.data.statistics.junit.RegressionTests, org.jfree.data.statistics.junit.SimpleHistogramBinTests, org.jfree.data.statistics.junit.SimpleHistogramDatasetTests, org.jfree.data.statistics.junit.StatisticsTests, org.jfree.data.time.junit.DataTimePackageTests, org.jfree.data.time.junit.DateRangeTests, org.jfree.data.time.junit.DayTests, org.jfree.data.time.junit.FixedMillisecondTests, org.jfree.data.time.junit.HourTests, org.jfree.data.time.junit.MillisecondTests, org.jfree.data.time.junit.MinuteTests, org.jfree.data.time.junit.MonthTests, org.jfree.data.time.junit.MovingAverageTests, org.jfree.data.time.junit.QuarterTests, org.jfree.data.time.junit.SecondTests, org.jfree.data.time.junit.SimpleTimePeriodTests, org.jfree.data.time.junit.TimePeriodAnchorTests, org.jfree.data.time.junit.TimePeriodValueTests, org.jfree.data.time.junit.TimePeriodValuesCollectionTests, org.jfree.data.time.junit.TimePeriodValuesTests, org.jfree.data.time.junit.TimeSeriesCollectionTests, org.jfree.data.time.junit.TimeSeriesDataItemTests, org.jfree.data.time.junit.TimeSeriesTests, org.jfree.data.time.junit.TimeTableXYDatasetTests, org.jfree.data.time.junit.WeekTests, org.jfree.data.time.junit.YearTests, org.jfree.data.time.ohlc.junit.OHLCItemTests, org.jfree.data.time.ohlc.junit.OHLCPackageTests, org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests, org.jfree.data.time.ohlc.junit.OHLCSeriesTests, org.jfree.data.time.ohlc.junit.OHLCTests, org.jfree.data.xy.junit.CategoryTableXYDatasetTests, org.jfree.data.xy.junit.DataXYPackageTests, org.jfree.data.xy.junit.DefaultHighLowDatasetTests, org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests, org.jfree.data.xy.junit.DefaultOHLCDatasetTests, org.jfree.data.xy.junit.DefaultTableXYDatasetTests, org.jfree.data.xy.junit.DefaultWindDatasetTests, org.jfree.data.xy.junit.DefaultXYDatasetTests, org.jfree.data.xy.junit.DefaultXYZDatasetTests, org.jfree.data.xy.junit.IntervalXYDelegateTests, org.jfree.data.xy.junit.MatrixSeriesCollectionTests, org.jfree.data.xy.junit.MatrixSeriesTests, org.jfree.data.xy.junit.OHLCDataItemTests, org.jfree.data.xy.junit.TableXYDatasetTests, org.jfree.data.xy.junit.VectorDataItemTests, org.jfree.data.xy.junit.VectorSeriesCollectionTests, org.jfree.data.xy.junit.VectorSeriesTests, org.jfree.data.xy.junit.VectorTests, org.jfree.data.xy.junit.XIntervalDataItemTests, org.jfree.data.xy.junit.XIntervalSeriesCollectionTests, org.jfree.data.xy.junit.XIntervalSeriesTests, org.jfree.data.xy.junit.XYBarDatasetTests, org.jfree.data.xy.junit.XYCoordinateTests, org.jfree.data.xy.junit.XYDataItemTests, org.jfree.data.xy.junit.XYIntervalDataItemTests, org.jfree.data.xy.junit.XYIntervalSeriesCollectionTests, org.jfree.data.xy.junit.XYIntervalSeriesTests, org.jfree.data.xy.junit.XYIntervalTests, org.jfree.data.xy.junit.XYSeriesCollectionTests, org.jfree.data.xy.junit.XYSeriesTests, org.jfree.data.xy.junit.YIntervalDataItemTests, org.jfree.data.xy.junit.YIntervalSeriesCollectionTests, org.jfree.data.xy.junit.YIntervalSeriesTests, org.jfree.data.xy.junit.YIntervalTests, org.jfree.data.xy.junit.YWithXIntervalTests]
+03:26:23.328 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Config: Config{synthesisDepth=3, collectStaticMethods=true, collectStaticFields=false, collectLiterals=false, onlyOneSynthesisResult=true, sortExpressions=true, maxLineInvocationPerTest=250, timeoutMethodInvocation=2000, dataCollectionTimeoutInSecondForSynthesis=900, addWeight=0.19478, subWeight=0.04554, mulWeight=0.0102, divWeight=0.00613, andWeight=0.10597, orWeight=0.05708, eqWeight=0.22798, nEqWeight=0.0, lessEqWeight=0.0255, lessWeight=0.0947, methodCallWeight=0.1, fieldAccessWeight=0.08099, constantWeight=0.14232, variableWeight=0.05195, mode=REPAIR, type=PRE_THEN_COND, synthesis=SMT, oracle=ANGELIC, solver=Z3, solverPath='/home/dehengyang/Nopol/SFANopol/lib/z3/z3_for_linux', projectSources=[/home/dehengyang/environment/test/defects4j-dale/buggyPrograms/NopolRepairPrograms/Chart/Chart_5/source], projectClasspath='[Ljava.net.URL;@1b40d5f0', projectTests=[org.jfree.chart.annotations.junit.AnnotationsPackageTests, org.jfree.chart.annotations.junit.CategoryLineAnnotationTests, org.jfree.chart.annotations.junit.CategoryPointerAnnotationTests, org.jfree.chart.annotations.junit.CategoryTextAnnotationTests, org.jfree.chart.annotations.junit.TextAnnotationTests, org.jfree.chart.annotations.junit.XYBoxAnnotationTests, org.jfree.chart.annotations.junit.XYDrawableAnnotationTests, org.jfree.chart.annotations.junit.XYImageAnnotationTests, org.jfree.chart.annotations.junit.XYLineAnnotationTests, org.jfree.chart.annotations.junit.XYPointerAnnotationTests, org.jfree.chart.annotations.junit.XYPolygonAnnotationTests, org.jfree.chart.annotations.junit.XYShapeAnnotationTests, org.jfree.chart.annotations.junit.XYTextAnnotationTests, org.jfree.chart.axis.junit.AxisLocationTests, org.jfree.chart.axis.junit.AxisPackageTests, org.jfree.chart.axis.junit.AxisSpaceTests, org.jfree.chart.axis.junit.AxisTests, org.jfree.chart.axis.junit.CategoryAnchorTests, org.jfree.chart.axis.junit.CategoryAxis3DTests, org.jfree.chart.axis.junit.CategoryAxisTests, org.jfree.chart.axis.junit.CategoryLabelPositionTests, org.jfree.chart.axis.junit.CategoryLabelPositionsTests, org.jfree.chart.axis.junit.CategoryLabelWidthTypeTests, org.jfree.chart.axis.junit.CategoryTickTests, org.jfree.chart.axis.junit.CyclicNumberAxisTests, org.jfree.chart.axis.junit.DateAxisTests, org.jfree.chart.axis.junit.DateTickMarkPositionTests, org.jfree.chart.axis.junit.DateTickTests, org.jfree.chart.axis.junit.DateTickUnitTests, org.jfree.chart.axis.junit.ExtendedCategoryAxisTests, org.jfree.chart.axis.junit.LogAxisTests, org.jfree.chart.axis.junit.LogarithmicAxisTests, org.jfree.chart.axis.junit.MarkerAxisBandTests, org.jfree.chart.axis.junit.ModuloAxisTests, org.jfree.chart.axis.junit.MonthDateFormatTests, org.jfree.chart.axis.junit.NumberAxis3DTests, org.jfree.chart.axis.junit.NumberAxisTests, org.jfree.chart.axis.junit.NumberTickUnitTests, org.jfree.chart.axis.junit.PeriodAxisLabelInfoTests, org.jfree.chart.axis.junit.PeriodAxisTests, org.jfree.chart.axis.junit.QuarterDateFormatTests, org.jfree.chart.axis.junit.SegmentedTimelineTests, org.jfree.chart.axis.junit.SegmentedTimelineTests2, org.jfree.chart.axis.junit.StandardTickUnitSourceTests, org.jfree.chart.axis.junit.SubCategoryAxisTests, org.jfree.chart.axis.junit.SymbolAxisTests, org.jfree.chart.axis.junit.TickUnitsTests, org.jfree.chart.axis.junit.ValueAxisTests, org.jfree.chart.block.junit.AbstractBlockTests, org.jfree.chart.block.junit.BlockBorderTests, org.jfree.chart.block.junit.BlockContainerTests, org.jfree.chart.block.junit.BlockPackageTests, org.jfree.chart.block.junit.BorderArrangementTests, org.jfree.chart.block.junit.ColorBlockTests, org.jfree.chart.block.junit.ColumnArrangementTests, org.jfree.chart.block.junit.EmptyBlockTests, org.jfree.chart.block.junit.FlowArrangementTests, org.jfree.chart.block.junit.GridArrangementTests, org.jfree.chart.block.junit.LabelBlockTests, org.jfree.chart.block.junit.LineBorderTests, org.jfree.chart.block.junit.RectangleConstraintTests, org.jfree.chart.entity.junit.CategoryItemEntityTests, org.jfree.chart.entity.junit.CategoryLabelEntityTests, org.jfree.chart.entity.junit.EntityPackageTests, org.jfree.chart.entity.junit.LegendItemEntityTests, org.jfree.chart.entity.junit.PieSectionEntityTests, org.jfree.chart.entity.junit.StandardEntityCollectionTests, org.jfree.chart.entity.junit.TickLabelEntityTests, org.jfree.chart.entity.junit.XYItemEntityTests, org.jfree.chart.imagemap.junit.ImageMapPackageTests, org.jfree.chart.imagemap.junit.StandardToolTipTagFragmentGeneratorTests, org.jfree.chart.imagemap.junit.StandardURLTagFragmentGeneratorTests, org.jfree.chart.junit.AreaChartTests, org.jfree.chart.junit.BarChart3DTests, org.jfree.chart.junit.BarChartTests, org.jfree.chart.junit.ChartPackageTests, org.jfree.chart.junit.ChartPanelTests, org.jfree.chart.junit.ChartRenderingInfoTests, org.jfree.chart.junit.GanttChartTests, org.jfree.chart.junit.JFreeChartTests, org.jfree.chart.junit.LegendItemCollectionTests, org.jfree.chart.junit.LegendItemTests, org.jfree.chart.junit.LineChart3DTests, org.jfree.chart.junit.LineChartTests, org.jfree.chart.junit.MeterChartTests, org.jfree.chart.junit.PaintMapTests, org.jfree.chart.junit.PieChart3DTests, org.jfree.chart.junit.PieChartTests, org.jfree.chart.junit.ScatterPlotTests, org.jfree.chart.junit.StackedAreaChartTests, org.jfree.chart.junit.StackedBarChart3DTests, org.jfree.chart.junit.StackedBarChartTests, org.jfree.chart.junit.StandardChartThemeTests, org.jfree.chart.junit.StrokeMapTests, org.jfree.chart.junit.TimeSeriesChartTests, org.jfree.chart.junit.WaterfallChartTests, org.jfree.chart.junit.XYAreaChartTests, org.jfree.chart.junit.XYBarChartTests, org.jfree.chart.junit.XYLineChartTests, org.jfree.chart.junit.XYStepAreaChartTests, org.jfree.chart.junit.XYStepChartTests, org.jfree.chart.labels.junit.BoxAndWhiskerToolTipGeneratorTests, org.jfree.chart.labels.junit.BoxAndWhiskerXYToolTipGeneratorTests, org.jfree.chart.labels.junit.BubbleXYItemLabelGeneratorTests, org.jfree.chart.labels.junit.CustomXYItemLabelGeneratorTests, org.jfree.chart.labels.junit.HighLowItemLabelGeneratorTests, org.jfree.chart.labels.junit.IntervalCategoryItemLabelGeneratorTests, org.jfree.chart.labels.junit.IntervalCategoryToolTipGeneratorTests, org.jfree.chart.labels.junit.ItemLabelAnchorTests, org.jfree.chart.labels.junit.ItemLabelPositionTests, org.jfree.chart.labels.junit.LabelsPackageTests, org.jfree.chart.labels.junit.MultipleXYSeriesLabelGeneratorTests, org.jfree.chart.labels.junit.StandardCategoryItemLabelGeneratorTests, org.jfree.chart.labels.junit.StandardCategorySeriesLabelGeneratorTests, org.jfree.chart.labels.junit.StandardCategoryToolTipGeneratorTests, org.jfree.chart.labels.junit.StandardPieSectionLabelGeneratorTests, org.jfree.chart.labels.junit.StandardPieToolTipGeneratorTests, org.jfree.chart.labels.junit.StandardXYItemLabelGeneratorTests, org.jfree.chart.labels.junit.StandardXYSeriesLabelGeneratorTests, org.jfree.chart.labels.junit.StandardXYToolTipGeneratorTests, org.jfree.chart.labels.junit.StandardXYZToolTipGeneratorTests, org.jfree.chart.labels.junit.SymbolicXYItemLabelGeneratorTests, org.jfree.chart.needle.junit.ArrowNeedleTests, org.jfree.chart.needle.junit.LineNeedleTests, org.jfree.chart.needle.junit.LongNeedleTests, org.jfree.chart.needle.junit.MeterNeedleTests, org.jfree.chart.needle.junit.MiddlePinNeedleTests, org.jfree.chart.needle.junit.NeedlePackageTests, org.jfree.chart.needle.junit.PinNeedleTests, org.jfree.chart.needle.junit.PlumNeedleTests, org.jfree.chart.needle.junit.PointerNeedleTests, org.jfree.chart.needle.junit.ShipNeedleTests, org.jfree.chart.needle.junit.WindNeedleTests, org.jfree.chart.plot.dial.junit.AbstractDialLayerTests, org.jfree.chart.plot.dial.junit.ArcDialFrameTests, org.jfree.chart.plot.dial.junit.DialBackgroundTests, org.jfree.chart.plot.dial.junit.DialCapTests, org.jfree.chart.plot.dial.junit.DialPackageTests, org.jfree.chart.plot.dial.junit.DialPlotTests, org.jfree.chart.plot.dial.junit.DialPointerTests, org.jfree.chart.plot.dial.junit.DialTextAnnotationTests, org.jfree.chart.plot.dial.junit.DialValueIndicatorTests, org.jfree.chart.plot.dial.junit.StandardDialFrameTests, org.jfree.chart.plot.dial.junit.StandardDialRangeTests, org.jfree.chart.plot.dial.junit.StandardDialScaleTests, org.jfree.chart.plot.junit.CategoryMarkerTests, org.jfree.chart.plot.junit.CategoryPlotTests, org.jfree.chart.plot.junit.CombinedDomainCategoryPlotTests, org.jfree.chart.plot.junit.CombinedDomainXYPlotTests, org.jfree.chart.plot.junit.CombinedRangeCategoryPlotTests, org.jfree.chart.plot.junit.CombinedRangeXYPlotTests, org.jfree.chart.plot.junit.CompassPlotTests, org.jfree.chart.plot.junit.DefaultDrawingSupplierTests, org.jfree.chart.plot.junit.FastScatterPlotTests, org.jfree.chart.plot.junit.IntervalMarkerTests, org.jfree.chart.plot.junit.MarkerTests, org.jfree.chart.plot.junit.MeterIntervalTests, org.jfree.chart.plot.junit.MeterPlotTests, org.jfree.chart.plot.junit.MultiplePiePlotTests, org.jfree.chart.plot.junit.PieLabelRecordTests, org.jfree.chart.plot.junit.PiePlot3DTests, org.jfree.chart.plot.junit.PiePlotTests, org.jfree.chart.plot.junit.PlotOrientationTests, org.jfree.chart.plot.junit.PlotPackageTests, org.jfree.chart.plot.junit.PlotRenderingInfoTests, org.jfree.chart.plot.junit.PlotTests, org.jfree.chart.plot.junit.PolarPlotTests, org.jfree.chart.plot.junit.RingPlotTests, org.jfree.chart.plot.junit.SpiderWebPlotTests, org.jfree.chart.plot.junit.ThermometerPlotTests, org.jfree.chart.plot.junit.ValueMarkerTests, org.jfree.chart.plot.junit.XYPlotTests, org.jfree.chart.renderer.category.junit.AbstractCategoryItemRendererTests, org.jfree.chart.renderer.category.junit.AreaRendererTests, org.jfree.chart.renderer.category.junit.BarRenderer3DTests, org.jfree.chart.renderer.category.junit.BarRendererTests, org.jfree.chart.renderer.category.junit.BoxAndWhiskerRendererTests, org.jfree.chart.renderer.category.junit.CategoryStepRendererTests, org.jfree.chart.renderer.category.junit.DefaultCategoryItemRendererTests, org.jfree.chart.renderer.category.junit.GanttRendererTests, org.jfree.chart.renderer.category.junit.GradientBarPainterTests, org.jfree.chart.renderer.category.junit.GroupedStackedBarRendererTests, org.jfree.chart.renderer.category.junit.IntervalBarRendererTests, org.jfree.chart.renderer.category.junit.LayeredBarRendererTests, org.jfree.chart.renderer.category.junit.LevelRendererTests, org.jfree.chart.renderer.category.junit.LineAndShapeRendererTests, org.jfree.chart.renderer.category.junit.LineRenderer3DTests, org.jfree.chart.renderer.category.junit.MinMaxCategoryRendererTests, org.jfree.chart.renderer.category.junit.RendererCategoryPackageTests, org.jfree.chart.renderer.category.junit.ScatterRendererTests, org.jfree.chart.renderer.category.junit.StackedAreaRendererTests, org.jfree.chart.renderer.category.junit.StackedBarRenderer3DTests, org.jfree.chart.renderer.category.junit.StackedBarRendererTests, org.jfree.chart.renderer.category.junit.StandardBarPainterTests, org.jfree.chart.renderer.category.junit.StatisticalBarRendererTests, org.jfree.chart.renderer.category.junit.StatisticalLineAndShapeRendererTests, org.jfree.chart.renderer.category.junit.WaterfallBarRendererTests, org.jfree.chart.renderer.junit.AbstractRendererTests, org.jfree.chart.renderer.junit.AreaRendererEndTypeTests, org.jfree.chart.renderer.junit.DefaultPolarItemRendererTests, org.jfree.chart.renderer.junit.GrayPaintScaleTests, org.jfree.chart.renderer.junit.LookupPaintScaleTests, org.jfree.chart.renderer.junit.OutlierTests, org.jfree.chart.renderer.junit.RendererPackageTests, org.jfree.chart.renderer.junit.RendererUtilitiesTests, org.jfree.chart.renderer.xy.junit.AbstractXYItemRendererTests, org.jfree.chart.renderer.xy.junit.CandlestickRendererTests, org.jfree.chart.renderer.xy.junit.ClusteredXYBarRendererTests, org.jfree.chart.renderer.xy.junit.DeviationRendererTests, org.jfree.chart.renderer.xy.junit.GradientXYBarPainterTests, org.jfree.chart.renderer.xy.junit.HighLowRendererTests, org.jfree.chart.renderer.xy.junit.RendererXYPackageTests, org.jfree.chart.renderer.xy.junit.StackedXYAreaRenderer2Tests, org.jfree.chart.renderer.xy.junit.StackedXYAreaRendererTests, org.jfree.chart.renderer.xy.junit.StackedXYBarRendererTests, org.jfree.chart.renderer.xy.junit.StandardXYBarPainterTests, org.jfree.chart.renderer.xy.junit.StandardXYItemRendererTests, org.jfree.chart.renderer.xy.junit.VectorRendererTests, org.jfree.chart.renderer.xy.junit.WindItemRendererTests, org.jfree.chart.renderer.xy.junit.XYAreaRenderer2Tests, org.jfree.chart.renderer.xy.junit.XYAreaRendererTests, org.jfree.chart.renderer.xy.junit.XYBarRendererTests, org.jfree.chart.renderer.xy.junit.XYBlockRendererTests, org.jfree.chart.renderer.xy.junit.XYBoxAndWhiskerRendererTests, org.jfree.chart.renderer.xy.junit.XYBubbleRendererTests, org.jfree.chart.renderer.xy.junit.XYDifferenceRendererTests, org.jfree.chart.renderer.xy.junit.XYDotRendererTests, org.jfree.chart.renderer.xy.junit.XYErrorRendererTests, org.jfree.chart.renderer.xy.junit.XYLine3DRendererTests, org.jfree.chart.renderer.xy.junit.XYLineAndShapeRendererTests, org.jfree.chart.renderer.xy.junit.XYShapeRendererTests, org.jfree.chart.renderer.xy.junit.XYSplineRendererTests, org.jfree.chart.renderer.xy.junit.XYStepAreaRendererTests, org.jfree.chart.renderer.xy.junit.XYStepRendererTests, org.jfree.chart.renderer.xy.junit.YIntervalRendererTests, org.jfree.chart.title.junit.CompositeTitleTests, org.jfree.chart.title.junit.DateTitleTests, org.jfree.chart.title.junit.ImageTitleTests, org.jfree.chart.title.junit.LegendGraphicTests, org.jfree.chart.title.junit.LegendTitleTests, org.jfree.chart.title.junit.PaintScaleLegendTests, org.jfree.chart.title.junit.ShortTextTitleTests, org.jfree.chart.title.junit.TextTitleTests, org.jfree.chart.title.junit.TitlePackageTests, org.jfree.chart.title.junit.TitleTests, org.jfree.chart.urls.junit.CustomPieURLGeneratorTests, org.jfree.chart.urls.junit.CustomXYURLGeneratorTests, org.jfree.chart.urls.junit.StandardCategoryURLGeneratorTests, org.jfree.chart.urls.junit.StandardPieURLGeneratorTests, org.jfree.chart.urls.junit.StandardXYURLGeneratorTests, org.jfree.chart.urls.junit.TimeSeriesURLGeneratorTests, org.jfree.chart.urls.junit.UrlsPackageTests, org.jfree.chart.util.junit.BooleanListTests, org.jfree.chart.util.junit.HashUtilitiesTests, org.jfree.chart.util.junit.LogFormatTests, org.jfree.chart.util.junit.PaintListTests, org.jfree.chart.util.junit.RelativeDateFormatTests, org.jfree.chart.util.junit.SerialUtilitiesTests, org.jfree.chart.util.junit.ShapeListTests, org.jfree.chart.util.junit.ShapeUtilitiesTests, org.jfree.chart.util.junit.StrokeListTests, org.jfree.chart.util.junit.UtilPackageTests, org.jfree.data.category.junit.CategoryToPieDatasetTests, org.jfree.data.category.junit.DataCategoryPackageTests, org.jfree.data.category.junit.DefaultCategoryDatasetTests, org.jfree.data.category.junit.DefaultIntervalCategoryDatasetTests, org.jfree.data.gantt.junit.DataGanttPackageTests, org.jfree.data.gantt.junit.SlidingGanttCategoryDatasetTests, org.jfree.data.gantt.junit.TaskSeriesCollectionTests, org.jfree.data.gantt.junit.TaskSeriesTests, org.jfree.data.gantt.junit.TaskTests, org.jfree.data.gantt.junit.XYTaskDatasetTests, org.jfree.data.general.junit.DataGeneralPackageTests, org.jfree.data.general.junit.DatasetGroupTests, org.jfree.data.general.junit.DatasetUtilitiesTests, org.jfree.data.general.junit.DefaultKeyedValueDatasetTests, org.jfree.data.general.junit.DefaultKeyedValues2DDatasetTests, org.jfree.data.general.junit.DefaultKeyedValuesDatasetTests, org.jfree.data.general.junit.DefaultPieDatasetTests, org.jfree.data.junit.ComparableObjectItemTests, org.jfree.data.junit.ComparableObjectSeriesTests, org.jfree.data.junit.DataPackageTests, org.jfree.data.junit.DataUtilitiesTests, org.jfree.data.junit.DefaultKeyedValueTests, org.jfree.data.junit.DefaultKeyedValues2DTests, org.jfree.data.junit.DefaultKeyedValuesTests, org.jfree.data.junit.DomainOrderTests, org.jfree.data.junit.KeyToGroupMapTests, org.jfree.data.junit.KeyedObjectTests, org.jfree.data.junit.KeyedObjects2DTests, org.jfree.data.junit.KeyedObjectsTests, org.jfree.data.junit.RangeTests, org.jfree.data.junit.RangeTypeTests, org.jfree.data.statistics.junit.BoxAndWhiskerCalculatorTests, org.jfree.data.statistics.junit.BoxAndWhiskerItemTests, org.jfree.data.statistics.junit.DataStatisticsPackageTests, org.jfree.data.statistics.junit.DefaultBoxAndWhiskerCategoryDatasetTests, org.jfree.data.statistics.junit.DefaultMultiValueCategoryDatasetTests, org.jfree.data.statistics.junit.DefaultStatisticalCategoryDatasetTests, org.jfree.data.statistics.junit.HistogramBinTests, org.jfree.data.statistics.junit.HistogramDatasetTests, org.jfree.data.statistics.junit.MeanAndStandardDeviationTests, org.jfree.data.statistics.junit.RegressionTests, org.jfree.data.statistics.junit.SimpleHistogramBinTests, org.jfree.data.statistics.junit.SimpleHistogramDatasetTests, org.jfree.data.statistics.junit.StatisticsTests, org.jfree.data.time.junit.DataTimePackageTests, org.jfree.data.time.junit.DateRangeTests, org.jfree.data.time.junit.DayTests, org.jfree.data.time.junit.FixedMillisecondTests, org.jfree.data.time.junit.HourTests, org.jfree.data.time.junit.MillisecondTests, org.jfree.data.time.junit.MinuteTests, org.jfree.data.time.junit.MonthTests, org.jfree.data.time.junit.MovingAverageTests, org.jfree.data.time.junit.QuarterTests, org.jfree.data.time.junit.SecondTests, org.jfree.data.time.junit.SimpleTimePeriodTests, org.jfree.data.time.junit.TimePeriodAnchorTests, org.jfree.data.time.junit.TimePeriodValueTests, org.jfree.data.time.junit.TimePeriodValuesCollectionTests, org.jfree.data.time.junit.TimePeriodValuesTests, org.jfree.data.time.junit.TimeSeriesCollectionTests, org.jfree.data.time.junit.TimeSeriesDataItemTests, org.jfree.data.time.junit.TimeSeriesTests, org.jfree.data.time.junit.TimeTableXYDatasetTests, org.jfree.data.time.junit.WeekTests, org.jfree.data.time.junit.YearTests, org.jfree.data.time.ohlc.junit.OHLCItemTests, org.jfree.data.time.ohlc.junit.OHLCPackageTests, org.jfree.data.time.ohlc.junit.OHLCSeriesCollectionTests, org.jfree.data.time.ohlc.junit.OHLCSeriesTests, org.jfree.data.time.ohlc.junit.OHLCTests, org.jfree.data.xy.junit.CategoryTableXYDatasetTests, org.jfree.data.xy.junit.DataXYPackageTests, org.jfree.data.xy.junit.DefaultHighLowDatasetTests, org.jfree.data.xy.junit.DefaultIntervalXYDatasetTests, org.jfree.data.xy.junit.DefaultOHLCDatasetTests, org.jfree.data.xy.junit.DefaultTableXYDatasetTests, org.jfree.data.xy.junit.DefaultWindDatasetTests, org.jfree.data.xy.junit.DefaultXYDatasetTests, org.jfree.data.xy.junit.DefaultXYZDatasetTests, org.jfree.data.xy.junit.IntervalXYDelegateTests, org.jfree.data.xy.junit.MatrixSeriesCollectionTests, org.jfree.data.xy.junit.MatrixSeriesTests, org.jfree.data.xy.junit.OHLCDataItemTests, org.jfree.data.xy.junit.TableXYDatasetTests, org.jfree.data.xy.junit.VectorDataItemTests, org.jfree.data.xy.junit.VectorSeriesCollectionTests, org.jfree.data.xy.junit.VectorSeriesTests, org.jfree.data.xy.junit.VectorTests, org.jfree.data.xy.junit.XIntervalDataItemTests, org.jfree.data.xy.junit.XIntervalSeriesCollectionTests, org.jfree.data.xy.junit.XIntervalSeriesTests, org.jfree.data.xy.junit.XYBarDatasetTests, org.jfree.data.xy.junit.XYCoordinateTests, org.jfree.data.xy.junit.XYDataItemTests, org.jfree.data.xy.junit.XYIntervalDataItemTests, org.jfree.data.xy.junit.XYIntervalSeriesCollectionTests, org.jfree.data.xy.junit.XYIntervalSeriesTests, org.jfree.data.xy.junit.XYIntervalTests, org.jfree.data.xy.junit.XYSeriesCollectionTests, org.jfree.data.xy.junit.XYSeriesTests, org.jfree.data.xy.junit.YIntervalDataItemTests, org.jfree.data.xy.junit.YIntervalSeriesCollectionTests, org.jfree.data.xy.junit.YIntervalSeriesTests, org.jfree.data.xy.junit.YIntervalTests, org.jfree.data.xy.junit.YWithXIntervalTests], complianceLevel=7, outputFolder=., json=false}
+03:26:23.328 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Available processors (cores): 8
+03:26:23.331 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Free memory: 920 MB
+03:26:23.331 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Maximum memory: 3 GB
+03:26:23.331 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Total memory available to JVM: 981 MB
+03:26:23.331 [main] INFO  fr.inria.lille.repair.nopol.NoPol - Java version: 1.8.0_121
+03:26:23.332 [main] INFO  fr.inria.lille.repair.nopol.NoPol - JAVA_HOME: /home/dehengyang/environment/jdk1.8.0_121
+03:26:23.332 [main] INFO  fr.inria.lille.repair.nopol.NoPol - PATH: /home/dehengyang/environment/apache-maven-3.3.9/bin:/home/dehengyang/environment/jdk1.8.0_121/bin:/home/dehengyang/environment/apache-maven-3.3.9/bin:/home/dehengyang/environment/jdk1.8.0_121/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/dehengyang/environment/test/defects4j-dale/defects4j/framework/bin:/home/dehengyang/environment/apache-ant-1.9.9/bin:/home/dehengyang/environment/test/defects4j-dale/defects4j/framework/bin:/home/dehengyang/environment/apache-ant-1.9.9/bin
+03:26:38.233 [pool-2-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.data.xy.XYSeries:527 which is executed by 4 tests
+03:26:38.638 [pool-2-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.data.xy.XYSeries:546 which is executed by 8 tests
+03:26:38.774 [pool-2-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.data.xy.XYSeries:548 which is executed by 8 tests
+03:26:39.630 [pool-3-thread-1] DEBUG f.i.l.r.n.s.ConstraintModelBuilder - Failing test(s): SourceLocation org.jfree.data.xy.XYSeries:548
+[testBug1955483(org.jfree.data.xy.junit.XYSeriesTests)]
+03:26:39.630 [pool-3-thread-1] DEBUG tests.output - First set: 
+[testBug1955483(org.jfree.data.xy.junit.XYSeriesTests): Index: -1, Size: 1]
+03:26:39.630 [pool-3-thread-1] DEBUG tests.output - Second set: 
+[testBug1955483(org.jfree.data.xy.junit.XYSeriesTests): Index: 0, Size: 0]
+03:26:39.630 [pool-3-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.data.xy.XYSeries:548.
+03:26:39.801 [pool-7-thread-1] DEBUG f.i.l.r.n.s.ConstraintModelBuilder - Failing test(s): SourceLocation org.jfree.data.xy.XYSeries:548
+[testBug1955483(org.jfree.data.xy.junit.XYSeriesTests)]
+03:26:39.801 [pool-7-thread-1] DEBUG tests.output - First set: 
+[testBug1955483(org.jfree.data.xy.junit.XYSeriesTests): Index: -1, Size: 1]
+03:26:39.801 [pool-7-thread-1] DEBUG tests.output - Second set: 
+[testBug1955483(org.jfree.data.xy.junit.XYSeriesTests): -1]
+03:26:39.801 [pool-7-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.data.xy.XYSeries:548.
+03:26:39.804 [pool-2-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.data.xy.XYSeries:590 which is executed by 16 tests
+03:26:40.106 [pool-11-thread-1] DEBUG x.java.compiler.DynamicClassCompiler - [Compilation errors]
+XYSeries.java:244: error: missing return statement
+    }
+    ^
+Note: XYSeries.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+03:26:40.109 [pool-11-thread-1] ERROR f.i.l.r.n.s.ConstraintModelBuilder - Unable to compile the change: 
+public class XYSeries extends org.jfree.data.general.Series implements java.io.Serializable , java.lang.Cloneable {
+    static final long serialVersionUID = -5908509288197150436L;
+
+    protected java.util.List data;
+
+    private int maximumItemCount = java.lang.Integer.MAX_VALUE;
+
+    private boolean autoSort;
+
+    private boolean allowDuplicateXValues;
+
+    public XYSeries(java.lang.Comparable key) {
+        this(key, true, true);
+    }
+
+    public XYSeries(java.lang.Comparable key, boolean autoSort) {
+        this(key, autoSort, true);
+    }
+
+    public XYSeries(java.lang.Comparable key, boolean autoSort, boolean allowDuplicateXValues) {
+        super(key);
+        this.data = new java.util.ArrayList();
+        this.autoSort = autoSort;
+        this.allowDuplicateXValues = allowDuplicateXValues;
+    }
+
+    public boolean getAutoSort() {
+        return this.autoSort;
+    }
+
+    public boolean getAllowDuplicateXValues() {
+        return this.allowDuplicateXValues;
+    }
+
+    public int getItemCount() {
+        return this.data.size();
+    }
+
+    public java.util.List getItems() {
+        return java.util.Collections.unmodifiableList(this.data);
+    }
+
+    public int getMaximumItemCount() {
+        return this.maximumItemCount;
+    }
+
+    public void setMaximumItemCount(int maximum) {
+        this.maximumItemCount = maximum;
+        boolean dataRemoved = false;
+        while ((this.data.size()) > maximum) {
+            this.data.remove(0);
+            dataRemoved = true;
+        } 
+        if (dataRemoved) {
+            fireSeriesChanged();
+        }
+    }
+
+    public void add(org.jfree.data.xy.XYDataItem item) {
+        add(item, true);
+    }
+
+    public void add(double x, double y) {
+        add(new java.lang.Double(x), new java.lang.Double(y), true);
+    }
+
+    public void add(double x, double y, boolean notify) {
+        add(new java.lang.Double(x), new java.lang.Double(y), notify);
+    }
+
+    public void add(double x, java.lang.Number y) {
+        add(new java.lang.Double(x), y);
+    }
+
+    public void add(double x, java.lang.Number y, boolean notify) {
+        add(new java.lang.Double(x), y, notify);
+    }
+
+    public void add(java.lang.Number x, java.lang.Number y) {
+        add(x, y, true);
+    }
+
+    public void add(java.lang.Number x, java.lang.Number y, boolean notify) {
+        org.jfree.data.xy.XYDataItem item = new org.jfree.data.xy.XYDataItem(x, y);
+        add(item, notify);
+    }
+
+    public void add(org.jfree.data.xy.XYDataItem item, boolean notify) {
+        if (item == null) {
+            throw new java.lang.IllegalArgumentException("Null 'item' argument.");
+        }
+        if (this.autoSort) {
+            int index = java.util.Collections.binarySearch(this.data, item);
+            if (index < 0) {
+                this.data.add(((-index) - 1), item);
+            }else {
+                if (this.allowDuplicateXValues) {
+                    int size = this.data.size();
+                    while ((index < size) && ((item.compareTo(this.data.get(index))) == 0)) {
+                        index++;
+                    } 
+                    if (index < (this.data.size())) {
+                        this.data.add(index, item);
+                    }else {
+                        this.data.add(item);
+                    }
+                }else {
+                    throw new org.jfree.data.general.SeriesException("X-value already exists.");
+                }
+            }
+        }else {
+            if (!(this.allowDuplicateXValues)) {
+                int index = indexOf(item.getX());
+                if (index >= 0) {
+                    throw new org.jfree.data.general.SeriesException("X-value already exists.");
+                }
+            }
+            this.data.add(item);
+        }
+        if ((getItemCount()) > (this.maximumItemCount)) {
+            this.data.remove(0);
+        }
+        if (notify) {
+            fireSeriesChanged();
+        }
+    }
+
+    public void delete(int start, int end) {
+        for (int i = start; i <= end; i++) {
+            this.data.remove(start);
+        }
+        fireSeriesChanged();
+    }
+
+    public org.jfree.data.xy.XYDataItem remove(int index) {
+        org.jfree.data.xy.XYDataItem result = ((org.jfree.data.xy.XYDataItem) (this.data.remove(index)));
+        fireSeriesChanged();
+        return result;
+    }
+
+    public org.jfree.data.xy.XYDataItem remove(java.lang.Number x) {
+        return remove(indexOf(x));
+    }
+
+    public void clear() {
+        if ((this.data.size()) > 0) {
+            this.data.clear();
+            fireSeriesChanged();
+        }
+    }
+
+    public org.jfree.data.xy.XYDataItem getDataItem(int index) {
+        return ((org.jfree.data.xy.XYDataItem) (this.data.get(index)));
+    }
+
+    public java.lang.Number getX(int index) {
+        return getDataItem(index).getX();
+    }
+
+    public java.lang.Number getY(int index) {
+        return getDataItem(index).getY();
+    }
+
+    public void updateByIndex(int index, java.lang.Number y) {
+        org.jfree.data.xy.XYDataItem item = getDataItem(index);
+        item.setY(y);
+        fireSeriesChanged();
+    }
+
+    public void update(java.lang.Number x, java.lang.Number y) {
+        int index = indexOf(x);
+        if (index < 0) {
+            throw new org.jfree.data.general.SeriesException(("No observation for x = " + x));
+        }else {
+            org.jfree.data.xy.XYDataItem item = getDataItem(index);
+            item.setY(y);
+            fireSeriesChanged();
+        }
+    }
+
+    public org.jfree.data.xy.XYDataItem addOrUpdate(double x, double y) {
+        return addOrUpdate(new java.lang.Double(x), new java.lang.Double(y));
+    }
+
+    public org.jfree.data.xy.XYDataItem addOrUpdate(java.lang.Number x, java.lang.Number y) {
+        if (x == null) {
+            throw new java.lang.IllegalArgumentException("Null 'x' argument.");
+        }
+        org.jfree.data.xy.XYDataItem overwritten = null;
+        int index = indexOf(x);
+        if ((index >= 0) && (!(this.allowDuplicateXValues))) {
+            org.jfree.data.xy.XYDataItem existing = ((org.jfree.data.xy.XYDataItem) (this.data.get(index)));
+            try {
+                overwritten = ((org.jfree.data.xy.XYDataItem) (existing.clone()));
+            } catch (java.lang.CloneNotSupportedException e) {
+                throw new org.jfree.data.general.SeriesException("Couldn't clone XYDataItem!");
+            }
+            existing.setY(y);
+        }else {
+            if (this.autoSort) {
+                this.data.add(((-index) - 1), new org.jfree.data.xy.XYDataItem(x, y));
+            }else {
+                this.data.add(new org.jfree.data.xy.XYDataItem(x, y));
+            }
+            if ((getItemCount()) > (this.maximumItemCount)) {
+                this.data.remove(0);
+            }
+        }
+        fireSeriesChanged();
+        return overwritten;
+    }
+
+    public int indexOf(java.lang.Number x) {
+        if (this.autoSort) {
+            return java.util.Collections.binarySearch(this.data, new org.jfree.data.xy.XYDataItem(x, null));
+        }else {
+            for (int i = 0; i < (this.data.size()); i++) {
+                org.jfree.data.xy.XYDataItem item = ((org.jfree.data.xy.XYDataItem) (this.data.get(i)));
+                if (item.getX().equals(x)) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+    }
+
+    public double[][] toArray() {
+        int itemCount = getItemCount();
+        double[][] result = new double[2][itemCount];
+        for (int i = 0; i < itemCount; i++) {
+            result[0][i] = this.getX(i).doubleValue();
+            java.lang.Number y = getY(i);
+            if (y != null) {
+                result[1][i] = y.doubleValue();
+            }else {
+                result[1][i] = java.lang.Double.NaN;
+            }
+        }
+        return result;
+    }
+
+    public java.lang.Object clone() throws java.lang.CloneNotSupportedException {
+        org.jfree.data.xy.XYSeries clone = ((org.jfree.data.xy.XYSeries) (super.clone()));
+        clone.data = ((java.util.List) (org.jfree.chart.util.ObjectUtilities.deepClone(this.data)));
+        return clone;
+    }
+
+    public org.jfree.data.xy.XYSeries createCopy(int start, int end) throws java.lang.CloneNotSupportedException {
+        org.jfree.data.xy.XYSeries copy = ((org.jfree.data.xy.XYSeries) (super.clone()));
+        copy.data = new java.util.ArrayList();
+        if ((this.data.size()) > 0) {
+            for (int index = start; index <= end; index++) {
+                org.jfree.data.xy.XYDataItem item = ((org.jfree.data.xy.XYDataItem) (this.data.get(index)));
+                org.jfree.data.xy.XYDataItem clone = ((org.jfree.data.xy.XYDataItem) (item.clone()));
+                try {
+                    copy.add(clone);
+                } catch (org.jfree.data.general.SeriesException e) {
+                    java.lang.System.err.println("Unable to add cloned data item.");
+                }
+            }
+        }
+        return copy;
+    }
+
+    public boolean equals(java.lang.Object obj) {
+        if (obj == (this)) {
+            return true;
+        }
+        if (!(obj instanceof org.jfree.data.xy.XYSeries)) {
+            return false;
+        }
+        if (!(super.equals(obj))) {
+            return false;
+        }
+        org.jfree.data.xy.XYSeries that = ((org.jfree.data.xy.XYSeries) (obj));
+        if ((this.maximumItemCount) != (that.maximumItemCount)) {
+            return false;
+        }
+        if ((this.autoSort) != (that.autoSort)) {
+            return false;
+        }
+        if ((this.allowDuplicateXValues) != (that.allowDuplicateXValues)) {
+            return false;
+        }
+        if (!(org.jfree.chart.util.ObjectUtilities.equal(this.data, that.data))) {
+            return false;
+        }
+        return true;
+    }
+
+    public int hashCode() {
+        int result = super.hashCode();
+        int count = getItemCount();
+        if (count > 0) {
+            org.jfree.data.xy.XYDataItem item = getDataItem(0);
+            result = (29 * result) + (item.hashCode());
+        }
+        if (count > 1) {
+            org.jfree.data.xy.XYDataItem item = getDataItem((count - 1));
+            result = (29 * result) + (item.hashCode());
+        }
+        if (count > 2) {
+            org.jfree.data.xy.XYDataItem item = getDataItem((count / 2));
+            result = (29 * result) + (item.hashCode());
+        }
+        result = (29 * result) + (this.maximumItemCount);
+        result = (29 * result) + (this.autoSort ? 1 : 0);
+        result = (29 * result) + (this.allowDuplicateXValues ? 1 : 0);
+        return result;
+    }
+}
+03:26:40.111 [pool-2-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.data.xy.XYSeries:564 which is executed by 4 tests
+03:26:40.392 [pool-12-thread-1] DEBUG f.i.l.r.n.s.ConstraintModelBuilder - Failing test(s): SourceLocation org.jfree.data.xy.XYSeries:564
+[testBug1955483(org.jfree.data.xy.junit.XYSeriesTests)]
+03:26:40.392 [pool-12-thread-1] DEBUG tests.output - First set: 
+[testBug1955483(org.jfree.data.xy.junit.XYSeriesTests): Index: -1, Size: 1]
+03:26:40.392 [pool-12-thread-1] DEBUG tests.output - Second set: 
+[testBug1955483(org.jfree.data.xy.junit.XYSeriesTests): Index: 0, Size: 0]
+03:26:40.392 [pool-12-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.data.xy.XYSeries:564.
+03:26:40.393 [pool-2-thread-1] DEBUG fr.inria.lille.repair.nopol.NoPol - Analysing SourceLocation org.jfree.data.xy.XYSeries:563 which is executed by 6 tests
+03:26:40.627 [pool-16-thread-1] DEBUG f.i.l.r.n.s.ConstraintModelBuilder - Failing test(s): SourceLocation org.jfree.data.xy.XYSeries:563
+[testBug1955483(org.jfree.data.xy.junit.XYSeriesTests)]
+03:26:40.627 [pool-16-thread-1] DEBUG tests.output - First set: 
+[testBug1955483(org.jfree.data.xy.junit.XYSeriesTests): Index: 0, Size: 0]
+03:26:40.627 [pool-16-thread-1] DEBUG tests.output - Second set: 
+[testBug1955483(org.jfree.data.xy.junit.XYSeriesTests): Index: -1, Size: 1]
+03:26:40.627 [pool-16-thread-1] INFO  f.i.l.r.n.synth.SMTNopolSynthesizer - Not enough specifications: 0. A trivial patch is "true" or "false", please write new tests specifying SourceLocation org.jfree.data.xy.XYSeries:563.
+03:26:40.759 [pool-38-thread-1] WARN  f.i.l.c.t.SpecificationTestCasesListener - You have redundant tests: same input and same outcome, only one will be used to speed-up synthesis: discarded inputs={overwritten!=null=false, org.jfree.data.xy.XYSeries.this.allowDuplicateXValues=true, x=1.0, org.jfree.data.xy.XYSeries.this.data!=null=true, index=-1, y=1.0, org.jfree.data.xy.XYSeries.this.maximumItemCount=2147483647, org.jfree.data.xy.XYSeries.this.data.size()=0, org.jfree.data.xy.XYSeries.this.autoSort=false, org.jfree.data.xy.XYSeries.this.data.isEmpty()=true} : output=false.
+03:26:40.759 [pool-38-thread-1] WARN  f.i.l.c.t.SpecificationTestCasesListener - You have redundant tests: same input and same outcome, only one will be used to speed-up synthesis: discarded inputs={overwritten!=null=false, org.jfree.data.xy.XYSeries.this.allowDuplicateXValues=true, x=1.0, org.jfree.data.xy.XYSeries.this.data!=null=true, index=0, y=2.0, org.jfree.data.xy.XYSeries.this.maximumItemCount=2147483647, org.jfree.data.xy.XYSeries.this.data.size()=1, org.jfree.data.xy.XYSeries.this.autoSort=false, org.jfree.data.xy.XYSeries.this.data.isEmpty()=false} : output=false.
+03:26:40.759 [pool-38-thread-1] WARN  f.i.l.c.t.SpecificationTestCasesListener - You have redundant tests: same input and same outcome, only one will be used to speed-up synthesis: discarded inputs={overwritten!=null=false, org.jfree.data.xy.XYSeries.this.allowDuplicateXValues=true, x=1.0, org.jfree.data.xy.XYSeries.this.data!=null=true, index=0, y=3.0, org.jfree.data.xy.XYSeries.this.maximumItemCount=2147483647, org.jfree.data.xy.XYSeries.this.data.size()=2, org.jfree.data.xy.XYSeries.this.autoSort=false, org.jfree.data.xy.XYSeries.this.data.isEmpty()=false} : output=false.
+03:26:40.891 [pool-20-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Specifications:
+collected data: {overwritten!=null=false, org.jfree.data.xy.XYSeries.this.allowDuplicateXValues=true, x=1.0, org.jfree.data.xy.XYSeries.this.data!=null=true, index=0, y=2.0, org.jfree.data.xy.XYSeries.this.maximumItemCount=2147483647, org.jfree.data.xy.XYSeries.this.data.size()=1, org.jfree.data.xy.XYSeries.this.autoSort=false, org.jfree.data.xy.XYSeries.this.data.isEmpty()=false}. outcome: false
+collected data: {overwritten!=null=false, org.jfree.data.xy.XYSeries.this.allowDuplicateXValues=true, x=1.0, org.jfree.data.xy.XYSeries.this.data!=null=true, index=0, y=3.0, org.jfree.data.xy.XYSeries.this.maximumItemCount=2147483647, org.jfree.data.xy.XYSeries.this.data.size()=2, org.jfree.data.xy.XYSeries.this.autoSort=false, org.jfree.data.xy.XYSeries.this.data.isEmpty()=false}. outcome: false
+collected data: {overwritten!=null=false, org.jfree.data.xy.XYSeries.this.allowDuplicateXValues=true, x=1.0, org.jfree.data.xy.XYSeries.this.data!=null=true, index=-1, y=1.0, org.jfree.data.xy.XYSeries.this.maximumItemCount=2147483647, org.jfree.data.xy.XYSeries.this.data.size()=0, org.jfree.data.xy.XYSeries.this.autoSort=false, org.jfree.data.xy.XYSeries.this.data.isEmpty()=true}. outcome: false
+collected data: {overwritten!=null=false, org.jfree.data.xy.XYSeries.this.allowDuplicateXValues=true, x=1.0, org.jfree.data.xy.XYSeries.this.data!=null=true, index=-1, y=1.0, org.jfree.data.xy.XYSeries.this.maximumItemCount=2147483647, org.jfree.data.xy.XYSeries.this.data.size()=0, org.jfree.data.xy.XYSeries.this.autoSort=true, org.jfree.data.xy.XYSeries.this.data.isEmpty()=true}. outcome: false
+collected data: {overwritten!=null=false, org.jfree.data.xy.XYSeries.this.allowDuplicateXValues=true, x=1.0, org.jfree.data.xy.XYSeries.this.data!=null=true, index=0, y=2.0, org.jfree.data.xy.XYSeries.this.maximumItemCount=2147483647, org.jfree.data.xy.XYSeries.this.data.size()=1, org.jfree.data.xy.XYSeries.this.autoSort=true, org.jfree.data.xy.XYSeries.this.data.isEmpty()=false}. outcome: false
+03:26:40.892 [pool-20-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Operators:
+03:26:40.904 [pool-20-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - SMTLib Script:
+(set-option :produce-models true)
+(set-logic AUFNIRA)
+(declare-fun L@out () Int)
+(define-fun Acyclicity () Bool true)
+(define-fun Consistency () Bool true)
+(define-fun LineBound ((L@out Int)) Bool (or (= 0 L@out) (= 4 L@out) (= 9 L@out) (= 13 L@out) (= 14 L@out)))
+(define-fun WellFormedProgram ((L@out Int)) Bool (and Acyclicity Consistency (LineBound L@out)))
+(define-fun Connectivity ((L@out Int)(in<0> Bool)(in<1> Real)(in<2> Real)(in<3> Real)(in<4> Bool)(in<5> Real)(in<6> Real)(in<7> Real)(in<8> Real)(in<9> Bool)(in<10> Real)(in<11> Real)(in<12> Real)(in<13> Bool)(in<14> Bool)(out Bool)) Bool (and (=> (= L@out 0) (= out in<0>)) (=> (= L@out 4) (= out in<4>)) (=> (= L@out 9) (= out in<9>)) (=> (= L@out 13) (= out in<13>)) (=> (= L@out 14) (= out in<14>))))
+(define-fun Library () Bool true)
+(define-fun Verification ((L@out Int)(in<0> Bool)(in<1> Real)(in<2> Real)(in<3> Real)(in<4> Bool)(in<5> Real)(in<6> Real)(in<7> Real)(in<8> Real)(in<9> Bool)(in<10> Real)(in<11> Real)(in<12> Real)(in<13> Bool)(in<14> Bool)(out Bool)) Bool (and (Connectivity L@out in<0> in<1> in<2> in<3> in<4> in<5> in<6> in<7> in<8> in<9> in<10> in<11> in<12> in<13> in<14> out) Library))
+(assert (Verification L@out true (- 1.0) 29.0 0.0 false 0.0 1.0 2.0 1.0 true 2.0 2147483647.0 1.0 false false false))
+(assert (Verification L@out true (- 1.0) 29.0 0.0 false 0.0 1.0 2.0 1.0 true 3.0 2147483647.0 2.0 false false false))
+(assert (Verification L@out true (- 1.0) 29.0 (- 1.0) false 0.0 1.0 2.0 1.0 true 1.0 2147483647.0 0.0 false true false))
+(assert (Verification L@out true (- 1.0) 29.0 (- 1.0) false 0.0 1.0 2.0 1.0 true 1.0 2147483647.0 0.0 true true false))
+(assert (Verification L@out true (- 1.0) 29.0 0.0 false 0.0 1.0 2.0 1.0 true 2.0 2147483647.0 1.0 true false false))
+(assert (WellFormedProgram L@out))
+03:26:40.915 [pool-20-thread-1] DEBUG f.i.l.c.s.ConstraintBasedSynthesis - Successful code synthesis: overwritten!=null
+03:26:40.915 [pool-20-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Applying patch: org.jfree.data.xy.XYSeries:563: CONDITIONAL overwritten!=null
+03:26:41.011 [pool-20-thread-1] INFO  f.i.l.repair.nopol.patch.TestPatch - Running test suite to check the patch "overwritten!=null" is working
+03:26:41.021 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----INFORMATION----
+03:26:41.210 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb classes : 596
+03:26:41.211 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb methods : 6707
+03:26:41.211 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements Analyzed : 5
+03:26:41.211 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb Statements with Angelic Value Found : 1
+03:26:41.211 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb inputs in SMT : 5
+03:26:41.211 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT level: 1
+03:26:41.211 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb SMT components: [0] []
+03:26:41.211 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - Nb variables in SMT : 17
+03:26:41.211 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - NoPol Execution time : 17699ms
+03:26:41.211 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - ----PATCH FOUND----
+03:26:41.211 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - overwritten!=null
+03:26:41.211 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - org.jfree.data.xy.XYSeries:563: CONDITIONAL
+03:26:41.222 [pool-2-thread-1] INFO  fr.inria.lille.repair.nopol.NoPol - --- /home/dehengyang/environment/test/defects4j-dale/buggyPrograms/NopolRepairPrograms/Chart/Chart_5/source/org/jfree/data/xy/XYSeries.java
++++ /home/dehengyang/environment/test/defects4j-dale/buggyPrograms/NopolRepairPrograms/Chart/Chart_5/source/org/jfree/data/xy/XYSeries.java
+@@ -562,3 +562,3 @@
+             // append the value to the list...
+-            if (this.autoSort) {
++            if (overwritten!=null) {
+                 this.data.add(-index - 1, new XYDataItem(x, y));
+
+PATCH

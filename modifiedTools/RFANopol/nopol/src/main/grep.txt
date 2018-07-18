@@ -1,0 +1,14 @@
+grep:3:grep -rn "nopolProcessors" * > grep.txt
+grep~:3:nopolProcessors
+java/fr/inria/lille/repair/nopol/NoPol.java:308:		final List<NopolProcessor> nopolProcessors = builder.getNopolProcessors();
+java/fr/inria/lille/repair/nopol/NoPol.java:309:		for (NopolProcessor nopolProcessor : nopolProcessors) {
+java/fr/inria/lille/repair/nopol/spoon/NopolProcessorBuilder.java:30:    private List<NopolProcessor> nopolProcessors;
+java/fr/inria/lille/repair/nopol/spoon/NopolProcessorBuilder.java:38:        this.nopolProcessors = new ArrayList<>();
+java/fr/inria/lille/repair/nopol/spoon/NopolProcessorBuilder.java:42:        return nopolProcessors;
+java/fr/inria/lille/repair/nopol/spoon/NopolProcessorBuilder.java:62:                nopolProcessors.add(new ConditionalReplacer(statement));
+java/fr/inria/lille/repair/nopol/spoon/NopolProcessorBuilder.java:64:                nopolProcessors.add(new SymbolicConditionalReplacer(statement));
+java/fr/inria/lille/repair/nopol/spoon/NopolProcessorBuilder.java:72:                nopolProcessors.add(new ConditionalAdder(statement));
+java/fr/inria/lille/repair/nopol/spoon/NopolProcessorBuilder.java:74:                nopolProcessors.add(new SymbolicConditionalAdder(statement));
+java/fr/inria/lille/repair/nopol/spoon/NopolProcessorBuilder.java:82:            nopolProcessors.add(new LiteralReplacer(typeToAnalyse.getType(), statement, typeToAnalyse));
+java/fr/inria/lille/repair/nopol/NoPol.java~:308:		final List<NopolProcessor> nopolProcessors = builder.getNopolProcessors();
+java/fr/inria/lille/repair/nopol/NoPol.java~:309:		for (NopolProcessor nopolProcessor : nopolProcessors) {

@@ -1,0 +1,12 @@
+grep:5:grep -rn "processCreatedVariant" * > grepAll.txt
+main/java/fr/inria/astor/approaches/exhaustive/ExhaustiveAstorEngine.java:85:					boolean solution = processCreatedVariant(solutionVariant, generationsExecuted);
+main/java/fr/inria/astor/core/loop/AstorCoreEngine.java:262:			boolean solution = processCreatedVariant(newVariant, generation);
+main/java/fr/inria/astor/core/loop/AstorCoreEngine.java:399:	public boolean processCreatedVariant(ProgramVariant programVariant, int generation) throws Exception {
+main/java/fr/inria/astor/core/loop/AstorCoreEngine.java~:262:			boolean solution = processCreatedVariant(newVariant, generation);
+main/java/fr/inria/astor/core/loop/AstorCoreEngine.java~:399:	public boolean processCreatedVariant(ProgramVariant programVariant, int generation) throws Exception {
+main/java/fr/inria/astor/core/loop/ExhaustiveSearchEngine.java:93:					boolean solution = processCreatedVariant(solutionVariant, generationsExecuted);
+main/java/fr/inria/astor/core/loop/ExhaustiveSearchEngine.java~:87:					boolean solution = processCreatedVariant(solutionVariant, generationsExecuted);
+test/java/fr/inria/astor/test/repair/evaluation/PatchValidationTest.java:91:		isSolution = astor.processCreatedVariant(variant, currentGeneration);
+test/java/fr/inria/astor/test/repair/evaluation/PatchValidationTest.java:100:		isSolution = astor.processCreatedVariant(variant, currentGeneration);
+test/java/fr/inria/astor/test/repair/evaluation/PatchValidationTest.java:168:		isSolution = astor.processCreatedVariant(variant, currentGeneration);
+test/java/fr/inria/astor/test/repair/evaluation/EvoSuiteGenerationTest.java:199:		main1.getEngine().processCreatedVariant(variant, 1);

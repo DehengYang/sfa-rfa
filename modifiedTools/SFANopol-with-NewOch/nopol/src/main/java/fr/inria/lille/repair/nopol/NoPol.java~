@@ -1,0 +1,650 @@
+/*
+ * Copyright (C) 2013 INRIA
+ *
+ * This software is governed by the CeCILL-C License under French law and
+ * abiding by the rules of distribution of free software. You can use, modify
+ * and/or redistribute the software under the terms of the CeCILL-C license as
+ * circulated by CEA, CNRS and INRIA at http://www.cecill.info.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ * FITNESS FOR A PARTICULAR PURPOSE. See the CeCILL-C License for more details.
+ *
+ * The fact that you are presently reading this means that you have had
+ * knowledge of the CeCILL-C license and that you accept its terms.
+ */
+package fr.inria.lille.repair.nopol;
+
+import com.gzoltar.core.components.Statement;
+import fr.inria.lille.commons.spoon.SpoonedClass;
+import fr.inria.lille.commons.spoon.SpoonedFile;
+import fr.inria.lille.commons.spoon.SpoonedProject;
+import fr.inria.lille.commons.synthesis.ConstraintBasedSynthesis;
+import fr.inria.lille.commons.synthesis.operator.Operator;
+import fr.inria.lille.commons.trace.RuntimeValues;
+import fr.inria.lille.localization.DumbFaultLocalizerImpl;
+import fr.inria.lille.localization.FaultLocalizer;
+import fr.inria.lille.localization.GZoltarFaultLocalizer;
+import fr.inria.lille.localization.OchiaiFaultLocalizer;
+import fr.inria.lille.localization.TestResult;
+import fr.inria.lille.repair.common.finder.TestClassesFinder;
+import fr.inria.lille.repair.common.config.NopolContext;
+import fr.inria.lille.repair.common.patch.Patch;
+import fr.inria.lille.repair.common.synth.StatementType;
+import fr.inria.lille.repair.nopol.patch.TestPatch;
+import fr.inria.lille.repair.nopol.spoon.ConditionalLoggingInstrumenter;
+import fr.inria.lille.repair.nopol.spoon.NopolProcessor;
+import fr.inria.lille.repair.nopol.spoon.NopolProcessorBuilder;
+import fr.inria.lille.repair.nopol.spoon.symbolic.AssertReplacer;
+import fr.inria.lille.repair.nopol.spoon.symbolic.TestExecutorProcessor;
+import fr.inria.lille.repair.nopol.synth.*;
+import org.apache.commons.io.FileUtils;
+import org.json.JSONObject;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import spoon.processing.Processor;
+import spoon.reflect.code.CtStatement;
+import spoon.reflect.cu.SourcePosition;
+import spoon.reflect.declaration.CtClass;
+import spoon.reflect.declaration.CtType;
+import xxl.java.compiler.DynamicCompilationException;
+import xxl.java.junit.TestCase;
+import xxl.java.junit.TestCasesListener;
+import xxl.java.junit.TestSuiteExecution;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.net.URL;
+import java.net.URLClassLoader;
+import java.util.*;
+import java.util.concurrent.*;
+
+/**
+ * @author Favio D. DeMarco
+ */
+public class NoPol {
+
+	private FaultLocalizer localizer;
+
+	public static Statement currentStatement;
+	private URL[] classpath;
+	private final TestPatch testPatch;
+	private final Logger logger = LoggerFactory.getLogger(this.getClass());
+	private final SpoonedProject spooner;
+	private final File[] sourceFiles;
+	private String[] testClasses;
+	public long startTime;
+	private NopolContext nopolContext;
+	private NopolResult nopolResult;
+
+	private static int repairTimes = 0;  // added by dehengyang
+	private static int selected = -1;  // added by dehengyang testResults/
+	public static String infoTXTPath="./testResults/info.txt";
+	public long startTime2;
+
+
+
+	public NoPol(NopolContext nopolContext) {
+		this.startTime = System.currentTimeMillis();
+		this.nopolContext = nopolContext;
+		this.classpath = nopolContext.getProjectClasspath();
+		this.sourceFiles = nopolContext.getProjectSources();
+		this.nopolResult = new NopolResult(nopolContext);
+
+		StatementType type = nopolContext.getType();
+		logger.info("Source files: " + Arrays.toString(sourceFiles));
+		logger.info("Classpath: " + Arrays.toString(classpath));
+		logger.info("Statement type: " + type);
+		logger.info("Args: " + Arrays.toString(nopolContext.getProjectTests()));
+		logger.info("Config: " + nopolContext);
+		this.logSystemInformation();
+
+		this.spooner = new SpoonedProject(this.sourceFiles, nopolContext);
+		this.testClasses = nopolContext.getProjectTests();
+		this.testPatch = new TestPatch(this.sourceFiles[0], this.spooner, nopolContext);
+		//deheng yang try to figure out nopolContext.isSkipRegressionStep()
+		//System.out.println("dehengyang print nopolcontext isSkip info: "+ nopolContext.isSkipRegressionStep());
+	}
+
+	/**
+	 * This getter should only be used after an error on build() method (e.g. after a timeout), to get a partial result informations.
+	 * @return
+	 */
+	public NopolResult getNopolResult() {
+		return nopolResult;
+	}
+
+	public NopolResult build() {
+		if (this.testClasses == null) {
+			this.testClasses = new TestClassesFinder().findIn(classpath, false);
+		}
+
+		this.localizer = this.createLocalizer();
+
+		nopolResult.setNbTests(this.testClasses.length);
+		if (nopolContext.getOracle() == NopolContext.NopolOracle.SYMBOLIC) {
+			try {
+				SpoonedProject jpfSpoon = new SpoonedProject(this.sourceFiles, nopolContext);
+				String mainClass = "nopol.repair.NopolTestRunner";
+				TestExecutorProcessor.createMainTestClass(jpfSpoon, mainClass);
+				jpfSpoon.process(new AssertReplacer());
+
+				final File outputSourceFile = new File("src-gen");
+				final File outputCompiledFile = new File("target-gen");
+				// generate the output file
+				jpfSpoon.generateOutputFile(outputSourceFile);
+				jpfSpoon.generateOutputCompiledFile(outputCompiledFile);
+			} catch (IOException e) {
+				throw new RuntimeException("Unable to write transformed test", e);
+			}
+		}
+		Map<SourceLocation, List<TestResult>> testListPerStatement = this.localizer.getTestListPerStatement();
+
+		this.nopolResult.setNbStatements(testListPerStatement.keySet().size());
+
+		this.startTime2 = System.currentTimeMillis();    //added by dehengyang
+
+		solveWithMultipleBuild(testListPerStatement);
+
+		//added by dehengyang: just to record time to file.		
+		try{	
+			//System.out.println("dale print this infomation:"+System.getProperty("user.dir"));
+			FileWriter infoWriter = new FileWriter(infoTXTPath,true);
+			infoWriter.write("\nrepairTime\n" + (System.currentTimeMillis()-this.startTime) + "   " + (System.currentTimeMillis()-this.startTime2) );
+			infoWriter.close(); 
+		}catch (IOException e) {
+	            e.printStackTrace();
+	        }
+
+		this.logResultInfo(this.nopolResult.getPatches());
+
+		this.nopolResult.setDurationInMilliseconds(System.currentTimeMillis()-this.startTime);
+
+		NopolStatus status;
+		if (nopolResult.getPatches().size() > 0) {
+			status = NopolStatus.PATCH;
+		} else {
+			if (nopolResult.getNbAngelicValues() == 0) {
+				status = NopolStatus.NO_ANGELIC_VALUE;
+			} else {
+				status = NopolStatus.NO_SYNTHESIS;
+			}
+		}
+
+		nopolResult.setNopolStatus(status);
+
+		return this.nopolResult;
+	}
+
+	private FaultLocalizer createLocalizer() {
+		switch (this.nopolContext.getLocalizer()) {
+			case GZOLTAR:
+				try {
+					return new GZoltarFaultLocalizer(this.nopolContext);
+				} catch (IOException e) {
+					throw new RuntimeException(e);
+				}
+			case DUMB:
+				return new DumbFaultLocalizerImpl(this.nopolContext);
+			case OCHIAI:
+			default:
+				return new OchiaiFaultLocalizer(this.nopolContext);
+		}
+	}
+
+	/*
+	 * First algorithm of Nopol,
+	 * build the initial model
+	 * apply only one modification
+	 * build
+	 * try to find patch
+	 
+	private void solveWithMultipleBuild(Map<SourceLocation, List<TestResult>> testListPerStatement) {
+		//test Dale
+		File directory = new File(".."); 
+		
+		try   
+		{ 
+			System.out.println("the test dir: " + directory.getCanonicalPath()); //得到的是C:/test 
+			System.out.println("\n\n"+System.getProperty("user.dir"));
+		}
+		catch (Exception e)   
+		{  
+		    // TODO: handle exception  
+		} 
+		
+		for (SourceLocation sourceLocation : testListPerStatement.keySet()) {
+			runOnStatement(sourceLocation, testListPerStatement.get(sourceLocation));
+			if (nopolContext.isOnlyOneSynthesisResult() && !this.nopolResult.getPatches().isEmpty()) {
+				return;
+			}
+		}
+	}
+*/
+	private void solveWithMultipleBuild(Map<SourceLocation, List<TestResult>> testListPerStatement) {
+		//added by dehengyang to output info to suspiciousInfo.txt
+		int count=0;
+		long startT;	
+		long endT;		
+		try{	
+			FileWriter infoWriter = new FileWriter(infoTXTPath,true);
+			infoWriter.write("\n\ninfoWriter is built \n");
+			infoWriter.write("the localizer used for this project is :"  + this.nopolContext.getLocalizer()+"\n\n");
+			infoWriter.write("the size of suspicious statements: " + String.valueOf(testListPerStatement.keySet().size())+"\n\n");
+			
+			//File directory = new File(".."); 
+			//infoWriter.write("the test dir: " + directory.getCanonicalPath());
+			//infoWriter.write("\n\n"+System.getProperty("user.dir"));
+
+			infoWriter.flush();
+		
+			List<SourceLocation> listSourceLocation = new ArrayList<>();
+			for (SourceLocation sourceLocation : testListPerStatement.keySet()) {
+				if(sourceLocation.getSuspiciousValue()>0){
+					listSourceLocation.add(sourceLocation);
+				}
+			}
+			startT = System.currentTimeMillis();
+			int listSize=listSourceLocation.size();
+			for(int tmp=(int)Math.ceil((double)listSize*(double)0.4);tmp<listSize;tmp++){
+				listSourceLocation.get(tmp).setSuspiciousValue(0);
+				//SourceLocation sl = listSourceLocation.get(tmp);
+				//if(sl.getSuspiciousValue()>0){
+				////if(1>0){
+				//	infoWriter.write(tmp + "th statement:" + sl.getContainingClassName() + " : "+sl.getLineNumber()+"     "+ sl.getSuspiciousValue()+  "  ef & ep & nf & np " + sl.getEf() + "   " + sl.getEp() + "   " + sl.getNf() +  "   " + sl.getNp() + "\n\n");
+				//	infoWriter.flush();
+				//}else{
+				//	listSourceLocation.get(tmp).setSuspiciousValue(0);
+				//}//to turn the <0 value to 0 for the sake of SFA
+			}
+
+
+			for(int tmp=0;tmp<listSize;tmp++){
+				SourceLocation sl = listSourceLocation.get(tmp);
+				infoWriter.write(tmp + "th statement:" + sl.getContainingClassName() + " : "+sl.getLineNumber()+"     "+ sl.getSuspiciousValue()+  "  ef & ep & nf & np " + sl.getEf() + "   " + sl.getEp() + "   " + sl.getNf() +  "   " + sl.getNp() + "\n\n");
+				infoWriter.flush();
+			}	
+
+
+			endT = System.currentTimeMillis();
+			infoWriter.write("\n\n\n\n\nThe time of saving all suspicious statements is: "+ (endT-startT) + "\n\n\n\n\n" );
+			infoWriter.write("################### print all suspicious statements end #######################");
+			infoWriter.flush();
+			
+			//return;
+			for (SourceLocation sourceLocation : testListPerStatement.keySet()) {
+
+
+				//System.out.println("start to randomly choose!!!  ");
+				infoWriter.write("\n\nthe size of suspicious statements: " + String.valueOf(listSourceLocation.size())+"\n\n");
+				infoWriter.flush();
+
+				startT = System.currentTimeMillis();
+				
+				SourceLocation sourceChosen = randomChosen(listSourceLocation);
+				
+				endT = System.currentTimeMillis();				
+
+				if(sourceChosen==null){
+					infoWriter.write("=====================The repair failed. The sourceChosen is NULL!============\n\n");
+					System.out.println("=====================The repair failed. The sourceChosen is NULL!============\n\n");
+					infoWriter.close();
+					return;
+				}
+				infoWriter.write("the susList size is: " + listSourceLocation.size());
+				infoWriter.write("the select time is: " + (endT- startT) + " the selected satemenet is :" + selected + "\n" );
+				infoWriter.write(count++ + "th suspicious statement: \n" + sourceChosen.getContainingClassName() + " : "  + sourceChosen.getLineNumber() + "\n  suspiciousValue:  " + String.valueOf(sourceChosen.getSuspiciousValue()) +"\n"); 
+				infoWriter.flush();
+
+				startT = System.currentTimeMillis();
+				runOnStatement(sourceChosen, testListPerStatement.get(sourceChosen));
+				endT = System.currentTimeMillis();	
+				infoWriter.write("the run statemment time is: " + (endT- startT) + "\n");
+				infoWriter.flush();
+
+				repairTimes++;
+				
+				if (nopolContext.isOnlyOneSynthesisResult() && !this.nopolResult.getPatches().isEmpty()) {
+					infoWriter.write("======================find patch=====================\n");
+			    		infoWriter.write("repairTimes\n" + repairTimes + "\n ");					
+					infoWriter.close();
+					return;
+				}
+			}
+			infoWriter.close();
+		}catch (IOException e) {
+	            e.printStackTrace();
+	        }
+	}
+
+	// Roulette Wheel Selection algorithm ( added by dehengyang)
+	private SourceLocation randomChosen(List<SourceLocation> listSourceLocation){
+		double sum = 0;
+		int i;
+		int size = listSourceLocation.size();
+		double[] suspicious = new double[size];
+		
+		for( i=0;i<size;i++){
+			sum += listSourceLocation.get(i).getSuspiciousValue();
+			suspicious[i]=listSourceLocation.get(i).getSuspiciousValue();
+		}
+		
+		Random random = new Random(); //测试点1，有无种子是否有影响。   测试点2，Math.random在哪个包
+		double selection = random.nextDouble();
+		double tmpSum=0;	
+		for(i=0;i<size;i++){
+			tmpSum += (suspicious[i]/sum);
+			if(selection < tmpSum){   // wiki上说没有等号。。不过这都是细节，基本不会对算法造成影响
+				/*				
+				try{	
+					FileWriter infoWriter = new FileWriter(infoTXTPath,true);
+					infoWriter.write("\nthe tmpSum: " + tmpSum+" " + "the sum: " + sum + "\n");
+					infoWriter.close(); 
+				}catch (IOException e) {
+				    e.printStackTrace();
+				}
+				*/
+				SourceLocation targetSourceLocation = listSourceLocation.get(i);
+				selected=i;
+				listSourceLocation.remove(i);//在list中删除被选中的元素，便于下次随机选中
+				return targetSourceLocation;
+			}
+		}
+
+		try{	
+			FileWriter infoWriter = new FileWriter(infoTXTPath,true);
+			infoWriter.write("\n selection is " + selection +" tmpSum is : "  + tmpSum + "\n");
+			infoWriter.close(); 
+		}catch (IOException e) {
+	            e.printStackTrace();
+	        }
+		System.out.println(" Error occured in Roulette Wheel Selection. (logged by dehengyang) ");
+		return null;
+	}
+
+
+	private void runOnStatement(SourceLocation sourceLocation, List<TestResult> tests) {
+		logger.debug("Analysing {} which is executed by {} tests", sourceLocation, tests.size());
+		SpoonedClass spoonCl = spooner.forked(sourceLocation.getRootClassName());
+		if (spoonCl == null || spoonCl.getSimpleType() == null) {
+			return;
+		}
+		NopolProcessorBuilder builder = new NopolProcessorBuilder(spoonCl.getSimpleType().getPosition().getFile(), sourceLocation.getLineNumber(), nopolContext);
+		try {
+			spoonCl.process(builder);
+		} catch (DynamicCompilationException ignored) {
+			logger.debug("Aborting: dynamic compilation failed");
+			return;
+		}
+
+		final List<NopolProcessor> nopolProcessors = builder.getNopolProcessors();
+		for (NopolProcessor nopolProcessor : nopolProcessors) {
+			SourcePosition position = nopolProcessor.getTarget().getPosition();
+			sourceLocation.setSourceStart(position.getSourceStart());
+			sourceLocation.setSourceEnd(position.getSourceEnd());
+
+			List<Patch> patches = executeNopolProcessor(tests, sourceLocation, spoonCl, nopolProcessor);
+			this.nopolResult.addPatches(patches);
+
+			if (nopolContext.isOnlyOneSynthesisResult() && !patches.isEmpty()) {
+				return;
+			}
+		}
+	}
+
+	/**
+	 * Method used as proxy for runNopolProcessor to handle timeout
+	 */
+	private List<Patch> executeNopolProcessor(final List<TestResult> tests, final SourceLocation sourceLocation, final SpoonedClass spoonCl, final NopolProcessor nopolProcessor) {
+		final ExecutorService executor = Executors.newSingleThreadExecutor();
+		final Future nopolExecution = executor.submit(
+				new Callable() {
+					@Override
+					public Object call() throws Exception {
+						return runNopolProcessor(tests, sourceLocation, spoonCl, nopolProcessor);
+					}
+				});
+		try {
+			executor.shutdown();
+			return (List) nopolExecution.get(nopolContext.getMaxTimeEachTypeOfFixInMinutes(), TimeUnit.SECONDS);//deheng yang modify MINUTES to SECONDS
+		} catch (ExecutionException | InterruptedException | TimeoutException exception) {
+			LoggerFactory.getLogger(this.getClass()).error("Timeout: execution time > " + nopolContext.getMaxTimeEachTypeOfFixInMinutes() + " " + TimeUnit.MINUTES, exception);
+			return Collections.emptyList();
+		}
+	}
+
+	private List<Patch> runNopolProcessor(List<TestResult> tests, SourceLocation sourceLocation, SpoonedClass spoonCl, NopolProcessor nopolProcessor) {
+		AngelicValue angelicValue;
+		List<Patch> patches = new ArrayList<>();
+		try {
+			angelicValue = buildConstraintsModelBuilder(nopolProcessor, sourceLocation, spooner);
+		} catch (UnsupportedOperationException | DynamicCompilationException ignored) {
+			return patches;
+		}
+
+		if (angelicValue != null) {
+			this.nopolResult.incrementNbAngelicValues();
+		}
+
+		Synthesizer synth = SynthesizerFactory.build(sourceFiles, spooner, nopolContext, sourceLocation, nopolProcessor, angelicValue, spoonCl);
+		if (synth == Synthesizer.NO_OP_SYNTHESIZER) {
+			return patches;
+		}
+		Collection<TestCase> failingTest = reRunFailingTestCases(getFailingTestCase(tests), new URLClassLoader(classpath));
+		if (failingTest.isEmpty()) {
+			return patches;
+		}
+		List<Patch> tmpPatches = synth.buildPatch(classpath, tests, failingTest, nopolContext.getMaxTimeBuildPatch());
+
+		if (tmpPatches.size() > 0) {
+			for (int i = 0; i < tmpPatches.size(); i++) {
+				Patch patch = tmpPatches.get(i);
+				if (nopolContext.isSkipRegressionStep() || isOk(patch, tests, synth.getProcessor())) {
+					patches.add(patch);
+					if (nopolContext.isOnlyOneSynthesisResult()) {
+						return patches;
+					}
+				} else {
+					logger.debug("Could not find a patch in {}", sourceLocation);
+				}
+			}
+		}
+
+		return patches;
+	}
+
+	private AngelicValue buildConstraintsModelBuilder(NopolProcessor nopolProcessor, SourceLocation statement, SpoonedFile spoonCl) {
+		if (Boolean.class.equals(nopolContext.getType().getType())) {
+			RuntimeValues<Boolean> runtimeValuesInstance = RuntimeValues.newInstance();
+			switch (nopolContext.getOracle()) {
+				case ANGELIC:
+					Processor<CtStatement> processor = new ConditionalLoggingInstrumenter(runtimeValuesInstance, nopolProcessor);
+					return new ConstraintModelBuilder(runtimeValuesInstance, statement, processor, spooner, nopolContext);
+				case SYMBOLIC:
+					return new JPFRunner<>(runtimeValuesInstance, statement, nopolProcessor, spoonCl, spooner, nopolContext);
+			}
+		}
+		throw new UnsupportedOperationException();
+	}
+
+	private boolean isOk(Patch newRepair, List<TestResult> testClasses, NopolProcessor processor) {
+		logger.trace("Suggested patch: {}", newRepair);
+		try {
+			return testPatch.passesAllTests(newRepair, testClasses, processor);
+		} catch (DynamicCompilationException e) {
+			logger.error("Patch malformed " + newRepair.asString(), e);
+			return false;
+		}
+	}
+
+	private String[] getFailingTestCase(List<TestResult> tests) {
+		Set<String> failingClassTest = new HashSet<>();
+		for (int i = 0; i < tests.size(); i++) {
+			TestResult testResult = tests.get(i);
+			if (!testResult.isSuccessful()) {
+				failingClassTest.add(testResult.getTestCase().className());
+			}
+		}
+		return failingClassTest.toArray(new String[0]);
+	}
+
+	private Collection<TestCase> reRunFailingTestCases(String[] testClasses, ClassLoader testClassLoader) {
+		TestCasesListener listener = new TestCasesListener();
+		TestSuiteExecution.runCasesIn(testClasses, testClassLoader, listener, this.nopolContext);
+		return listener.failedTests();
+	}
+
+	public SpoonedProject getSpooner() {
+		return spooner;
+	}
+
+	public FaultLocalizer getLocalizer() {
+		return localizer;
+	}
+
+	private void logSystemInformation() {
+		this.logger.info("Available processors (cores): " + Runtime.getRuntime().availableProcessors());
+
+    	/* Total amount of free memory available to the JVM */
+		this.logger.info("Free memory: " + FileUtils.byteCountToDisplaySize(Runtime.getRuntime().freeMemory()));
+
+    	/* This will return Long.MAX_VALUE if there is no preset limit */
+		long maxMemory = Runtime.getRuntime().maxMemory();
+		/* Maximum amount of memory the JVM will attempt to use */
+		this.logger.info("Maximum memory: " +
+				(maxMemory == Long.MAX_VALUE ? "no limit" : FileUtils.byteCountToDisplaySize(maxMemory)));
+
+    	/* Total memory currently available to the JVM */
+		this.logger.info("Total memory available to JVM: " +
+				FileUtils.byteCountToDisplaySize(Runtime.getRuntime().totalMemory()));
+
+		this.logger.info("Java version: " + Runtime.class.getPackage().getImplementationVersion());
+		this.logger.info("JAVA_HOME: " + System.getenv("JAVA_HOME"));
+		this.logger.info("PATH: " + System.getenv("PATH"));
+	}
+
+	private void logResultInfo(List<Patch> patches) {
+		long durationTime = System.currentTimeMillis()-this.startTime;
+		this.logger.info("----INFORMATION----");
+		List<CtType<?>> allClasses = this.getSpooner().spoonFactory().Class().getAll();
+		int nbMethod = 0;
+		for (int i = 0; i < allClasses.size(); i++) {
+			CtType<?> ctSimpleType = allClasses.get(i);
+			if (ctSimpleType instanceof CtClass) {
+				Set methods = ((CtClass) ctSimpleType).getMethods();
+				nbMethod += methods.size();
+			}
+		}
+
+		this.logger.info("Nb classes : " + allClasses.size());
+		this.logger.info("Nb methods : " + nbMethod);
+		if (NoPol.currentStatement != null) {
+			BitSet coverage = NoPol.currentStatement.getCoverage();
+			int countStatementSuccess = 0;
+			int countStatementFailed = 0;
+			int nextTest = coverage.nextSetBit(0);
+			/*while (nextTest != -1) {
+				TestResultImpl testResult = nopol.getgZoltar().getGzoltar().getTestResults().get(nextTest);
+				if (testResult.wasSuccessful()) {
+					countStatementSuccess += testResult.getCoveredComponents().size();
+				} else {
+					countStatementFailed += testResult.getCoveredComponents().size();
+				}
+				nextTest = coverage.nextSetBit(nextTest + 1);
+			}*/
+
+			this.logger.info("Nb statement executed by the passing tests of the patched line: " + countStatementSuccess);
+			this.logger.info("Nb statement executed by the failing tests of the patched line: " + countStatementFailed);
+		}
+
+		this.logger.info("Nb Statements Analyzed : " + SynthesizerFactory.getNbStatementsAnalysed());
+		this.logger.info("Nb Statements with Angelic Value Found : " + SMTNopolSynthesizer.getNbStatementsWithAngelicValue());
+		if (nopolContext.getSynthesis() == NopolContext.NopolSynthesis.SMT) {
+			this.logger.info("Nb inputs in SMT : " + SMTNopolSynthesizer.getDataSize());
+			this.logger.info("Nb SMT level: " + ConstraintBasedSynthesis.level);
+			if (ConstraintBasedSynthesis.operators != null) {
+				this.logger.info("Nb SMT components: [" + ConstraintBasedSynthesis.operators.size() + "] " + ConstraintBasedSynthesis.operators);
+				Iterator<Operator<?>> iterator = ConstraintBasedSynthesis.operators.iterator();
+				Map<Class, Integer> mapType = new HashMap<>();
+				while (iterator.hasNext()) {
+					Operator<?> next = iterator.next();
+					if (!mapType.containsKey(next.type())) {
+						mapType.put(next.type(), 1);
+					} else {
+						mapType.put(next.type(), mapType.get(next.type()) + 1);
+					}
+				}
+				for (Iterator<Class> patchIterator = mapType.keySet().iterator(); patchIterator.hasNext(); ) {
+					Class next = patchIterator.next();
+					this.logger.info("                  " + next + ": " + mapType.get(next));
+				}
+			}
+
+			this.logger.info("Nb variables in SMT : " + SMTNopolSynthesizer.getNbVariables());
+		}
+		//this.logger.info("Nb run failing test  : " + nbFailingTestExecution);
+		//this.logger.info("Nb run passing test : " + nbPassedTestExecution);
+
+		this.logger.info("NoPol Execution time : " + durationTime + "ms");
+
+		if (patches != null && !patches.isEmpty()) {
+			this.logger.info("----PATCH FOUND----");
+			for (int i = 0; i < patches.size(); i++) {
+				Patch patch = patches.get(i);
+				this.logger.info(patch.asString());
+				//this.logger.info("Nb test that executes the patch: " + this.getLocalizer().getTestListPerStatement().get(patch.getSourceLocation()).size());
+				this.logger.info(String.format("%s:%d: %s", patch.getSourceLocation().getContainingClassName(), patch.getLineNumber(), patch.getType()));
+				String diffPatch = patch.toDiff(this.getSpooner().spoonFactory(), nopolContext);
+				this.logger.info(diffPatch);
+
+				if (nopolContext.getOutputFolder() != null) {
+					File patchLocation = new File(nopolContext.getOutputFolder() + "/patch_" + (i + 1) + ".diff");
+					try{
+						PrintWriter writer = new PrintWriter(patchLocation, "UTF-8");
+						writer.print(diffPatch);
+						writer.close();
+					} catch (IOException e) {
+						System.err.println("Unable to write the patch: " + e.getMessage());
+					}
+				}
+			}
+		}
+		if (nopolContext.isJson()) {
+			JSONObject output = new JSONObject();
+
+			output.put("nb_classes", allClasses.size());
+			output.put("nb_methods", nbMethod);
+			output.put("nbStatement", SynthesizerFactory.getNbStatementsAnalysed());
+			output.put("nbAngelicValue", SMTNopolSynthesizer.getNbStatementsWithAngelicValue());
+			//output.put("nb_failing_test", nbFailingTestExecution);
+			//output.put("nb_passing_test", nbPassedTestExecution);
+			output.put("executionTime", durationTime);
+			output.put("date", new Date());
+			if (patches != null) {
+				for (int i = 0; i < patches.size(); i++) {
+					Patch patch = patches.get(i);
+
+					JSONObject patchOutput = new JSONObject();
+
+					JSONObject locationOutput = new JSONObject();
+					locationOutput.put("class", patch.getSourceLocation().getContainingClassName());
+					locationOutput.put("line", patch.getLineNumber());
+					patchOutput.put("patchLocation", locationOutput);
+					patchOutput.put("patchType", patch.getType());
+					//patchOutput.put("nb_test_that_execute_statement", this.getLocalizer().getTestListPerStatement().get(patch.getSourceLocation()).size());
+					patchOutput.put("patch", patch.toDiff(this.getSpooner().spoonFactory(), nopolContext));
+
+					output.append("patch", patchOutput);
+				}
+			}
+
+			try (FileWriter writer = new FileWriter("output.json")) {
+				output.write(writer);
+				writer.close();
+			} catch (IOException ignore) {
+			}
+		}
+	}
+}
