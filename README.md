@@ -91,6 +91,6 @@ To get the figures and results of statistcal tests presented in our paper:
 ![The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 3 -- extended](https://github.com/DehengYang/sfa-rfa/blob/master/doc/Nopol-3-extended.png)
 
 **Statistical analysis of RQ 2:**
-![Statistical analysis of RQ 2](https://github.com/DehengYang/sfa-rfa/blob/master/doc/Statistical analysis of RQ 2.png)
+![Statistical analysis of RQ 2](https://github.com/DehengYang/sfa-rfa/blob/master/doc/Statistical%20analysis%20of%20RQ%202.png)
  
 **Any advice is welcomed.**
