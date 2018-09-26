@@ -1,0 +1,10 @@
+1     13926   1394      org.apache.commons.math.optimization.linear.SimplexTableau : 339 
+1     12860   1242      org.apache.commons.math.optimization.linear.SimplexTableau : 339 
+1     13395   1262      org.apache.commons.math.optimization.linear.SimplexTableau : 339 
+1     12739   1402      org.apache.commons.math.optimization.linear.SimplexTableau : 339 
+1     12871   1244      org.apache.commons.math.optimization.linear.SimplexTableau : 339 
+1     12874   1233      org.apache.commons.math.optimization.linear.SimplexTableau : 339 
+1     12878   1267      org.apache.commons.math.optimization.linear.SimplexTableau : 339 
+1     12911   1294      org.apache.commons.math.optimization.linear.SimplexTableau : 339 
+1     13212   1251      org.apache.commons.math.optimization.linear.SimplexTableau : 339 
+1     14614   1326      org.apache.commons.math.optimization.linear.SimplexTableau : 339 

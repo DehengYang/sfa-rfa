@@ -1,0 +1,10 @@
+606     289666   264629      org.jfree.chart.plot.XYPlot : 1607 
+606     268299   248072      org.jfree.chart.plot.XYPlot : 1607 
+606     262964   245075      org.jfree.chart.plot.XYPlot : 1607 
+606     263004   244981      org.jfree.chart.plot.XYPlot : 1607 
+606     261893   243791      org.jfree.chart.plot.XYPlot : 1607 
+606     261393   243272      org.jfree.chart.plot.XYPlot : 1607 
+606     263912   245691      org.jfree.chart.plot.XYPlot : 1607 
+606     262492   244284      org.jfree.chart.plot.XYPlot : 1607 
+606     262063   244150      org.jfree.chart.plot.XYPlot : 1607 
+606     264099   246047      org.jfree.chart.plot.XYPlot : 1607 

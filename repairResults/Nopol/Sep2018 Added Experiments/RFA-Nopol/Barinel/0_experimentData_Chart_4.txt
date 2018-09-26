@@ -1,0 +1,10 @@
+425     198106   179438      org.jfree.chart.plot.XYPlot : 1607 
+425     198700   180159      org.jfree.chart.plot.XYPlot : 1607 
+425     198534   180419      org.jfree.chart.plot.XYPlot : 1607 
+425     196969   178599      org.jfree.chart.plot.XYPlot : 1607 
+425     199368   180635      org.jfree.chart.plot.XYPlot : 1607 
+425     199125   180458      org.jfree.chart.plot.XYPlot : 1607 
+425     196370   178514      org.jfree.chart.plot.XYPlot : 1607 
+425     195506   177627      org.jfree.chart.plot.XYPlot : 1607 
+425     197677   179779      org.jfree.chart.plot.XYPlot : 1607 
+425     199154   180771      org.jfree.chart.plot.XYPlot : 1607 

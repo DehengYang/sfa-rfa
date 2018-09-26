@@ -1,0 +1,10 @@
+573     271221   231881      org.jfree.chart.plot.XYPlot : 1607 
+573     247305   229265      org.jfree.chart.plot.XYPlot : 1607 
+573     246844   228050      org.jfree.chart.plot.XYPlot : 1607 
+573     250195   231629      org.jfree.chart.plot.XYPlot : 1607 
+573     250093   231206      org.jfree.chart.plot.XYPlot : 1607 
+573     248098   229986      org.jfree.chart.plot.XYPlot : 1607 
+573     252341   234325      org.jfree.chart.plot.XYPlot : 1607 
+573     247588   229487      org.jfree.chart.plot.XYPlot : 1607 
+573     249181   230851      org.jfree.chart.plot.XYPlot : 1607 
+573     255383   237233      org.jfree.chart.plot.XYPlot : 1607 
