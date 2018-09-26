@@ -58,6 +58,10 @@ If you want to run RFA-based jKali or jMutRepair, you should do following steps:
 1) Modify ```ExhaustiveSearchEngine.java```: comment the line ```ModificationPoint modifPoint=randomChosen(modifPoints1); //SFA``` and uncomment the line ```ModificationPoint modifPoint=modifPoint0; //RFA```;
 2) Run ```kaliRun``` or ```mutRepairRun```.
 
+
+## 1.3 For SFA-based and RFA-based SimFix
+For SimFix, the RFA-simfix.jar and SFA-simfix.jar are available. Therefore you can run `RFA-run.sh` and `SFA-run.sh` to replicate the experiments of RFA-based and SFA-based SimFix, respectively.
+
 # 2.The Result Data of NCP and Patch Diversity
 ### Introduction
 In our experiment, we obtained 36 versions of repair tools (6 SFl * 2 statement selecting strategies * 3 repair tools = 36 versions of repair tools). And then run 100 independent repeated repair trials on each benchmark program. The total time cost is up to one and a half month.
@@ -70,13 +74,18 @@ To get the figures and results of statistcal tests presented in our paper:
 2) Open the folder "Astor/jKali", and run ```runAll.m```;
 2) Open the folder "Astor/jMutRepair", and run ```runAll.m```;
 
+### The Figures of our experiments
+**The NCP distributions of SFA-based and RFA-based jKali**
 ![The NCP distributions of SFA-based jKali and RFA-based jKali](https://github.com/DehengYang/sfa-rfa/blob/master/doc/jKali.png)
 
-
+**The NCP distributions of SFA-based and RFA-based jMutRepair**
 ![The NCP distributions of SFA-based jMutRepair and RFA-based jMutRepair](https://github.com/DehengYang/sfa-rfa/blob/master/doc/jMutRepair.png)
 
+**The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 1:**
 ![The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 1](https://github.com/DehengYang/sfa-rfa/blob/master/doc/Nopol-1.png)
 
+**The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 2:**
 ![The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 2](https://github.com/DehengYang/sfa-rfa/blob/master/doc/Nopol-2.png)
 
+**The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 3 -- extended:**
 ![The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 3 -- extended](https://github.com/DehengYang/sfa-rfa/blob/master/doc/Nopol-3-extended.png)
