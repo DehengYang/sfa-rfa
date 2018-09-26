@@ -69,3 +69,14 @@ To get the figures and results of statistcal tests presented in our paper:
 1) Open the folder "Nopol", and run ```runAll.m``` and ```strategy2RunCompare.m``` respectively;
 2) Open the folder "Astor/jKali", and run ```runAll.m```;
 2) Open the folder "Astor/jMutRepair", and run ```runAll.m```;
+
+![The NCP distributions of SFA-based jKali and RFA-based jKali](https://github.com/DehengYang/sfa-rfa/blob/master/doc/jKali.png)
+
+
+![The NCP distributions of SFA-based jMutRepair and RFA-based jMutRepair](https://github.com/DehengYang/sfa-rfa/blob/master/doc/jMutRepair.png)
+
+![The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 1](https://github.com/DehengYang/sfa-rfa/blob/master/doc/Nopol-1.png)
+
+![The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 2](https://github.com/DehengYang/sfa-rfa/blob/master/doc/Nopol-2.png)
+
+![The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 3 -- extended](https://github.com/DehengYang/sfa-rfa/blob/master/doc/Nopol-3-extended.png)
