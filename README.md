@@ -1,9 +1,9 @@
 # 1.The Repair Tools
 ## 1.1 For SFA-based and RFA-based Nopol
-### Introduction
+##### Introduction
 The Nopol is originally a RFA-based repair tool that repairs statements starting from the most suspicious statement to the least suspicious statement in the rank list.
 
-### Modification details
+##### Modification details
 To compare SFA against RFA, we need to obtain SFA-based Nopol from the current RFA-based Nopol.
 
 To get SFA-based Nopol, we made modifications on the java files as follows:
@@ -17,22 +17,22 @@ To get SFA-based Nopol, we made modifications on the java files as follows:
 
 3) Besides, we modified some other files to output the results of NCP and patch information.
 
-### Introduction of ```SFANopol-with-NewOch```
+##### Introduction of ```SFANopol-with-NewOch```
 In Section 4.4 of our paper, we propose a new strategy to improve the suspiciousness accuracy of Ochiai technique. Therefore, we modify the ```SFA-based Nopol``` into  ```SFANopol-with-NewOch```. The java file modified by us is ```NoPol.java```.
 
-### Configuration
+##### Configuration
 The configuration of Nopol can be found in the GitHub website of Nopol(https://github.com/SpoonLabs/nopol).
 
-### Instructions of running the tools
+##### Instructions of running the tools
 When you want to run SFA-based Nopol, open the folder ```SFANopol```, and run ```runNopol.sh```. Similarly, if you want to run RFA-based Nopol, open the folder ```RFANopol```, and run ```runNopol.sh```.
 
 Also, open the folder ```SFANopol-with-NewOch```, and run ```runNopol.sh```.
 
 ## 1.2 For SFA-based and RFA-based jkali and jMutRepair
-### Introduction
+##### Introduction
 The jKali and jMutRepair are initially RFA-based repair tools that repair statements starting from the most suspicious statement to the least suspicious statement in the rank list.
 
-### Modification details
+##### Modification details
 To compare SFA against RFA, we need to obtain SFA-based versions from the current RFA-based jKali and jMutRepair.
 
 To get SFA-based versions, we made modifications on the java files as follows:
@@ -46,10 +46,10 @@ To get SFA-based versions, we made modifications on the java files as follows:
 
 3) Besides, we modified some other files to output the results of NCP and patch information.
 
-### Configuration
+##### Configuration
 The configuration of jKali and jMutRepair can be found in the GitHub website of Astor(https://github.com/SpoonLabs/astor).
 
-### Instructions of running the tools
+##### Instructions of running the tools
 We implement SFA-based jKali and jMutRepair based on the source code of RFA-based jKali and jMutRepair.
 
 When you want to run SFA-based jKali, you can run ```kaliRun``` shell script in the terminal. Similarly, when you want to run SFA-based jMutRepair, you can run ```mutRepairRun``` shell script in the terminal.
@@ -63,18 +63,18 @@ If you want to run RFA-based jKali or jMutRepair, you should do following steps:
 For SimFix, the RFA-simfix.jar and SFA-simfix.jar are available. Therefore you can run `RFA-run.sh` and `SFA-run.sh` to replicate the experiments of RFA-based and SFA-based SimFix, respectively.
 
 # 2.The Result Data of NCP and Patch Diversity
-### Introduction
+##### Introduction
 In our experiment, we obtained 36 versions of repair tools (6 SFl * 2 statement selecting strategies * 3 repair tools = 36 versions of repair tools). And then run 100 independent repeated repair trials on each benchmark program. The total time cost is up to one and a half month.
 
 The result data of NCP and patch diversity can be found in this folder.
 
-### Instructions of Plotting Figures
+##### Instructions of Plotting Figures
 To get the figures and results of statistcal tests presented in our paper:
 1) Open the folder "Nopol", and run ```runAll.m``` and ```strategy2RunCompare.m``` respectively;
 2) Open the folder "Astor/jKali", and run ```runAll.m```;
 2) Open the folder "Astor/jMutRepair", and run ```runAll.m```;
 
-### The Figures of our experiments
+##### The Figures of our experiments
 **The NCP distributions of SFA-based and RFA-based jKali**
 ![The NCP distributions of SFA-based jKali and RFA-based jKali](https://github.com/DehengYang/sfa-rfa/blob/master/doc/jKali.png)
 
@@ -89,3 +89,7 @@ To get the figures and results of statistcal tests presented in our paper:
 
 **The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 3 -- extended:**
 ![The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 3 -- extended](https://github.com/DehengYang/sfa-rfa/blob/master/doc/Nopol-3-extended.png)
+
+<br>
+<br>
+**Any advice is welcomed.**
