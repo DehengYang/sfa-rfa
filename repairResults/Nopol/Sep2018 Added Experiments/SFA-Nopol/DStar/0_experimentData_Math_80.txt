@@ -1,0 +1,8 @@
+97     63150   49183      org.apache.commons.math.linear.EigenDecompositionImpl : 1137 
+44     33182   18425      org.apache.commons.math.linear.EigenDecompositionImpl : 1191 
+6     20448   5882      org.apache.commons.math.linear.EigenDecompositionImpl : 1181 
+65     71115   56558      org.apache.commons.math.linear.EigenDecompositionImpl : 1213 
+39     37201   23021      org.apache.commons.math.linear.EigenDecompositionImpl : 1137 
+80     55704   41329      org.apache.commons.math.linear.EigenDecompositionImpl : 1137 
+15     28004   13756      org.apache.commons.math.linear.EigenDecompositionImpl : 1213 
+11     21052   6402      org.apache.commons.math.linear.EigenDecompositionImpl : 1200 
