@@ -1,0 +1,10 @@
+583     253854   235254      org.jfree.chart.plot.XYPlot : 1607 
+583     252214   234185      org.jfree.chart.plot.XYPlot : 1607 
+583     252205   233792      org.jfree.chart.plot.XYPlot : 1607 
+583     252178   233905      org.jfree.chart.plot.XYPlot : 1607 
+583     251176   232650      org.jfree.chart.plot.XYPlot : 1607 
+583     252600   233762      org.jfree.chart.plot.XYPlot : 1607 
+583     252061   233820      org.jfree.chart.plot.XYPlot : 1607 
+583     253445   234805      org.jfree.chart.plot.XYPlot : 1607 
+583     252426   234410      org.jfree.chart.plot.XYPlot : 1607 
+583     253309   234244      org.jfree.chart.plot.XYPlot : 1607 

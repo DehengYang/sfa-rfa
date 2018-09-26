@@ -1,0 +1,10 @@
+183     92534   75471      org.joda.time.DateTimeZone : 900 
+188     90450   73709      org.joda.time.DateTimeZone : 900 
+183     90014   73430      org.joda.time.DateTimeZone : 900 
+183     91973   75522      org.joda.time.DateTimeZone : 900 
+183     92203   75662      org.joda.time.DateTimeZone : 900 
+183     92060   75350      org.joda.time.DateTimeZone : 900 
+183     91913   75387      org.joda.time.DateTimeZone : 900 
+183     92421   75352      org.joda.time.DateTimeZone : 900 
+183     91967   75182      org.joda.time.DateTimeZone : 900 
+183     89693   73127      org.joda.time.DateTimeZone : 900 

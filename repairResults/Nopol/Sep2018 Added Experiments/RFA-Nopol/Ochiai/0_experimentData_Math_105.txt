@@ -1,0 +1,10 @@
+80     19430   12811      org.apache.commons.math.stat.regression.SimpleRegression : 108 
+80     19618   13125      org.apache.commons.math.stat.regression.SimpleRegression : 108 
+80     19227   12734      org.apache.commons.math.stat.regression.SimpleRegression : 108 
+80     19061   12618      org.apache.commons.math.stat.regression.SimpleRegression : 108 
+80     18965   12557      org.apache.commons.math.stat.regression.SimpleRegression : 108 
+80     19121   12646      org.apache.commons.math.stat.regression.SimpleRegression : 108 
+80     19370   12762      org.apache.commons.math.stat.regression.SimpleRegression : 108 
+80     19257   12797      org.apache.commons.math.stat.regression.SimpleRegression : 108 
+80     19425   12751      org.apache.commons.math.stat.regression.SimpleRegression : 108 
+80     19292   12728      org.apache.commons.math.stat.regression.SimpleRegression : 108 

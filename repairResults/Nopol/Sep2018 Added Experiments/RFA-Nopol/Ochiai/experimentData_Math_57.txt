@@ -1,0 +1,10 @@
+45     112146   28187      org.apache.commons.math.stat.clustering.EuclideanIntegerPoint : 85 
+45     108950   28312      org.apache.commons.math.stat.clustering.EuclideanIntegerPoint : 85 
+45     111342   28164      org.apache.commons.math.stat.clustering.EuclideanIntegerPoint : 85 
+45     109079   28631      org.apache.commons.math.stat.clustering.EuclideanIntegerPoint : 85 
+45     108591   28341      org.apache.commons.math.stat.clustering.EuclideanIntegerPoint : 85 
+45     112011   28475      org.apache.commons.math.stat.clustering.EuclideanIntegerPoint : 85 
+45     112371   28026      org.apache.commons.math.stat.clustering.EuclideanIntegerPoint : 85 
+45     108595   28129      org.apache.commons.math.stat.clustering.EuclideanIntegerPoint : 85 
+45     113125   28272      org.apache.commons.math.stat.clustering.EuclideanIntegerPoint : 85 
+45     111871   28199      org.apache.commons.math.stat.clustering.EuclideanIntegerPoint : 85 

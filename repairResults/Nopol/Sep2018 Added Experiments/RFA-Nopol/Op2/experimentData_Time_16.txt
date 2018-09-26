@@ -1,0 +1,10 @@
+15     21980   5157      org.joda.time.format.DateTimeParserBucket : 358 
+15     22394   5066      org.joda.time.format.DateTimeParserBucket : 358 
+15     22007   5073      org.joda.time.format.DateTimeParserBucket : 358 
+15     21898   5273      org.joda.time.format.DateTimeParserBucket : 358 
+15     22570   5143      org.joda.time.format.DateTimeParserBucket : 358 
+15     21633   5063      org.joda.time.format.DateTimeParserBucket : 358 
+15     21751   5275      org.joda.time.format.DateTimeParserBucket : 358 
+15     21812   5074      org.joda.time.format.DateTimeParserBucket : 358 
+15     21763   5099      org.joda.time.format.DateTimeParserBucket : 358 
+15     22094   5300      org.joda.time.format.DateTimeParserBucket : 358 

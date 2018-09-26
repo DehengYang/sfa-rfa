@@ -1,0 +1,10 @@
+67     95681   15286      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+67     95195   15061      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+67     95649   15151      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+67     95626   15228      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+67     96380   15300      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+67     95337   15320      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+67     95492   15249      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+67     96096   15053      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+67     94918   15086      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+67     95326   15122      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 

@@ -1,0 +1,10 @@
+7     19830   3132      org.joda.time.chrono.BasicMonthOfYearDateTimeField : 210 
+7     19868   3072      org.joda.time.chrono.BasicMonthOfYearDateTimeField : 210 
+7     20170   3073      org.joda.time.chrono.BasicMonthOfYearDateTimeField : 210 
+7     20098   3144      org.joda.time.chrono.BasicMonthOfYearDateTimeField : 210 
+7     19808   3089      org.joda.time.chrono.BasicMonthOfYearDateTimeField : 210 
+7     19986   3155      org.joda.time.chrono.BasicMonthOfYearDateTimeField : 210 
+7     19860   3208      org.joda.time.chrono.BasicMonthOfYearDateTimeField : 210 
+7     20067   3148      org.joda.time.chrono.BasicMonthOfYearDateTimeField : 210 
+7     20209   3053      org.joda.time.chrono.BasicMonthOfYearDateTimeField : 210 
+7     20236   3108      org.joda.time.chrono.BasicMonthOfYearDateTimeField : 210 

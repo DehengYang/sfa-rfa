@@ -1,0 +1,10 @@
+710     316261   294209      org.jfree.chart.plot.XYPlot : 1607 
+710     311701   292596      org.jfree.chart.plot.XYPlot : 1607 
+710     310522   292263      org.jfree.chart.plot.XYPlot : 1607 
+710     311710   293697      org.jfree.chart.plot.XYPlot : 1607 
+710     313654   295312      org.jfree.chart.plot.XYPlot : 1607 
+710     311435   293503      org.jfree.chart.plot.XYPlot : 1607 
+710     310764   292391      org.jfree.chart.plot.XYPlot : 1607 
+710     312210   293352      org.jfree.chart.plot.XYPlot : 1607 
+710     312916   294711      org.jfree.chart.plot.XYPlot : 1607 
+710     311955   293433      org.jfree.chart.plot.XYPlot : 1607 

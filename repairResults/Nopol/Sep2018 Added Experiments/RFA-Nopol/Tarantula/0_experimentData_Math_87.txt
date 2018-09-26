@@ -1,0 +1,10 @@
+75     30196   18381      org.apache.commons.math.optimization.linear.SimplexTableau : 161 
+75     30693   18539      org.apache.commons.math.optimization.linear.SimplexTableau : 161 
+75     30325   18633      org.apache.commons.math.optimization.linear.SimplexTableau : 161 
+75     30313   18488      org.apache.commons.math.optimization.linear.SimplexTableau : 161 
+75     31888   18588      org.apache.commons.math.optimization.linear.SimplexTableau : 161 
+75     30980   18475      org.apache.commons.math.optimization.linear.SimplexTableau : 161 
+75     30235   18545      org.apache.commons.math.optimization.linear.SimplexTableau : 161 
+75     30319   18489      org.apache.commons.math.optimization.linear.SimplexTableau : 161 
+75     31068   18648      org.apache.commons.math.optimization.linear.SimplexTableau : 161 
+75     30968   19005      org.apache.commons.math.optimization.linear.SimplexTableau : 161 
