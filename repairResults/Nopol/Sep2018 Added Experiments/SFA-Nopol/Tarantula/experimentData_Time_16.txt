@@ -1,0 +1,100 @@
+186     155585   137042      org.joda.time.format.DateTimeParserBucket : 356 
+the susList size is: 648the select time is: 0 the selected satemenet is :386       suspiciousValue:  0.8337316420532304      the run statemment time is: 789542 
+97     86737   69989      org.joda.time.format.DateTimeParserBucket : 351 
+264     119886   102999      org.joda.time.format.DateTimeParserBucket : 358 
+21     30486   13443      org.joda.time.format.DateTimeParserBucket : 356 
+179     180578   163316      org.joda.time.format.DateTimeParserBucket : 356 
+the susList size is: 492the select time is: 0 the selected satemenet is :265       suspiciousValue:  0.8544662856664365      the run statemment time is: 821294 
+123     97426   80579      org.joda.time.format.DateTimeParserBucket : 358 
+54     75640   59045      org.joda.time.format.DateTimeParserBucket : 356 
+45     39482   22406      org.joda.time.format.DateTimeParserBucket : 351 
+the susList size is: 490the select time is: 0 the selected satemenet is :142       suspiciousValue:  0.9276661186827173      the run statemment time is: 878508 
+123     102017   85563      org.joda.time.format.DateTimeParserBucket : 351 
+208     168894   152346      org.joda.time.format.DateTimeParserBucket : 358 
+104     60721   43943      org.joda.time.format.DateTimeParserBucket : 356 
+75     109136   92585      org.joda.time.format.DateTimeParserBucket : 358 
+45     43513   26486      org.joda.time.format.DateTimeParserBucket : 356 
+93     62305   45642      org.joda.time.format.DateTimeParserBucket : 356 
+2     20517   3996      org.joda.time.format.DateTimeParserBucket : 356 
+18     25888   9365      org.joda.time.format.DateTimeParserBucket : 356 
+70     53766   36869      org.joda.time.format.DateTimeParserBucket : 356 
+40     42624   25967      org.joda.time.format.DateTimeParserBucket : 351 
+512     952006   935393      org.joda.time.format.DateTimeParserBucket : 358 
+46     38160   21366      org.joda.time.format.DateTimeParserBucket : 351 
+154     108720   92092      org.joda.time.format.DateTimeParserBucket : 358 
+261     151287   134382      org.joda.time.format.DateTimeParserBucket : 351 
+64     76661   60140      org.joda.time.format.DateTimeParserBucket : 358 
+310     286930   269906      org.joda.time.format.DateTimeParserBucket : 351 
+141     80033   63522      org.joda.time.format.DateTimeParserBucket : 358 
+123     92279   75723      org.joda.time.format.DateTimeParserBucket : 356 
+333     228905   212457      org.joda.time.format.DateTimeParserBucket : 351 
+73     84777   67957      org.joda.time.format.DateTimeParserBucket : 356 
+the susList size is: 572the select time is: 0 the selected satemenet is :463       suspiciousValue:  0.7358038192983931      the run statemment time is: 842227 
+the susList size is: 256the select time is: 0 the selected satemenet is :135       suspiciousValue:  0.8600113777627947      the run statemment time is: 297109 
+38     60200   25610      org.joda.time.format.DateTimeParserBucket : 356 
+527     379255   362306      org.joda.time.format.DateTimeParserBucket : 358 
+204     135738   118597      org.joda.time.format.DateTimeParserBucket : 351 
+55     49906   33150      org.joda.time.format.DateTimeParserBucket : 356 
+329     199240   182538      org.joda.time.format.DateTimeParserBucket : 356 
+476     207716   190954      org.joda.time.format.DateTimeParserBucket : 356 
+125     88847   72400      org.joda.time.format.DateTimeParserBucket : 356 
+160     118816   101905      org.joda.time.format.DateTimeParserBucket : 358 
+37     37053   20446      org.joda.time.format.DateTimeParserBucket : 358 
+238     160026   143330      org.joda.time.format.DateTimeParserBucket : 358 
+272     215785   198754      org.joda.time.format.DateTimeParserBucket : 351 
+37     63516   46506      org.joda.time.format.DateTimeParserBucket : 358 
+57     67724   50788      org.joda.time.format.DateTimeParserBucket : 356 
+195     192098   175360      org.joda.time.format.DateTimeParserBucket : 358 
+the susList size is: 530the select time is: 0 the selected satemenet is :225       suspiciousValue:  0.90006394848839      the run statemment time is: 591580 
+95     558828   524187      org.joda.time.format.DateTimeParserBucket : 351 
+218     234649   209655      org.joda.time.format.DateTimeParserBucket : 351 
+19     24554   7931      org.joda.time.format.DateTimeParserBucket : 358 
+the susList size is: 645the select time is: 0 the selected satemenet is :27       suspiciousValue:  0.9830013205585683      the run statemment time is: 52967 
+21     51149   18902      org.joda.time.format.DateTimeParserBucket : 356 
+the susList size is: 584the select time is: 0 the selected satemenet is :307       suspiciousValue:  0.8544662856664365      the run statemment time is: 43241 
+220     162694   131018      org.joda.time.format.DateTimeParserBucket : 356 
+61     1915816   1899123      org.joda.time.format.DateTimeParserBucket : 356 
+the susList size is: 598the select time is: 0 the selected satemenet is :225       suspiciousValue:  0.9144822332750818      the run statemment time is: 74074 
+58     94139   64638      org.joda.time.format.DateTimeParserBucket : 356 
+the susList size is: 695the select time is: 0 the selected satemenet is :545       suspiciousValue:  0.7358038192983931      the run statemment time is: 47288 
+the susList size is: 652the select time is: 0 the selected satemenet is :140       suspiciousValue:  0.9467446013963305      the run statemment time is: 7327 
+the susList size is: 716the select time is: 0 the selected satemenet is :301       suspiciousValue:  0.9016824395373292      the run statemment time is: 52558 
+280     186617   169951      org.joda.time.format.DateTimeParserBucket : 351 
+64     45627   28819      org.joda.time.format.DateTimeParserBucket : 356 
+108     390343   373452      org.joda.time.format.DateTimeParserBucket : 358 
+229     629848   613358      org.joda.time.format.DateTimeParserBucket : 351 
+150     93787   77205      org.joda.time.format.DateTimeParserBucket : 356 
+34     60897   44496      org.joda.time.format.DateTimeParserBucket : 351 
+13     27753   11141      org.joda.time.format.DateTimeParserBucket : 358 
+328     173319   156811      org.joda.time.format.DateTimeParserBucket : 351 
+the susList size is: 502the select time is: 0 the selected satemenet is :76       suspiciousValue:  0.9510461810895197      the run statemment time is: 669453 
+88     64261   47676      org.joda.time.format.DateTimeParserBucket : 351 
+the susList size is: 691the select time is: 0 the selected satemenet is :385       suspiciousValue:  0.8478283447230126      the run statemment time is: 884085 
+264     202920   186100      org.joda.time.format.DateTimeParserBucket : 351 
+215     120246   103289      org.joda.time.format.DateTimeParserBucket : 351 
+73     74331   57331      org.joda.time.format.DateTimeParserBucket : 351 
+50     38085   21558      org.joda.time.format.DateTimeParserBucket : 358 
+70     51355   34796      org.joda.time.format.DateTimeParserBucket : 358 
+140     86373   69768      org.joda.time.format.DateTimeParserBucket : 351 
+194     137669   120971      org.joda.time.format.DateTimeParserBucket : 351 
+the susList size is: 689the select time is: 0 the selected satemenet is :159       suspiciousValue:  0.9467446013963305      the run statemment time is: 15437 
+62     70912   54124      org.joda.time.format.DateTimeParserBucket : 356 
+8     20704   3178      org.joda.time.format.DateTimeParserBucket : 358 
+62     44819   28248      org.joda.time.format.DateTimeParserBucket : 358 
+142     164395   147832      org.joda.time.format.DateTimeParserBucket : 351 
+28     27920   10841      org.joda.time.format.DateTimeParserBucket : 358 
+13     24662   8222      org.joda.time.format.DateTimeParserBucket : 356 
+36     42248   25329      org.joda.time.format.DateTimeParserBucket : 358 
+460     225667   209155      org.joda.time.format.DateTimeParserBucket : 351 
+558     398397   381163      org.joda.time.format.DateTimeParserBucket : 358 
+85     54516   37654      org.joda.time.format.DateTimeParserBucket : 356 
+12     22799   6231      org.joda.time.format.DateTimeParserBucket : 358 
+58     79517   63055      org.joda.time.format.DateTimeParserBucket : 351 
+18     28261   11562      org.joda.time.format.DateTimeParserBucket : 351 
+228     188154   171522      org.joda.time.format.DateTimeParserBucket : 356 
+34     35998   19167      org.joda.time.format.DateTimeParserBucket : 356 
+190     216852   200399      org.joda.time.format.DateTimeParserBucket : 358 
+161     132592   115953      org.joda.time.format.DateTimeParserBucket : 351 
+44     73372   56660      org.joda.time.format.DateTimeParserBucket : 356 
+357     224587   207969      org.joda.time.format.DateTimeParserBucket : 358 
+88     139417   122020      org.joda.time.format.DateTimeParserBucket : 356 

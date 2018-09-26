@@ -1,0 +1,100 @@
+the susList size is: 4039the select time is: 0 the selected satemenet is :1104       suspiciousValue:  0.7969340613187736      the run statemment time is: 0 
+98     282108   179559      com.google.javascript.jscomp.MustBeReachingVariableDef : 347 
+124     446383   352823      com.google.javascript.jscomp.MaybeReachingVariableUse : 236 
+294     1084483   993147      com.google.javascript.jscomp.MaybeReachingVariableUse : 275 
+166     352188   254509      com.google.javascript.jscomp.MustBeReachingVariableDef : 347 
+55     323036   228174      com.google.javascript.jscomp.MustBeReachingVariableDef : 355 
+74     211901   120192      com.google.javascript.jscomp.MustBeReachingVariableDef : 355 
+2     99224   15155      com.google.javascript.jscomp.MaybeReachingVariableUse : 272 
+113     637645   560690      com.google.javascript.jscomp.MaybeReachingVariableUse : 236 
+the susList size is: 4092the select time is: 1 the selected satemenet is :833       suspiciousValue:  0.8743232346503859      the run statemment time is: 312 
+the susList size is: 4121the select time is: 0 the selected satemenet is :2340       suspiciousValue:  0.6001423262433778      the run statemment time is: 0 
+123     279476   200164      com.google.javascript.jscomp.MaybeReachingVariableUse : 275 
+110     434226   359099      com.google.javascript.jscomp.MustBeReachingVariableDef : 227 
+215     620882   543854      com.google.javascript.jscomp.MustBeReachingVariableDef : 347 
+192     569393   492232      com.google.javascript.jscomp.MustBeReachingVariableDef : 216 
+20     108257   30730      com.google.javascript.rhino.Node : 1433 
+202     604423   525015      com.google.javascript.jscomp.MustBeReachingVariableDef : 227 
+215     549799   472924      com.google.javascript.jscomp.MaybeReachingVariableUse : 236 
+87     367526   292474      com.google.javascript.jscomp.MustBeReachingVariableDef : 333 
+44     314798   236560      com.google.javascript.jscomp.MustBeReachingVariableDef : 333 
+152     631029   555972      com.google.javascript.jscomp.MustBeReachingVariableDef : 347 
+the susList size is: 4403the select time is: 0 the selected satemenet is :2606       suspiciousValue:  0.588280886684235      the run statemment time is: 0 
+the susList size is: 4135the select time is: 0 the selected satemenet is :1515       suspiciousValue:  0.7027777777777777      the run statemment time is: 0 
+107     423298   346630      com.google.javascript.jscomp.MustBeReachingVariableDef : 216 
+37     208038   132113      com.google.javascript.jscomp.MaybeReachingVariableUse : 244 
+104     367746   292685      com.google.javascript.jscomp.MaybeReachingVariableUse : 257 
+156     630150   556023      com.google.javascript.jscomp.MaybeReachingVariableUse : 244 
+the susList size is: 4206the select time is: 0 the selected satemenet is :1486       suspiciousValue:  0.7168492633169626      the run statemment time is: 0 
+364     1122242   1045120      com.google.javascript.jscomp.MaybeReachingVariableUse : 275 
+123     504842   427935      com.google.javascript.jscomp.MaybeReachingVariableUse : 260 
+36     154533   75754      com.google.javascript.jscomp.MaybeReachingVariableUse : 272 
+the susList size is: 4004the select time is: 0 the selected satemenet is :2014       suspiciousValue:  0.6680161943319838      the run statemment time is: 16809 
+87     334050   256285      com.google.javascript.jscomp.MaybeReachingVariableUse : 243 
+29     265001   186586      com.google.javascript.jscomp.MaybeReachingVariableUse : 276 
+33     149264   68674      com.google.javascript.jscomp.MaybeReachingVariableUse : 236 
+136     275999   198183      com.google.javascript.jscomp.MustBeReachingVariableDef : 348 
+5     95011   17618      com.google.javascript.jscomp.MaybeReachingVariableUse : 261 
+54     244440   169351      com.google.javascript.jscomp.MaybeReachingVariableUse : 260 
+25     136883   59587      com.google.javascript.jscomp.MaybeReachingVariableUse : 228 
+the susList size is: 4184the select time is: 1 the selected satemenet is :308       suspiciousValue:  0.9909909909909911      the run statemment time is: 14435 
+27     132974   55381      com.google.javascript.jscomp.MustBeReachingVariableDef : 216 
+500     1709772   1632583      com.google.javascript.jscomp.MustBeReachingVariableDef : 430 
+136     486821   408943      com.google.javascript.jscomp.MaybeReachingVariableUse : 272 
+365     1218197   1141839      com.google.javascript.jscomp.MustBeReachingVariableDef : 355 
+87     286894   212221      com.google.javascript.jscomp.MaybeReachingVariableUse : 257 
+20     110594   33439      com.google.javascript.jscomp.MustBeReachingVariableDef : 355 
+37     149647   71511      com.google.javascript.jscomp.MustBeReachingVariableDef : 333 
+the susList size is: 4522the select time is: 0 the selected satemenet is :1877       suspiciousValue:  0.6910050983248361      the run statemment time is: 53331 
+162     723883   647694      com.google.javascript.jscomp.MustBeReachingVariableDef : 355 
+91     260476   184055      com.google.javascript.jscomp.MustBeReachingVariableDef : 333 
+12     103857   27533      com.google.javascript.jscomp.MaybeReachingVariableUse : 243 
+122     445697   368203      com.google.javascript.rhino.Node : 1433 
+the susList size is: 4091the select time is: 0 the selected satemenet is :2425       suspiciousValue:  0.5869161769254562      the run statemment time is: 0 
+42     148353   71817      com.google.javascript.jscomp.MustBeReachingVariableDef : 430 
+348     1054523   978758      com.google.javascript.rhino.Node : 1433 
+41     142126   65744      com.google.javascript.jscomp.MaybeReachingVariableUse : 227 
+166     495647   417708      com.google.javascript.jscomp.MustBeReachingVariableDef : 347 
+212     553112   475714      com.google.javascript.jscomp.MustBeReachingVariableDef : 348 
+242     888820   813485      com.google.javascript.jscomp.MaybeReachingVariableUse : 243 
+74     295491   214383      com.google.javascript.jscomp.MaybeReachingVariableUse : 243 
+the susList size is: 4172the select time is: 0 the selected satemenet is :730       suspiciousValue:  0.906485130777499      the run statemment time is: 3189 
+332     1092169   1014872      com.google.javascript.rhino.Node : 1433 
+272     1214157   1136380      com.google.javascript.rhino.Node : 1433 
+14     165194   87991      com.google.javascript.jscomp.MaybeReachingVariableUse : 272 
+13     125124   48669      com.google.javascript.jscomp.MaybeReachingVariableUse : 257 
+250     877867   801071      com.google.javascript.jscomp.MustBeReachingVariableDef : 430 
+189     794148   713655      com.google.javascript.jscomp.MaybeReachingVariableUse : 272 
+430     933644   856041      com.google.javascript.jscomp.MustBeReachingVariableDef : 347 
+280     705560   625601      com.google.javascript.jscomp.MaybeReachingVariableUse : 276 
+11     118293   38704      com.google.javascript.jscomp.MaybeReachingVariableUse : 272 
+87     422022   344506      com.google.javascript.jscomp.MustBeReachingVariableDef : 333 
+159     393523   317637      com.google.javascript.jscomp.MustBeReachingVariableDef : 348 
+59     313843   235781      com.google.javascript.jscomp.MustBeReachingVariableDef : 333 
+41     150034   73156      com.google.javascript.jscomp.MaybeReachingVariableUse : 227 
+287     954553   875039      com.google.javascript.jscomp.MaybeReachingVariableUse : 257 
+94     310244   235221      com.google.javascript.jscomp.MaybeReachingVariableUse : 275 
+the susList size is: 4221the select time is: 0 the selected satemenet is :3323       suspiciousValue:  0.5392156862745098      the run statemment time is: 10971 
+58     212768   131263      com.google.javascript.jscomp.MaybeReachingVariableUse : 260 
+274     1247364   1169039      com.google.javascript.jscomp.MaybeReachingVariableUse : 243 
+54     228496   150495      com.google.javascript.jscomp.MaybeReachingVariableUse : 228 
+301     1177650   1100888      com.google.javascript.jscomp.MustBeReachingVariableDef : 430 
+221     732843   655420      com.google.javascript.jscomp.MaybeReachingVariableUse : 243 
+295     940655   859198      com.google.javascript.jscomp.MaybeReachingVariableUse : 272 
+78     201634   127599      com.google.javascript.jscomp.MaybeReachingVariableUse : 261 
+93     290671   213296      com.google.javascript.jscomp.MaybeReachingVariableUse : 257 
+249     1085735   1008883      com.google.javascript.rhino.Node : 1433 
+133     485448   406928      com.google.javascript.jscomp.MustBeReachingVariableDef : 347 
+142     599805   523517      com.google.javascript.rhino.Node : 1433 
+66     203293   124933      com.google.javascript.jscomp.MaybeReachingVariableUse : 275 
+353     1479842   1402047      com.google.javascript.jscomp.MaybeReachingVariableUse : 272 
+107     252998   174438      com.google.javascript.jscomp.MaybeReachingVariableUse : 228 
+241     557442   479611      com.google.javascript.jscomp.MaybeReachingVariableUse : 257 
+the susList size is: 4225the select time is: 0 the selected satemenet is :1652       suspiciousValue:  0.6925814399124008      the run statemment time is: 3557 
+14     99656   23268      com.google.javascript.jscomp.MustBeReachingVariableDef : 348 
+29     127967   49930      com.google.javascript.jscomp.MaybeReachingVariableUse : 275 
+124     528038   446303      com.google.javascript.jscomp.MaybeReachingVariableUse : 228 
+165     520645   443251      com.google.javascript.jscomp.MustBeReachingVariableDef : 216 
+175     972051   894934      com.google.javascript.jscomp.MustBeReachingVariableDef : 430 
+486     1776481   1698546      com.google.javascript.jscomp.MustBeReachingVariableDef : 355 
+292     826524   746289      com.google.javascript.jscomp.MustBeReachingVariableDef : 227 

@@ -1,0 +1,100 @@
+261     380398   298906      com.google.javascript.jscomp.CheckSideEffects : 116 
+402     527665   455058      com.google.javascript.jscomp.CheckSideEffects : 111 
+565     739282   664409      com.google.javascript.jscomp.CheckSideEffects : 116 
+577     864364   791999      com.google.javascript.jscomp.CheckSideEffects : 112 
+the susList size is: 2875the select time is: 0 the selected satemenet is :533       suspiciousValue:  0.780565881866997      the run statemment time is: 14068 
+850     1469293   1396698      com.google.javascript.jscomp.CheckSideEffects : 114 
+657     944488   871519      com.google.javascript.jscomp.CheckSideEffects : 111 
+3     92440   16744      com.google.javascript.jscomp.CheckSideEffects : 112 
+73     162181   89989      com.google.javascript.jscomp.CheckSideEffects : 116 
+482     631947   559701      com.google.javascript.jscomp.CheckSideEffects : 112 
+the susList size is: 2379the select time is: 0 the selected satemenet is :349       suspiciousValue:  0.801165871754107      the run statemment time is: 493 
+285     403165   327802      com.google.javascript.jscomp.CheckSideEffects : 114 
+296     437966   361807      com.google.javascript.jscomp.CheckSideEffects : 111 
+373     484619   409150      com.google.javascript.jscomp.CheckSideEffects : 112 
+301     417158   340366      com.google.javascript.jscomp.CheckSideEffects : 112 
+the susList size is: 2828the select time is: 0 the selected satemenet is :1452       suspiciousValue:  0.5726081357472919      the run statemment time is: 0 
+196     321667   201793      com.google.javascript.jscomp.CheckSideEffects : 114 
+48     176886   76292      com.google.javascript.jscomp.CheckSideEffects : 116 
+the susList size is: 2378the select time is: 0 the selected satemenet is :1137       suspiciousValue:  0.5803009365883618      the run statemment time is: 1917 
+the susList size is: 2956the select time is: 0 the selected satemenet is :108       suspiciousValue:  0.9644041847410053      the run statemment time is: 0 
+293     775940   652649      com.google.javascript.jscomp.CheckSideEffects : 112 
+699     1288315   1173459      com.google.javascript.jscomp.CheckSideEffects : 111 
+728     1250822   1138579      com.google.javascript.jscomp.CheckSideEffects : 114 
+303     434471   338191      com.google.javascript.jscomp.CheckSideEffects : 112 
+11     124131   21124      com.google.javascript.jscomp.CheckSideEffects : 112 
+445     609207   537234      com.google.javascript.jscomp.CheckSideEffects : 111 
+94     190471   100362      com.google.javascript.jscomp.CheckSideEffects : 112 
+199     336954   248967      com.google.javascript.jscomp.CheckSideEffects : 114 
+187     329397   241124      com.google.javascript.jscomp.CheckSideEffects : 112 
+268     435062   349501      com.google.javascript.jscomp.CheckSideEffects : 116 
+25     106612   24713      com.google.javascript.jscomp.CheckSideEffects : 112 
+the susList size is: 2416the select time is: 0 the selected satemenet is :8       suspiciousValue:  0.9994711093481423      the run statemment time is: 0 
+211     364586   247299      com.google.javascript.jscomp.CheckSideEffects : 111 
+952     1646642   1545167      com.google.javascript.jscomp.CheckSideEffects : 111 
+486     693321   578427      com.google.javascript.jscomp.CheckSideEffects : 114 
+316     407149   322981      com.google.javascript.jscomp.CheckSideEffects : 114 
+660     1008575   937822      com.google.javascript.jscomp.CheckSideEffects : 112 
+629     882339   810394      com.google.javascript.jscomp.CheckSideEffects : 114 
+88     197799   126038      com.google.javascript.jscomp.CheckSideEffects : 116 
+138     231936   159223      com.google.javascript.jscomp.CheckSideEffects : 112 
+613     826542   750332      com.google.javascript.jscomp.CheckSideEffects : 111 
+18     116271   45434      com.google.javascript.jscomp.CheckSideEffects : 116 
+741     1138091   1065302      com.google.javascript.jscomp.CheckSideEffects : 112 
+198     301737   227557      com.google.javascript.jscomp.CheckSideEffects : 111 
+475     613802   542771      com.google.javascript.jscomp.CheckSideEffects : 116 
+259     362360   285097      com.google.javascript.jscomp.CheckSideEffects : 112 
+the susList size is: 2719the select time is: 0 the selected satemenet is :951       suspiciousValue:  0.6715529495380241      the run statemment time is: 1 
+371     491016   420579      com.google.javascript.jscomp.CheckSideEffects : 114 
+182     285087   209143      com.google.javascript.jscomp.CheckSideEffects : 114 
+341     441897   366849      com.google.javascript.jscomp.CheckSideEffects : 112 
+103     214228   139997      com.google.javascript.jscomp.CheckSideEffects : 111 
+the susList size is: 2539the select time is: 0 the selected satemenet is :50       suspiciousValue:  0.9890095512233416      the run statemment time is: 1622 
+972     1611619   1536540      com.google.javascript.jscomp.CheckSideEffects : 116 
+559     757920   679574      com.google.javascript.jscomp.CheckSideEffects : 111 
+the susList size is: 2549the select time is: 0 the selected satemenet is :506       suspiciousValue:  0.7557488502299541      the run statemment time is: 6820 
+607     914743   840113      com.google.javascript.jscomp.CheckSideEffects : 112 
+29     115744   41758      com.google.javascript.jscomp.CheckSideEffects : 114 
+525     804318   727815      com.google.javascript.jscomp.CheckSideEffects : 116 
+147     230057   155696      com.google.javascript.jscomp.CheckSideEffects : 111 
+246     372865   295277      com.google.javascript.jscomp.CheckSideEffects : 112 
+388     869691   798083      com.google.javascript.jscomp.CheckSideEffects : 112 
+the susList size is: 2492the select time is: 0 the selected satemenet is :46       suspiciousValue:  0.9890095512233416      the run statemment time is: 5770 
+521     681372   604559      com.google.javascript.jscomp.CheckSideEffects : 116 
+177     333264   258002      com.google.javascript.jscomp.CheckSideEffects : 111 
+75     184962   107194      com.google.javascript.jscomp.CheckSideEffects : 114 
+47     140535   65355      com.google.javascript.jscomp.CheckSideEffects : 111 
+328     562810   485776      com.google.javascript.jscomp.CheckSideEffects : 111 
+348     463235   386721      com.google.javascript.jscomp.CheckSideEffects : 111 
+18     103673   30087      com.google.javascript.jscomp.CheckSideEffects : 116 
+95     181715   109817      com.google.javascript.jscomp.CheckSideEffects : 112 
+724     1131767   1059202      com.google.javascript.jscomp.CheckSideEffects : 116 
+the susList size is: 2418the select time is: 0 the selected satemenet is :357       suspiciousValue:  0.8157781135333477      the run statemment time is: 0 
+636     1601537   1525497      com.google.javascript.jscomp.CheckSideEffects : 114 
+1032     1788744   1713776      com.google.javascript.jscomp.CheckSideEffects : 112 
+790     1123591   1047580      com.google.javascript.jscomp.CheckSideEffects : 112 
+629     908791   833753      com.google.javascript.jscomp.CheckSideEffects : 114 
+528     708980   634347      com.google.javascript.jscomp.CheckSideEffects : 111 
+the susList size is: 2373the select time is: 0 the selected satemenet is :1855       suspiciousValue:  0.5381220189364276      the run statemment time is: 1734 
+60     191778   118069      com.google.javascript.jscomp.CheckSideEffects : 116 
+640     930063   853687      com.google.javascript.jscomp.CheckSideEffects : 116 
+the susList size is: 2836the select time is: 0 the selected satemenet is :2771       suspiciousValue:  0.5306423306423307      the run statemment time is: 0 
+105     196241   116985      com.google.javascript.jscomp.CheckSideEffects : 111 
+93     179071   102315      com.google.javascript.jscomp.CheckSideEffects : 111 
+453     611763   539465      com.google.javascript.jscomp.CheckSideEffects : 116 
+217     316499   239394      com.google.javascript.jscomp.CheckSideEffects : 116 
+358     526312   451393      com.google.javascript.jscomp.CheckSideEffects : 114 
+960     1752951   1676126      com.google.javascript.jscomp.CheckSideEffects : 114 
+526     697170   619754      com.google.javascript.jscomp.CheckSideEffects : 116 
+689     908066   833430      com.google.javascript.jscomp.CheckSideEffects : 112 
+207     373963   296470      com.google.javascript.jscomp.CheckSideEffects : 116 
+493     685789   610447      com.google.javascript.jscomp.CheckSideEffects : 112 
+423     765636   681490      com.google.javascript.jscomp.CheckSideEffects : 116 
+644     953628   878965      com.google.javascript.jscomp.CheckSideEffects : 114 
+276     463961   386451      com.google.javascript.jscomp.CheckSideEffects : 111 
+63     157362   78387      com.google.javascript.jscomp.CheckSideEffects : 116 
+62     135950   60879      com.google.javascript.jscomp.CheckSideEffects : 112 
+384     491357   417368      com.google.javascript.jscomp.CheckSideEffects : 111 
+637     879960   806291      com.google.javascript.jscomp.CheckSideEffects : 111 
+652     1701449   1626493      com.google.javascript.jscomp.CheckSideEffects : 112 
+6     87980   13581      com.google.javascript.jscomp.CheckSideEffects : 116 

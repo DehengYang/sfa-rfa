@@ -1,0 +1,100 @@
+144     460666   375171      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+22     154893   73613      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 602 
+34     100089   20242      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+the susList size is: 454the select time is: 3498 the selected satemenet is :373       suspiciousValue:  0.9706881903143585      the run statemment time is: 155656 
+36     127488   44678      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 620 
+21     125439   44840      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+5     104458   22922      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 602 
+the susList size is: 403the select time is: 0 the selected satemenet is :156       suspiciousValue:  0.9910790144435004      the run statemment time is: 66964 
+30     165687   85768      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 620 
+49     136938   56687      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 620 
+the susList size is: 439the select time is: 0 the selected satemenet is :388       suspiciousValue:  0.9549702633814783      the run statemment time is: 263581 
+the susList size is: 495the select time is: 0 the selected satemenet is :414       suspiciousValue:  0.9702633814783348      the run statemment time is: 68607 
+the susList size is: 300the select time is: 0 the selected satemenet is :149       suspiciousValue:  0.9796091758708582      the run statemment time is: 467368 
+48     171471   89863      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+18     111196   30638      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 602 
+the susList size is: 432the select time is: 0 the selected satemenet is :390       suspiciousValue:  0.9039932030586236      the run statemment time is: 97749 
+109     206454   123838      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+the susList size is: 426the select time is: 0 the selected satemenet is :41       suspiciousValue:  0.9974511469838573      the run statemment time is: 136422 
+12     111159   29817      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 620 
+70     141085   60810      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+66     207681   127656      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+53     163667   82504      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+33     116528   36032      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 620 
+22     110629   30129      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+the susList size is: 479the select time is: 0 the selected satemenet is :329       suspiciousValue:  0.9791843670348344      the run statemment time is: 1351686 
+the susList size is: 257the select time is: 0 the selected satemenet is :121       suspiciousValue:  0.9796091758708582      the run statemment time is: 37159 
+the susList size is: 359the select time is: 0 the selected satemenet is :189       suspiciousValue:  0.9796091758708582      the run statemment time is: 57786 
+the susList size is: 392the select time is: 17 the selected satemenet is :327       suspiciousValue:  0.9706881903143585      the run statemment time is: 540353 
+26     92634   10189      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+70     188430   108073      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+71     141741   59271      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+the susList size is: 410the select time is: 0 the selected satemenet is :46       suspiciousValue:  0.9974511469838573      the run statemment time is: 87305 
+the susList size is: 444the select time is: 0 the selected satemenet is :323       suspiciousValue:  0.9791843670348344      the run statemment time is: 18547 
+148     341638   258822      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+141     325114   244780      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+the susList size is: 309the select time is: 0 the selected satemenet is :262       suspiciousValue:  0.9702633814783348      the run statemment time is: 3226 
+23     138237   54527      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+55     144908   63775      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+the susList size is: 327the select time is: 0 the selected satemenet is :301       suspiciousValue:  0.8950722175021241      the run statemment time is: 45802 
+the susList size is: 525the select time is: 0 the selected satemenet is :351       suspiciousValue:  0.9796091758708582      the run statemment time is: 78757 
+102     244661   164764      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+the susList size is: 465the select time is: 0 the selected satemenet is :207       suspiciousValue:  0.9800339847068819      the run statemment time is: 163483 
+the susList size is: 365the select time is: 0 the selected satemenet is :293       suspiciousValue:  0.9706881903143585      the run statemment time is: 37710 
+5     90950   10263      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+the susList size is: 319the select time is: 0 the selected satemenet is :261       suspiciousValue:  0.9706881903143585      the run statemment time is: 52446 
+78     239120   155960      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+144     453312   372719      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+the susList size is: 434the select time is: 0 the selected satemenet is :415       suspiciousValue:  0.8521665250637214      the run statemment time is: 66679 
+77     239195   159512      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+142     523165   443275      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+the susList size is: 392the select time is: 0 the selected satemenet is :20       suspiciousValue:  0.9978759558198811      the run statemment time is: 544434 
+92     260176   177177      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+131     350830   270545      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+28     199457   118387      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 602 
+the susList size is: 859the select time is: 0 the selected satemenet is :460       suspiciousValue:  0.9796005099872503      the run statemment time is: 0 
+14     106658   26607      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 602 
+23     128787   48884      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+the susList size is: 464the select time is: 0 the selected satemenet is :199       suspiciousValue:  0.9906542056074766      the run statemment time is: 102890 
+the susList size is: 518the select time is: 0 the selected satemenet is :421       suspiciousValue:  0.9706881903143585      the run statemment time is: 42108 
+20     105914   25993      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+9     97787   14926      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+the susList size is: 381the select time is: 0 the selected satemenet is :44       suspiciousValue:  0.9961767204757859      the run statemment time is: 57582 
+the susList size is: 374the select time is: 0 the selected satemenet is :335       suspiciousValue:  0.9702633814783348      the run statemment time is: 72552 
+34     107561   27271      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+79     253442   172515      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+58     215790   135434      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+the susList size is: 392the select time is: 0 the selected satemenet is :277       suspiciousValue:  0.9791843670348344      the run statemment time is: 17156 
+the susList size is: 450the select time is: 0 the selected satemenet is :385       suspiciousValue:  0.9702633814783348      the run statemment time is: 38512 
+7     107266   23588      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 602 
+31     170236   89729      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 620 
+the susList size is: 455the select time is: 0 the selected satemenet is :146       suspiciousValue:  0.9910790144435004      the run statemment time is: 53562 
+the susList size is: 403the select time is: 0 the selected satemenet is :183       suspiciousValue:  0.9796091758708582      the run statemment time is: 603247 
+the susList size is: 320the select time is: 0 the selected satemenet is :257       suspiciousValue:  0.9728122344944775      the run statemment time is: 112510 
+39     115231   31499      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 620 
+84     217000   137301      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+the susList size is: 315the select time is: 0 the selected satemenet is :241       suspiciousValue:  0.9728122344944775      the run statemment time is: 78519 
+the susList size is: 484the select time is: 0 the selected satemenet is :302       suspiciousValue:  0.9796091758708582      the run statemment time is: 54579 
+the susList size is: 359the select time is: 0 the selected satemenet is :121       suspiciousValue:  0.9910790144435004      the run statemment time is: 74770 
+14     118434   37857      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 620 
+the susList size is: 407the select time is: 0 the selected satemenet is :214       suspiciousValue:  0.9796091758708582      the run statemment time is: 85346 
+the susList size is: 449the select time is: 0 the selected satemenet is :224       suspiciousValue:  0.9796091758708582      the run statemment time is: 13844 
+the susList size is: 449the select time is: 0 the selected satemenet is :246       suspiciousValue:  0.9796091758708582      the run statemment time is: 10797 
+54     113106   32903      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+38     173671   91113      org.apache.commons.math.optimization.general.LevenbergMarquardtOptimizer : 417 
+the susList size is: 396the select time is: 0 the selected satemenet is :350       suspiciousValue:  0.9553950722175021      the run statemment time is: 78943 
+the susList size is: 420the select time is: 0 the selected satemenet is :180       suspiciousValue:  0.9813084112149533      the run statemment time is: 17636 
+the susList size is: 419the select time is: 0 the selected satemenet is :179       suspiciousValue:  0.9800339847068819      the run statemment time is: 139586 
+26     161880   81794      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+the susList size is: 445the select time is: 0 the selected satemenet is :178       suspiciousValue:  0.9910790144435004      the run statemment time is: 47789 
+the susList size is: 397the select time is: 0 the selected satemenet is :384       suspiciousValue:  0.8300764655904843      the run statemment time is: 95427 
+the susList size is: 453the select time is: 0 the selected satemenet is :28       suspiciousValue:  0.9978759558198811      the run statemment time is: 49252 
+the susList size is: 340the select time is: 0 the selected satemenet is :54       suspiciousValue:  0.9923534409515717      the run statemment time is: 50978 
+the susList size is: 421the select time is: 0 the selected satemenet is :375       suspiciousValue:  0.9056924384027187      the run statemment time is: 49974 
+the susList size is: 466the select time is: 0 the selected satemenet is :321       suspiciousValue:  0.9791843670348344      the run statemment time is: 28237 
+the susList size is: 451the select time is: 0 the selected satemenet is :102       suspiciousValue:  0.991928632115548      the run statemment time is: 1072861 
+34     161521   51970      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+the susList size is: 319the select time is: 0 the selected satemenet is :201       suspiciousValue:  0.9796091758708582      the run statemment time is: 339370 
+67     237867   130346      org.apache.commons.math.analysis.function.Gaussian$Parametric : 182 
+the susList size is: 454the select time is: 0 the selected satemenet is :14       suspiciousValue:  0.9978759558198811      the run statemment time is: 44982 
+the susList size is: 387the select time is: 0 the selected satemenet is :283       suspiciousValue:  0.9791843670348344      the run statemment time is: 212213 
