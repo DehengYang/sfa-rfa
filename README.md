@@ -92,7 +92,7 @@ To get the figures and results of statistcal tests presented in our paper:
 
 
 **The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 3 -- extended:**
-![The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 4 -- for 16 buggy programs](https://github.com/DehengYang/sfa-rfa/blob/master/doc/NCP\ distributions\ for\ 16\ bugs.png)
+![The NCP distributions of SFA-based Nopol and RFA-based Nopol -- part 4 -- for 16 buggy programs](https://github.com/DehengYang/sfa-rfa/blob/master/doc/NCP distributions\ for\ 16\ bugs.png)
 
 **Statistical analysis of RQ 2:**
 ![Statistical analysis of RQ 2](https://github.com/DehengYang/sfa-rfa/blob/master/doc/Statistical%20analysis%20of%20RQ%202.png)
