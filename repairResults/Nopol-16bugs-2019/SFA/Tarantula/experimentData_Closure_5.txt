@@ -1,0 +1,100 @@
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+3  2th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+44  43th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+No Patch
+No Patch
+138  137th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+No Patch
+No Patch
+99  98th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+774  773th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+679  678th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+421  420th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+700  699th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+870  869th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+54  53th selected statement:com.google.javascript.rhino.Node : 1438
+No Patch
+878  877th selected statement:com.google.javascript.rhino.Node : 1411
+373  372th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+357  356th selected statement:com.google.javascript.rhino.Node : 1411
+10  9th selected statement:com.google.javascript.rhino.Node : 1439
+106  105th selected statement:com.google.javascript.rhino.Node : 1410
+No Patch
+No Patch
+458  457th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+20  19th selected statement:com.google.javascript.rhino.Node : 1438
+No Patch
+31  30th selected statement:com.google.javascript.rhino.Node : 1411
+814  813th selected statement:com.google.javascript.rhino.Node : 1411
+345  344th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+24  23th selected statement:com.google.javascript.rhino.Node : 1439
+232  231th selected statement:com.google.javascript.rhino.Node : 1438
+No Patch
+No Patch
+No Patch
+No Patch
+154  153th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+No Patch
+No Patch
+395  394th selected statement:com.google.javascript.rhino.Node : 1411
+270  269th selected statement:com.google.javascript.rhino.Node : 1410
+No Patch
+No Patch
+788  787th selected statement:com.google.javascript.rhino.Node : 1411
+5  4th selected statement:com.google.javascript.rhino.Node : 1438
+351  350th selected statement:com.google.javascript.rhino.Node : 1411
+88  87th selected statement:com.google.javascript.rhino.Node : 1439
+57  56th selected statement:com.google.javascript.rhino.Node : 1411
+304  303th selected statement:com.google.javascript.rhino.Node : 1438
+No Patch
+719  718th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+373  372th selected statement:com.google.javascript.rhino.Node : 1411
+81  80th selected statement:com.google.javascript.rhino.Node : 1438
+356  355th selected statement:com.google.javascript.rhino.Node : 1411
+882  881th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+No Patch
+677  676th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+107  106th selected statement:com.google.javascript.rhino.Node : 1410
+No Patch
+No Patch
+No Patch
+758  757th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+111  110th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+No Patch

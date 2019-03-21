@@ -1,0 +1,9 @@
+repairInfo_Closure_10_0.txt does not exist
+39  38th selected statement:com.google.javascript.rhino.Node : 1433
+39  38th selected statement:com.google.javascript.rhino.Node : 1433
+39  38th selected statement:com.google.javascript.rhino.Node : 1433
+39  38th selected statement:com.google.javascript.rhino.Node : 1433
+39  38th selected statement:com.google.javascript.rhino.Node : 1433
+39  38th selected statement:com.google.javascript.rhino.Node : 1433
+39  38th selected statement:com.google.javascript.rhino.Node : 1433
+39  38th selected statement:com.google.javascript.rhino.Node : 1433

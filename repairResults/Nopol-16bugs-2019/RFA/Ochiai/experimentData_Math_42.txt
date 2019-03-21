@@ -1,0 +1,9 @@
+repairInfo_Math_42_0.txt does not exist
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347

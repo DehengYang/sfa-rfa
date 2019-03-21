@@ -1,0 +1,100 @@
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+72  71th selected statement:com.google.javascript.rhino.Node : 1430
+No Patch
+23  22th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 315
+13  12th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 315
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+130  129th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 315
+No Patch
+No Patch
+No Patch
+No Patch
+43  42th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 309
+No Patch
+No Patch
+No Patch
+60  59th selected statement:com.google.javascript.rhino.Node : 1430
+No Patch
+No Patch
+25  24th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 309
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+72  71th selected statement:com.google.javascript.rhino.Node : 1430
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+107  106th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 309
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch

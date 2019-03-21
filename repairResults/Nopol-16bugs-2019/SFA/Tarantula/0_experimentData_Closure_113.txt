@@ -1,0 +1,4 @@
+61  60th selected statement:com.google.javascript.jscomp.VarCheck : 187
+26  25th selected statement:com.google.javascript.jscomp.ProcessClosurePrimitives : 329
+20  19th selected statement:com.google.javascript.jscomp.VarCheck : 187
+77  76th selected statement:com.google.javascript.jscomp.VarCheck : 187

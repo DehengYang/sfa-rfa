@@ -1,0 +1,100 @@
+72  71th selected statement:com.google.javascript.rhino.Node : 1411
+34  33th selected statement:com.google.javascript.rhino.Node : 1411
+18  17th selected statement:com.google.javascript.rhino.Node : 1411
+93  92th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+22  21th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+38  37th selected statement:com.google.javascript.rhino.Node : 1411
+110  109th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+142  141th selected statement:com.google.javascript.rhino.Node : 1411
+32  31th selected statement:com.google.javascript.rhino.Node : 1411
+93  92th selected statement:com.google.javascript.rhino.Node : 1411
+23  22th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+150  149th selected statement:com.google.javascript.rhino.Node : 1411
+8  7th selected statement:com.google.javascript.rhino.Node : 1411
+4  3th selected statement:com.google.javascript.rhino.Node : 1411
+8  7th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+36  35th selected statement:com.google.javascript.rhino.Node : 1411
+53  52th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+57  56th selected statement:com.google.javascript.rhino.Node : 1411
+86  85th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+41  40th selected statement:com.google.javascript.rhino.Node : 1411
+48  47th selected statement:com.google.javascript.rhino.Node : 1411
+21  20th selected statement:com.google.javascript.rhino.Node : 1411
+48  47th selected statement:com.google.javascript.rhino.Node : 1411
+58  57th selected statement:com.google.javascript.rhino.Node : 1411
+25  24th selected statement:com.google.javascript.rhino.Node : 1411
+31  30th selected statement:com.google.javascript.rhino.Node : 1411
+13  12th selected statement:com.google.javascript.rhino.Node : 1411
+42  41th selected statement:com.google.javascript.rhino.Node : 1411
+6  5th selected statement:com.google.javascript.rhino.Node : 1411
+26  25th selected statement:com.google.javascript.rhino.Node : 1411
+8  7th selected statement:com.google.javascript.rhino.Node : 1411
+9  8th selected statement:com.google.javascript.rhino.Node : 1411
+42  41th selected statement:com.google.javascript.rhino.Node : 1411
+6  5th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+23  22th selected statement:com.google.javascript.rhino.Node : 1411
+67  66th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347
+16  15th selected statement:com.google.javascript.rhino.Node : 1411
+98  97th selected statement:com.google.javascript.rhino.Node : 1411
+18  17th selected statement:com.google.javascript.rhino.Node : 1411
+37  36th selected statement:com.google.javascript.rhino.Node : 1411
+25  24th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+22  21th selected statement:com.google.javascript.rhino.Node : 1411
+68  67th selected statement:com.google.javascript.rhino.Node : 1411
+19  18th selected statement:com.google.javascript.rhino.Node : 1411
+9  8th selected statement:com.google.javascript.rhino.Node : 1411
+66  65th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+21  20th selected statement:com.google.javascript.rhino.Node : 1411
+184  183th selected statement:com.google.javascript.rhino.Node : 1411
+13  12th selected statement:com.google.javascript.rhino.Node : 1411
+17  16th selected statement:com.google.javascript.rhino.Node : 1411
+17  16th selected statement:com.google.javascript.rhino.Node : 1411
+63  62th selected statement:com.google.javascript.rhino.Node : 1411
+44  43th selected statement:com.google.javascript.rhino.Node : 1411
+6  5th selected statement:com.google.javascript.rhino.Node : 1411
+82  81th selected statement:com.google.javascript.rhino.Node : 1411
+64  63th selected statement:com.google.javascript.rhino.Node : 1411
+45  44th selected statement:com.google.javascript.rhino.Node : 1411
+47  46th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+23  22th selected statement:com.google.javascript.rhino.Node : 1411
+47  46th selected statement:com.google.javascript.rhino.Node : 1411
+33  32th selected statement:com.google.javascript.rhino.Node : 1411
+14  13th selected statement:com.google.javascript.rhino.Node : 1411
+42  41th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+62  61th selected statement:com.google.javascript.rhino.Node : 1411
+75  74th selected statement:com.google.javascript.rhino.Node : 1411
+16  15th selected statement:com.google.javascript.rhino.Node : 1411
+25  24th selected statement:com.google.javascript.rhino.Node : 1411
+7  6th selected statement:com.google.javascript.rhino.Node : 1411
+31  30th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+23  22th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+No Patch
+20  19th selected statement:com.google.javascript.rhino.Node : 1411
+19  18th selected statement:com.google.javascript.rhino.Node : 1411
+33  32th selected statement:com.google.javascript.rhino.Node : 1411
+40  39th selected statement:com.google.javascript.rhino.Node : 1411
+88  87th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+64  63th selected statement:com.google.javascript.rhino.Node : 1411
+20  19th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+17  16th selected statement:com.google.javascript.rhino.Node : 1411
+37  36th selected statement:com.google.javascript.rhino.Node : 1411
+85  84th selected statement:com.google.javascript.rhino.Node : 1411
+145  144th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347

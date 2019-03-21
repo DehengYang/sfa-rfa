@@ -1,0 +1,12 @@
+21  20th selected statement:com.google.javascript.jscomp.MustBeReachingVariableDef : 281
+196  195th selected statement:com.google.javascript.jscomp.MustBeReachingVariableDef : 435
+73  72th selected statement:com.google.javascript.jscomp.MustBeReachingVariableDef : 430
+113  112th selected statement:com.google.javascript.jscomp.MustBeReachingVariableDef : 430
+27  26th selected statement:com.google.javascript.jscomp.MustBeReachingVariableDef : 355
+9  8th selected statement:com.google.javascript.jscomp.MustBeReachingVariableDef : 348
+70  69th selected statement:com.google.javascript.jscomp.MustBeReachingVariableDef : 435
+87  86th selected statement:com.google.javascript.jscomp.MustBeReachingVariableDef : 430
+24  23th selected statement:com.google.javascript.jscomp.MustBeReachingVariableDef : 347
+298  297th selected statement:com.google.javascript.jscomp.MustBeReachingVariableDef : 281
+134  133th selected statement:com.google.javascript.rhino.Node : 1411
+115  114th selected statement:com.google.javascript.jscomp.MustBeReachingVariableDef : 347

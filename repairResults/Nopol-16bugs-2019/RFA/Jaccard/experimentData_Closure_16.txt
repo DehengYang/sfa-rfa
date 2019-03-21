@@ -1,0 +1,10 @@
+25  24th selected statement:com.google.javascript.rhino.Node : 1446
+25  24th selected statement:com.google.javascript.rhino.Node : 1446
+25  24th selected statement:com.google.javascript.rhino.Node : 1446
+25  24th selected statement:com.google.javascript.rhino.Node : 1446
+25  24th selected statement:com.google.javascript.rhino.Node : 1446
+25  24th selected statement:com.google.javascript.rhino.Node : 1446
+25  24th selected statement:com.google.javascript.rhino.Node : 1446
+25  24th selected statement:com.google.javascript.rhino.Node : 1446
+25  24th selected statement:com.google.javascript.rhino.Node : 1446
+25  24th selected statement:com.google.javascript.rhino.Node : 1446

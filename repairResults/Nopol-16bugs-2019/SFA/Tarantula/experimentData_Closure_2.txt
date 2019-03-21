@@ -1,0 +1,100 @@
+96  95th selected statement:com.google.javascript.jscomp.TypeCheck : 1656
+No Patch
+No Patch
+134  133th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+167  166th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+No Patch
+165  164th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+106  105th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+77  76th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+41  40th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+No Patch
+337  336th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+100  99th selected statement:com.google.javascript.jscomp.FunctionTypeBuilder : 638
+No Patch
+No Patch
+167  166th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+No Patch
+No Patch
+No Patch
+99  98th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+265  264th selected statement:com.google.javascript.jscomp.TypeCheck : 1656
+No Patch
+94  93th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+251  250th selected statement:com.google.javascript.jscomp.TypeCheck : 1656
+12  11th selected statement:com.google.javascript.jscomp.FunctionTypeBuilder : 638
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+216  215th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+No Patch
+245  244th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+No Patch
+No Patch
+No Patch
+88  87th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+No Patch
+No Patch
+58  57th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+No Patch
+No Patch
+32  31th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+133  132th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+26  25th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+114  113th selected statement:com.google.javascript.jscomp.FunctionTypeBuilder : 638
+218  217th selected statement:com.google.javascript.jscomp.FunctionTypeBuilder : 638
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+19  18th selected statement:com.google.javascript.jscomp.FunctionTypeBuilder : 638
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+26  25th selected statement:com.google.javascript.jscomp.FunctionTypeBuilder : 638
+107  106th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+11  10th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch

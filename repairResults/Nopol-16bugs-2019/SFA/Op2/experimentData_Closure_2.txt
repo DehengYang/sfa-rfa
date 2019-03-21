@@ -1,0 +1,100 @@
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+93  92th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+132  131th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+82  81th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+No Patch
+No Patch
+No Patch
+18  17th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+27  26th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+No Patch
+No Patch
+72  71th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+44  43th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+111  110th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+27  26th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+No Patch
+No Patch
+34  33th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+61  60th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+36  35th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+No Patch
+No Patch
+34  33th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+25  24th selected statement:com.google.javascript.jscomp.TypeCheck : 1662
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch

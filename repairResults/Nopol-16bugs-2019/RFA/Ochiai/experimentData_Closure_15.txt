@@ -1,0 +1,9 @@
+repairInfo_Closure_15_0.txt does not exist
+23  22th selected statement:com.google.javascript.rhino.Node : 1430
+23  22th selected statement:com.google.javascript.rhino.Node : 1430
+23  22th selected statement:com.google.javascript.rhino.Node : 1430
+23  22th selected statement:com.google.javascript.rhino.Node : 1430
+23  22th selected statement:com.google.javascript.rhino.Node : 1430
+23  22th selected statement:com.google.javascript.rhino.Node : 1430
+23  22th selected statement:com.google.javascript.rhino.Node : 1430
+23  22th selected statement:com.google.javascript.rhino.Node : 1430

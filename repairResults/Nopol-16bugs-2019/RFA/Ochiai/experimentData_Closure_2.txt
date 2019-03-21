@@ -1,0 +1,9 @@
+repairInfo_Closure_2_0.txt does not exist
+3  2th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+3  2th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+3  2th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+3  2th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+3  2th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+3  2th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+3  2th selected statement:com.google.javascript.jscomp.TypeCheck : 1664
+3  2th selected statement:com.google.javascript.jscomp.TypeCheck : 1664

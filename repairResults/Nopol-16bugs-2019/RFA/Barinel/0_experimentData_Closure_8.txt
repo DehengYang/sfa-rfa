@@ -1,0 +1,10 @@
+15  14th selected statement:com.google.javascript.rhino.Node : 1411
+15  14th selected statement:com.google.javascript.rhino.Node : 1411
+15  14th selected statement:com.google.javascript.rhino.Node : 1411
+15  14th selected statement:com.google.javascript.rhino.Node : 1411
+15  14th selected statement:com.google.javascript.rhino.Node : 1411
+15  14th selected statement:com.google.javascript.rhino.Node : 1411
+15  14th selected statement:com.google.javascript.rhino.Node : 1411
+15  14th selected statement:com.google.javascript.rhino.Node : 1411
+15  14th selected statement:com.google.javascript.rhino.Node : 1411
+15  14th selected statement:com.google.javascript.rhino.Node : 1411

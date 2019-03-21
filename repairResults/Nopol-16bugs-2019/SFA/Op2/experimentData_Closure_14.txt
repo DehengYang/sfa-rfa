@@ -1,0 +1,100 @@
+No Patch
+No Patch
+No Patch
+50  49th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+No Patch
+551  550th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+No Patch
+337  336th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+No Patch
+No Patch
+227  226th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+54  53th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+901  900th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+116  115th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+178  177th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+430  429th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+No Patch
+No Patch
+411  410th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+No Patch
+No Patch
+No Patch
+No Patch
+673  672th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+No Patch
+No Patch
+No Patch
+16  15th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+No Patch
+289  288th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+40  39th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+No Patch
+No Patch
+No Patch
+266  265th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+No Patch
+27  26th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+No Patch
+571  570th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+No Patch
+No Patch
+118  117th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+No Patch
+No Patch
+822  821th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+No Patch
+No Patch
+No Patch
+No Patch
+1128  1127th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653

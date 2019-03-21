@@ -1,0 +1,100 @@
+No Patch
+462  461th selected statement:com.google.javascript.jscomp.RhinoErrorReporter : 105
+No Patch
+No Patch
+193  192th selected statement:com.google.javascript.jscomp.RhinoErrorReporter$OldRhinoErrorReporter : 147
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+86  85th selected statement:com.google.javascript.jscomp.RhinoErrorReporter : 105
+No Patch
+No Patch
+116  115th selected statement:com.google.javascript.jscomp.RhinoErrorReporter$OldRhinoErrorReporter : 147
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+558  557th selected statement:com.google.javascript.rhino.Node : 1446
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+449  448th selected statement:com.google.javascript.jscomp.RhinoErrorReporter : 105
+No Patch
+86  85th selected statement:com.google.javascript.rhino.jstype.NamedType : 361
+No Patch
+No Patch
+88  87th selected statement:com.google.javascript.rhino.Node : 1446
+No Patch
+No Patch
+No Patch
+215  214th selected statement:com.google.javascript.jscomp.RhinoErrorReporter : 105
+28  27th selected statement:com.google.javascript.rhino.jstype.NamedType : 280
+No Patch
+488  487th selected statement:com.google.javascript.rhino.jstype.NamedType : 280
+No Patch
+No Patch
+394  393th selected statement:com.google.javascript.rhino.jstype.NamedType : 361
+No Patch
+279  278th selected statement:com.google.javascript.rhino.jstype.NamedType : 360
+133  132th selected statement:com.google.javascript.rhino.Node : 1446
+100  99th selected statement:com.google.javascript.rhino.Node : 1446
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+33  32th selected statement:com.google.javascript.rhino.jstype.NamedType : 361
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+150  149th selected statement:com.google.javascript.rhino.jstype.NamedType : 280
+No Patch
+406  405th selected statement:com.google.javascript.rhino.jstype.NamedType : 360
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+341  340th selected statement:com.google.javascript.rhino.Node : 1446
+No Patch
+No Patch
+24  23th selected statement:com.google.javascript.rhino.jstype.NamedType : 361
+454  453th selected statement:com.google.javascript.jscomp.RhinoErrorReporter$OldRhinoErrorReporter : 147
+No Patch
+60  59th selected statement:com.google.javascript.jscomp.RhinoErrorReporter : 105
+195  194th selected statement:com.google.javascript.rhino.jstype.NamedType : 280
+No Patch
+No Patch
+No Patch
+506  505th selected statement:com.google.javascript.rhino.Node : 1446
+No Patch
+No Patch
+297  296th selected statement:com.google.javascript.jscomp.RhinoErrorReporter : 105
+No Patch
+No Patch
+No Patch
+No Patch
+241  240th selected statement:com.google.javascript.rhino.Node : 1446
+300  299th selected statement:com.google.javascript.jscomp.RhinoErrorReporter : 105
+No Patch
+191  190th selected statement:com.google.javascript.rhino.jstype.NamedType : 280
+No Patch
+No Patch
+No Patch
+1  0th selected statement:com.google.javascript.jscomp.RhinoErrorReporter : 105
+No Patch
+94  93th selected statement:com.google.javascript.rhino.jstype.NamedType : 361
+No Patch

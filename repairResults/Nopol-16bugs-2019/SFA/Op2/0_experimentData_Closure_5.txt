@@ -1,0 +1,7 @@
+173  172th selected statement:com.google.javascript.rhino.Node : 1411
+261  260th selected statement:com.google.javascript.rhino.Node : 1411
+320  319th selected statement:com.google.javascript.rhino.Node : 1411
+26  25th selected statement:com.google.javascript.rhino.Node : 1411
+235  234th selected statement:com.google.javascript.rhino.Node : 1411
+174  173th selected statement:com.google.javascript.rhino.Node : 1411
+177  176th selected statement:com.google.javascript.rhino.Node : 1411

@@ -1,0 +1,96 @@
+No Patch
+No Patch
+79  78th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+No Patch
+81  80th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+No Patch
+480  479th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+No Patch
+656  655th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+269  268th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+369  368th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+196  195th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+No Patch
+No Patch
+No Patch
+No Patch
+490  489th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+233  232th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+No Patch
+No Patch
+No Patch
+No Patch
+214  213th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+344  343th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+No Patch
+307  306th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+257  256th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+67  66th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 661
+No Patch
+256  255th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 661
+No Patch
+164  163th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+755  754th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+116  115th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+No Patch
+No Patch
+193  192th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+No Patch
+191  190th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+938  937th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+No Patch
+No Patch
+352  351th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+No Patch
+No Patch
+548  547th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+No Patch
+599  598th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+493  492th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+250  249th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 646
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+1  0th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+112  111th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+181  180th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+No Patch
+No Patch
+45  44th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 653
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+302  301th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+182  181th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 664
+No Patch
+339  338th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 661
+No Patch
+31  30th selected statement:com.google.javascript.jscomp.ControlFlowAnalysis : 661
+No Patch

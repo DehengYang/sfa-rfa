@@ -1,0 +1,8 @@
+11  10th selected statement:com.google.javascript.rhino.Node : 1417
+11  10th selected statement:com.google.javascript.rhino.Node : 1417
+11  10th selected statement:com.google.javascript.rhino.Node : 1417
+11  10th selected statement:com.google.javascript.rhino.Node : 1417
+11  10th selected statement:com.google.javascript.rhino.Node : 1417
+11  10th selected statement:com.google.javascript.rhino.Node : 1417
+11  10th selected statement:com.google.javascript.rhino.Node : 1417
+11  10th selected statement:com.google.javascript.rhino.Node : 1417

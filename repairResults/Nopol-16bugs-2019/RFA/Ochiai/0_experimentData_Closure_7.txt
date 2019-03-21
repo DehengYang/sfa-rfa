@@ -1,0 +1,8 @@
+92  91th selected statement:com.google.javascript.rhino.testing.Asserts : 103
+92  91th selected statement:com.google.javascript.rhino.testing.Asserts : 103
+92  91th selected statement:com.google.javascript.rhino.testing.Asserts : 103
+92  91th selected statement:com.google.javascript.rhino.testing.Asserts : 103
+92  91th selected statement:com.google.javascript.rhino.testing.Asserts : 103
+92  91th selected statement:com.google.javascript.rhino.testing.Asserts : 103
+92  91th selected statement:com.google.javascript.rhino.testing.Asserts : 103
+92  91th selected statement:com.google.javascript.rhino.testing.Asserts : 103

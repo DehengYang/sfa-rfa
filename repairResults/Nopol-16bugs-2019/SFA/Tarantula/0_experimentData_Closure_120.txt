@@ -1,0 +1,9 @@
+91  90th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 315
+4  3th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 315
+10  9th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 315
+112  111th selected statement:com.google.javascript.rhino.Node : 1430
+36  35th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 309
+8  7th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 309
+13  12th selected statement:com.google.javascript.rhino.Node : 1430
+20  19th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 315
+27  26th selected statement:com.google.javascript.jscomp.InlineVariables$InliningBehavior : 309

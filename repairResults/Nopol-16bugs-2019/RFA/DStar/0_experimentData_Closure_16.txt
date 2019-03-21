@@ -1,0 +1,10 @@
+61  60th selected statement:com.google.javascript.rhino.Node : 1446
+61  60th selected statement:com.google.javascript.rhino.Node : 1446
+61  60th selected statement:com.google.javascript.rhino.Node : 1446
+61  60th selected statement:com.google.javascript.rhino.Node : 1446
+61  60th selected statement:com.google.javascript.rhino.Node : 1446
+61  60th selected statement:com.google.javascript.rhino.Node : 1446
+61  60th selected statement:com.google.javascript.rhino.Node : 1446
+61  60th selected statement:com.google.javascript.rhino.Node : 1446
+61  60th selected statement:com.google.javascript.rhino.Node : 1446
+61  60th selected statement:com.google.javascript.rhino.Node : 1446

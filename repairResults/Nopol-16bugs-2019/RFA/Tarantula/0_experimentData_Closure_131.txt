@@ -1,0 +1,10 @@
+19  18th selected statement:com.google.javascript.rhino.Node : 1417
+19  18th selected statement:com.google.javascript.rhino.Node : 1417
+19  18th selected statement:com.google.javascript.rhino.Node : 1417
+19  18th selected statement:com.google.javascript.rhino.Node : 1417
+19  18th selected statement:com.google.javascript.rhino.Node : 1417
+19  18th selected statement:com.google.javascript.rhino.Node : 1417
+19  18th selected statement:com.google.javascript.rhino.Node : 1417
+19  18th selected statement:com.google.javascript.rhino.Node : 1417
+19  18th selected statement:com.google.javascript.rhino.Node : 1417
+19  18th selected statement:com.google.javascript.rhino.Node : 1417

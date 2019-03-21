@@ -1,0 +1,58 @@
+repairInfo_Closure_113_0.txt does not exist
+repairInfo_Closure_113_1.txt does not exist
+repairInfo_Closure_113_2.txt does not exist
+repairInfo_Closure_113_3.txt does not exist
+repairInfo_Closure_113_4.txt does not exist
+repairInfo_Closure_113_5.txt does not exist
+repairInfo_Closure_113_6.txt does not exist
+repairInfo_Closure_113_7.txt does not exist
+repairInfo_Closure_113_8.txt does not exist
+repairInfo_Closure_113_9.txt does not exist
+repairInfo_Closure_113_10.txt does not exist
+repairInfo_Closure_113_11.txt does not exist
+repairInfo_Closure_113_12.txt does not exist
+repairInfo_Closure_113_13.txt does not exist
+repairInfo_Closure_113_14.txt does not exist
+repairInfo_Closure_113_15.txt does not exist
+repairInfo_Closure_113_16.txt does not exist
+repairInfo_Closure_113_17.txt does not exist
+repairInfo_Closure_113_18.txt does not exist
+repairInfo_Closure_113_19.txt does not exist
+repairInfo_Closure_113_20.txt does not exist
+repairInfo_Closure_113_21.txt does not exist
+repairInfo_Closure_113_22.txt does not exist
+repairInfo_Closure_113_23.txt does not exist
+repairInfo_Closure_113_24.txt does not exist
+repairInfo_Closure_113_25.txt does not exist
+repairInfo_Closure_113_26.txt does not exist
+repairInfo_Closure_113_27.txt does not exist
+repairInfo_Closure_113_28.txt does not exist
+repairInfo_Closure_113_29.txt does not exist
+repairInfo_Closure_113_30.txt does not exist
+repairInfo_Closure_113_31.txt does not exist
+repairInfo_Closure_113_32.txt does not exist
+repairInfo_Closure_113_33.txt does not exist
+repairInfo_Closure_113_34.txt does not exist
+repairInfo_Closure_113_35.txt does not exist
+repairInfo_Closure_113_36.txt does not exist
+repairInfo_Closure_113_37.txt does not exist
+repairInfo_Closure_113_38.txt does not exist
+repairInfo_Closure_113_39.txt does not exist
+repairInfo_Closure_113_40.txt does not exist
+repairInfo_Closure_113_41.txt does not exist
+No Patch
+61  60th selected statement:com.google.javascript.jscomp.VarCheck : 187
+No Patch
+26  25th selected statement:com.google.javascript.jscomp.ProcessClosurePrimitives : 329
+20  19th selected statement:com.google.javascript.jscomp.VarCheck : 187
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+77  76th selected statement:com.google.javascript.jscomp.VarCheck : 187

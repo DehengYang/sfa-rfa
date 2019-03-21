@@ -1,0 +1,100 @@
+No Patch
+106  105th selected statement:com.google.javascript.jscomp.VarCheck : 187
+No Patch
+208  207th selected statement:com.google.javascript.jscomp.ProcessClosurePrimitives : 329
+44  43th selected statement:com.google.javascript.jscomp.VarCheck : 187
+No Patch
+No Patch
+88  87th selected statement:com.google.javascript.jscomp.VarCheck : 188
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+32  31th selected statement:com.google.javascript.jscomp.VarCheck : 188
+No Patch
+No Patch
+3  2th selected statement:com.google.javascript.jscomp.ProcessClosurePrimitives : 329
+No Patch
+No Patch
+No Patch
+No Patch
+2  1th selected statement:com.google.javascript.jscomp.ProcessClosurePrimitives : 329
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+32  31th selected statement:com.google.javascript.jscomp.VarCheck : 187
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+227  226th selected statement:com.google.javascript.jscomp.ProcessClosurePrimitives : 329
+No Patch
+18  17th selected statement:com.google.javascript.jscomp.VarCheck : 187
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+127  126th selected statement:com.google.javascript.jscomp.VarCheck : 187
+No Patch
+18  17th selected statement:com.google.javascript.jscomp.ProcessClosurePrimitives : 329
+No Patch
+No Patch
+17  16th selected statement:com.google.javascript.jscomp.VarCheck : 187
+53  52th selected statement:com.google.javascript.jscomp.VarCheck : 188
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+78  77th selected statement:com.google.javascript.jscomp.ProcessClosurePrimitives : 329
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+54  53th selected statement:com.google.javascript.jscomp.VarCheck : 188
+No Patch
+No Patch
+No Patch
+122  121th selected statement:com.google.javascript.jscomp.ProcessClosurePrimitives : 329
+No Patch
+No Patch
+9  8th selected statement:com.google.javascript.jscomp.ProcessClosurePrimitives : 329
+45  44th selected statement:com.google.javascript.jscomp.VarCheck : 188
+43  42th selected statement:com.google.javascript.jscomp.VarCheck : 188
+149  148th selected statement:com.google.javascript.jscomp.VarCheck : 187
+No Patch
+No Patch
+No Patch
+No Patch
+No Patch
+75  74th selected statement:com.google.javascript.jscomp.VarCheck : 188
+No Patch
+No Patch
+No Patch

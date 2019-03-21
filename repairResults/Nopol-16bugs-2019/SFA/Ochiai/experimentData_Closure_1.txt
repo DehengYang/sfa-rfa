@@ -1,0 +1,100 @@
+336  335th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+325  324th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+65  64th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347
+69  68th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 178
+327  326th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347
+94  93th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+194  193th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+238  237th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347
+119  118th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+61  60th selected statement:com.google.javascript.rhino.Node : 1411
+131  130th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 179
+264  263th selected statement:com.google.javascript.rhino.Node : 1411
+2  1th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 178
+22  21th selected statement:com.google.javascript.rhino.Node : 1411
+386  385th selected statement:com.google.javascript.rhino.Node : 1411
+39  38th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 383
+1  0th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 383
+No Patch
+78  77th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 178
+27  26th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347
+126  125th selected statement:com.google.javascript.rhino.Node : 1411
+4  3th selected statement:com.google.javascript.rhino.Node : 1439
+466  465th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+10  9th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+191  190th selected statement:com.google.javascript.rhino.Node : 1411
+39  38th selected statement:com.google.javascript.rhino.Node : 1438
+140  139th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 383
+232  231th selected statement:com.google.javascript.rhino.Node : 1411
+271  270th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347
+7  6th selected statement:com.google.javascript.rhino.Node : 1438
+190  189th selected statement:com.google.javascript.rhino.Node : 1411
+499  498th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 179
+No Patch
+6  5th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 179
+12  11th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+316  315th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+56  55th selected statement:com.google.javascript.rhino.Node : 1411
+217  216th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+94  93th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347
+185  184th selected statement:com.google.javascript.rhino.Node : 1411
+50  49th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+236  235th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+No Patch
+543  542th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+32  31th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 179
+280  279th selected statement:com.google.javascript.rhino.Node : 1411
+333  332th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347
+108  107th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+351  350th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347
+86  85th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347
+114  113th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 383
+116  115th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+259  258th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 178
+21  20th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 179
+107  106th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+No Patch
+237  236th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 383
+No Patch
+No Patch
+187  186th selected statement:com.google.javascript.rhino.Node : 1411
+231  230th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347
+130  129th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+53  52th selected statement:com.google.javascript.rhino.Node : 1411
+41  40th selected statement:com.google.javascript.rhino.Node : 1411
+105  104th selected statement:com.google.javascript.rhino.Node : 1411
+44  43th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 179
+28  27th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 179
+No Patch
+27  26th selected statement:com.google.javascript.rhino.Node : 1411
+38  37th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 383
+168  167th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+343  342th selected statement:com.google.javascript.rhino.Node : 1411
+282  281th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 383
+34  33th selected statement:com.google.javascript.rhino.Node : 1411
+24  23th selected statement:com.google.javascript.rhino.Node : 1439
+35  34th selected statement:com.google.javascript.rhino.Node : 1411
+18  17th selected statement:com.google.javascript.rhino.Node : 1411
+53  52th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+258  257th selected statement:com.google.javascript.rhino.Node : 1411
+154  153th selected statement:com.google.javascript.rhino.Node : 1411
+42  41th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 179
+65  64th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 179
+336  335th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+52  51th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+325  324th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+101  100th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 178
+110  109th selected statement:com.google.javascript.rhino.Node : 1411
+No Patch
+123  122th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+20  19th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+5  4th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+50  49th selected statement:com.google.javascript.rhino.Node : 1411
+414  413th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 347
+54  53th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 394
+208  207th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 179
+39  38th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+340  339th selected statement:com.google.javascript.jscomp.RemoveUnusedVars : 391
+No Patch

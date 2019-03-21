@@ -1,0 +1,10 @@
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+82  81th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347
+2  1th selected statement:org.apache.commons.math.optimization.linear.SimplexTableau : 347

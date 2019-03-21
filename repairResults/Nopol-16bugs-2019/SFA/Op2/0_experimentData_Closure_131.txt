@@ -1,0 +1,8 @@
+8  7th selected statement:com.google.javascript.rhino.Node : 1433
+83  82th selected statement:com.google.javascript.rhino.Node : 1417
+44  43th selected statement:com.google.javascript.rhino.Node : 1433
+129  128th selected statement:com.google.javascript.rhino.Node : 1433
+8  7th selected statement:com.google.javascript.rhino.Node : 1417
+2  1th selected statement:com.google.javascript.rhino.Node : 1433
+79  78th selected statement:com.google.javascript.rhino.Node : 1433
+228  227th selected statement:com.google.javascript.rhino.Node : 1417
