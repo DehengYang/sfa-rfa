@@ -1,0 +1,55 @@
+=================================================
+Project : closure_132	start : 19/03/10 18:27
+Current failed test : com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925 | 19/03/10 18:27
+1552267680 s for the statement.
+
+Sun Mar 10 18:28:00 PDT 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,791
+2487 s for the statement.
+
+Sun Mar 10 19:09:27 PDT 2019 com.google.javascript.rhino.Node,1446
+2 s for the statement.
+
+Sun Mar 10 19:09:29 PDT 2019 com.google.javascript.rhino.Node,981
+693 s for the statement.
+
+Sun Mar 10 19:21:03 PDT 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,896
+15 s for the statement.
+
+Sun Mar 10 19:21:18 PDT 2019 com.google.javascript.rhino.Node,954
+905 s for the statement.
+
+Sun Mar 10 19:36:23 PDT 2019 com.google.javascript.rhino.Node,969
+1431 s for the statement.
+
+Sun Mar 10 20:00:15 PDT 2019 com.google.javascript.rhino.Node,1020
+6237 s for the statement.
+
+Sun Mar 10 21:44:12 PDT 2019 com.google.javascript.rhino.Node,2133
+2 s for the statement.
+
+Sun Mar 10 21:44:15 PDT 2019 com.google.javascript.jscomp.Compiler,1047
+49 s for the statement.
+
+Sun Mar 10 21:45:04 PDT 2019 Sun Mar 10 21:45:04 PDT 2019 : com.google.javascript.rhino.Node,392=>Find no block
+0 s for the statement.
+
+Sun Mar 10 21:45:05 PDT 2019 com.google.javascript.rhino.Node,942
+34 s for the statement.
+
+Sun Mar 10 21:45:39 PDT 2019 com.google.javascript.rhino.Node,1003
+3 s for the statement.
+
+Sun Mar 10 21:45:42 PDT 2019 com.google.javascript.rhino.Node,970
+0 s for the statement.
+
+Sun Mar 10 21:45:42 PDT 2019 com.google.javascript.rhino.Node,971
+1069 s for the statement.
+
+Sun Mar 10 22:03:32 PDT 2019 com.google.javascript.rhino.Node,998
+2 s for the statement.
+
+Sun Mar 10 22:03:35 PDT 2019 com.google.javascript.rhino.Node,866
+477 s for the statement.
+
+Sun Mar 10 22:11:32 PDT 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,775
+Timeout time : 19/03/10 23:28

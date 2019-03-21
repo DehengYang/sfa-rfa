@@ -1,0 +1,376 @@
+=================================================
+Project : closure_55	start : 19/03/09 10:14
+Current failed test : com.google.javascript.jscomp.FunctionRewriterTest::testIssue538 | 19/03/09 10:14
+1552155267 s for the statement.
+
+Sat Mar 09 10:14:27 PST 2019 com.google.javascript.jscomp.FunctionRewriter,178
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement==node){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(node==null){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:17
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement!=null){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement==null){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:21
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(node==replacement){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:24
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(null!=node){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(null==node){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(parent!=parent){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(parent!=node){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement!=parent){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement==node){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return true;
+}
+
+Time : 19/03/09 10:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement!=node.getFirstChild()){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement!=node.getFirstChild()){
+parent=replacement;
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(node==replacement){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return true;
+}
+
+Time : 19/03/09 10:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(node!=null){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:51
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(parent==node){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 10:53
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(parent!=null){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 11:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(parent==null){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 11:06
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(parent!=node){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return true;
+}
+
+Time : 19/03/09 11:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement!=parent){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return true;
+}
+
+Time : 19/03/09 11:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement!=node.getFirstChild().getNext()){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 11:24
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement==node.getFirstChild()){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 11:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement==parent){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 11:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(node!=null){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return true;
+}
+
+Time : 19/03/09 11:34
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement!=null){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return true;
+}
+
+Time : 19/03/09 11:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(parent!=parent){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return true;
+}
+
+Time : 19/03/09 11:38
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(parent==replacement){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 11:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(replacement!=node.getLastChild()){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 11:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(parent!=node.getLastChild()){
+reductions.put(reducer,new Reduction(parent,node,replacement));
+return false;
+}
+
+Time : 19/03/09 11:52
+----------------------------------------
+6150 s for the statement.
+
+Sat Mar 09 11:56:58 PST 2019 com.google.javascript.jscomp.CodeGenerator,482
+511 s for the statement.
+
+Sat Mar 09 12:05:30 PST 2019 com.google.javascript.rhino.Node,1028
+110 s for the statement.
+
+Sat Mar 09 12:07:20 PST 2019 com.google.javascript.rhino.Node,1026
+0 s for the statement.
+
+Sat Mar 09 12:07:20 PST 2019 com.google.javascript.jscomp.FunctionRewriter,95
+2 s for the statement.
+
+Sat Mar 09 12:07:23 PST 2019 com.google.javascript.jscomp.parsing.IRFactory,784
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(node.getType()!=Token.NAME){
+continue;
+}
+if(getFnParamNode(value).hasChildren()){
+reportGetterParam(el.getLeft());
+}
+
+Time : 19/03/09 12:10
+----------------------------------------
+572 s for the statement.
+
+Sat Mar 09 12:16:55 PST 2019 com.google.javascript.jscomp.AstValidator,696
+1862 s for the statement.
+
+Sat Mar 09 12:47:57 PST 2019 com.google.javascript.rhino.Node,1087
+1533 s for the statement.
+
+Sat Mar 09 13:13:30 PST 2019 com.google.javascript.jscomp.FunctionRewriter,221
+483 s for the statement.
+
+Sat Mar 09 13:21:34 PST 2019 com.google.javascript.rhino.Node,722
+6540 s for the statement.
+
+Sat Mar 09 15:10:35 PST 2019 com.google.javascript.jscomp.parsing.IRFactory,547
+105 s for the statement.
+
+Sat Mar 09 15:12:21 PST 2019 com.google.javascript.rhino.Node,415
+38 s for the statement.
+
+Sat Mar 09 15:12:59 PST 2019 com.google.javascript.rhino.Node,1080
+Timeout time : 19/03/09 15:14

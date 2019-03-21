@@ -1,0 +1,54 @@
+=================================================
+Project : closure_59	start : 19/03/11 21:05
+Current failed test : com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff | 19/03/11 21:05
+1552363521 s for the statement.
+
+Mon Mar 11 21:05:21 PDT 2019 com.google.javascript.jscomp.CommandLineRunner,441
+1133 s for the statement.
+
+Mon Mar 11 21:24:15 PDT 2019 com.google.javascript.jscomp.WarningLevel,80
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+options.checkGlobalThisLevel=CheckLevel.OFF;
+options.checkSymbols=true;
+options.checkMissingReturn=CheckLevel.WARNING;
+
+Time : 19/03/11 21:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.25 : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_59_buggy/src/com/google/javascript/jscomp/WarningLevel.java=>0,0]
+options.flowSensitiveInlineVariables=true;
+options.inlineLocalFunctions=true;
+options.checkGlobalThisLevel=CheckLevel.OFF;
+options.foldConstants=true;
+options.coalesceVariableNames=true;
+
+Time : 19/03/11 21:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_59_buggy/src/com/google/javascript/jscomp/WarningLevel.java=>79,81]
+options.checkGlobalThisLevel=CheckLevel.WARNING;
+options.checkSymbols=true;
+options.checkMissingReturn=CheckLevel.WARNING;
+
+Time : 19/03/11 21:27
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_59_buggy/src/com/google/javascript/jscomp/WarningLevel.java=>79,81]
+options.checkGlobalThisLevel=CheckLevel.OFF;
+options.checkSymbols=true;
+options.checkMissingReturn=CheckLevel.WARNING;
+
+Time : 19/03/11 21:27
+----------------------------------------
+NCP is: 164
+184 s for the statement.
+Success time : 19/03/11 21:27

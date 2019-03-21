@@ -1,0 +1,145 @@
+=================================================
+Project : math_30	start : 19/03/13 02:50
+Current failed test : org.apache.commons.math3.stat.inference.MannWhitneyUTestTest::testBigDataSet | 19/03/13 02:50
+1552470655 s for the statement.
+
+Wed Mar 13 02:50:55 PDT 2019 org.apache.commons.math3.stat.ranking.NaturalRanking,225
+126 s for the statement.
+
+Wed Mar 13 02:53:01 PDT 2019 org.apache.commons.math3.util.FastMath,884
+356 s for the statement.
+
+Wed Mar 13 02:58:57 PDT 2019 org.apache.commons.math3.util.FastMath,1154
+2442 s for the statement.
+
+Wed Mar 13 03:39:39 PDT 2019 org.apache.commons.math3.stat.ranking.NaturalRanking,405
+347 s for the statement.
+
+Wed Mar 13 03:45:27 PDT 2019 org.apache.commons.math3.util.FastMath,899
+1024 s for the statement.
+
+Wed Mar 13 04:02:31 PDT 2019 org.apache.commons.math3.stat.ranking.NaturalRanking,410
+417 s for the statement.
+
+Wed Mar 13 04:09:28 PDT 2019 Wed Mar 13 04:09:28 PDT 2019 : org.apache.commons.math3.special.Gamma,45=>Find no block
+0 s for the statement.
+
+Wed Mar 13 04:09:28 PDT 2019 Wed Mar 13 04:09:28 PDT 2019 : org.apache.commons.math3.distribution.NormalDistribution,75=>Find no block
+0 s for the statement.
+
+Wed Mar 13 04:09:28 PDT 2019 org.apache.commons.math3.stat.ranking.NaturalRanking,433
+38 s for the statement.
+
+Wed Mar 13 04:10:06 PDT 2019 org.apache.commons.math3.util.FastMath,826
+3264 s for the statement.
+
+Wed Mar 13 05:04:31 PDT 2019 Wed Mar 13 05:04:31 PDT 2019 : org.apache.commons.math3.util.FastMathLiteralArrays,29=>Find no block
+0 s for the statement.
+
+Wed Mar 13 05:04:31 PDT 2019 org.apache.commons.math3.distribution.NormalDistribution,137
+464 s for the statement.
+
+Wed Mar 13 05:12:15 PDT 2019 org.apache.commons.math3.util.FastMath,1221
+217 s for the statement.
+
+Wed Mar 13 05:15:53 PDT 2019 org.apache.commons.math3.util.FastMath,3539
+143 s for the statement.
+
+Wed Mar 13 05:18:16 PDT 2019 org.apache.commons.math3.stat.inference.MannWhitneyUTest,93
+347 s for the statement.
+
+Wed Mar 13 05:24:04 PDT 2019 Wed Mar 13 05:24:04 PDT 2019 : org.apache.commons.math3.stat.ranking.NaturalRanking,419=>Find no block
+0 s for the statement.
+
+Wed Mar 13 05:24:05 PDT 2019 org.apache.commons.math3.util.FastMath,1255
+562 s for the statement.
+
+Wed Mar 13 05:33:27 PDT 2019 org.apache.commons.math3.stat.ranking.NaturalRanking,246
+2 s for the statement.
+
+Wed Mar 13 05:33:29 PDT 2019 org.apache.commons.math3.util.FastMath,901
+158 s for the statement.
+
+Wed Mar 13 05:36:08 PDT 2019 org.apache.commons.math3.special.Gamma,155
+2 s for the statement.
+
+Wed Mar 13 05:36:10 PDT 2019 org.apache.commons.math3.stat.inference.MannWhitneyUTest,177
+165 s for the statement.
+
+Wed Mar 13 05:38:55 PDT 2019 org.apache.commons.math3.stat.ranking.NaturalRanking,461
+2 s for the statement.
+
+Wed Mar 13 05:38:57 PDT 2019 Wed Mar 13 05:38:57 PDT 2019 : org.apache.commons.math3.random.RandomDataImpl,152=>Find no block
+0 s for the statement.
+
+Wed Mar 13 05:38:58 PDT 2019 org.apache.commons.math3.util.FastMath,1228
+207 s for the statement.
+
+Wed Mar 13 05:42:25 PDT 2019 org.apache.commons.math3.stat.ranking.NaturalRanking,224
+70 s for the statement.
+
+Wed Mar 13 05:43:35 PDT 2019 org.apache.commons.math3.util.FastMath,1096
+111 s for the statement.
+
+Wed Mar 13 05:45:27 PDT 2019 Wed Mar 13 05:45:27 PDT 2019 : org.apache.commons.math3.distribution.AbstractRealDistribution,50=>Find no block
+0 s for the statement.
+
+Wed Mar 13 05:45:27 PDT 2019 org.apache.commons.math3.util.FastMathLiteralArrays,6174
+34 s for the statement.
+
+Wed Mar 13 05:46:01 PDT 2019 org.apache.commons.math3.stat.ranking.NaturalRanking,388
+17 s for the statement.
+
+Wed Mar 13 05:46:19 PDT 2019 org.apache.commons.math3.util.FastMath,903
+201 s for the statement.
+
+Wed Mar 13 05:49:40 PDT 2019 org.apache.commons.math3.stat.inference.MannWhitneyUTest,148
+1047 s for the statement.
+
+Wed Mar 13 06:07:07 PDT 2019 org.apache.commons.math3.distribution.NormalDistribution,141
+0 s for the statement.
+
+Wed Mar 13 06:07:07 PDT 2019 org.apache.commons.math3.stat.inference.MannWhitneyUTest,231
+106 s for the statement.
+
+Wed Mar 13 06:08:54 PDT 2019 org.apache.commons.math3.distribution.NormalDistribution,80
+137 s for the statement.
+
+Wed Mar 13 06:11:11 PDT 2019 org.apache.commons.math3.util.FastMath,1229
+240 s for the statement.
+
+Wed Mar 13 06:15:11 PDT 2019 Wed Mar 13 06:15:11 PDT 2019 : org.apache.commons.math3.util.FastMathLiteralArrays,3043=>Find no block
+0 s for the statement.
+
+Wed Mar 13 06:15:12 PDT 2019 org.apache.commons.math3.util.FastMath,837
+0 s for the statement.
+
+Wed Mar 13 06:15:12 PDT 2019 org.apache.commons.math3.util.FastMath,1234
+257 s for the statement.
+
+Wed Mar 13 06:19:29 PDT 2019 org.apache.commons.math3.util.FastMath,883
+29 s for the statement.
+
+Wed Mar 13 06:19:59 PDT 2019 Wed Mar 13 06:19:59 PDT 2019 : org.apache.commons.math3.util.FastMath,139=>Find no block
+0 s for the statement.
+
+Wed Mar 13 06:19:59 PDT 2019 org.apache.commons.math3.stat.ranking.NaturalRanking,193
+453 s for the statement.
+
+Wed Mar 13 06:27:33 PDT 2019 org.apache.commons.math3.stat.ranking.NaturalRanking,223
+381 s for the statement.
+
+Wed Mar 13 06:33:55 PDT 2019 Wed Mar 13 06:33:55 PDT 2019 : org.apache.commons.math3.util.FastMath,3776=>Find no block
+0 s for the statement.
+
+Wed Mar 13 06:33:55 PDT 2019 org.apache.commons.math3.util.FastMath,1218
+1654 s for the statement.
+
+Wed Mar 13 07:01:30 PDT 2019 org.apache.commons.math3.stat.ranking.NaturalRanking,245
+0 s for the statement.
+
+Wed Mar 13 07:01:30 PDT 2019 org.apache.commons.math3.util.FastMathLiteralArrays,6142
+77 s for the statement.
+
+Wed Mar 13 07:02:48 PDT 2019 org.apache.commons.math3.special.Gamma,154
+Timeout time : 19/03/13 07:50

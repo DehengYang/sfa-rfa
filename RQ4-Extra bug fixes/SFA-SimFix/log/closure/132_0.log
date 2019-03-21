@@ -1,0 +1,55 @@
+=================================================
+Project : closure_132	start : 19/03/09 00:13
+Current failed test : com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925 | 19/03/09 00:14
+1552119247 s for the statement.
+
+Sat Mar 09 00:14:07 PST 2019 com.google.javascript.rhino.Node,961
+805 s for the statement.
+
+Sat Mar 09 00:27:32 PST 2019 Sat Mar 09 00:27:32 PST 2019 : com.google.javascript.rhino.Node,1024=>Find no block
+0 s for the statement.
+
+Sat Mar 09 00:27:32 PST 2019 com.google.javascript.rhino.Node,2133
+2 s for the statement.
+
+Sat Mar 09 00:27:35 PST 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,776
+602 s for the statement.
+
+Sat Mar 09 00:37:38 PST 2019 com.google.javascript.rhino.Node,1446
+2 s for the statement.
+
+Sat Mar 09 00:37:40 PST 2019 com.google.javascript.jscomp.CodeGenerator,512
+1298 s for the statement.
+
+Sat Mar 09 00:59:18 PST 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,793
+5867 s for the statement.
+
+Sat Mar 09 02:37:06 PST 2019 com.google.javascript.rhino.Node,867
+477 s for the statement.
+
+Sat Mar 09 02:45:04 PST 2019 com.google.javascript.jscomp.CodeGenerator,284
+441 s for the statement.
+
+Sat Mar 09 02:52:26 PST 2019 com.google.javascript.jscomp.AbstractPeepholeOptimization,111
+376 s for the statement.
+
+Sat Mar 09 02:58:42 PST 2019 com.google.javascript.rhino.Node,970
+1429 s for the statement.
+
+Sat Mar 09 03:22:32 PST 2019 com.google.javascript.jscomp.AbstractPeepholeOptimization,75
+554 s for the statement.
+
+Sat Mar 09 03:31:47 PST 2019 com.google.javascript.jscomp.parsing.TypeSafeDispatcher,238
+669 s for the statement.
+
+Sat Mar 09 03:42:57 PST 2019 com.google.javascript.rhino.Node,868
+0 s for the statement.
+
+Sat Mar 09 03:42:57 PST 2019 com.google.javascript.jscomp.CodeGenerator,504
+969 s for the statement.
+
+Sat Mar 09 03:59:07 PST 2019 Sat Mar 09 03:59:07 PST 2019 : com.google.javascript.rhino.Node,1022=>Find no block
+0 s for the statement.
+
+Sat Mar 09 03:59:07 PST 2019 com.google.javascript.rhino.Node,944
+Timeout time : 19/03/09 05:14

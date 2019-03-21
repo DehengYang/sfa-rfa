@@ -1,0 +1,31 @@
+=================================================
+Project : closure_132	start : 19/03/09 16:00
+Current failed test : com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925 | 19/03/09 16:00
+1552176038 s for the statement.
+
+Sat Mar 09 16:00:38 PST 2019 com.google.javascript.rhino.Node,932
+445 s for the statement.
+
+Sat Mar 09 16:08:03 PST 2019 com.google.javascript.rhino.Node,970
+1420 s for the statement.
+
+Sat Mar 09 16:31:44 PST 2019 com.google.javascript.jscomp.CodeGenerator,515
+2922 s for the statement.
+
+Sat Mar 09 17:20:26 PST 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,785
+6192 s for the statement.
+
+Sat Mar 09 19:03:39 PST 2019 com.google.javascript.rhino.Node,121
+7 s for the statement.
+
+Sat Mar 09 19:03:46 PST 2019 com.google.javascript.rhino.Node,1433
+2 s for the statement.
+
+Sat Mar 09 19:03:49 PST 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,736
+5407 s for the statement.
+
+Sat Mar 09 20:33:57 PST 2019 Sat Mar 09 20:33:57 PST 2019 : com.google.javascript.rhino.Node,112=>Find no block
+0 s for the statement.
+
+Sat Mar 09 20:33:57 PST 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,786
+Timeout time : 19/03/09 21:00

@@ -1,0 +1,112 @@
+=================================================
+Project : closure_59	start : 19/03/09 21:00
+Current failed test : com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff | 19/03/09 21:00
+1552194048 s for the statement.
+
+Sat Mar 09 21:00:48 PST 2019 com.google.javascript.jscomp.MakeDeclaredNamesUnique,279
+270 s for the statement.
+
+Sat Mar 09 21:05:18 PST 2019 com.google.javascript.jscomp.RemoveUnusedVars,921
+2372 s for the statement.
+
+Sat Mar 09 21:44:50 PST 2019 com.google.javascript.jscomp.CommandLineRunner,442
+1133 s for the statement.
+
+Sat Mar 09 22:03:44 PST 2019 com.google.javascript.jscomp.ExploitAssigns,89
+676 s for the statement.
+
+Sat Mar 09 22:15:00 PST 2019 com.google.javascript.jscomp.CheckMissingReturn,153
+2 s for the statement.
+
+Sat Mar 09 22:15:03 PST 2019 Sat Mar 09 22:15:03 PST 2019 : com.google.javascript.jscomp.WarningLevel,95=>Find no block
+0 s for the statement.
+
+Sat Mar 09 22:15:03 PST 2019 com.google.javascript.jscomp.ConvertToDottedProperties,49
+1948 s for the statement.
+
+Sat Mar 09 22:47:31 PST 2019 com.google.javascript.jscomp.CheckGlobalNames,68
+2 s for the statement.
+
+Sat Mar 09 22:47:34 PST 2019 com.google.javascript.jscomp.DefaultPassConfig,263
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(options.checkTypes&&(options.enables(DiagnosticGroups.ACCESS_CONTROLS)||options.enables(DiagnosticGroups.CONSTANT_PROPERTY))){
+checks.add(inlineVariables);
+}
+
+Time : 19/03/09 22:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(options.checkTypes&&options.inlineLocalVariables){
+checks.add(inlineVariables);
+}
+
+Time : 19/03/09 23:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(options.checkTypes&&(options.enables(DiagnosticGroups.ACCESS_CONTROLS)||options.enables(DiagnosticGroups.CONSTANT_PROPERTY))){
+checks.add(deadAssignmentsElimination);
+}
+
+Time : 19/03/09 23:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(options.checkTypes&&options.removeUnusedLocalVars){
+checks.add(deadAssignmentsElimination);
+}
+
+Time : 19/03/09 23:04
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(options.checkTypes&&(options.enables(DiagnosticGroups.ACCESS_CONTROLS)||options.enables(DiagnosticGroups.CONSTANT_PROPERTY))){
+checks.add(inlineFunctions);
+}
+
+Time : 19/03/09 23:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(options.checkTypes&&options.inlineLocalFunctions){
+checks.add(inlineFunctions);
+}
+
+Time : 19/03/09 23:12
+----------------------------------------
+2395 s for the statement.
+
+Sat Mar 09 23:27:29 PST 2019 com.google.javascript.jscomp.ExploitAssigns,112
+4812 s for the statement.
+
+Sun Mar 10 00:47:42 PST 2019 com.google.javascript.jscomp.CheckMissingReturn,160
+78 s for the statement.
+
+Sun Mar 10 00:49:01 PST 2019 com.google.javascript.jscomp.CheckMissingReturn,188
+182 s for the statement.
+
+Sun Mar 10 00:52:03 PST 2019 com.google.javascript.jscomp.MakeDeclaredNamesUnique,369
+2947 s for the statement.
+
+Sun Mar 10 01:41:10 PST 2019 com.google.javascript.jscomp.LightweightMessageFormatter,77
+543 s for the statement.
+
+Sun Mar 10 01:50:14 PST 2019 Sun Mar 10 01:50:14 PST 2019 : com.google.javascript.jscomp.AbstractCommandLineRunner,1719=>Find no block
+0 s for the statement.
+
+Sun Mar 10 01:50:14 PST 2019 com.google.javascript.jscomp.WarningLevel,90
+Timeout time : 19/03/10 03:00

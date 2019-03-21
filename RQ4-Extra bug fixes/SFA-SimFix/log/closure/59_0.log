@@ -1,0 +1,34 @@
+=================================================
+Project : closure_59	start : 19/03/09 05:14
+Current failed test : com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff | 19/03/09 05:14
+1552137255 s for the statement.
+
+Sat Mar 09 05:14:15 PST 2019 com.google.javascript.jscomp.PrintStreamErrorManager,71
+3 s for the statement.
+
+Sat Mar 09 05:14:18 PST 2019 com.google.javascript.jscomp.VariableReferenceCheck,117
+467 s for the statement.
+
+Sat Mar 09 05:22:06 PST 2019 Sat Mar 09 05:22:06 PST 2019 : com.google.javascript.jscomp.AbstractCommandLineRunner,1722=>Find no block
+0 s for the statement.
+
+Sat Mar 09 05:22:06 PST 2019 com.google.javascript.jscomp.MustBeReachingVariableDef,288
+272 s for the statement.
+
+Sat Mar 09 05:26:38 PST 2019 com.google.javascript.jscomp.DiagnosticGroups,208
+3368 s for the statement.
+
+Sat Mar 09 06:22:46 PST 2019 Sat Mar 09 06:22:46 PST 2019 : com.google.javascript.jscomp.ExploitAssigns,60=>Find no block
+0 s for the statement.
+
+Sat Mar 09 06:22:47 PST 2019 com.google.javascript.jscomp.CollapseVariableDeclarations,193
+3028 s for the statement.
+
+Sat Mar 09 07:13:16 PST 2019 Sat Mar 09 07:13:16 PST 2019 : com.google.javascript.jscomp.AbstractCommandLineRunner,203=>Find no block
+0 s for the statement.
+
+Sat Mar 09 07:13:16 PST 2019 com.google.javascript.jscomp.ExploitAssigns,50
+10359 s for the statement.
+
+Sat Mar 09 10:05:56 PST 2019 com.google.javascript.jscomp.ExploitAssigns,112
+Timeout time : 19/03/09 10:14

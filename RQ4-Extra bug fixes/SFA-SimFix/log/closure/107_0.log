@@ -1,0 +1,100 @@
+=================================================
+Project : closure_107	start : 19/03/17 00:49
+Current failed test : com.google.javascript.jscomp.CommandLineRunnerTest::testGetMsgWiringNoWarnings | 19/03/17 00:49
+1552808994 s for the statement.
+
+Sun Mar 17 00:49:54 PDT 2019 Sun Mar 17 00:49:54 PDT 2019 : com.google.javascript.jscomp.parsing.JsDocInfoParser,1533=>Find no block
+0 s for the statement.
+
+Sun Mar 17 00:49:55 PDT 2019 com.google.javascript.jscomp.parsing.JsDocTokenStream,394
+582 s for the statement.
+
+Sun Mar 17 00:59:37 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,940
+280 s for the statement.
+
+Sun Mar 17 01:04:18 PDT 2019 com.google.javascript.jscomp.BasicErrorManager,170
+3829 s for the statement.
+
+Sun Mar 17 02:08:07 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1424
+208 s for the statement.
+
+Sun Mar 17 02:11:35 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1593
+253 s for the statement.
+
+Sun Mar 17 02:15:49 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,406
+37 s for the statement.
+
+Sun Mar 17 02:16:27 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,272
+3337 s for the statement.
+
+Sun Mar 17 03:12:04 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1509
+=================================================
+Project : closure_107	start : 19/03/17 03:45
+Current failed test : com.google.javascript.jscomp.CommandLineRunnerTest::testGetMsgWiringNoWarnings | 19/03/17 03:45
+1552819534 s for the statement.
+
+Sun Mar 17 03:45:34 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1593
+263 s for the statement.
+
+Sun Mar 17 03:49:58 PDT 2019 Sun Mar 17 03:49:58 PDT 2019 : com.google.javascript.jscomp.DefaultPassConfig,1172=>Find no block
+0 s for the statement.
+
+Sun Mar 17 03:49:58 PDT 2019 Sun Mar 17 03:49:58 PDT 2019 : com.google.javascript.jscomp.CheckRegExp,66=>Find no block
+0 s for the statement.
+
+Sun Mar 17 03:49:58 PDT 2019 com.google.javascript.jscomp.JSError,190
+56 s for the statement.
+
+Sun Mar 17 03:50:55 PDT 2019 Sun Mar 17 03:50:55 PDT 2019 : com.google.javascript.jscomp.JsMessage,325=>Find no block
+0 s for the statement.
+
+Sun Mar 17 03:50:55 PDT 2019 Sun Mar 17 03:50:55 PDT 2019 : com.google.javascript.rhino.JSDocInfoBuilder,185=>Find no block
+0 s for the statement.
+
+Sun Mar 17 03:50:55 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,189
+842 s for the statement.
+
+Sun Mar 17 04:04:57 PDT 2019 com.google.javascript.jscomp.CompilerOptions,1375
+86 s for the statement.
+
+Sun Mar 17 04:06:23 PDT 2019 com.google.javascript.jscomp.parsing.JsDocTokenStream,206
+2 s for the statement.
+
+Sun Mar 17 04:06:26 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1587
+55 s for the statement.
+
+Sun Mar 17 04:07:21 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1509
+3872 s for the statement.
+
+Sun Mar 17 05:11:54 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,272
+3420 s for the statement.
+
+Sun Mar 17 06:08:55 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1591
+2382 s for the statement.
+
+Sun Mar 17 06:48:37 PDT 2019 Sun Mar 17 06:48:37 PDT 2019 : com.google.javascript.jscomp.JsMessageVisitor,140=>Find no block
+0 s for the statement.
+
+Sun Mar 17 06:48:37 PDT 2019 com.google.javascript.jscomp.CompilationLevel,62
+171 s for the statement.
+
+Sun Mar 17 06:51:28 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,940
+284 s for the statement.
+
+Sun Mar 17 06:56:13 PDT 2019 Sun Mar 17 06:56:13 PDT 2019 : com.google.javascript.jscomp.JsMessage,296=>Find no block
+0 s for the statement.
+
+Sun Mar 17 06:56:13 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,435
+1893 s for the statement.
+
+Sun Mar 17 07:27:47 PDT 2019 com.google.javascript.jscomp.parsing.JsDocTokenStream,214
+1183 s for the statement.
+
+Sun Mar 17 07:47:31 PDT 2019 com.google.javascript.jscomp.parsing.JsDocTokenStream,330
+302 s for the statement.
+
+Sun Mar 17 07:52:33 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1562
+432 s for the statement.
+
+Sun Mar 17 07:59:45 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1504
+Timeout time : 19/03/17 08:45

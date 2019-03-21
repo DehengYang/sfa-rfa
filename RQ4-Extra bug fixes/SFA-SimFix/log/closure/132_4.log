@@ -1,0 +1,43 @@
+=================================================
+Project : closure_132	start : 19/03/12 12:43
+Current failed test : com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925 | 19/03/12 12:43
+1552419815 s for the statement.
+
+Tue Mar 12 12:43:35 PDT 2019 com.google.javascript.jscomp.AstValidator,176
+1227 s for the statement.
+
+Tue Mar 12 13:04:02 PDT 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,787
+5258 s for the statement.
+
+Tue Mar 12 14:31:40 PDT 2019 com.google.javascript.rhino.Node,311
+44 s for the statement.
+
+Tue Mar 12 14:32:25 PDT 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,794
+3547 s for the statement.
+
+Tue Mar 12 15:31:33 PDT 2019 com.google.javascript.rhino.Node,931
+447 s for the statement.
+
+Tue Mar 12 15:39:01 PDT 2019 com.google.javascript.rhino.Node,959
+1188 s for the statement.
+
+Tue Mar 12 15:58:50 PDT 2019 com.google.javascript.rhino.Node,955
+887 s for the statement.
+
+Tue Mar 12 16:13:37 PDT 2019 com.google.javascript.rhino.Node,954
+0 s for the statement.
+
+Tue Mar 12 16:13:38 PDT 2019 com.google.javascript.rhino.Node,1018
+1297 s for the statement.
+
+Tue Mar 12 16:35:15 PDT 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,911
+2 s for the statement.
+
+Tue Mar 12 16:35:18 PDT 2019 com.google.javascript.rhino.Node,861
+317 s for the statement.
+
+Tue Mar 12 16:40:35 PDT 2019 com.google.javascript.rhino.Node,866
+478 s for the statement.
+
+Tue Mar 12 16:48:33 PDT 2019 com.google.javascript.rhino.Node,944
+Timeout time : 19/03/12 17:43

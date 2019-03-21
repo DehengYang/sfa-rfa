@@ -1,0 +1,43 @@
+=================================================
+Project : closure_132	start : 19/03/11 16:05
+Current failed test : com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntaxTest::testIssue925 | 19/03/11 16:05
+1552345511 s for the statement.
+
+Mon Mar 11 16:05:11 PDT 2019 com.google.javascript.rhino.Node,871
+1291 s for the statement.
+
+Mon Mar 11 16:26:43 PDT 2019 com.google.javascript.rhino.Node,2133
+2 s for the statement.
+
+Mon Mar 11 16:26:46 PDT 2019 com.google.javascript.rhino.Node,986
+400 s for the statement.
+
+Mon Mar 11 16:33:27 PDT 2019 com.google.javascript.jscomp.NodeUtil,2155
+7 s for the statement.
+
+Mon Mar 11 16:33:34 PDT 2019 com.google.javascript.rhino.Node,1417
+2 s for the statement.
+
+Mon Mar 11 16:33:36 PDT 2019 com.google.javascript.rhino.Node,956
+887 s for the statement.
+
+Mon Mar 11 16:48:24 PDT 2019 com.google.javascript.rhino.Node,1021
+6263 s for the statement.
+
+Mon Mar 11 18:32:47 PDT 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,768
+862 s for the statement.
+
+Mon Mar 11 18:47:09 PDT 2019 com.google.javascript.rhino.Node,944
+3793 s for the statement.
+
+Mon Mar 11 19:50:23 PDT 2019 com.google.javascript.jscomp.NodeUtil,1184
+6 s for the statement.
+
+Mon Mar 11 19:50:30 PDT 2019 com.google.javascript.rhino.Node,1012
+2 s for the statement.
+
+Mon Mar 11 19:50:32 PDT 2019 com.google.javascript.rhino.Node,941
+57 s for the statement.
+
+Mon Mar 11 19:51:30 PDT 2019 com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,785
+Timeout time : 19/03/11 21:05

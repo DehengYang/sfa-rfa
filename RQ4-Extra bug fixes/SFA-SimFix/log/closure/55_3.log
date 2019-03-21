@@ -1,0 +1,56 @@
+=================================================
+Project : closure_55	start : 19/03/11 21:27
+Current failed test : com.google.javascript.jscomp.FunctionRewriterTest::testIssue538 | 19/03/11 21:27
+1552364848 s for the statement.
+
+Mon Mar 11 21:27:28 PDT 2019 com.google.javascript.jscomp.CodeGenerator,1013
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(c>0x1f&&i<=0){
+sb.append(c);
+}else {
+appendHexJavaScriptRepresentation(sb,c);
+}
+
+Time : 19/03/12 01:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+new StringBuilder(s).append(" (");
+if(c>0x1f&&i<=0){
+sb.append(c);
+}else {
+appendHexJavaScriptRepresentation(sb,c);
+}
+
+Time : 19/03/12 01:42
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(c>0x1f&&c<='9'){
+sb.append(c);
+}else {
+appendHexJavaScriptRepresentation(sb,c);
+}
+
+Time : 19/03/12 01:46
+----------------------------------------
+15774 s for the statement.
+
+Tue Mar 12 01:50:22 PDT 2019 com.google.javascript.jscomp.GoogleCodingConvention,120
+210 s for the statement.
+
+Tue Mar 12 01:53:53 PDT 2019 com.google.javascript.jscomp.AstValidator,678
+1532 s for the statement.
+
+Tue Mar 12 02:19:25 PDT 2019 Tue Mar 12 02:19:25 PDT 2019 : com.google.javascript.jscomp.AstValidator,705=>Find no block
+0 s for the statement.
+
+Tue Mar 12 02:19:26 PDT 2019 com.google.javascript.jscomp.parsing.IRFactory,807
+Timeout time : 19/03/12 02:27

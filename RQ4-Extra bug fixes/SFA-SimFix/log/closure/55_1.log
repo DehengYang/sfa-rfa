@@ -1,0 +1,46 @@
+=================================================
+Project : closure_55	start : 19/03/10 03:00
+Current failed test : com.google.javascript.jscomp.FunctionRewriterTest::testIssue538 | 19/03/10 03:00
+1552212059 s for the statement.
+
+Sun Mar 10 03:01:00 PDT 2019 com.google.javascript.rhino.Node,1132
+2036 s for the statement.
+
+Sun Mar 10 03:34:56 PDT 2019 com.google.javascript.jscomp.AstValidator,692
+1565 s for the statement.
+
+Sun Mar 10 04:01:01 PDT 2019 com.google.javascript.jscomp.AstValidator,702
+1150 s for the statement.
+
+Sun Mar 10 04:20:12 PDT 2019 com.google.javascript.rhino.Node,1725
+6 s for the statement.
+
+Sun Mar 10 04:20:18 PDT 2019 Sun Mar 10 04:20:18 PDT 2019 : com.google.javascript.jscomp.PrepareAst,229=>Find no block
+0 s for the statement.
+
+Sun Mar 10 04:20:18 PDT 2019 com.google.javascript.rhino.Node,962
+1948 s for the statement.
+
+Sun Mar 10 04:52:47 PDT 2019 com.google.javascript.jscomp.NodeUtil,685
+4954 s for the statement.
+
+Sun Mar 10 06:15:21 PDT 2019 com.google.javascript.jscomp.CodeGenerator,953
+736 s for the statement.
+
+Sun Mar 10 06:27:38 PDT 2019 com.google.javascript.rhino.Node,717
+2263 s for the statement.
+
+Sun Mar 10 07:05:21 PDT 2019 com.google.javascript.rhino.Node,1087
+1535 s for the statement.
+
+Sun Mar 10 07:30:57 PDT 2019 com.google.javascript.jscomp.AstValidator,695
+1477 s for the statement.
+
+Sun Mar 10 07:55:34 PDT 2019 com.google.javascript.rhino.Node,970
+0 s for the statement.
+
+Sun Mar 10 07:55:34 PDT 2019 com.google.javascript.rhino.Node,244
+6 s for the statement.
+
+Sun Mar 10 07:55:41 PDT 2019 com.google.javascript.jscomp.FunctionRewriter,497
+Timeout time : 19/03/10 08:01

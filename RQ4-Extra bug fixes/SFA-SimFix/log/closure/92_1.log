@@ -1,0 +1,272 @@
+=================================================
+Project : closure_92	start : 19/03/14 20:10
+Current failed test : com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules4 | 19/03/14 20:10
+1552619413 s for the statement.
+
+Thu Mar 14 20:10:13 PDT 2019 com.google.javascript.jscomp.ProcessClosurePrimitives,871
+801 s for the statement.
+
+Thu Mar 14 20:23:35 PDT 2019 com.google.javascript.rhino.Node,1029
+271 s for the statement.
+
+Thu Mar 14 20:28:06 PDT 2019 com.google.javascript.jscomp.NodeUtil,1713
+460 s for the statement.
+
+Thu Mar 14 20:35:47 PDT 2019 com.google.javascript.rhino.jstype.PrototypeObjectType,340
+665 s for the statement.
+
+Thu Mar 14 20:46:52 PDT 2019 com.google.javascript.rhino.Node,1020
+75 s for the statement.
+
+Thu Mar 14 20:48:07 PDT 2019 com.google.javascript.rhino.Node,1049
+9 s for the statement.
+
+Thu Mar 14 20:48:17 PDT 2019 com.google.javascript.rhino.Node,854
+504 s for the statement.
+
+Thu Mar 14 20:56:41 PDT 2019 Thu Mar 14 20:56:41 PDT 2019 : com.google.javascript.jscomp.JSModule,284=>Find no block
+0 s for the statement.
+
+Thu Mar 14 20:56:41 PDT 2019 com.google.javascript.rhino.Node,1017
+0 s for the statement.
+
+Thu Mar 14 20:56:42 PDT 2019 com.google.javascript.rhino.Node,1057
+2 s for the statement.
+
+Thu Mar 14 20:56:44 PDT 2019 com.google.javascript.rhino.Node,1048
+0 s for the statement.
+
+Thu Mar 14 20:56:44 PDT 2019 com.google.javascript.rhino.Node,1024
+1000 s for the statement.
+
+Thu Mar 14 21:13:25 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,199
+340 s for the statement.
+
+Thu Mar 14 21:19:06 PDT 2019 Thu Mar 14 21:19:06 PDT 2019 : com.google.javascript.jscomp.Compiler,294=>Find no block
+0 s for the statement.
+
+Thu Mar 14 21:19:06 PDT 2019 com.google.javascript.rhino.jstype.PrototypeObjectType,337
+211 s for the statement.
+
+Thu Mar 14 21:22:37 PDT 2019 com.google.javascript.rhino.Node,976
+433 s for the statement.
+
+Thu Mar 14 21:29:50 PDT 2019 com.google.javascript.rhino.Node,220
+5 s for the statement.
+
+Thu Mar 14 21:29:56 PDT 2019 com.google.javascript.rhino.Node,667
+2005 s for the statement.
+
+Thu Mar 14 22:03:22 PDT 2019 com.google.javascript.rhino.Node,1063
+493 s for the statement.
+
+Thu Mar 14 22:11:36 PDT 2019 com.google.javascript.jscomp.ProcessClosurePrimitives,798
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(replacementNode,parentName.replacementNode);
+}
+
+Time : 19/03/14 22:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+compiler.reportCodeChange();
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(replacementNode,parentName.replacementNode);
+}
+
+Time : 19/03/14 22:18
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(candidateDefinition,parentName.replacementNode);
+}
+
+Time : 19/03/14 22:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(replacementNode,replacementNode);
+}
+
+Time : 19/03/14 22:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(candidateDefinition,replacementNode);
+}
+
+Time : 19/03/14 22:23
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+compiler.reportCodeChange();
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(candidateDefinition,parentName.replacementNode);
+}
+
+Time : 19/03/14 22:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+compiler.reportCodeChange();
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(replacementNode,replacementNode);
+}
+
+Time : 19/03/14 22:26
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+compiler.reportCodeChange();
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(candidateDefinition,replacementNode);
+}
+
+Time : 19/03/14 22:27
+----------------------------------------
+1400 s for the statement.
+
+Thu Mar 14 22:34:56 PDT 2019 com.google.javascript.rhino.Node,916
+127 s for the statement.
+
+Thu Mar 14 22:37:04 PDT 2019 com.google.javascript.rhino.Node,963
+434 s for the statement.
+
+Thu Mar 14 22:44:18 PDT 2019 com.google.javascript.rhino.Node,843
+0 s for the statement.
+
+Thu Mar 14 22:44:18 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,97
+77 s for the statement.
+
+Thu Mar 14 22:45:35 PDT 2019 com.google.javascript.rhino.Node,917
+0 s for the statement.
+
+Thu Mar 14 22:45:36 PDT 2019 com.google.javascript.rhino.Node,532
+2 s for the statement.
+
+Thu Mar 14 22:45:38 PDT 2019 com.google.javascript.rhino.Node,1369
+2 s for the statement.
+
+Thu Mar 14 22:45:40 PDT 2019 Thu Mar 14 22:45:40 PDT 2019 : com.google.javascript.jscomp.JSModuleGraph,83=>Find no block
+0 s for the statement.
+
+Thu Mar 14 22:45:40 PDT 2019 com.google.javascript.jscomp.ProcessClosurePrimitives,730
+189 s for the statement.
+
+Thu Mar 14 22:48:49 PDT 2019 Thu Mar 14 22:48:49 PDT 2019 : com.google.javascript.rhino.Node,1070=>Find no block
+0 s for the statement.
+
+Thu Mar 14 22:48:49 PDT 2019 com.google.javascript.rhino.Node,967
+0 s for the statement.
+
+Thu Mar 14 22:48:50 PDT 2019 com.google.javascript.rhino.Node,1032
+0 s for the statement.
+
+Thu Mar 14 22:48:50 PDT 2019 Thu Mar 14 22:48:50 PDT 2019 : com.google.javascript.rhino.Node,980=>Find no block
+0 s for the statement.
+
+Thu Mar 14 22:48:50 PDT 2019 com.google.javascript.rhino.Node,1066
+2473 s for the statement.
+
+Thu Mar 14 23:30:04 PDT 2019 com.google.javascript.rhino.Node,1018
+0 s for the statement.
+
+Thu Mar 14 23:30:04 PDT 2019 com.google.javascript.rhino.Node,973
+1348 s for the statement.
+
+Thu Mar 14 23:52:32 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,386
+61 s for the statement.
+
+Thu Mar 14 23:53:34 PDT 2019 com.google.javascript.rhino.Node,1025
+0 s for the statement.
+
+Thu Mar 14 23:53:34 PDT 2019 com.google.javascript.rhino.Node,1069
+0 s for the statement.
+
+Thu Mar 14 23:53:34 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,168
+424 s for the statement.
+
+Fri Mar 15 00:00:39 PDT 2019 com.google.javascript.jscomp.ProcessClosurePrimitives,890
+830 s for the statement.
+
+Fri Mar 15 00:14:29 PDT 2019 com.google.javascript.rhino.Node,1031
+0 s for the statement.
+
+Fri Mar 15 00:14:29 PDT 2019 com.google.javascript.rhino.Node,848
+0 s for the statement.
+
+Fri Mar 15 00:14:29 PDT 2019 com.google.javascript.rhino.Node,975
+575 s for the statement.
+
+Fri Mar 15 00:24:04 PDT 2019 com.google.javascript.rhino.Node,225
+5 s for the statement.
+
+Fri Mar 15 00:24:10 PDT 2019 com.google.javascript.rhino.Node,1064
+0 s for the statement.
+
+Fri Mar 15 00:24:10 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,145
+124 s for the statement.
+
+Fri Mar 15 00:26:15 PDT 2019 com.google.javascript.rhino.Node,933
+Timeout time : 19/03/15 01:10

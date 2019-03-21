@@ -1,0 +1,95 @@
+=================================================
+Project : closure_10	start : 19/03/15 07:14
+Current failed test : com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821 | 19/03/15 07:14
+1552659275 s for the statement.
+
+Fri Mar 15 07:14:35 PDT 2019 com.google.javascript.jscomp.NodeUtil,3227
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(srcref!=null){
+result.srcrefTree(srcref);
+}
+return srcref;
+
+Time : 19/03/15 07:15
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+result=srcref;
+if(srcref!=null){
+result.srcrefTree(srcref);
+}
+return result;
+
+Time : 19/03/15 07:21
+----------------------------------------
+560 s for the statement.
+
+Fri Mar 15 07:23:56 PDT 2019 com.google.javascript.rhino.Node,127
+7 s for the statement.
+
+Fri Mar 15 07:24:04 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,695
+6303 s for the statement.
+
+Fri Mar 15 09:09:07 PDT 2019 com.google.javascript.jscomp.NodeUtil,379
+1899 s for the statement.
+
+Fri Mar 15 09:40:46 PDT 2019 com.google.javascript.rhino.Node,1014
+2 s for the statement.
+
+Fri Mar 15 09:40:49 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,926
+2147 s for the statement.
+
+Fri Mar 15 10:16:36 PDT 2019 com.google.javascript.rhino.Node,985
+1418 s for the statement.
+
+Fri Mar 15 10:40:14 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,807
+220 s for the statement.
+
+Fri Mar 15 10:43:54 PDT 2019 Fri Mar 15 10:43:54 PDT 2019 : com.google.javascript.jscomp.PeepholeFoldConstants,241=>Find no block
+0 s for the statement.
+
+Fri Mar 15 10:43:55 PDT 2019 com.google.javascript.jscomp.NodeUtil,364
+1098 s for the statement.
+
+Fri Mar 15 11:02:13 PDT 2019 com.google.javascript.rhino.Node,323
+44 s for the statement.
+
+Fri Mar 15 11:02:57 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,1142
+607 s for the statement.
+
+Fri Mar 15 11:13:05 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,830
+2428 s for the statement.
+
+Fri Mar 15 11:53:33 PDT 2019 com.google.javascript.jscomp.NodeUtil,1337
+9 s for the statement.
+
+Fri Mar 15 11:53:42 PDT 2019 com.google.javascript.jscomp.SourceFile,303
+51 s for the statement.
+
+Fri Mar 15 11:54:34 PDT 2019 Fri Mar 15 11:54:34 PDT 2019 : com.google.javascript.rhino.Node,2150=>Find no block
+0 s for the statement.
+
+Fri Mar 15 11:54:34 PDT 2019 com.google.javascript.rhino.Node,958
+34 s for the statement.
+
+Fri Mar 15 11:55:08 PDT 2019 com.google.javascript.jscomp.NodeUtil,3225
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+result=srcref;
+if(srcref!=null){
+result.srcrefTree(srcref);
+}
+
+Time : 19/03/15 11:59
+----------------------------------------
+414 s for the statement.
+
+Fri Mar 15 12:02:02 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,820
+Timeout time : 19/03/15 12:14

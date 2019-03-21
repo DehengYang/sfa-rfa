@@ -1,0 +1,187 @@
+=================================================
+Project : closure_10	start : 19/03/14 14:46
+Current failed test : com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821 | 19/03/14 14:46
+1552599994 s for the statement.
+
+Thu Mar 14 14:46:34 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,937
+69 s for the statement.
+
+Thu Mar 14 14:47:44 PDT 2019 com.google.javascript.jscomp.NodeUtil,1424
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return !isFunctionExpression(n);
+
+Time : 19/03/14 14:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return !NodeUtil.isFunctionDeclaration(n);
+
+Time : 19/03/14 14:53
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return !isConstantName(n)&&!isBooleanResult(n);
+
+Time : 19/03/14 15:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n==null||(!NodeUtil.canBeSideEffected(n)&&!mayHaveSideEffects(n));
+
+Time : 19/03/14 15:06
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.getFirstChild()!=n;
+
+Time : 19/03/14 15:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n!=n.getFirstChild();
+
+Time : 19/03/14 15:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n!=null&&!isBooleanResult(n);
+
+Time : 19/03/14 15:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n==null||!n.isFunction()||n==n.getFirstChild();
+
+Time : 19/03/14 15:24
+----------------------------------------
+2951 s for the statement.
+
+Thu Mar 14 15:36:55 PDT 2019 com.google.javascript.jscomp.NodeUtil,1412
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return mayEffectMutableState(n,null);
+
+Time : 19/03/14 15:37
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return mayHaveSideEffects(n,null);
+
+Time : 19/03/14 15:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return isImmutableValue(n);
+
+Time : 19/03/14 15:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.hasChildren();
+
+Time : 19/03/14 15:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return allResultsMatch(n,NUMBERIC_RESULT_PREDICATE);
+
+Time : 19/03/14 15:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return !n.isFunction();
+
+Time : 19/03/14 15:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return allResultsMatch(n.getLastChild(),MATCH_NOT_FUNCTION);
+
+Time : 19/03/14 15:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return anyResultsMatch(n.getLastChild(),MATCH_NOT_FUNCTION);
+
+Time : 19/03/14 15:59
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return !isNumericResult(n)&&!isBooleanResult(n);
+
+Time : 19/03/14 16:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return mayBeStringHelper(n);
+
+Time : 19/03/14 16:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.3 : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_10_buggy/src/com/google/javascript/jscomp/NodeUtil.java=>0,0]
+if(recurse){
+return allResultsMatch(n,MAY_BE_STRING_PREDICATE);
+}else {
+return mayBeStringHelper(n);
+}
+
+Time : 19/03/14 16:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_10_buggy/src/com/google/javascript/jscomp/NodeUtil.java=>1412,1412]
+return mayBeString(n,true);
+
+Time : 19/03/14 16:13
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_10_buggy/src/com/google/javascript/jscomp/NodeUtil.java=>1412,1412]
+return mayBeStringHelper(n);
+
+Time : 19/03/14 16:13
+----------------------------------------
+NCP is: 194
+2203 s for the statement.
+Success time : 19/03/14 16:13

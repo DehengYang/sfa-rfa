@@ -1,0 +1,175 @@
+=================================================
+Project : closure_107	start : 19/03/15 15:20
+Current failed test : com.google.javascript.jscomp.CommandLineRunnerTest::testGetMsgWiringNoWarnings | 19/03/15 15:20
+1552688459 s for the statement.
+
+Fri Mar 15 15:21:00 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,259
+370 s for the statement.
+
+Fri Mar 15 15:27:10 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,260
+0 s for the statement.
+
+Fri Mar 15 15:27:10 PDT 2019 Fri Mar 15 15:27:10 PDT 2019 : com.google.javascript.jscomp.JsMessageVisitor,276=>Find no block
+0 s for the statement.
+
+Fri Mar 15 15:27:10 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,277
+3023 s for the statement.
+
+Fri Mar 15 16:17:33 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,279
+0 s for the statement.
+
+Fri Mar 15 16:17:34 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,406
+37 s for the statement.
+
+Fri Mar 15 16:18:11 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,939
+280 s for the statement.
+
+Fri Mar 15 16:22:52 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,940
+0 s for the statement.
+
+Fri Mar 15 16:22:52 PDT 2019 Fri Mar 15 16:22:52 PDT 2019 : com.google.javascript.jscomp.JsMessageVisitor,941=>Find no block
+0 s for the statement.
+
+Fri Mar 15 16:22:52 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,944
+132 s for the statement.
+
+Fri Mar 15 16:25:04 PDT 2019 com.google.javascript.jscomp.BasicErrorManager,170
+3822 s for the statement.
+
+Fri Mar 15 17:28:47 PDT 2019 com.google.javascript.rhino.JSDocInfo,1211
+141 s for the statement.
+
+Fri Mar 15 17:31:09 PDT 2019 com.google.javascript.rhino.JSDocInfo,1215
+204 s for the statement.
+
+Fri Mar 15 17:34:33 PDT 2019 com.google.javascript.rhino.JSDocInfo,1216
+0 s for the statement.
+
+Fri Mar 15 17:34:33 PDT 2019 Fri Mar 15 17:34:33 PDT 2019 : com.google.javascript.rhino.JSDocInfo,1217=>Find no block
+0 s for the statement.
+
+Fri Mar 15 17:34:34 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,425
+1525 s for the statement.
+
+Fri Mar 15 17:59:59 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,430
+0 s for the statement.
+
+Fri Mar 15 17:59:59 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,433
+0 s for the statement.
+
+Fri Mar 15 17:59:59 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,435
+0 s for the statement.
+
+Fri Mar 15 17:59:59 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,436
+0 s for the statement.
+
+Fri Mar 15 18:00:00 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,437
+0 s for the statement.
+
+Fri Mar 15 18:00:00 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1594
+251 s for the statement.
+
+Fri Mar 15 18:04:12 PDT 2019 com.google.javascript.rhino.JSDocInfoBuilder,120
+69 s for the statement.
+
+Fri Mar 15 18:05:22 PDT 2019 com.google.javascript.rhino.JSDocInfoBuilder,178
+120 s for the statement.
+
+Fri Mar 15 18:07:22 PDT 2019 Fri Mar 15 18:07:22 PDT 2019 : com.google.javascript.rhino.JSDocInfoBuilder,185=>Find no block
+0 s for the statement.
+
+Fri Mar 15 18:07:22 PDT 2019 com.google.javascript.rhino.JSDocInfoBuilder,645
+333 s for the statement.
+
+Fri Mar 15 18:12:56 PDT 2019 com.google.javascript.rhino.JSDocInfoBuilder,646
+0 s for the statement.
+
+Fri Mar 15 18:12:56 PDT 2019 com.google.javascript.rhino.JSDocInfoBuilder,647
+0 s for the statement.
+
+Fri Mar 15 18:12:56 PDT 2019 com.google.javascript.rhino.JSDocInfoBuilder,648
+0 s for the statement.
+
+Fri Mar 15 18:12:56 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,249
+1145 s for the statement.
+
+Fri Mar 15 18:32:02 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,257
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(traversal.inGlobalScope()){
+return ;
+}
+if(isNewStyleMessage){
+googMsgNodes.remove(msgNode);
+}else if(style!=JsMessage.Style.LEGACY){
+compiler.report(traversal.makeError(node,checkLevel,MESSAGE_NOT_INITIALIZED_USING_NEW_SYNTAX));
+}
+
+Time : 19/03/15 18:45
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(traversal.inGlobalScope()){
+return ;
+}
+new ControlFlowAnalysis(compiler,false,true).process(null,traversal.getScopeRoot().getLastChild());
+if(isNewStyleMessage){
+googMsgNodes.remove(msgNode);
+}else if(style!=JsMessage.Style.LEGACY){
+compiler.report(traversal.makeError(node,checkLevel,MESSAGE_NOT_INITIALIZED_USING_NEW_SYNTAX));
+}
+
+Time : 19/03/15 18:48
+----------------------------------------
+1186 s for the statement.
+
+Fri Mar 15 18:51:49 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,264
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(traversal.inGlobalScope()){
+return ;
+}
+if(isNewStyleMessage){
+googMsgNodes.remove(msgNode);
+}else if(style!=JsMessage.Style.LEGACY){
+compiler.report(traversal.makeError(node,checkLevel,MESSAGE_NOT_INITIALIZED_USING_NEW_SYNTAX));
+}
+boolean isUnnamedMsg=isUnnamedMessageName(messageKey);
+Builder builder=new Builder(isUnnamedMsg?null:messageKey);
+
+Time : 19/03/15 19:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(traversal.inGlobalScope()){
+return ;
+}
+new ControlFlowAnalysis(compiler,false,true).process(null,traversal.getScopeRoot().getLastChild());
+if(isNewStyleMessage){
+googMsgNodes.remove(msgNode);
+}else if(style!=JsMessage.Style.LEGACY){
+compiler.report(traversal.makeError(node,checkLevel,MESSAGE_NOT_INITIALIZED_USING_NEW_SYNTAX));
+}
+boolean isUnnamedMsg=isUnnamedMessageName(messageKey);
+Builder builder=new Builder(isUnnamedMsg?null:messageKey);
+
+Time : 19/03/15 19:11
+----------------------------------------
+1377 s for the statement.
+
+Fri Mar 15 19:14:46 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,266
+189 s for the statement.
+
+Fri Mar 15 19:17:55 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,268
+2322 s for the statement.
+
+Fri Mar 15 19:56:37 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,271
+Timeout time : 19/03/15 20:21

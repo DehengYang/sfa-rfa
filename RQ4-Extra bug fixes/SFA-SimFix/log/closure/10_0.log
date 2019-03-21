@@ -1,0 +1,49 @@
+=================================================
+Project : closure_10	start : 19/03/13 18:43
+Current failed test : com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821 | 19/03/13 18:43
+1552527820 s for the statement.
+
+Wed Mar 13 18:43:40 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,251
+975 s for the statement.
+
+Wed Mar 13 18:59:56 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,845
+2975 s for the statement.
+
+Wed Mar 13 19:49:32 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,808
+218 s for the statement.
+
+Wed Mar 13 19:53:10 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,811
+6434 s for the statement.
+
+Wed Mar 13 21:40:25 PDT 2019 com.google.javascript.rhino.Node,890
+452 s for the statement.
+
+Wed Mar 13 21:47:57 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,789
+1845 s for the statement.
+
+Wed Mar 13 22:18:43 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,924
+2633 s for the statement.
+
+Wed Mar 13 23:02:36 PDT 2019 com.google.javascript.rhino.Node,1462
+2 s for the statement.
+
+Wed Mar 13 23:02:38 PDT 2019 com.google.javascript.rhino.Node,997
+640 s for the statement.
+
+Wed Mar 13 23:13:19 PDT 2019 com.google.javascript.jscomp.NodeUtil,354
+416 s for the statement.
+
+Wed Mar 13 23:20:16 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,1142
+603 s for the statement.
+
+Wed Mar 13 23:30:20 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,936
+67 s for the statement.
+
+Wed Mar 13 23:31:27 PDT 2019 Wed Mar 13 23:31:27 PDT 2019 : com.google.javascript.jscomp.NodeUtil,1262=>Find no block
+0 s for the statement.
+
+Wed Mar 13 23:31:27 PDT 2019 com.google.javascript.jscomp.NodeUtil,1348
+2 s for the statement.
+
+Wed Mar 13 23:31:30 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,805
+Timeout time : 19/03/13 23:43

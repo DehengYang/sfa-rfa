@@ -1,0 +1,164 @@
+=================================================
+Project : closure_107	start : 19/03/17 13:46
+Current failed test : com.google.javascript.jscomp.CommandLineRunnerTest::testGetMsgWiringNoWarnings | 19/03/17 13:46
+1552855598 s for the statement.
+
+Sun Mar 17 13:46:38 PDT 2019 Sun Mar 17 13:46:38 PDT 2019 : com.google.javascript.jscomp.parsing.JsDocInfoParser,1484=>Find no block
+0 s for the statement.
+
+Sun Mar 17 13:46:39 PDT 2019 com.google.javascript.jscomp.parsing.JsDocTokenStream,203
+413 s for the statement.
+
+Sun Mar 17 13:53:32 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1516
+50 s for the statement.
+
+Sun Mar 17 13:54:22 PDT 2019 Sun Mar 17 13:54:22 PDT 2019 : com.google.javascript.jscomp.JsMessageVisitor,143=>Find no block
+0 s for the statement.
+
+Sun Mar 17 13:54:23 PDT 2019 com.google.javascript.jscomp.parsing.JsDocTokenStream,215
+133 s for the statement.
+
+Sun Mar 17 13:56:36 PDT 2019 Sun Mar 17 13:56:36 PDT 2019 : com.google.javascript.jscomp.JsMessage,55=>Find no block
+0 s for the statement.
+
+Sun Mar 17 13:56:37 PDT 2019 com.google.javascript.jscomp.CompilationLevel,134
+139 s for the statement.
+
+Sun Mar 17 13:58:56 PDT 2019 Sun Mar 17 13:58:56 PDT 2019 : com.google.javascript.jscomp.parsing.JsDocInfoParser,1426=>Find no block
+0 s for the statement.
+
+Sun Mar 17 13:58:56 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1586
+54 s for the statement.
+
+Sun Mar 17 13:59:51 PDT 2019 com.google.javascript.rhino.JSDocInfoBuilder,647
+345 s for the statement.
+
+Sun Mar 17 14:05:36 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,944
+133 s for the statement.
+
+Sun Mar 17 14:07:50 PDT 2019 Sun Mar 17 14:07:50 PDT 2019 : com.google.javascript.jscomp.JsMessageVisitor,154=>Find no block
+0 s for the statement.
+
+Sun Mar 17 14:07:50 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1511
+277 s for the statement.
+
+Sun Mar 17 14:12:28 PDT 2019 Sun Mar 17 14:12:28 PDT 2019 : com.google.javascript.jscomp.CheckRegExp,102=>Find no block
+0 s for the statement.
+
+Sun Mar 17 14:12:28 PDT 2019 com.google.javascript.jscomp.NodeTraversal,720
+289 s for the statement.
+
+Sun Mar 17 14:17:18 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1515
+0 s for the statement.
+
+Sun Mar 17 14:17:18 PDT 2019 com.google.javascript.jscomp.CheckRegExp,56
+2 s for the statement.
+
+Sun Mar 17 14:17:21 PDT 2019 com.google.javascript.rhino.JSDocInfoBuilder,120
+70 s for the statement.
+
+Sun Mar 17 14:18:31 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,433
+1887 s for the statement.
+
+Sun Mar 17 14:49:59 PDT 2019 Sun Mar 17 14:49:59 PDT 2019 : com.google.javascript.jscomp.JsMessage,327=>Find no block
+0 s for the statement.
+
+Sun Mar 17 14:49:59 PDT 2019 com.google.javascript.jscomp.JSError,190
+56 s for the statement.
+
+Sun Mar 17 14:50:56 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,864
+73 s for the statement.
+
+Sun Mar 17 14:52:09 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1525
+356 s for the statement.
+
+Sun Mar 17 14:58:06 PDT 2019 com.google.javascript.jscomp.parsing.JsDocTokenStream,213
+1245 s for the statement.
+
+Sun Mar 17 15:18:52 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1519
+560 s for the statement.
+
+Sun Mar 17 15:28:12 PDT 2019 com.google.javascript.jscomp.CompilerOptions,1317
+37 s for the statement.
+
+Sun Mar 17 15:28:50 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,260
+374 s for the statement.
+
+Sun Mar 17 15:35:05 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,1509
+3862 s for the statement.
+
+Sun Mar 17 16:39:28 PDT 2019 com.google.javascript.jscomp.JsMessageVisitor,939
+282 s for the statement.
+
+Sun Mar 17 16:44:10 PDT 2019 com.google.javascript.jscomp.CheckRegExp,90
+3325 s for the statement.
+
+Sun Mar 17 17:39:36 PDT 2019 com.google.javascript.jscomp.CompilationLevel,131
+147 s for the statement.
+
+Sun Mar 17 17:42:03 PDT 2019 com.google.javascript.jscomp.CompilationLevel,135
+155 s for the statement.
+
+Sun Mar 17 17:44:39 PDT 2019 com.google.javascript.jscomp.CompilationLevel,62
+171 s for the statement.
+
+Sun Mar 17 17:47:30 PDT 2019 com.google.javascript.jscomp.JsMessage,347
+13 s for the statement.
+
+Sun Mar 17 17:47:44 PDT 2019 com.google.javascript.jscomp.parsing.JsDocInfoParser,2517
+131 s for the statement.
+
+Sun Mar 17 17:49:55 PDT 2019 com.google.javascript.jscomp.CommandLineRunner,861
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(CompilationLevel.ADVANCED_OPTIMIZATIONS!=level){
+options.messageBundle=new EmptyMessageBundle();
+}
+
+Time : 19/03/17 17:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(options.messageBundle!=null){
+options.messageBundle=new EmptyMessageBundle();
+}
+
+Time : 19/03/17 17:53
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.356182887467515 : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_107_buggy/src/com/google/javascript/jscomp/CommandLineRunner.java=>0,0]
+if(options.messageBundle!=null){
+checks.add(replaceMessages);
+}
+
+Time : 19/03/17 17:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_107_buggy/src/com/google/javascript/jscomp/CommandLineRunner.java=>852,862]
+if(CompilationLevel.ADVANCED_OPTIMIZATIONS==level){
+options.messageBundle=new EmptyMessageBundle();
+}
+
+Time : 19/03/17 17:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_107_buggy/src/com/google/javascript/jscomp/CommandLineRunner.java=>852,862]
+if(options.messageBundle!=null){
+options.messageBundle=new EmptyMessageBundle();
+}
+
+Time : 19/03/17 17:55
+----------------------------------------
+NCP is: 1452
+354 s for the statement.
+Success time : 19/03/17 17:55

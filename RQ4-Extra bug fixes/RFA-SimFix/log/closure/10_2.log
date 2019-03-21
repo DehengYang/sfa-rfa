@@ -1,0 +1,90 @@
+=================================================
+Project : closure_10	start : 19/03/15 10:20
+Current failed test : com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821 | 19/03/15 10:20
+1552670446 s for the statement.
+
+Fri Mar 15 10:20:46 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,1142
+608 s for the statement.
+
+Fri Mar 15 10:30:54 PDT 2019 com.google.javascript.rhino.Node,127
+7 s for the statement.
+
+Fri Mar 15 10:31:02 PDT 2019 com.google.javascript.jscomp.NodeUtil,1271
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+case Token.HOOK :
+return n.getChildCount()==3;
+
+
+Time : 19/03/15 10:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+case Token.HOOK :
+return n.getFirstChild()!=null;
+
+
+Time : 19/03/15 10:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+case Token.HOOK :
+return n.getChildCount()==3;
+
+default :
+
+
+Time : 19/03/15 10:48
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+case Token.HOOK :
+return n!=n.getFirstChild().getNext();
+
+default :
+
+
+Time : 19/03/15 10:53
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+case Token.HOOK :
+return n.getFirstChild()!=null;
+
+default :
+
+
+Time : 19/03/15 10:56
+----------------------------------------
+1949 s for the statement.
+
+Fri Mar 15 11:03:32 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,251
+977 s for the statement.
+
+Fri Mar 15 11:19:49 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,252
+1034 s for the statement.
+
+Fri Mar 15 11:37:03 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,253
+1116 s for the statement.
+
+Fri Mar 15 11:55:40 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,800
+3327 s for the statement.
+
+Fri Mar 15 12:51:08 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,802
+0 s for the statement.
+
+Fri Mar 15 12:51:08 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,803
+6078 s for the statement.
+
+Fri Mar 15 14:32:26 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,805
+Timeout time : 19/03/15 15:20

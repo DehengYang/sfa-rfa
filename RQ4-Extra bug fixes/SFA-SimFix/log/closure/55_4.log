@@ -1,0 +1,305 @@
+=================================================
+Project : closure_55	start : 19/03/12 21:49
+Current failed test : com.google.javascript.jscomp.FunctionRewriterTest::testIssue538 | 19/03/12 21:49
+1552452571 s for the statement.
+
+Tue Mar 12 21:49:31 PDT 2019 com.google.javascript.rhino.Node,1027
+111 s for the statement.
+
+Tue Mar 12 21:51:23 PDT 2019 com.google.javascript.rhino.Node,973
+2035 s for the statement.
+
+Tue Mar 12 22:25:19 PDT 2019 com.google.javascript.jscomp.CodeGenerator,978
+2 s for the statement.
+
+Tue Mar 12 22:25:21 PDT 2019 com.google.javascript.jscomp.CodeGenerator,981
+167 s for the statement.
+
+Tue Mar 12 22:28:08 PDT 2019 com.google.javascript.jscomp.AstValidator,677
+1074 s for the statement.
+
+Tue Mar 12 22:46:03 PDT 2019 com.google.javascript.rhino.Node,1019
+2 s for the statement.
+
+Tue Mar 12 22:46:05 PDT 2019 com.google.javascript.rhino.Node,964
+0 s for the statement.
+
+Tue Mar 12 22:46:05 PDT 2019 com.google.javascript.jscomp.Compiler,1318
+92 s for the statement.
+
+Tue Mar 12 22:47:38 PDT 2019 com.google.javascript.jscomp.parsing.IRFactory,794
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(node.getType()!=Token.NAME){
+continue;
+}
+if(getFnParamNode(value).hasChildren()){
+reportGetterParam(el.getLeft());
+}
+
+Time : 19/03/12 22:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Preconditions.checkState(value.hasOneChild());
+if(key.getType()!=Token.NAME){
+continue;
+}
+if(el.isSetter()){
+key.setType(Token.SET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(!getFnParamNode(value).hasOneChild()){
+reportSetterParam(el.getLeft());
+}
+}
+
+Time : 19/03/12 22:59
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Preconditions.checkArgument(node.getType()==Token.CALL);
+if(node.getFirstChild()==null){
+return node;
+}
+if(el.isSetter()){
+key.setType(Token.SET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(!getFnParamNode(value).hasOneChild()){
+reportSetterParam(el.getLeft());
+}
+}
+
+Time : 19/03/12 23:22
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(key.getType()!=Token.NAME){
+continue;
+}
+if(el.isGetter()){
+key.setType(Token.GET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(getFnParamNode(value).hasChildren()){
+reportGetterParam(el.getLeft());
+}
+}else if(el.isSetter()){
+key.setType(Token.SET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(!getFnParamNode(value).hasOneChild()){
+reportSetterParam(el.getLeft());
+}
+}
+
+Time : 19/03/12 23:32
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(node.getFirstChild()==null){
+return node;
+}
+if(el.isGetter()){
+key.setType(Token.GET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(getFnParamNode(value).hasChildren()){
+reportGetterParam(el.getLeft());
+}
+}else if(el.isSetter()){
+key.setType(Token.SET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(!getFnParamNode(value).hasOneChild()){
+reportSetterParam(el.getLeft());
+}
+}
+
+Time : 19/03/12 23:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if((key.getType()!=Token.STRING)||(value.getType()!=Token.STRING)){
+return node;
+}
+if(el.isGetter()){
+key.setType(Token.GET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(getFnParamNode(value).hasChildren()){
+reportGetterParam(el.getLeft());
+}
+}else if(el.isSetter()){
+key.setType(Token.SET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(!getFnParamNode(value).hasOneChild()){
+reportSetterParam(el.getLeft());
+}
+}
+
+Time : 19/03/12 23:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(node.getFirstChild()==null){
+return node;
+}
+if((key.getType()!=Token.STRING)||(value.getType()!=Token.STRING)){
+return node;
+}
+if(el.isGetter()){
+key.setType(Token.GET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(getFnParamNode(value).hasChildren()){
+reportGetterParam(el.getLeft());
+}
+}else if(el.isSetter()){
+key.setType(Token.SET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(!getFnParamNode(value).hasOneChild()){
+reportSetterParam(el.getLeft());
+}
+}
+
+Time : 19/03/12 23:45
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(null==null){
+return node;
+}
+if(el.isGetter()){
+key.setType(Token.GET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(getFnParamNode(value).hasChildren()){
+reportGetterParam(el.getLeft());
+}
+}else if(el.isSetter()){
+key.setType(Token.SET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(!getFnParamNode(value).hasOneChild()){
+reportSetterParam(el.getLeft());
+}
+}
+
+Time : 19/03/13 00:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(el.isGetter()){
+node.removeFirstChild();
+key.setType(Token.GET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(getFnParamNode(value).hasChildren()){
+reportGetterParam(el.getLeft());
+}
+}else if(el.isSetter()){
+key.setType(Token.SET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(!getFnParamNode(value).hasOneChild()){
+reportSetterParam(el.getLeft());
+}
+}
+key.addChildToFront(value);
+node.addChildToBack(key);
+
+Time : 19/03/13 01:16
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(el.isGetter()){
+key.setType(Token.GET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(getFnParamNode(value).hasChildren()){
+reportGetterParam(el.getLeft());
+}
+}else if(el.isSetter()){
+key.setType(Token.SET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(!getFnParamNode(value).hasOneChild()){
+reportSetterParam(el.getLeft());
+}
+}
+key.addChildToFront(value);
+value.getFirstChild().addChildToBack(key);
+
+Time : 19/03/13 01:29
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(el.isGetter()){
+key.setType(Token.GET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(getFnParamNode(value).hasChildren()){
+reportGetterParam(el.getLeft());
+}
+}else if(el.isSetter()){
+key.setType(Token.SET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(!getFnParamNode(value).hasOneChild()){
+reportSetterParam(el.getLeft());
+}
+}
+key.addChildToFront(value);
+value.addChildToBack(key);
+
+Time : 19/03/13 01:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(el.isGetter()){
+key.setType(Token.GET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(getFnParamNode(value).hasChildren()){
+reportGetterParam(el.getLeft());
+}
+}else if(el.isSetter()){
+key.setType(Token.SET);
+Preconditions.checkState(value.getType()==Token.FUNCTION);
+if(!getFnParamNode(value).hasOneChild()){
+reportSetterParam(el.getLeft());
+}
+}
+key.addChildToFront(value);
+value.getParent().addChildToBack(key);
+
+Time : 19/03/13 01:51
+----------------------------------------
+11962 s for the statement.
+
+Wed Mar 13 02:07:01 PDT 2019 com.google.javascript.jscomp.CodeGenerator,977
+0 s for the statement.
+
+Wed Mar 13 02:07:01 PDT 2019 com.google.javascript.rhino.Node,1091
+1151 s for the statement.
+
+Wed Mar 13 02:26:12 PDT 2019 com.google.javascript.rhino.Node,415
+38 s for the statement.
+
+Wed Mar 13 02:26:51 PDT 2019 com.google.javascript.jscomp.parsing.IRFactory,795
+0 s for the statement.
+
+Wed Mar 13 02:26:51 PDT 2019 Wed Mar 13 02:26:51 PDT 2019 : com.google.javascript.jscomp.PrepareAst,229=>Find no block
+0 s for the statement.
+
+Wed Mar 13 02:26:51 PDT 2019 com.google.javascript.jscomp.AstValidator,693
+Timeout time : 19/03/13 02:49

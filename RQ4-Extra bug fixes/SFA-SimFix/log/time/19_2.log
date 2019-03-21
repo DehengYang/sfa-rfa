@@ -1,0 +1,163 @@
+=================================================
+Project : time_19	start : 19/03/15 22:16
+Current failed test : org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london | 19/03/15 22:16
+1552713405 s for the statement.
+
+Fri Mar 15 22:16:45 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,1913
+24 s for the statement.
+
+Fri Mar 15 22:17:09 PDT 2019 org.joda.time.format.ISODateTimeFormat,1703
+677 s for the statement.
+
+Fri Mar 15 22:28:27 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,559
+326 s for the statement.
+
+Fri Mar 15 22:33:53 PDT 2019 org.joda.time.format.ISODateTimeFormat,1662
+755 s for the statement.
+
+Fri Mar 15 22:46:28 PDT 2019 org.joda.time.format.ISODateTimeFormat,1672
+718 s for the statement.
+
+Fri Mar 15 22:58:27 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2106
+343 s for the statement.
+
+Fri Mar 15 23:04:10 PDT 2019 org.joda.time.format.ISODateTimeFormat,879
+690 s for the statement.
+
+Fri Mar 15 23:15:41 PDT 2019 org.joda.time.format.ISODateTimeFormat,1653
+880 s for the statement.
+
+Fri Mar 15 23:30:21 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2615
+0 s for the statement.
+
+Fri Mar 15 23:30:22 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,1858
+346 s for the statement.
+
+Fri Mar 15 23:36:08 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2614
+1436 s for the statement.
+
+Sat Mar 16 00:00:04 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2625
+0 s for the statement.
+
+Sat Mar 16 00:00:04 PDT 2019 org.joda.time.chrono.BasicGJChronology,190
+16 s for the statement.
+
+Sat Mar 16 00:00:20 PDT 2019 Sat Mar 16 00:00:20 PDT 2019 : org.joda.time.format.DateTimeFormatter,631=>Find no block
+0 s for the statement.
+
+Sat Mar 16 00:00:20 PDT 2019 org.joda.time.format.DateTimeFormatter,935
+337 s for the statement.
+
+Sat Mar 16 00:05:58 PDT 2019 org.joda.time.DateTimeFieldType,522
+342 s for the statement.
+
+Sat Mar 16 00:11:41 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2095
+100 s for the statement.
+
+Sat Mar 16 00:13:21 PDT 2019 Sat Mar 16 00:13:21 PDT 2019 : org.joda.time.DateTime,333=>Find no block
+0 s for the statement.
+
+Sat Mar 16 00:13:21 PDT 2019 org.joda.time.format.DateTimeFormatter,939
+0 s for the statement.
+
+Sat Mar 16 00:13:21 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,1933
+1057 s for the statement.
+
+Sat Mar 16 00:30:58 PDT 2019 org.joda.time.format.DateTimeFormatter,656
+35 s for the statement.
+
+Sat Mar 16 00:31:33 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,647
+149 s for the statement.
+
+Sat Mar 16 00:34:02 PDT 2019 Sat Mar 16 00:34:02 PDT 2019 : org.joda.time.format.DateTimeFormatterBuilder,1879=>Find no block
+0 s for the statement.
+
+Sat Mar 16 00:34:03 PDT 2019 org.joda.time.DateTimeUtils,171
+154 s for the statement.
+
+Sat Mar 16 00:36:37 PDT 2019 org.joda.time.format.ISODateTimeFormat,1590
+755 s for the statement.
+
+Sat Mar 16 00:49:13 PDT 2019 org.joda.time.DateTimeUtils,149
+70 s for the statement.
+
+Sat Mar 16 00:50:23 PDT 2019 org.joda.time.DateTimeFieldType,498
+340 s for the statement.
+
+Sat Mar 16 00:56:03 PDT 2019 org.joda.time.format.ISODateTimeFormat,916
+691 s for the statement.
+
+Sat Mar 16 01:07:35 PDT 2019 Sat Mar 16 01:07:35 PDT 2019 : org.joda.time.format.DateTimeFormatterBuilder,2741=>Find no block
+0 s for the statement.
+
+Sat Mar 16 01:07:35 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2101
+0 s for the statement.
+
+Sat Mar 16 01:07:35 PDT 2019 org.joda.time.DateTimeZone,910
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(instantLocal>0){
+long prev=previousTransition(instantAdjusted);
+if(prev<instantAdjusted){
+int offsetPrev=getOffset(prev);
+int diff=offsetPrev-offsetLocal;
+if(instantAdjusted-prev<=diff){
+return offsetPrev;
+}
+}
+}
+
+Time : 19/03/16 01:10
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.444911182523068 : [/home/deheng/SimFix-SFA/buggyprograms/time/time_19_buggy/src/main/java/org/joda/time/DateTimeZone.java=>0,0]
+int offset=getOffset(instantUTC);
+long instantLocal=instantUTC+offset;
+if((instantUTC^instantLocal)<0&&(instantUTC^offset)>=0){
+throw new ArithmeticException("Adding time zone offset caused overflow");
+}
+return instantLocal;
+
+Time : 19/03/16 01:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/deheng/SimFix-SFA/buggyprograms/time/time_19_buggy/src/main/java/org/joda/time/DateTimeZone.java=>900,909]
+if(offsetLocal>0){
+long prev=previousTransition(instantAdjusted);
+if(prev<instantAdjusted){
+int offsetPrev=getOffset(prev);
+int diff=offsetPrev-offsetLocal;
+if(instantAdjusted-prev<=diff){
+return offsetPrev;
+}
+}
+}
+
+Time : 19/03/16 01:11
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/deheng/SimFix-SFA/buggyprograms/time/time_19_buggy/src/main/java/org/joda/time/DateTimeZone.java=>900,909]
+if(instantLocal>0){
+long prev=previousTransition(instantAdjusted);
+if(prev<instantAdjusted){
+int offsetPrev=getOffset(prev);
+int diff=offsetPrev-offsetLocal;
+if(instantAdjusted-prev<=diff){
+return offsetPrev;
+}
+}
+}
+
+Time : 19/03/16 01:11
+----------------------------------------
+NCP is: 1462
+217 s for the statement.
+Success time : 19/03/16 01:11

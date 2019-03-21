@@ -1,0 +1,43 @@
+=================================================
+Project : closure_59	start : 19/03/09 05:14
+Current failed test : com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff | 19/03/09 05:14
+1552137275 s for the statement.
+
+Sat Mar 09 05:14:35 PST 2019 com.google.javascript.jscomp.CheckMissingReturn,170
+38 s for the statement.
+
+Sat Mar 09 05:15:14 PST 2019 com.google.javascript.jscomp.RemoveUnusedVars,935
+2552 s for the statement.
+
+Sat Mar 09 05:57:47 PST 2019 com.google.javascript.jscomp.CollapseVariableDeclarations,196
+62 s for the statement.
+
+Sat Mar 09 05:58:50 PST 2019 com.google.javascript.jscomp.PrintStreamErrorManager,71
+2 s for the statement.
+
+Sat Mar 09 05:58:52 PST 2019 com.google.javascript.jscomp.MustBeReachingVariableDef,284
+1509 s for the statement.
+
+Sat Mar 09 06:24:01 PST 2019 com.google.javascript.jscomp.MustBeReachingVariableDef,287
+0 s for the statement.
+
+Sat Mar 09 06:24:01 PST 2019 com.google.javascript.jscomp.MustBeReachingVariableDef,288
+0 s for the statement.
+
+Sat Mar 09 06:24:02 PST 2019 com.google.javascript.jscomp.CheckMissingReturn,160
+78 s for the statement.
+
+Sat Mar 09 06:25:20 PST 2019 com.google.javascript.jscomp.CheckMissingReturn,162
+0 s for the statement.
+
+Sat Mar 09 06:25:20 PST 2019 com.google.javascript.jscomp.CheckMissingReturn,166
+2 s for the statement.
+
+Sat Mar 09 06:25:23 PST 2019 com.google.javascript.jscomp.CheckMissingReturn,188
+182 s for the statement.
+
+Sat Mar 09 06:28:26 PST 2019 com.google.javascript.jscomp.CheckMissingReturn,190
+0 s for the statement.
+
+Sat Mar 09 06:28:26 PST 2019 com.google.javascript.jscomp.ExploitAssigns,198
+Timeout time : 19/03/09 10:14

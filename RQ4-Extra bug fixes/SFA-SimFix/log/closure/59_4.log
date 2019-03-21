@@ -1,0 +1,104 @@
+=================================================
+Project : closure_59	start : 19/03/12 17:43
+Current failed test : com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff | 19/03/12 17:43
+1552437838 s for the statement.
+
+Tue Mar 12 17:43:58 PDT 2019 com.google.javascript.jscomp.CheckMissingReturn,166
+3 s for the statement.
+
+Tue Mar 12 17:44:02 PDT 2019 com.google.javascript.jscomp.CollapseVariableDeclarations,193
+3024 s for the statement.
+
+Tue Mar 12 18:34:26 PDT 2019 com.google.javascript.jscomp.MinimizeExitPoints,170
+1909 s for the statement.
+
+Tue Mar 12 19:06:16 PDT 2019 com.google.javascript.jscomp.AbstractCommandLineRunner,1720
+61 s for the statement.
+
+Tue Mar 12 19:07:17 PDT 2019 com.google.javascript.jscomp.FunctionTypeBuilder,431
+2 s for the statement.
+
+Tue Mar 12 19:07:19 PDT 2019 com.google.javascript.jscomp.CheckGlobalThis,130
+145 s for the statement.
+
+Tue Mar 12 19:09:44 PDT 2019 com.google.javascript.rhino.jstype.JSTypeRegistry,1392
+490 s for the statement.
+
+Tue Mar 12 19:17:55 PDT 2019 com.google.javascript.jscomp.MinimizeExitPoints,197
+4824 s for the statement.
+
+Tue Mar 12 20:38:19 PDT 2019 com.google.javascript.rhino.jstype.FunctionType,295
+55 s for the statement.
+
+Tue Mar 12 20:39:14 PDT 2019 com.google.javascript.jscomp.CheckGlobalThis,163
+65 s for the statement.
+
+Tue Mar 12 20:40:20 PDT 2019 Tue Mar 12 20:40:20 PDT 2019 : com.google.javascript.jscomp.DefaultPassConfig,1160=>Find no block
+0 s for the statement.
+
+Tue Mar 12 20:40:21 PDT 2019 com.google.javascript.jscomp.NodeUtil,2945
+95 s for the statement.
+
+Tue Mar 12 20:41:56 PDT 2019 com.google.javascript.jscomp.RemoveUnusedVars,922
+2374 s for the statement.
+
+Tue Mar 12 21:21:30 PDT 2019 com.google.javascript.jscomp.AbstractCommandLineRunner,202
+138 s for the statement.
+
+Tue Mar 12 21:23:48 PDT 2019 com.google.javascript.jscomp.LightweightMessageFormatter,79
+545 s for the statement.
+
+Tue Mar 12 21:32:54 PDT 2019 Tue Mar 12 21:32:54 PDT 2019 : com.google.javascript.jscomp.BasicErrorManager,90=>Find no block
+0 s for the statement.
+
+Tue Mar 12 21:32:54 PDT 2019 Tue Mar 12 21:32:54 PDT 2019 : com.google.javascript.jscomp.DefaultPassConfig,1162=>Find no block
+0 s for the statement.
+
+Tue Mar 12 21:32:54 PDT 2019 com.google.javascript.jscomp.WarningLevel,91
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+options.checkGlobalThisLevel=CheckLevel.OFF;
+options.aggressiveVarCheck=CheckLevel.WARNING;
+options.setWarningLevel(DiagnosticGroups.MISSING_PROPERTIES,CheckLevel.WARNING);
+options.setWarningLevel(DiagnosticGroups.DEPRECATED,CheckLevel.WARNING);
+
+Time : 19/03/12 21:47
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 0.8427009716003845 : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_59_buggy/src/com/google/javascript/jscomp/WarningLevel.java=>0,0]
+options.inlineLocalFunctions=true;
+options.checkGlobalThisLevel=CheckLevel.OFF;
+options.foldConstants=true;
+options.coalesceVariableNames=true;
+options.deadAssignmentElimination=true;
+
+Time : 19/03/12 21:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_59_buggy/src/com/google/javascript/jscomp/WarningLevel.java=>90,94]
+options.aggressiveVarCheck=CheckLevel.WARNING;
+options.setWarningLevel(DiagnosticGroups.MISSING_PROPERTIES,CheckLevel.WARNING);
+options.setWarningLevel(DiagnosticGroups.DEPRECATED,CheckLevel.WARNING);
+
+Time : 19/03/12 21:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_59_buggy/src/com/google/javascript/jscomp/WarningLevel.java=>90,94]
+options.checkGlobalThisLevel=CheckLevel.OFF;
+options.aggressiveVarCheck=CheckLevel.WARNING;
+options.setWarningLevel(DiagnosticGroups.MISSING_PROPERTIES,CheckLevel.WARNING);
+options.setWarningLevel(DiagnosticGroups.DEPRECATED,CheckLevel.WARNING);
+
+Time : 19/03/12 21:49
+----------------------------------------
+NCP is: 1786
+988 s for the statement.
+Success time : 19/03/12 21:49

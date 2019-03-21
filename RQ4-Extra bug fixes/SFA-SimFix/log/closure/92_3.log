@@ -1,0 +1,175 @@
+=================================================
+Project : closure_92	start : 19/03/16 09:07
+Current failed test : com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules4 | 19/03/16 09:07
+1552752470 s for the statement.
+
+Sat Mar 16 09:07:50 PDT 2019 com.google.javascript.rhino.Node,967
+383 s for the statement.
+
+Sat Mar 16 09:14:13 PDT 2019 com.google.javascript.rhino.Node,933
+3227 s for the statement.
+
+Sat Mar 16 10:08:00 PDT 2019 com.google.javascript.jscomp.ProcessClosurePrimitives,730
+188 s for the statement.
+
+Sat Mar 16 10:11:08 PDT 2019 com.google.javascript.rhino.Node,930
+41 s for the statement.
+
+Sat Mar 16 10:11:50 PDT 2019 com.google.javascript.rhino.jstype.PrototypeObjectType,330
+1280 s for the statement.
+
+Sat Mar 16 10:33:11 PDT 2019 com.google.javascript.rhino.jstype.PrototypeObjectType,337
+0 s for the statement.
+
+Sat Mar 16 10:33:11 PDT 2019 com.google.javascript.rhino.Node,1033
+151 s for the statement.
+
+Sat Mar 16 10:35:42 PDT 2019 com.google.javascript.rhino.Node,965
+0 s for the statement.
+
+Sat Mar 16 10:35:42 PDT 2019 com.google.javascript.rhino.Node,228
+6 s for the statement.
+
+Sat Mar 16 10:35:48 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,84
+144 s for the statement.
+
+Sat Mar 16 10:38:13 PDT 2019 com.google.javascript.rhino.Node,1032
+0 s for the statement.
+
+Sat Mar 16 10:38:13 PDT 2019 com.google.javascript.rhino.Node,1020
+75 s for the statement.
+
+Sat Mar 16 10:39:29 PDT 2019 com.google.javascript.rhino.Node,976
+434 s for the statement.
+
+Sat Mar 16 10:46:43 PDT 2019 Sat Mar 16 10:46:43 PDT 2019 : com.google.javascript.jscomp.Compiler,294=>Find no block
+0 s for the statement.
+
+Sat Mar 16 10:46:43 PDT 2019 com.google.javascript.jscomp.NodeUtil,1703
+267 s for the statement.
+
+Sat Mar 16 10:51:10 PDT 2019 com.google.javascript.rhino.Node,963
+178 s for the statement.
+
+Sat Mar 16 10:54:09 PDT 2019 com.google.javascript.rhino.Node,974
+545 s for the statement.
+
+Sat Mar 16 11:03:14 PDT 2019 com.google.javascript.jscomp.ProcessClosurePrimitives,805
+69 s for the statement.
+
+Sat Mar 16 11:04:24 PDT 2019 com.google.javascript.rhino.Node,849
+146 s for the statement.
+
+Sat Mar 16 11:06:50 PDT 2019 Sat Mar 16 11:06:50 PDT 2019 : com.google.javascript.rhino.Node,1070=>Find no block
+0 s for the statement.
+
+Sat Mar 16 11:06:50 PDT 2019 com.google.javascript.rhino.Node,1057
+2 s for the statement.
+
+Sat Mar 16 11:06:52 PDT 2019 com.google.javascript.rhino.Node,1016
+116 s for the statement.
+
+Sat Mar 16 11:08:49 PDT 2019 com.google.javascript.rhino.Node,1069
+802 s for the statement.
+
+Sat Mar 16 11:22:12 PDT 2019 com.google.javascript.rhino.Node,973
+1248 s for the statement.
+
+Sat Mar 16 11:43:01 PDT 2019 Sat Mar 16 11:43:01 PDT 2019 : com.google.javascript.rhino.Node,1068=>Find no block
+0 s for the statement.
+
+Sat Mar 16 11:43:01 PDT 2019 com.google.javascript.rhino.Node,917
+127 s for the statement.
+
+Sat Mar 16 11:45:09 PDT 2019 Sat Mar 16 11:45:09 PDT 2019 : com.google.javascript.rhino.Node,1058=>Find no block
+0 s for the statement.
+
+Sat Mar 16 11:45:09 PDT 2019 com.google.javascript.rhino.Node,1031
+55 s for the statement.
+
+Sat Mar 16 11:46:04 PDT 2019 com.google.javascript.rhino.Node,854
+373 s for the statement.
+
+Sat Mar 16 11:52:17 PDT 2019 com.google.javascript.rhino.Node,964
+0 s for the statement.
+
+Sat Mar 16 11:52:17 PDT 2019 com.google.javascript.rhino.Node,971
+576 s for the statement.
+
+Sat Mar 16 12:01:54 PDT 2019 com.google.javascript.rhino.jstype.PrototypeObjectType,328
+92 s for the statement.
+
+Sat Mar 16 12:03:27 PDT 2019 com.google.javascript.rhino.Node,1018
+0 s for the statement.
+
+Sat Mar 16 12:03:27 PDT 2019 com.google.javascript.rhino.Node,1048
+9 s for the statement.
+
+Sat Mar 16 12:03:36 PDT 2019 com.google.javascript.rhino.Node,855
+0 s for the statement.
+
+Sat Mar 16 12:03:37 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,223
+19 s for the statement.
+
+Sat Mar 16 12:03:56 PDT 2019 Sat Mar 16 12:03:56 PDT 2019 : com.google.javascript.rhino.Node,1039=>Find no block
+0 s for the statement.
+
+Sat Mar 16 12:03:56 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,101
+210 s for the statement.
+
+Sat Mar 16 12:07:27 PDT 2019 Sat Mar 16 12:07:27 PDT 2019 : com.google.javascript.jscomp.JSModuleGraph,240=>Find no block
+0 s for the statement.
+
+Sat Mar 16 12:07:27 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,227
+174 s for the statement.
+
+Sat Mar 16 12:10:22 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,165
+574 s for the statement.
+
+Sat Mar 16 12:19:56 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,222
+0 s for the statement.
+
+Sat Mar 16 12:19:56 PDT 2019 com.google.javascript.rhino.Node,844
+0 s for the statement.
+
+Sat Mar 16 12:19:56 PDT 2019 com.google.javascript.rhino.Node,977
+380 s for the statement.
+
+Sat Mar 16 12:26:17 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,148
+162 s for the statement.
+
+Sat Mar 16 12:28:59 PDT 2019 Sat Mar 16 12:28:59 PDT 2019 : com.google.javascript.rhino.jstype.PrototypeObjectType,336=>Find no block
+0 s for the statement.
+
+Sat Mar 16 12:28:59 PDT 2019 com.google.javascript.rhino.jstype.PrototypeObjectType,341
+430 s for the statement.
+
+Sat Mar 16 12:36:10 PDT 2019 com.google.javascript.jscomp.ProcessClosurePrimitives,642
+320 s for the statement.
+
+Sat Mar 16 12:41:30 PDT 2019 com.google.javascript.jscomp.ProcessClosurePrimitives,819
+53 s for the statement.
+
+Sat Mar 16 12:42:23 PDT 2019 com.google.javascript.jscomp.NodeUtil,1716
+460 s for the statement.
+
+Sat Mar 16 12:50:04 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,228
+0 s for the statement.
+
+Sat Mar 16 12:50:04 PDT 2019 com.google.javascript.rhino.Node,1369
+2 s for the statement.
+
+Sat Mar 16 12:50:06 PDT 2019 com.google.javascript.rhino.Node,195
+5 s for the statement.
+
+Sat Mar 16 12:50:12 PDT 2019 com.google.javascript.rhino.Node,1066
+2239 s for the statement.
+
+Sat Mar 16 13:27:31 PDT 2019 com.google.javascript.rhino.Node,1030
+0 s for the statement.
+
+Sat Mar 16 13:27:31 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,169
+0 s for the statement.
+
+Sat Mar 16 13:27:32 PDT 2019 com.google.javascript.rhino.TokenStream,201
+Timeout time : 19/03/16 14:07

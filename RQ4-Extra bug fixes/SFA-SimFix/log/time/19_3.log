@@ -1,0 +1,181 @@
+=================================================
+Project : time_19	start : 19/03/16 16:12
+Current failed test : org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london | 19/03/16 16:13
+1552777982 s for the statement.
+
+Sat Mar 16 16:13:03 PDT 2019 org.joda.time.format.DateTimeFormatter,622
+423 s for the statement.
+
+Sat Mar 16 16:20:06 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2236
+1 s for the statement.
+
+Sat Mar 16 16:20:08 PDT 2019 org.joda.time.format.DateTimeFormatter,459
+371 s for the statement.
+
+Sat Mar 16 16:26:19 PDT 2019 Sat Mar 16 16:26:19 PDT 2019 : org.joda.time.format.DateTimeFormatter,461=>Find no block
+0 s for the statement.
+
+Sat Mar 16 16:26:19 PDT 2019 Sat Mar 16 16:26:19 PDT 2019 : org.joda.time.format.FormatUtils,92=>Find no block
+0 s for the statement.
+
+Sat Mar 16 16:26:20 PDT 2019 org.joda.time.format.DateTimeFormatter,630
+887 s for the statement.
+
+Sat Mar 16 16:41:07 PDT 2019 org.joda.time.format.ISODateTimeFormat,866
+1 s for the statement.
+
+Sat Mar 16 16:41:08 PDT 2019 org.joda.time.chrono.ZonedChronology,142
+574 s for the statement.
+
+Sat Mar 16 16:50:42 PDT 2019 org.joda.time.format.ISODateTimeFormat,1483
+702 s for the statement.
+
+Sat Mar 16 17:02:25 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2117
+294 s for the statement.
+
+Sat Mar 16 17:07:19 PDT 2019 org.joda.time.format.DateTimeFormatter,458
+0 s for the statement.
+
+Sat Mar 16 17:07:19 PDT 2019 org.joda.time.format.ISODateTimeFormat,1600
+861 s for the statement.
+
+Sat Mar 16 17:21:41 PDT 2019 org.joda.time.format.ISODateTimeFormat,1605
+862 s for the statement.
+
+Sat Mar 16 17:36:04 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2116
+0 s for the statement.
+
+Sat Mar 16 17:36:04 PDT 2019 org.joda.time.format.DateTimeFormatter,460
+0 s for the statement.
+
+Sat Mar 16 17:36:04 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,1180
+35 s for the statement.
+
+Sat Mar 16 17:36:39 PDT 2019 org.joda.time.tz.DateTimeZoneBuilder,554
+40 s for the statement.
+
+Sat Mar 16 17:37:20 PDT 2019 org.joda.time.format.DateTimeFormatter,623
+379 s for the statement.
+
+Sat Mar 16 17:43:39 PDT 2019 org.joda.time.format.FormatUtils,62
+2693 s for the statement.
+
+Sat Mar 16 18:28:32 PDT 2019 org.joda.time.format.ISODateTimeFormat,959
+695 s for the statement.
+
+Sat Mar 16 18:40:08 PDT 2019 org.joda.time.format.ISODateTimeFormat,1585
+760 s for the statement.
+
+Sat Mar 16 18:52:48 PDT 2019 org.joda.time.chrono.BasicGJChronology,190
+15 s for the statement.
+
+Sat Mar 16 18:53:04 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,1875
+2 s for the statement.
+
+Sat Mar 16 18:53:06 PDT 2019 org.joda.time.field.PreciseDurationDateTimeField,127
+439 s for the statement.
+
+Sat Mar 16 19:00:26 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2626
+668 s for the statement.
+
+Sat Mar 16 19:11:34 PDT 2019 org.joda.time.format.ISODateTimeFormat,1490
+704 s for the statement.
+
+Sat Mar 16 19:23:19 PDT 2019 Sat Mar 16 19:23:19 PDT 2019 : org.joda.time.base.BaseDateTime,225=>Find no block
+0 s for the statement.
+
+Sat Mar 16 19:23:19 PDT 2019 org.joda.time.format.ISODateTimeFormat,1482
+0 s for the statement.
+
+Sat Mar 16 19:23:19 PDT 2019 org.joda.time.chrono.ZonedChronology,119
+34 s for the statement.
+
+Sat Mar 16 19:23:54 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2737
+151 s for the statement.
+
+Sat Mar 16 19:26:25 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,791
+331 s for the statement.
+
+Sat Mar 16 19:31:57 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2103
+136 s for the statement.
+
+Sat Mar 16 19:34:13 PDT 2019 Sat Mar 16 19:34:13 PDT 2019 : org.joda.time.tz.CachedDateTimeZone,172=>Find no block
+0 s for the statement.
+
+Sat Mar 16 19:34:13 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,1437
+2 s for the statement.
+
+Sat Mar 16 19:34:16 PDT 2019 org.joda.time.format.ISODateTimeFormat,1365
+694 s for the statement.
+
+Sat Mar 16 19:45:50 PDT 2019 org.joda.time.format.FormatUtils,67
+0 s for the statement.
+
+Sat Mar 16 19:45:50 PDT 2019 org.joda.time.DateTimeZone,910
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(instantLocal>0){
+long prev=previousTransition(instantAdjusted);
+if(prev<instantAdjusted){
+int offsetPrev=getOffset(prev);
+int diff=offsetPrev-offsetLocal;
+if(instantAdjusted-prev<=diff){
+return offsetPrev;
+}
+}
+}
+
+Time : 19/03/16 19:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.444911182523068 : [/home/deheng/SimFix-SFA/buggyprograms/time/time_19_buggy/src/main/java/org/joda/time/DateTimeZone.java=>0,0]
+int offset=getOffset(instantUTC);
+long instantLocal=instantUTC+offset;
+if((instantUTC^instantLocal)<0&&(instantUTC^offset)>=0){
+throw new ArithmeticException("Adding time zone offset caused overflow");
+}
+return instantLocal;
+
+Time : 19/03/16 19:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/deheng/SimFix-SFA/buggyprograms/time/time_19_buggy/src/main/java/org/joda/time/DateTimeZone.java=>900,909]
+if(offsetLocal>0){
+long prev=previousTransition(instantAdjusted);
+if(prev<instantAdjusted){
+int offsetPrev=getOffset(prev);
+int diff=offsetPrev-offsetLocal;
+if(instantAdjusted-prev<=diff){
+return offsetPrev;
+}
+}
+}
+
+Time : 19/03/16 19:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/deheng/SimFix-SFA/buggyprograms/time/time_19_buggy/src/main/java/org/joda/time/DateTimeZone.java=>900,909]
+if(instantLocal>0){
+long prev=previousTransition(instantAdjusted);
+if(prev<instantAdjusted){
+int offsetPrev=getOffset(prev);
+int diff=offsetPrev-offsetLocal;
+if(instantAdjusted-prev<=diff){
+return offsetPrev;
+}
+}
+}
+
+Time : 19/03/16 19:49
+----------------------------------------
+NCP is: 2047
+218 s for the statement.
+Success time : 19/03/16 19:49

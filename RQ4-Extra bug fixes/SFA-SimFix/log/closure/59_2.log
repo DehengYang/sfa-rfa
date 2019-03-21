@@ -1,0 +1,60 @@
+=================================================
+Project : closure_59	start : 19/03/10 23:28
+Current failed test : com.google.javascript.jscomp.CommandLineRunnerTest::testCheckGlobalThisOff | 19/03/10 23:28
+1552285698 s for the statement.
+
+Sun Mar 10 23:28:18 PDT 2019 com.google.javascript.jscomp.CheckMissingReturn,93
+35 s for the statement.
+
+Sun Mar 10 23:28:54 PDT 2019 com.google.javascript.jscomp.CheckMissingReturn,92
+439 s for the statement.
+
+Sun Mar 10 23:36:13 PDT 2019 com.google.javascript.jscomp.ClosureCodeRemoval,144
+4959 s for the statement.
+
+Mon Mar 11 00:58:52 PDT 2019 com.google.javascript.jscomp.WarningLevel,78
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+addDefaultWarnings(options);
+options.checkSuspiciousCode=true;
+options.checkGlobalThisLevel=CheckLevel.OFF;
+
+Time : 19/03/11 01:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.2301960588196068 : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_59_buggy/src/com/google/javascript/jscomp/WarningLevel.java=>0,0]
+options.flowSensitiveInlineVariables=true;
+options.inlineLocalFunctions=true;
+options.checkGlobalThisLevel=CheckLevel.OFF;
+options.foldConstants=true;
+options.coalesceVariableNames=true;
+
+Time : 19/03/11 01:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_59_buggy/src/com/google/javascript/jscomp/WarningLevel.java=>75,79]
+addDefaultWarnings(options);
+options.checkSuspiciousCode=true;
+options.checkGlobalThisLevel=CheckLevel.WARNING;
+
+Time : 19/03/11 01:01
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_59_buggy/src/com/google/javascript/jscomp/WarningLevel.java=>75,79]
+addDefaultWarnings(options);
+options.checkSuspiciousCode=true;
+options.checkGlobalThisLevel=CheckLevel.OFF;
+
+Time : 19/03/11 01:01
+----------------------------------------
+NCP is: 703
+185 s for the statement.
+Success time : 19/03/11 01:01

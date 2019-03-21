@@ -1,0 +1,921 @@
+=================================================
+Project : time_4	start : 19/03/11 16:48
+Current failed test : org.joda.time.TestPartial_Basics::testWith3 | 19/03/11 16:48
+1552348090 s for the statement.
+
+Mon Mar 11 16:48:10 PDT 2019 org.joda.time.field.ZeroIsMaxDateTimeField,111
+2 s for the statement.
+
+Mon Mar 11 16:48:12 PDT 2019 org.joda.time.field.ZeroIsMaxDateTimeField,138
+0 s for the statement.
+
+Mon Mar 11 16:48:12 PDT 2019 org.joda.time.field.ZeroIsMaxDateTimeField,178
+24 s for the statement.
+
+Mon Mar 11 16:48:37 PDT 2019 org.joda.time.field.ZeroIsMaxDateTimeField,148
+1 s for the statement.
+
+Mon Mar 11 16:48:38 PDT 2019 org.joda.time.DateTimeFieldType,514
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+case CLOCKHOUR_OF_DAY :
+return chronology.era();
+
+
+Time : 19/03/11 16:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+case CLOCKHOUR_OF_DAY :
+return chronology.halfdayOfDay();
+
+
+Time : 19/03/11 16:50
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+case CLOCKHOUR_OF_DAY :
+return chronology.era();
+
+case HOUR_OF_DAY :
+
+
+Time : 19/03/11 16:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+case CLOCKHOUR_OF_DAY :
+return chronology.halfdayOfDay();
+
+case HOUR_OF_DAY :
+
+
+Time : 19/03/11 16:54
+----------------------------------------
+426 s for the statement.
+
+Mon Mar 11 16:55:44 PDT 2019 org.joda.time.Partial,447
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(index<2){
+throw new IllegalArgumentException("The divisor must be at least 2");
+}
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+
+Time : 19/03/11 16:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+if(compare==0){
+DurationField rangeField=fieldType.getRangeDurationType().getField(iChronology);
+DurationField loopRangeField=loopType.getRangeDurationType().getField(iChronology);
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+}
+
+Time : 19/03/11 16:59
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(fieldType==null){
+throw new IllegalArgumentException("Field must not be null");
+}
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+if(compare==0){
+DurationField rangeField=fieldType.getRangeDurationType().getField(iChronology);
+DurationField loopRangeField=loopType.getRangeDurationType().getField(iChronology);
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+}
+
+Time : 19/03/11 16:59
+----------------------------------------
+508 s for the statement.
+
+Mon Mar 11 17:04:12 PDT 2019 org.joda.time.Partial,448
+0 s for the statement.
+
+Mon Mar 11 17:04:13 PDT 2019 org.joda.time.Partial,449
+0 s for the statement.
+
+Mon Mar 11 17:04:13 PDT 2019 org.joda.time.Partial,445
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+if(compare>0){
+break;
+}else if(compare==0){
+DurationField rangeField=fieldType.getRangeDurationType().getField(iChronology);
+DurationField loopRangeField=loopType.getRangeDurationType().getField(iChronology);
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+}
+
+Time : 19/03/11 17:06
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(fieldType==null){
+throw new IllegalArgumentException("Field must not be null");
+}
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+if(compare>0){
+break;
+}else if(compare==0){
+DurationField rangeField=fieldType.getRangeDurationType().getField(iChronology);
+DurationField loopRangeField=loopType.getRangeDurationType().getField(iChronology);
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+}
+
+Time : 19/03/11 17:06
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(index<0||compare<=0){
+throw new IllegalArgumentException();
+}
+if(compare>0){
+break;
+}else if(compare==0){
+DurationField rangeField=fieldType.getRangeDurationType().getField(iChronology);
+DurationField loopRangeField=loopType.getRangeDurationType().getField(iChronology);
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+}
+
+Time : 19/03/11 17:08
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(index<0||compare<=0){
+throw new IllegalArgumentException();
+}
+if(compare>index){
+break;
+}else if(compare==0){
+DurationField rangeField=fieldType.getRangeDurationType().getField(iChronology);
+DurationField loopRangeField=loopType.getRangeDurationType().getField(iChronology);
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+}
+
+Time : 19/03/11 17:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(fieldType==null){
+throw new IllegalArgumentException("Field type must not be null");
+}
+if(index<0||compare<=0){
+throw new IllegalArgumentException();
+}
+if(compare>0){
+break;
+}else if(compare==0){
+DurationField rangeField=fieldType.getRangeDurationType().getField(iChronology);
+DurationField loopRangeField=loopType.getRangeDurationType().getField(iChronology);
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+}
+
+Time : 19/03/11 17:09
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(fieldType==null){
+throw new IllegalArgumentException("Field type must not be null");
+}
+if(index<0||compare<=0){
+throw new IllegalArgumentException();
+}
+if(compare>index){
+break;
+}else if(compare==0){
+DurationField rangeField=fieldType.getRangeDurationType().getField(iChronology);
+DurationField loopRangeField=loopType.getRangeDurationType().getField(iChronology);
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+}
+
+Time : 19/03/11 17:10
+----------------------------------------
+451 s for the statement.
+
+Mon Mar 11 17:11:45 PDT 2019 org.joda.time.field.BaseDurationField,150
+0 s for the statement.
+
+Mon Mar 11 17:11:45 PDT 2019 org.joda.time.DateTimeFieldType,457
+1 s for the statement.
+
+Mon Mar 11 17:11:47 PDT 2019 Mon Mar 11 17:11:47 PDT 2019 : org.joda.time.Partial,446=>Find no block
+0 s for the statement.
+
+Mon Mar 11 17:11:47 PDT 2019 org.joda.time.Partial,443
+55 s for the statement.
+
+Mon Mar 11 17:12:42 PDT 2019 org.joda.time.Partial,444
+0 s for the statement.
+
+Mon Mar 11 17:12:42 PDT 2019 org.joda.time.Partial,439
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+for(;i<iTypes.length;i++){
+DateTimeFieldType loopType=iTypes[i];
+DurationField loopUnitField=loopType.getDurationType().getField(iChronology);
+if(loopUnitField.isSupported()){
+int compare=unitField.compareTo(loopUnitField);
+if(compare>0){
+break;
+}else if(compare==0){
+DurationField rangeField=fieldType.getRangeDurationType().getField(iChronology);
+DurationField loopRangeField=loopType.getRangeDurationType().getField(iChronology);
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+}
+}
+}
+
+Time : 19/03/11 17:14
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+if(index==0){
+return this;
+}
+for(;i<iTypes.length;i++){
+DateTimeFieldType loopType=iTypes[i];
+DurationField loopUnitField=loopType.getDurationType().getField(iChronology);
+if(loopUnitField.isSupported()){
+int compare=unitField.compareTo(loopUnitField);
+if(compare>0){
+break;
+}else if(compare==0){
+DurationField rangeField=fieldType.getRangeDurationType().getField(iChronology);
+DurationField loopRangeField=loopType.getRangeDurationType().getField(iChronology);
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+}
+}
+}
+
+Time : 19/03/11 17:15
+----------------------------------------
+338 s for the statement.
+
+Mon Mar 11 17:18:20 PDT 2019 org.joda.time.Partial,440
+10 s for the statement.
+
+Mon Mar 11 17:18:31 PDT 2019 org.joda.time.Partial,441
+0 s for the statement.
+
+Mon Mar 11 17:18:31 PDT 2019 org.joda.time.Partial,442
+0 s for the statement.
+
+Mon Mar 11 17:18:31 PDT 2019 org.joda.time.Partial,432
+57 s for the statement.
+
+Mon Mar 11 17:19:29 PDT 2019 org.joda.time.Partial,433
+0 s for the statement.
+
+Mon Mar 11 17:19:29 PDT 2019 org.joda.time.Partial,436
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int[] newValues=new int[newTypes.length];
+int i=0;
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+DurationField unitField=fieldType.getDurationType().getField(iChronology);
+
+Time : 19/03/11 17:20
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int[] newValues=new int[newTypes.length];
+int i=0;
+if(fieldType==null){
+throw new IllegalArgumentException("Field must not be null");
+}
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+DurationField unitField=fieldType.getDurationType().getField(iChronology);
+
+Time : 19/03/11 17:21
+----------------------------------------
+327 s for the statement.
+
+Mon Mar 11 17:24:56 PDT 2019 org.joda.time.Partial,437
+0 s for the statement.
+
+Mon Mar 11 17:24:56 PDT 2019 org.joda.time.Partial,438
+76 s for the statement.
+
+Mon Mar 11 17:26:13 PDT 2019 org.joda.time.Partial,456
+372 s for the statement.
+
+Mon Mar 11 17:32:26 PDT 2019 org.joda.time.Partial,457
+0 s for the statement.
+
+Mon Mar 11 17:32:26 PDT 2019 org.joda.time.Partial,458
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+value=newValues[0];
+System.arraycopy(iValues,0,newValues,0,i);
+newTypes[i]=fieldType;
+newValues[i]=value;
+
+Time : 19/03/11 17:35
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+value-='0';
+System.arraycopy(iValues,0,newValues,0,i);
+newTypes[i]=fieldType;
+newValues[i]=value;
+
+Time : 19/03/11 17:38
+----------------------------------------
+365 s for the statement.
+
+Mon Mar 11 17:38:32 PDT 2019 org.joda.time.Partial,459
+255 s for the statement.
+
+Mon Mar 11 17:42:47 PDT 2019 org.joda.time.Partial,460
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+iChronology.validate(new Partial(iChronology,newTypes,newValues),newValues);
+newValues[i]=value;
+System.arraycopy(iTypes,i,newTypes,i+1,newTypes.length-i);
+System.arraycopy(iValues,i,newValues,i+1,newValues.length-i);
+
+Time : 19/03/11 17:43
+----------------------------------------
+282 s for the statement.
+
+Mon Mar 11 17:47:30 PDT 2019 org.joda.time.Partial,461
+255 s for the statement.
+
+Mon Mar 11 17:51:45 PDT 2019 org.joda.time.Partial,464
+161 s for the statement.
+
+Mon Mar 11 17:54:26 PDT 2019 org.joda.time.Partial,465
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Partial newPartial=new Partial(iChronology,newTypes,newValues);
+iChronology.validate(new MonthDay(this,iChronology),newValues);
+return newPartial;
+
+Time : 19/03/11 17:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Partial newPartial=new Partial(iChronology,newTypes,newValues);
+iChronology.validate(new TimeOfDay(this,iChronology),newValues);
+return newPartial;
+
+Time : 19/03/11 17:56
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Partial newPartial=new Partial(iChronology,newTypes,newValues);
+iChronology.validate(new YearMonth(this,iChronology),newValues);
+return newPartial;
+
+Time : 19/03/11 17:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+Partial newPartial=new Partial(iChronology,newTypes,newValues);
+iChronology.validate(new YearMonthDay(this,iChronology),newValues);
+return newPartial;
+
+Time : 19/03/11 17:57
+----------------------------------------
+246 s for the statement.
+
+Mon Mar 11 17:58:33 PDT 2019 org.joda.time.Partial,466
+0 s for the statement.
+
+Mon Mar 11 17:58:33 PDT 2019 org.joda.time.Partial,430
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+if(fieldType==null){
+throw new IllegalArgumentException("The field type must not be null");
+}
+int index=indexOf(fieldType);
+
+Time : 19/03/11 17:59
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+if(fieldType==null){
+throw new IllegalArgumentException("The DateTimeFieldType must not be null");
+}
+int index=indexOf(fieldType);
+
+Time : 19/03/11 18:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+if(fieldType==null){
+throw new IllegalArgumentException("Field must not be null");
+}
+int index=indexOf(fieldType);
+
+Time : 19/03/11 18:00
+----------------------------------------
+193 s for the statement.
+
+Mon Mar 11 18:01:46 PDT 2019 org.joda.time.Partial,431
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+if(index==-1){
+DateTimeFieldType[] newTypes=new DateTimeFieldType[iTypes.length+1];
+int[] newValues=new int[newTypes.length];
+int i=0;
+DurationField unitField=fieldType.getDurationType().getField(iChronology);
+if(unitField.isSupported()){
+for(;i<iTypes.length;i++){
+DateTimeFieldType loopType=iTypes[i];
+DurationField loopUnitField=loopType.getDurationType().getField(iChronology);
+if(loopUnitField.isSupported()){
+int compare=unitField.compareTo(loopUnitField);
+if(compare>0){
+break;
+}else if(compare==0){
+DurationField rangeField=fieldType.getRangeDurationType().getField(iChronology);
+DurationField loopRangeField=loopType.getRangeDurationType().getField(iChronology);
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+}
+}
+}
+}
+System.arraycopy(iTypes,0,newTypes,0,i);
+System.arraycopy(iValues,0,newValues,0,i);
+newTypes[i]=fieldType;
+newValues[i]=value;
+System.arraycopy(iTypes,i,newTypes,i+1,newTypes.length-i);
+System.arraycopy(iValues,i,newValues,i+1,newValues.length-i);
+Partial newPartial=new Partial(iChronology,newTypes,newValues);
+iChronology.validate(newPartial,newValues);
+return newPartial;
+}
+
+Time : 19/03/11 18:03
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(fieldType==null){
+throw new IllegalArgumentException("Field must not be null");
+}
+if(isSupported(fieldType)==false){
+throw new IllegalArgumentException("Field \'"+fieldType);
+}
+if(index==-1){
+DateTimeFieldType[] newTypes=new DateTimeFieldType[iTypes.length+1];
+int[] newValues=new int[newTypes.length];
+int i=0;
+DurationField unitField=fieldType.getDurationType().getField(iChronology);
+if(unitField.isSupported()){
+for(;i<iTypes.length;i++){
+DateTimeFieldType loopType=iTypes[i];
+DurationField loopUnitField=loopType.getDurationType().getField(iChronology);
+if(loopUnitField.isSupported()){
+int compare=unitField.compareTo(loopUnitField);
+if(compare>0){
+break;
+}else if(compare==0){
+DurationField rangeField=fieldType.getRangeDurationType().getField(iChronology);
+DurationField loopRangeField=loopType.getRangeDurationType().getField(iChronology);
+if(rangeField.compareTo(loopRangeField)>0){
+break;
+}
+}
+}
+}
+}
+System.arraycopy(iTypes,0,newTypes,0,i);
+System.arraycopy(iValues,0,newValues,0,i);
+newTypes[i]=fieldType;
+newValues[i]=value;
+System.arraycopy(iTypes,i,newTypes,i+1,newTypes.length-i);
+System.arraycopy(iValues,i,newValues,i+1,newValues.length-i);
+Partial newPartial=new Partial(iChronology,newTypes,newValues);
+iChronology.validate(newPartial,newValues);
+return newPartial;
+}
+
+Time : 19/03/11 18:04
+----------------------------------------
+262 s for the statement.
+
+Mon Mar 11 18:06:09 PDT 2019 org.joda.time.Partial,427
+61 s for the statement.
+
+Mon Mar 11 18:07:11 PDT 2019 org.joda.time.Partial,296
+122 s for the statement.
+
+Mon Mar 11 18:09:13 PDT 2019 org.joda.time.Partial,297
+0 s for the statement.
+
+Mon Mar 11 18:09:14 PDT 2019 org.joda.time.Partial,298
+0 s for the statement.
+
+Mon Mar 11 18:09:14 PDT 2019 org.joda.time.Partial,299
+0 s for the statement.
+
+Mon Mar 11 18:09:14 PDT 2019 Mon Mar 11 18:09:14 PDT 2019 : org.joda.time.Partial,300=>Find no block
+0 s for the statement.
+
+Mon Mar 11 18:09:14 PDT 2019 org.joda.time.base.AbstractPartial,175
+259 s for the statement.
+
+Mon Mar 11 18:13:33 PDT 2019 org.joda.time.Partial,217
+595 s for the statement.
+
+Mon Mar 11 18:23:29 PDT 2019 org.joda.time.Partial,218
+350 s for the statement.
+
+Mon Mar 11 18:29:20 PDT 2019 org.joda.time.Partial,221
+0 s for the statement.
+
+Mon Mar 11 18:29:20 PDT 2019 org.joda.time.DurationFieldType,298
+230 s for the statement.
+
+Mon Mar 11 18:33:10 PDT 2019 org.joda.time.field.BaseDurationField,155
+0 s for the statement.
+
+Mon Mar 11 18:33:11 PDT 2019 org.joda.time.Partial,248
+137 s for the statement.
+
+Mon Mar 11 18:35:29 PDT 2019 Mon Mar 11 18:35:29 PDT 2019 : org.joda.time.Partial,249=>Find no block
+0 s for the statement.
+
+Mon Mar 11 18:35:29 PDT 2019 org.joda.time.Partial,246
+0 s for the statement.
+
+Mon Mar 11 18:35:29 PDT 2019 org.joda.time.Partial,247
+0 s for the statement.
+
+Mon Mar 11 18:35:29 PDT 2019 org.joda.time.Partial,212
+502 s for the statement.
+
+Mon Mar 11 18:43:52 PDT 2019 org.joda.time.Partial,213
+247 s for the statement.
+
+Mon Mar 11 18:48:00 PDT 2019 org.joda.time.Partial,214
+2 s for the statement.
+
+Mon Mar 11 18:48:02 PDT 2019 org.joda.time.Partial,215
+0 s for the statement.
+
+Mon Mar 11 18:48:02 PDT 2019 org.joda.time.Partial,216
+0 s for the statement.
+
+Mon Mar 11 18:48:02 PDT 2019 org.joda.time.Partial,243
+149 s for the statement.
+
+Mon Mar 11 18:50:32 PDT 2019 org.joda.time.Partial,207
+0 s for the statement.
+
+Mon Mar 11 18:50:32 PDT 2019 org.joda.time.Partial,208
+0 s for the statement.
+
+Mon Mar 11 18:50:32 PDT 2019 org.joda.time.Partial,202
+90 s for the statement.
+
+Mon Mar 11 18:52:03 PDT 2019 org.joda.time.Partial,199
+237 s for the statement.
+
+Mon Mar 11 18:56:00 PDT 2019 org.joda.time.Partial,196
+6 s for the statement.
+
+Mon Mar 11 18:56:06 PDT 2019 org.joda.time.field.BaseDurationField,146
+45 s for the statement.
+
+Mon Mar 11 18:56:52 PDT 2019 org.joda.time.field.BaseDurationField,147
+0 s for the statement.
+
+Mon Mar 11 18:56:52 PDT 2019 org.joda.time.field.BaseDurationField,149
+0 s for the statement.
+
+Mon Mar 11 18:56:52 PDT 2019 org.joda.time.field.BaseDurationField,152
+0 s for the statement.
+
+Mon Mar 11 18:56:52 PDT 2019 Mon Mar 11 18:56:52 PDT 2019 : org.joda.time.field.BaseDurationField,38=>Find no block
+0 s for the statement.
+
+Mon Mar 11 18:56:53 PDT 2019 org.joda.time.Partial,190
+113 s for the statement.
+
+Mon Mar 11 18:58:46 PDT 2019 org.joda.time.Partial,191
+0 s for the statement.
+
+Mon Mar 11 18:58:46 PDT 2019 org.joda.time.Partial,192
+96 s for the statement.
+
+Mon Mar 11 19:00:23 PDT 2019 org.joda.time.Partial,193
+5 s for the statement.
+
+Mon Mar 11 19:00:28 PDT 2019 org.joda.time.Partial,344
+6 s for the statement.
+
+Mon Mar 11 19:00:35 PDT 2019 org.joda.time.Partial,333
+147 s for the statement.
+
+Mon Mar 11 19:03:02 PDT 2019 org.joda.time.Partial,321
+1 s for the statement.
+
+Mon Mar 11 19:03:03 PDT 2019 org.joda.time.Partial,309
+9 s for the statement.
+
+Mon Mar 11 19:03:13 PDT 2019 org.joda.time.DurationFieldType,304
+272 s for the statement.
+
+Mon Mar 11 19:07:46 PDT 2019 org.joda.time.DateTimeFieldType,520
+144 s for the statement.
+
+Mon Mar 11 19:10:10 PDT 2019 org.joda.time.base.AbstractPartial,170
+0 s for the statement.
+
+Mon Mar 11 19:10:10 PDT 2019 org.joda.time.base.AbstractPartial,171
+0 s for the statement.
+
+Mon Mar 11 19:10:10 PDT 2019 org.joda.time.DateTimeFieldType,516
+165 s for the statement.
+
+Mon Mar 11 19:12:56 PDT 2019 org.joda.time.DurationFieldType,302
+249 s for the statement.
+
+Mon Mar 11 19:17:06 PDT 2019 org.joda.time.DurationFieldType,282
+1030 s for the statement.
+
+Mon Mar 11 19:34:17 PDT 2019 Mon Mar 11 19:34:17 PDT 2019 : org.joda.time.DurationFieldType,284=>Find no block
+0 s for the statement.
+
+Mon Mar 11 19:34:17 PDT 2019 org.joda.time.chrono.BuddhistChronology,86
+0 s for the statement.
+
+Mon Mar 11 19:34:18 PDT 2019 org.joda.time.DateTimeFieldType,480
+3422 s for the statement.
+
+Mon Mar 11 20:31:20 PDT 2019 Mon Mar 11 20:31:20 PDT 2019 : org.joda.time.DateTimeFieldType,482=>Find no block
+0 s for the statement.
+
+Mon Mar 11 20:31:21 PDT 2019 org.joda.time.field.BaseDateTimeField,818
+34 s for the statement.
+
+Mon Mar 11 20:31:55 PDT 2019 org.joda.time.field.BaseDateTimeField,804
+22 s for the statement.
+
+Mon Mar 11 20:32:17 PDT 2019 org.joda.time.chrono.BaseChronology,199
+1626 s for the statement.
+
+Mon Mar 11 20:59:23 PDT 2019 org.joda.time.chrono.BaseChronology,200
+0 s for the statement.
+
+Mon Mar 11 20:59:23 PDT 2019 org.joda.time.chrono.BaseChronology,201
+0 s for the statement.
+
+Mon Mar 11 20:59:23 PDT 2019 org.joda.time.chrono.BaseChronology,202
+0 s for the statement.
+
+Mon Mar 11 20:59:24 PDT 2019 org.joda.time.chrono.BaseChronology,207
+0 s for the statement.
+
+Mon Mar 11 20:59:24 PDT 2019 Mon Mar 11 20:59:24 PDT 2019 : org.joda.time.chrono.BaseChronology,213=>Find no block
+0 s for the statement.
+
+Mon Mar 11 20:59:24 PDT 2019 org.joda.time.chrono.BaseChronology,192
+455 s for the statement.
+
+Mon Mar 11 21:07:00 PDT 2019 org.joda.time.field.BaseDateTimeField,758
+21 s for the statement.
+
+Mon Mar 11 21:07:21 PDT 2019 org.joda.time.field.BaseDateTimeField,772
+33 s for the statement.
+
+Mon Mar 11 21:07:55 PDT 2019 org.joda.time.chrono.BaseChronology,183
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+values=new int[partial.size()];
+int size=partial.size();
+for(int i=0;i<size;i++){
+int value=values[i];
+DateTimeField field=partial.getField(i);
+if(value<field.getMinimumValue()){
+throw new IllegalFieldValueException(field.getType(),Integer.valueOf(value),Integer.valueOf(field.getMinimumValue()),null);
+}
+if(value>field.getMaximumValue()){
+throw new IllegalFieldValueException(field.getType(),Integer.valueOf(value),null,Integer.valueOf(field.getMaximumValue()));
+}
+}
+
+Time : 19/03/11 21:25
+----------------------------------------
+1261 s for the statement.
+
+Mon Mar 11 21:28:56 PDT 2019 org.joda.time.chrono.BaseChronology,184
+0 s for the statement.
+
+Mon Mar 11 21:28:56 PDT 2019 org.joda.time.chrono.BaseChronology,185
+0 s for the statement.
+
+Mon Mar 11 21:28:56 PDT 2019 org.joda.time.chrono.BaseChronology,186
+0 s for the statement.
+
+Mon Mar 11 21:28:57 PDT 2019 org.joda.time.chrono.BaseChronology,187
+0 s for the statement.
+
+Mon Mar 11 21:28:57 PDT 2019 org.joda.time.base.AbstractPartial,105
+22 s for the statement.
+
+Mon Mar 11 21:29:19 PDT 2019 org.joda.time.tz.DateTimeZoneBuilder,1544
+40 s for the statement.
+
+Mon Mar 11 21:30:00 PDT 2019 org.joda.time.tz.DateTimeZoneBuilder,1580
+345 s for the statement.
+
+Mon Mar 11 21:35:45 PDT 2019 org.joda.time.chrono.CopticChronology,89
+0 s for the statement.
+
+Mon Mar 11 21:35:45 PDT 2019 org.joda.time.chrono.BasicFixedMonthChronology,59
+16 s for the statement.
+
+Mon Mar 11 21:36:01 PDT 2019 Mon Mar 11 21:36:01 PDT 2019 : org.joda.time.chrono.BasicFixedMonthChronology,60=>Find no block
+0 s for the statement.
+
+Mon Mar 11 21:36:01 PDT 2019 org.joda.time.chrono.BasicFixedMonthChronology,101
+26 s for the statement.
+
+Mon Mar 11 21:36:28 PDT 2019 org.joda.time.chrono.BasicFixedMonthChronology,117
+179 s for the statement.
+
+Mon Mar 11 21:39:28 PDT 2019 org.joda.time.chrono.BasicFixedMonthChronology,143
+0 s for the statement.
+
+Mon Mar 11 21:39:29 PDT 2019 org.joda.time.chrono.BasicFixedMonthChronology,148
+1 s for the statement.
+
+Mon Mar 11 21:39:30 PDT 2019 org.joda.time.chrono.BasicFixedMonthChronology,158
+1 s for the statement.
+
+Mon Mar 11 21:39:31 PDT 2019 org.joda.time.chrono.LimitChronology,524
+1 s for the statement.
+
+Mon Mar 11 21:39:32 PDT 2019 org.joda.time.chrono.LimitChronology,528
+0 s for the statement.
+
+Mon Mar 11 21:39:33 PDT 2019 org.joda.time.chrono.LimitChronology,542
+0 s for the statement.
+
+Mon Mar 11 21:39:34 PDT 2019 org.joda.time.chrono.CopticChronology,161
+0 s for the statement.
+
+Mon Mar 11 21:39:34 PDT 2019 Mon Mar 11 21:39:34 PDT 2019 : org.joda.time.chrono.CopticChronology,162=>Find no block
+0 s for the statement.
+
+Mon Mar 11 21:39:34 PDT 2019 Mon Mar 11 21:39:34 PDT 2019 : org.joda.time.chrono.CopticChronology,63=>Find no block
+0 s for the statement.
+
+Mon Mar 11 21:39:34 PDT 2019 Mon Mar 11 21:39:34 PDT 2019 : org.joda.time.chrono.CopticChronology,72=>Find no block
+0 s for the statement.
+
+Mon Mar 11 21:39:34 PDT 2019 Mon Mar 11 21:39:34 PDT 2019 : org.joda.time.chrono.CopticChronology,78=>Find no block
+0 s for the statement.
+
+Mon Mar 11 21:39:34 PDT 2019 Mon Mar 11 21:39:34 PDT 2019 : org.joda.time.chrono.CopticChronology,79=>Find no block
+0 s for the statement.
+
+Mon Mar 11 21:39:34 PDT 2019 org.joda.time.chrono.CopticChronology,108
+81 s for the statement.
+
+Mon Mar 11 21:40:55 PDT 2019 org.joda.time.chrono.CopticChronology,119
+45 s for the statement.
+
+Mon Mar 11 21:41:41 PDT 2019 Mon Mar 11 21:41:41 PDT 2019 : org.joda.time.chrono.CopticChronology,123=>Find no block
+0 s for the statement.
+
+Mon Mar 11 21:41:41 PDT 2019 org.joda.time.chrono.CopticChronology,124
+203 s for the statement.
+
+Mon Mar 11 21:45:05 PDT 2019 org.joda.time.chrono.CopticChronology,125
+50 s for the statement.
+
+Mon Mar 11 21:45:56 PDT 2019 org.joda.time.chrono.CopticChronology,126
+0 s for the statement.
+
+Mon Mar 11 21:45:56 PDT 2019 org.joda.time.chrono.CopticChronology,127
+0 s for the statement.
+
+Mon Mar 11 21:45:56 PDT 2019 org.joda.time.chrono.CopticChronology,130
+71 s for the statement.
+
+Mon Mar 11 21:47:07 PDT 2019 Mon Mar 11 21:47:07 PDT 2019 : org.joda.time.chrono.CopticChronology,134=>Find no block
+0 s for the statement.
+
+Mon Mar 11 21:47:08 PDT 2019 org.joda.time.chrono.CopticChronology,135
+Timeout time : 19/03/11 21:48

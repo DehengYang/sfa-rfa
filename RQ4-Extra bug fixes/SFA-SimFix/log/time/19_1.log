@@ -1,0 +1,199 @@
+=================================================
+Project : time_19	start : 19/03/15 02:14
+Current failed test : org.joda.time.TestDateTimeZoneCutover::testDateTimeCreation_london | 19/03/15 02:14
+1552641258 s for the statement.
+
+Fri Mar 15 02:14:18 PDT 2019 Fri Mar 15 02:14:18 PDT 2019 : org.joda.time.format.DateTimeFormatterBuilder,1442=>Find no block
+0 s for the statement.
+
+Fri Mar 15 02:14:19 PDT 2019 org.joda.time.format.ISODateTimeFormat,1600
+856 s for the statement.
+
+Fri Mar 15 02:28:36 PDT 2019 org.joda.time.field.PreciseDurationDateTimeField,126
+436 s for the statement.
+
+Fri Mar 15 02:35:53 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,1438
+3 s for the statement.
+
+Fri Mar 15 02:35:56 PDT 2019 org.joda.time.DateTimeUtils,168
+25 s for the statement.
+
+Fri Mar 15 02:36:21 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2094
+100 s for the statement.
+
+Fri Mar 15 02:38:02 PDT 2019 Fri Mar 15 02:38:02 PDT 2019 : org.joda.time.format.DateTimeFormatterBuilder,2628=>Find no block
+0 s for the statement.
+
+Fri Mar 15 02:38:02 PDT 2019 org.joda.time.field.PreciseDurationDateTimeField,127
+0 s for the statement.
+
+Fri Mar 15 02:38:02 PDT 2019 org.joda.time.format.DateTimeFormatter,657
+46 s for the statement.
+
+Fri Mar 15 02:38:49 PDT 2019 Fri Mar 15 02:38:49 PDT 2019 : org.joda.time.DateTime,333=>Find no block
+0 s for the statement.
+
+Fri Mar 15 02:38:49 PDT 2019 org.joda.time.format.DateTimeFormatter,622
+419 s for the statement.
+
+Fri Mar 15 02:45:49 PDT 2019 org.joda.time.format.ISODateTimeFormat,1482
+698 s for the statement.
+
+Fri Mar 15 02:57:27 PDT 2019 org.joda.time.format.ISODateTimeFormat,1359
+689 s for the statement.
+
+Fri Mar 15 03:08:56 PDT 2019 org.joda.time.format.ISODateTimeFormat,1586
+753 s for the statement.
+
+Fri Mar 15 03:21:30 PDT 2019 org.joda.time.format.DateTimeFormatter,623
+376 s for the statement.
+
+Fri Mar 15 03:27:47 PDT 2019 org.joda.time.chrono.ZonedChronology,139
+704 s for the statement.
+
+Fri Mar 15 03:39:31 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,559
+323 s for the statement.
+
+Fri Mar 15 03:44:55 PDT 2019 org.joda.time.tz.CachedDateTimeZone,170
+528 s for the statement.
+
+Fri Mar 15 03:53:44 PDT 2019 org.joda.time.format.ISODateTimeFormat,1604
+855 s for the statement.
+
+Fri Mar 15 04:07:59 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,1933
+1057 s for the statement.
+
+Fri Mar 15 04:25:37 PDT 2019 org.joda.time.format.ISODateTimeFormat,1358
+0 s for the statement.
+
+Fri Mar 15 04:25:37 PDT 2019 org.joda.time.format.FormatUtils,68
+471 s for the statement.
+
+Fri Mar 15 04:33:28 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2626
+663 s for the statement.
+
+Fri Mar 15 04:44:31 PDT 2019 org.joda.time.format.FormatUtils,87
+424 s for the statement.
+
+Fri Mar 15 04:51:36 PDT 2019 org.joda.time.DateTimeFieldType,524
+146 s for the statement.
+
+Fri Mar 15 04:54:02 PDT 2019 org.joda.time.DateTime,331
+10 s for the statement.
+
+Fri Mar 15 04:54:13 PDT 2019 Fri Mar 15 04:54:13 PDT 2019 : org.joda.time.tz.CachedDateTimeZone,172=>Find no block
+0 s for the statement.
+
+Fri Mar 15 04:54:13 PDT 2019 org.joda.time.format.ISODateTimeFormat,1594
+854 s for the statement.
+
+Fri Mar 15 05:08:27 PDT 2019 org.joda.time.format.ISODateTimeFormat,954
+689 s for the statement.
+
+Fri Mar 15 05:19:56 PDT 2019 Fri Mar 15 05:19:56 PDT 2019 : org.joda.time.format.DateTimeFormatterBuilder,1921=>Find no block
+0 s for the statement.
+
+Fri Mar 15 05:19:56 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2621
+1 s for the statement.
+
+Fri Mar 15 05:19:57 PDT 2019 org.joda.time.format.ISODateTimeFormat,885
+692 s for the statement.
+
+Fri Mar 15 05:31:30 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2084
+5 s for the statement.
+
+Fri Mar 15 05:31:36 PDT 2019 org.joda.time.DateTimeUtils,146
+12 s for the statement.
+
+Fri Mar 15 05:31:49 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2117
+293 s for the statement.
+
+Fri Mar 15 05:36:42 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2087
+8 s for the statement.
+
+Fri Mar 15 05:36:50 PDT 2019 org.joda.time.format.FormatUtils,82
+149 s for the statement.
+
+Fri Mar 15 05:39:20 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2106
+344 s for the statement.
+
+Fri Mar 15 05:45:04 PDT 2019 org.joda.time.format.DateTimeFormatter,660
+35 s for the statement.
+
+Fri Mar 15 05:45:40 PDT 2019 Fri Mar 15 05:45:40 PDT 2019 : org.joda.time.format.DateTimeFormatterBuilder,1865=>Find no block
+0 s for the statement.
+
+Fri Mar 15 05:45:40 PDT 2019 org.joda.time.DateTimeUtils,164
+13 s for the statement.
+
+Fri Mar 15 05:45:53 PDT 2019 org.joda.time.format.DateTimeFormatter,582
+127 s for the statement.
+
+Fri Mar 15 05:48:00 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2101
+0 s for the statement.
+
+Fri Mar 15 05:48:00 PDT 2019 Fri Mar 15 05:48:00 PDT 2019 : org.joda.time.format.DateTimeFormatterBuilder,1878=>Find no block
+0 s for the statement.
+
+Fri Mar 15 05:48:00 PDT 2019 org.joda.time.format.ISODateTimeFormat,1654
+883 s for the statement.
+
+Fri Mar 15 06:02:44 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,1053
+68 s for the statement.
+
+Fri Mar 15 06:03:53 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2624
+862 s for the statement.
+
+Fri Mar 15 06:18:15 PDT 2019 Fri Mar 15 06:18:15 PDT 2019 : org.joda.time.format.DateTimeFormatterBuilder,1181=>Find no block
+0 s for the statement.
+
+Fri Mar 15 06:18:15 PDT 2019 org.joda.time.chrono.BasicGJChronology,140
+26 s for the statement.
+
+Fri Mar 15 06:18:41 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,647
+149 s for the statement.
+
+Fri Mar 15 06:21:11 PDT 2019 org.joda.time.DateTimeZone,885
+89 s for the statement.
+
+Fri Mar 15 06:22:40 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,1868
+0 s for the statement.
+
+Fri Mar 15 06:22:41 PDT 2019 org.joda.time.DateTimeFieldType,520
+141 s for the statement.
+
+Fri Mar 15 06:25:03 PDT 2019 org.joda.time.format.DateTimeFormatter,618
+264 s for the statement.
+
+Fri Mar 15 06:29:27 PDT 2019 org.joda.time.tz.CachedDateTimeZone,171
+0 s for the statement.
+
+Fri Mar 15 06:29:27 PDT 2019 org.joda.time.chrono.ZonedChronology,140
+0 s for the statement.
+
+Fri Mar 15 06:29:27 PDT 2019 org.joda.time.DateTimeFieldType,522
+340 s for the statement.
+
+Fri Mar 15 06:35:08 PDT 2019 org.joda.time.tz.DateTimeZoneBuilder,710
+564 s for the statement.
+
+Fri Mar 15 06:44:33 PDT 2019 org.joda.time.format.FormatUtils,80
+190 s for the statement.
+
+Fri Mar 15 06:47:43 PDT 2019 org.joda.time.format.ISODateTimeFormat,1653
+0 s for the statement.
+
+Fri Mar 15 06:47:43 PDT 2019 org.joda.time.format.ISODateTimeFormat,916
+692 s for the statement.
+
+Fri Mar 15 06:59:16 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,1857
+347 s for the statement.
+
+Fri Mar 15 07:05:04 PDT 2019 org.joda.time.format.DateTimeFormatterBuilder,2026
+0 s for the statement.
+
+Fri Mar 15 07:05:04 PDT 2019 org.joda.time.base.AbstractInstant,424
+75 s for the statement.
+
+Fri Mar 15 07:06:19 PDT 2019 org.joda.time.format.ISODateTimeFormat,922
+Timeout time : 19/03/15 07:14

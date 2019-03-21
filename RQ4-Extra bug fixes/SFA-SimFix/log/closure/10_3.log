@@ -1,0 +1,197 @@
+=================================================
+Project : closure_10	start : 19/03/16 01:11
+Current failed test : com.google.javascript.jscomp.PeepholeFoldConstantsTest::testIssue821 | 19/03/16 01:11
+1552723881 s for the statement.
+
+Sat Mar 16 01:11:21 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,815
+6484 s for the statement.
+
+Sat Mar 16 02:59:26 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,717
+14 s for the statement.
+
+Sat Mar 16 02:59:40 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,1168
+1376 s for the statement.
+
+Sat Mar 16 03:22:37 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,828
+1526 s for the statement.
+
+Sat Mar 16 03:48:03 PDT 2019 com.google.javascript.rhino.Node,959
+33 s for the statement.
+
+Sat Mar 16 03:48:37 PDT 2019 Sat Mar 16 03:48:37 PDT 2019 : com.google.javascript.jscomp.PeepholeFoldConstants,275=>Find no block
+0 s for the statement.
+
+Sat Mar 16 03:48:37 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,244
+6 s for the statement.
+
+Sat Mar 16 03:48:44 PDT 2019 com.google.javascript.rhino.Node,939
+2 s for the statement.
+
+Sat Mar 16 03:48:47 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,931
+3323 s for the statement.
+
+Sat Mar 16 04:44:10 PDT 2019 com.google.javascript.jscomp.PeepholeFoldConstants,198
+2084 s for the statement.
+
+Sat Mar 16 05:18:54 PDT 2019 com.google.javascript.jscomp.NodeUtil,1313
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return allResultsMatch(n,BOOLEAN_RESULT_PREDICATE);
+
+Time : 19/03/16 05:19
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.isFromExterns();
+
+Time : 19/03/16 05:23
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.hasChildren();
+
+Time : 19/03/16 05:25
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.isCase();
+
+Time : 19/03/16 05:28
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return isSimpleOperatorType(n.getType());
+
+Time : 19/03/16 05:31
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return isStatementParent(n.getParent());
+
+Time : 19/03/16 05:33
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return mayEffectMutableState(n,null);
+
+Time : 19/03/16 05:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return mayHaveSideEffects(n,null);
+
+Time : 19/03/16 05:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return nodeTypeMayHaveSideEffects(n,null);
+
+Time : 19/03/16 05:41
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return containsType(n,Token.FUNCTION);
+
+Time : 19/03/16 05:44
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.getParent().getParent().isFunction();
+
+Time : 19/03/16 05:46
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.isOnlyModifiesThisCall();
+
+Time : 19/03/16 05:49
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.isName()||n.isGetProp();
+
+Time : 19/03/16 05:52
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.isNull()||isUndefined(n);
+
+Time : 19/03/16 05:55
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.isGetProp()||n.isGetElem();
+
+Time : 19/03/16 05:57
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.isScript()||n.isBlock();
+
+Time : 19/03/16 06:00
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.isCase()||n.isDefaultCase();
+
+Time : 19/03/16 06:02
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.isFunction()&&isStatement(n);
+
+Time : 19/03/16 06:05
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return isFunctionDeclaration(n)||n.isVar();
+
+Time : 19/03/16 06:07
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+return n.isObjectLit()||n.isArrayLit();
+
+Time : 19/03/16 06:10
+----------------------------------------
+Timeout time : 19/03/16 06:12

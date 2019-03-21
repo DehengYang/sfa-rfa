@@ -1,0 +1,64 @@
+=================================================
+Project : closure_55	start : 19/03/10 03:25
+Current failed test : com.google.javascript.jscomp.FunctionRewriterTest::testIssue538 | 19/03/10 03:25
+1552213553 s for the statement.
+
+Sun Mar 10 03:25:53 PDT 2019 Sun Mar 10 03:25:53 PDT 2019 : com.google.javascript.rhino.Node,184=>Find no block
+0 s for the statement.
+
+Sun Mar 10 03:25:54 PDT 2019 com.google.javascript.rhino.Node,244
+7 s for the statement.
+
+Sun Mar 10 03:26:01 PDT 2019 com.google.javascript.rhino.Node,245
+7 s for the statement.
+
+Sun Mar 10 03:26:08 PDT 2019 com.google.javascript.rhino.Node,628
+514 s for the statement.
+
+Sun Mar 10 03:34:43 PDT 2019 Sun Mar 10 03:34:43 PDT 2019 : com.google.javascript.rhino.Node,629=>Find no block
+0 s for the statement.
+
+Sun Mar 10 03:34:43 PDT 2019 com.google.javascript.rhino.Node,962
+1946 s for the statement.
+
+Sun Mar 10 04:07:10 PDT 2019 com.google.javascript.rhino.Node,963
+0 s for the statement.
+
+Sun Mar 10 04:07:10 PDT 2019 com.google.javascript.rhino.Node,964
+0 s for the statement.
+
+Sun Mar 10 04:07:10 PDT 2019 com.google.javascript.rhino.Node,967
+0 s for the statement.
+
+Sun Mar 10 04:07:10 PDT 2019 com.google.javascript.rhino.Node,968
+0 s for the statement.
+
+Sun Mar 10 04:07:10 PDT 2019 com.google.javascript.rhino.Node,969
+0 s for the statement.
+
+Sun Mar 10 04:07:11 PDT 2019 com.google.javascript.rhino.Node,970
+0 s for the statement.
+
+Sun Mar 10 04:07:11 PDT 2019 com.google.javascript.rhino.Node,973
+0 s for the statement.
+
+Sun Mar 10 04:07:11 PDT 2019 com.google.javascript.rhino.Node,974
+0 s for the statement.
+
+Sun Mar 10 04:07:11 PDT 2019 com.google.javascript.rhino.Node,1019
+2 s for the statement.
+
+Sun Mar 10 04:07:14 PDT 2019 com.google.javascript.rhino.Node,1026
+100 s for the statement.
+
+Sun Mar 10 04:08:54 PDT 2019 com.google.javascript.rhino.Node,1027
+0 s for the statement.
+
+Sun Mar 10 04:08:54 PDT 2019 com.google.javascript.rhino.Node,1028
+0 s for the statement.
+
+Sun Mar 10 04:08:55 PDT 2019 com.google.javascript.rhino.Node,1029
+0 s for the statement.
+
+Sun Mar 10 04:08:55 PDT 2019 com.google.javascript.rhino.Node,1040
+Timeout time : 19/03/10 08:25

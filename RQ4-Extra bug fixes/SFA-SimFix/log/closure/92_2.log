@@ -1,0 +1,298 @@
+=================================================
+Project : closure_92	start : 19/03/15 14:52
+Current failed test : com.google.javascript.jscomp.ProcessClosurePrimitivesTest::testProvideInIndependentModules4 | 19/03/15 14:52
+1552686767 s for the statement.
+
+Fri Mar 15 14:52:47 PDT 2019 Fri Mar 15 14:52:47 PDT 2019 : com.google.javascript.jscomp.JSModuleGraph,98=>Find no block
+0 s for the statement.
+
+Fri Mar 15 14:52:48 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,105
+216 s for the statement.
+
+Fri Mar 15 14:56:24 PDT 2019 com.google.javascript.rhino.Node,1050
+9 s for the statement.
+
+Fri Mar 15 14:56:34 PDT 2019 com.google.javascript.rhino.Node,1043
+2 s for the statement.
+
+Fri Mar 15 14:56:36 PDT 2019 com.google.javascript.rhino.Node,917
+127 s for the statement.
+
+Fri Mar 15 14:58:44 PDT 2019 com.google.javascript.rhino.Node,1024
+1043 s for the statement.
+
+Fri Mar 15 15:16:08 PDT 2019 com.google.javascript.rhino.Node,845
+68 s for the statement.
+
+Fri Mar 15 15:17:17 PDT 2019 com.google.javascript.rhino.Node,931
+16 s for the statement.
+
+Fri Mar 15 15:17:33 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,382
+1 s for the statement.
+
+Fri Mar 15 15:17:35 PDT 2019 com.google.javascript.rhino.Node,849
+146 s for the statement.
+
+Fri Mar 15 15:20:01 PDT 2019 com.google.javascript.jscomp.NodeUtil,1703
+266 s for the statement.
+
+Fri Mar 15 15:24:28 PDT 2019 com.google.javascript.jscomp.Compiler,315
+31 s for the statement.
+
+Fri Mar 15 15:24:59 PDT 2019 com.google.javascript.rhino.Node,220
+5 s for the statement.
+
+Fri Mar 15 15:25:05 PDT 2019 com.google.javascript.rhino.Node,843
+306 s for the statement.
+
+Fri Mar 15 15:30:12 PDT 2019 com.google.javascript.jscomp.ProcessClosurePrimitives,796
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(replacementNode,parentName.replacementNode);
+}
+
+Time : 19/03/15 15:30
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+compiler.reportCodeChange();
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(replacementNode,parentName.replacementNode);
+}
+
+Time : 19/03/15 15:36
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(candidateDefinition,parentName.replacementNode);
+}
+
+Time : 19/03/15 15:39
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(replacementNode,replacementNode);
+}
+
+Time : 19/03/15 15:40
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(candidateDefinition,replacementNode);
+}
+
+Time : 19/03/15 15:42
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+compiler.reportCodeChange();
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(candidateDefinition,parentName.replacementNode);
+}
+
+Time : 19/03/15 15:43
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+compiler.reportCodeChange();
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(replacementNode,replacementNode);
+}
+
+Time : 19/03/15 15:45
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+compiler.reportCodeChange();
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(candidateDefinition,replacementNode);
+}
+
+Time : 19/03/15 15:46
+----------------------------------------
+1396 s for the statement.
+
+Fri Mar 15 15:53:29 PDT 2019 com.google.javascript.jscomp.ProcessClosurePrimitives,798
+0 s for the statement.
+
+Fri Mar 15 15:53:29 PDT 2019 com.google.javascript.rhino.Node,976
+433 s for the statement.
+
+Fri Mar 15 16:00:42 PDT 2019 Fri Mar 15 16:00:42 PDT 2019 : com.google.javascript.rhino.Node,1070=>Find no block
+0 s for the statement.
+
+Fri Mar 15 16:00:42 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,146
+161 s for the statement.
+
+Fri Mar 15 16:03:23 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,172
+193 s for the statement.
+
+Fri Mar 15 16:06:37 PDT 2019 com.google.javascript.rhino.Node,1018
+0 s for the statement.
+
+Fri Mar 15 16:06:37 PDT 2019 com.google.javascript.rhino.Node,1031
+194 s for the statement.
+
+Fri Mar 15 16:09:52 PDT 2019 Fri Mar 15 16:09:52 PDT 2019 : com.google.javascript.jscomp.NodeUtil,1770=>Find no block
+0 s for the statement.
+
+Fri Mar 15 16:09:52 PDT 2019 Fri Mar 15 16:09:52 PDT 2019 : com.google.javascript.rhino.Node,1058=>Find no block
+0 s for the statement.
+
+Fri Mar 15 16:09:52 PDT 2019 com.google.javascript.rhino.Node,1016
+116 s for the statement.
+
+Fri Mar 15 16:11:49 PDT 2019 com.google.javascript.jscomp.JSModuleGraph,164
+354 s for the statement.
+
+Fri Mar 15 16:17:43 PDT 2019 com.google.javascript.rhino.Node,673
+684 s for the statement.
+
+Fri Mar 15 16:29:08 PDT 2019 com.google.javascript.rhino.Node,929
+4797 s for the statement.
+
+Fri Mar 15 17:49:05 PDT 2019 com.google.javascript.rhino.Node,1063
+494 s for the statement.
+
+Fri Mar 15 17:57:19 PDT 2019 com.google.javascript.jscomp.ProcessClosurePrimitives,789
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int indexOfDot=namespace.indexOf('.');
+if(indexOfDot!=-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(replacementNode,parentName.replacementNode);
+}
+
+Time : 19/03/15 17:58
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Pass Single Test : [=>0,0]
+int indexOfDot=namespace.lastIndexOf('.');
+if(indexOfDot==-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(replacementNode,parentName.replacementNode);
+}
+
+Time : 19/03/15 18:05
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Similar code block : 1.2217409186509385 : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_92_buggy/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java=>0,0]
+for(String line : lines){
+int pos=line.lastIndexOf(SEPARATOR);
+if(pos<=0||pos==line.length()-1){
+throw new ParseException("Bad line: "+line,0);
+}
+map.put(line.substring(0,pos),line.substring(pos+1));
+}
+
+Time : 19/03/15 18:07
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Original source code : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_92_buggy/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java=>789,802]
+int indexOfDot=namespace.indexOf('.');
+if(indexOfDot==-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(replacementNode,parentName.replacementNode);
+}
+
+Time : 19/03/15 18:07
+----------------------------------------
+
+----------------------------------------
+----------------------------------------
+Find a patch : [/home/deheng/SimFix-SFA/buggyprograms/closure/closure_92_buggy/src/com/google/javascript/jscomp/ProcessClosurePrimitives.java=>789,802]
+int indexOfDot=namespace.lastIndexOf('.');
+if(indexOfDot==-1){
+compiler.getNodeForCodeInsertion(minimumModule).addChildToBack(replacementNode);
+}else {
+ProvidedName parentName=providedNames.get(namespace.substring(0,indexOfDot));
+Preconditions.checkNotNull(parentName);
+Preconditions.checkNotNull(parentName.replacementNode);
+parentName.replacementNode.getParent().addChildAfter(replacementNode,parentName.replacementNode);
+}
+
+Time : 19/03/15 18:07
+----------------------------------------
+NCP is: 4248
+583 s for the statement.
+Success time : 19/03/15 18:07
